@@ -65,15 +65,14 @@
     font-family: 'Outfit', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
     /* Remove blue tap flash on iOS/Android */
     -webkit-tap-highlight-color: transparent;
   }
   body {
     @apply bg-background text-foreground;
-    overflow-x: hidden;
-    /* Prevent pull-to-refresh from interrupting scroll */
-    overscroll-behavior-y: none;
+    /* No overflow set here — any overflow on body is propagated to the
+       viewport by browsers in implementation-specific ways and can silently
+       block scroll. Horizontal clipping is handled by the layout wrapper. */
   }
   /* Eliminate 300ms click delay on touch devices */
   a, button, [role="button"] {

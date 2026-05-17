@@ -6,7 +6,7 @@ import SiteFooter from "./SiteFooter";
 export default function SiteLayout({ children }: { children: ReactNode }) {
   const location = useLocation();
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-background overflow-x-hidden">
       <SiteHeader />
       <main key={location.pathname} className="flex-1 page-fade">
         {children}
