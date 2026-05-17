@@ -1,42 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 213 35% 17%;
+    --background: 220 14% 98%;
+    --foreground: 222 25% 9%;
 
-    --surface: 216 33% 97%;
-    --surface-foreground: 213 35% 17%;
+    --surface: 220 12% 95%;
+    --surface-foreground: 222 25% 9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 213 35% 17%;
+    --card-foreground: 222 25% 9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 213 35% 17%;
+    --popover-foreground: 222 25% 9%;
 
-    /* Navy primary */
-    --primary: 215 58% 24%;
+    --primary: 218 58% 20%;
     --primary-foreground: 0 0% 100%;
-    --primary-deep: 215 70% 15%;
-    --primary-light: 215 50% 35%;
+    --primary-deep: 218 68% 12%;
+    --primary-light: 218 48% 32%;
 
-    --secondary: 216 33% 97%;
-    --secondary-foreground: 215 58% 24%;
+    --secondary: 220 12% 95%;
+    --secondary-foreground: 218 58% 20%;
 
-    --muted: 216 30% 94%;
-    --muted-foreground: 213 15% 39%;
+    --muted: 220 12% 94%;
+    --muted-foreground: 220 8% 46%;
 
-    --accent: 216 33% 97%;
-    --accent-foreground: 215 58% 24%;
+    --accent: 220 12% 95%;
+    --accent-foreground: 218 58% 20%;
 
-    /* Red accent */
-    --brand-red: 351 85% 41%;
+    --brand-red: 4 68% 36%;
     --brand-red-foreground: 0 0% 100%;
-    --brand-red-hover: 351 85% 35%;
+    --brand-red-hover: 4 68% 30%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -44,21 +40,20 @@
     --success: 142 71% 45%;
     --gold: 43 96% 56%;
 
-    --border: 215 20% 88%;
-    --input: 215 20% 88%;
-    --ring: 215 58% 24%;
+    --border: 220 12% 89%;
+    --input: 220 12% 89%;
+    --ring: 218 58% 20%;
 
-    --radius: 0.375rem;
+    --radius: 0.5rem;
 
-    /* Gradients */
-    --gradient-navy: linear-gradient(135deg, hsl(215 70% 15%) 0%, hsl(215 58% 24%) 50%, hsl(215 50% 32%) 100%);
-    --gradient-navy-deep: linear-gradient(160deg, hsl(215 75% 12%) 0%, hsl(215 60% 20%) 100%);
-    --gradient-red: linear-gradient(135deg, hsl(351 85% 41%) 0%, hsl(351 80% 35%) 100%);
+    --gradient-navy: linear-gradient(135deg, hsl(218 68% 12%) 0%, hsl(218 58% 20%) 50%, hsl(218 48% 30%) 100%);
+    --gradient-navy-deep: linear-gradient(160deg, hsl(218 72% 9%) 0%, hsl(218 62% 17%) 100%);
+    --gradient-red: linear-gradient(135deg, hsl(4 68% 36%) 0%, hsl(4 68% 30%) 100%);
 
-    /* Shadows */
-    --shadow-card: 0 1px 3px 0 hsl(215 58% 24% / 0.06), 0 1px 2px -1px hsl(215 58% 24% / 0.04);
-    --shadow-elevated: 0 10px 30px -10px hsl(215 58% 24% / 0.18);
-    --shadow-red: 0 8px 24px -8px hsl(351 85% 41% / 0.4);
+    --shadow-card: 0 1px 3px 0 hsl(218 58% 20% / 0.05), 0 1px 2px -1px hsl(218 58% 20% / 0.04);
+    --shadow-elevated: 0 16px 40px -12px hsl(218 58% 20% / 0.16);
+    --shadow-red: 0 8px 24px -8px hsl(4 68% 36% / 0.32);
+    --shadow-diffuse: 0 24px 48px -12px hsl(218 58% 20% / 0.12);
   }
 }
 
@@ -67,17 +62,39 @@
     @apply border-border;
   }
   html {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Outfit', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    /* Remove blue tap flash on iOS/Android */
+    -webkit-tap-highlight-color: transparent;
   }
   body {
     @apply bg-background text-foreground;
-    font-feature-settings: "cv11", "ss01";
+    overflow-x: hidden;
+    /* Prevent pull-to-refresh from interrupting scroll */
+    overscroll-behavior-y: none;
+  }
+  /* Eliminate 300ms click delay on touch devices */
+  a, button, [role="button"] {
+    touch-action: manipulation;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply font-bold tracking-tight text-primary;
-    font-family: 'Inter', system-ui, sans-serif;
-    letter-spacing: -0.02em;
+    font-family: 'Outfit', system-ui, sans-serif;
+    @apply font-bold text-primary;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+  }
+  /* Prevent iOS input zoom on touch devices */
+  @media (hover: none) and (pointer: coarse) {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    select,
+    textarea {
+      font-size: 16px;
+    }
   }
 }
 
@@ -86,28 +103,33 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  /* Red underline decorative element */
+  .overline {
+    @apply text-xs uppercase tracking-[0.25em] font-semibold text-brand-red;
+  }
+
   .heading-underline {
     @apply relative inline-block pb-3;
   }
   .heading-underline::after {
     content: '';
-    @apply absolute left-0 bottom-0 h-[3px] w-12 bg-[hsl(var(--brand-red))];
+    @apply absolute left-0 bottom-0 h-[2px] w-10 bg-[hsl(var(--brand-red))];
+    transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
   }
+
   .heading-underline-center {
     @apply relative inline-block pb-3;
   }
   .heading-underline-center::after {
     content: '';
-    @apply absolute left-1/2 -translate-x-1/2 bottom-0 h-[3px] w-12 bg-[hsl(var(--brand-red))];
+    @apply absolute left-1/2 -translate-x-1/2 bottom-0 h-[2px] w-10 bg-[hsl(var(--brand-red))];
   }
 
-  /* Page fade transition */
+  /* ── Page transition ── */
   .page-fade {
-    animation: pageFadeIn 0.35s ease-out;
+    animation: pageFadeIn 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 
-  /* Pulse dot */
+  /* ── Pulse dot ── */
   .pulse-dot {
     @apply relative inline-block w-2.5 h-2.5 rounded-full;
   }
@@ -118,27 +140,92 @@
     animation: pulseRing 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
 
-  /* Map dot */
+  /* ── Map dot ── */
   .map-pulse {
     @apply absolute w-3 h-3 rounded-full;
     background: hsl(var(--brand-red));
     box-shadow: 0 0 0 0 hsl(var(--brand-red) / 0.7);
     animation: mapPulse 2s infinite;
   }
+
+  /* ── Button tactile press ── */
+  .btn-tactile {
+    transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.15s ease, background-color 0.2s ease;
+  }
+  .btn-tactile:active {
+    transform: scale(0.97) translateY(1px);
+  }
+
+  /* ── Dot grid overlay ── */
+  .dot-grid {
+    background-image: radial-gradient(circle, hsl(0 0% 100% / 0.08) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  /* ── Hero entrance stagger ── */
+  .hero-in {
+    animation: heroIn 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .hero-in-1 { animation-delay: 0.1s; }
+  .hero-in-2 { animation-delay: 0.25s; }
+  .hero-in-3 { animation-delay: 0.4s; }
+  .hero-in-4 { animation-delay: 0.55s; }
+
+  /* ── Scroll reveal ── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+      opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.delay-100.visible { transition-delay: 0.1s; }
+  .reveal.delay-200.visible { transition-delay: 0.2s; }
+  .reveal.delay-300.visible { transition-delay: 0.3s; }
 }
 
+/* ── Keyframes ── */
 @keyframes pageFadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(5px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes heroIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes pulseRing {
-  0% { transform: scale(1); opacity: 0.7; }
+  0%       { transform: scale(1); opacity: 0.7; }
   80%, 100% { transform: scale(2.4); opacity: 0; }
 }
 
 @keyframes mapPulse {
-  0% { box-shadow: 0 0 0 0 hsl(var(--brand-red) / 0.7); }
-  70% { box-shadow: 0 0 0 14px hsl(var(--brand-red) / 0); }
+  0%   { box-shadow: 0 0 0 0 hsl(var(--brand-red) / 0.7); }
+  70%  { box-shadow: 0 0 0 14px hsl(var(--brand-red) / 0); }
   100% { box-shadow: 0 0 0 0 hsl(var(--brand-red) / 0); }
+}
+
+/* ── Reduced motion: kill everything ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Reveal elements should appear instantly */
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  /* Hero elements should be visible immediately */
+  .hero-in {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

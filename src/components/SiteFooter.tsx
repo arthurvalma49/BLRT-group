@@ -7,30 +7,57 @@ export default function SiteFooter() {
   const { t } = useLanguage();
 
   return (
-    <footer className="bg-primary-deep text-white/80 border-t-[3px] border-brand-red mt-auto">
-      <div className="container-pro py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="bg-[hsl(var(--primary-deep))] text-white mt-auto">
+      <div className="h-px bg-brand-red/40 w-full" />
+
+      <div className="container-pro pt-16 pb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.2fr] gap-10">
         <div>
-          <div className="mb-5">
-            <img src={logo} alt="Tehnomet Survey — BLRT Grupp" width={180} height={64} className="h-14 w-auto object-contain brightness-0 invert" loading="lazy" />
-          </div>
-          <p className="text-sm leading-relaxed text-white/65 max-w-xs">
+          <img
+            src={logo}
+            alt="Tehnomet Survey"
+            width={180}
+            height={64}
+            className="h-20 w-auto object-contain brightness-0 invert mb-6"
+            loading="lazy"
+          />
+          <p className="text-sm leading-relaxed text-white/45 max-w-xs">
             {t("footer.tagline")}
           </p>
         </div>
 
         <div>
-          <h4 className="text-white text-sm font-bold uppercase tracking-wider mb-4 heading-underline">{t("footer.pages")}</h4>
-          <ul className="space-y-2.5 text-sm">
-            <li><Link to="/" className="hover:text-white">{t("nav.home")}</Link></li>
-            <li><Link to="/about" className="hover:text-white">{t("nav.about")}</Link></li>
-            <li><Link to="/activities" className="hover:text-white">{t("nav.activities")}</Link></li>
-            <li><Link to="/contacts" className="hover:text-white">{t("nav.contacts")}</Link></li>
+          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
+            {t("footer.pages")}
+          </h4>
+          <ul className="space-y-3 text-sm text-white/55">
+            <li>
+              <Link to="/" className="hover:text-white transition-colors duration-200">
+                {t("nav.home")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="hover:text-white transition-colors duration-200">
+                {t("nav.about")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/activities" className="hover:text-white transition-colors duration-200">
+                {t("nav.activities")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/contacts" className="hover:text-white transition-colors duration-200">
+                {t("nav.contacts")}
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div>
-          <h4 className="text-white text-sm font-bold uppercase tracking-wider mb-4 heading-underline">{t("footer.services")}</h4>
-          <ul className="space-y-2.5 text-sm">
+          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
+            {t("footer.services")}
+          </h4>
+          <ul className="space-y-3 text-sm text-white/55">
             <li>{t("footer.service.ndt")}</li>
             <li>{t("footer.service.utm")}</li>
             <li>{t("footer.service.steel")}</li>
@@ -40,19 +67,43 @@ export default function SiteFooter() {
         </div>
 
         <div>
-          <h4 className="text-white text-sm font-bold uppercase tracking-wider mb-4 heading-underline">{t("footer.contact")}</h4>
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-start gap-2.5"><Phone className="w-4 h-4 mt-0.5 text-brand-red shrink-0" /><a href="tel:+3726102997" className="hover:text-white">+372 610 2997</a></li>
-            <li className="flex items-start gap-2.5"><Mail className="w-4 h-4 mt-0.5 text-brand-red shrink-0" /><a href="mailto:info@tehnometsurvey.ee" className="hover:text-white">info@tehnometsurvey.ee</a></li>
-            <li className="flex items-start gap-2.5"><MapPin className="w-4 h-4 mt-0.5 text-brand-red shrink-0" /><span>Kopli 103, Tallinn<br />Estonia · BLRT Grupp</span></li>
+          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
+            {t("footer.contact")}
+          </h4>
+          <ul className="space-y-4 text-sm">
+            <li className="flex items-start gap-3 text-white/55">
+              <Phone className="w-4 h-4 mt-0.5 text-brand-red shrink-0" />
+              <a href="tel:+3726102997" className="hover:text-white transition-colors duration-200">
+                +372 610 2997
+              </a>
+            </li>
+            <li className="flex items-start gap-3 text-white/55">
+              <Mail className="w-4 h-4 mt-0.5 text-brand-red shrink-0" />
+              <a
+                href="mailto:info@tehnometsurvey.ee"
+                className="hover:text-white transition-colors duration-200 break-all"
+              >
+                info@tehnometsurvey.ee
+              </a>
+            </li>
+            <li className="flex items-start gap-3 text-white/55">
+              <MapPin className="w-4 h-4 mt-0.5 text-brand-red shrink-0" />
+              <span>
+                Kopli 103, Tallinn
+                <br />
+                Estonia · BLRT Grupp
+              </span>
+            </li>
           </ul>
         </div>
       </div>
 
-      <div className="border-t border-white/10">
-        <div className="container-pro py-5 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/55">
-          <div>© {new Date().getFullYear()} Tehnomet Survey OÜ. {t("footer.rights")}</div>
-          <div className="font-semibold tracking-wider uppercase">{t("footer.motto")}</div>
+      <div className="border-t border-white/8">
+        <div className="container-pro py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/28">
+          <span>© {new Date().getFullYear()} Tehnomet Survey OÜ. {t("footer.rights")}</span>
+          <span className="font-semibold tracking-[0.2em] uppercase text-[10px]">
+            {t("footer.motto")}
+          </span>
         </div>
       </div>
     </footer>

@@ -1,88 +1,131 @@
 import { Link } from "react-router-dom";
 import { Building2, Ship, Clock, Award, Globe2, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
+import RevealSection from "@/components/RevealSection";
 
 export default function About() {
   const { t } = useLanguage();
 
+  const stats = [
+    { v: "300+", l: t("about.stat.vessels") },
+    { v: "24/7", l: t("about.stat.availability") },
+    { v: "27",   l: t("about.stat.experience") },
+    { v: t("about.stat.worldwide"), l: t("about.stat.coverage") },
+  ];
+
+  const features = [
+    { icon: Ship,      label: t("about.card.shipyard") },
+    { icon: Award,     label: t("about.card.industrial") },
+    { icon: Globe2,    label: t("about.card.baltic") },
+    { icon: Clock,     label: t("about.card.decades") },
+  ];
+
   return (
     <>
-      <section className="bg-gradient-navy text-white py-20">
-        <div className="container-pro">
-          <p className="text-xs uppercase tracking-[0.3em] font-bold text-brand-red mb-4">{t("about.label")}</p>
-          <h1 className="text-4xl lg:text-5xl text-white max-w-3xl">{t("about.heroTitle")}</h1>
+      {/* ─── Hero ─── */}
+      <section className="bg-[hsl(var(--primary-deep))] text-white py-24 overflow-hidden relative">
+        <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
+        <div className="container-pro relative">
+          <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("about.label")}</p>
+          <h1 className="hero-in hero-in-2 text-5xl lg:text-6xl font-bold tracking-tighter leading-tight text-white max-w-2xl">
+            {t("about.heroTitle")}
+          </h1>
         </div>
       </section>
 
-      <section className="py-20 bg-background">
-        <div className="container-pro grid lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-2 space-y-6 text-foreground/85 leading-relaxed">
-            <h2 className="text-2xl lg:text-3xl heading-underline">{t("about.ourStory")}</h2>
-            <p>{t("about.storyP1")}</p>
-            <p>{t("about.storyP2")}</p>
-            <p>{t("about.storyP3")}</p>
+      {/* ─── Story ─── */}
+      <RevealSection as="section" className="py-24 bg-background">
+        <div className="container-pro grid lg:grid-cols-[1fr_260px] gap-16">
+          <div className="space-y-5">
+            <h2 className="text-2xl lg:text-3xl tracking-tighter heading-underline">
+              {t("about.ourStory")}
+            </h2>
+            <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
+              {t("about.storyP1")}
+            </p>
+            <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
+              {t("about.storyP2")}
+            </p>
+            <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
+              {t("about.storyP3")}
+            </p>
           </div>
 
-          <aside className="space-y-4">
-            {[
-              { v: "300+", l: t("about.stat.vessels") },
-              { v: "24/7", l: t("about.stat.availability") },
-              { v: "27", l: t("about.stat.experience") },
-              { v: t("about.stat.worldwide"), l: t("about.stat.coverage") },
-            ].map((s) => (
-              <div key={s.l} className="bg-surface border-l-4 border-brand-red p-5 rounded-r-md">
-                <div className="text-3xl font-extrabold text-primary leading-none">{s.v}</div>
-                <div className="text-sm text-muted-foreground mt-2 font-medium">{s.l}</div>
+          {/* Stats sidebar — divide-y, no boxed cards */}
+          <aside className="divide-y divide-border">
+            {stats.map((s) => (
+              <div key={s.l} className="py-6 first:pt-0">
+                <div className="text-4xl font-bold tracking-tighter text-primary leading-none mb-1.5">
+                  {s.v}
+                </div>
+                <div className="text-sm text-muted-foreground font-medium">{s.l}</div>
               </div>
             ))}
           </aside>
         </div>
-      </section>
+      </RevealSection>
 
-      <section className="py-20 bg-surface">
-        <div className="container-pro grid lg:grid-cols-2 gap-12 items-start">
+      {/* ─── BLRT Grupp ─── */}
+      <RevealSection as="section" className="py-24 bg-surface">
+        <div className="container-pro grid lg:grid-cols-[1.2fr_1fr] gap-16 items-start">
           <div>
             <div className="inline-flex items-center gap-2 mb-5">
-              <Building2 className="w-5 h-5 text-brand-red" />
-              <span className="text-xs uppercase tracking-[0.25em] font-bold text-brand-red">{t("about.parentLabel")}</span>
+              <Building2 className="w-4 h-4 text-brand-red" />
+              <span className="overline">{t("about.parentLabel")}</span>
             </div>
-            <h2 className="text-3xl lg:text-4xl mb-6 heading-underline">{t("about.parentTitle")}</h2>
-            <p className="text-foreground/80 leading-relaxed mb-4">
+            <h2 className="text-3xl lg:text-4xl tracking-tighter heading-underline mb-7">
+              {t("about.parentTitle")}
+            </h2>
+            <p className="text-base text-muted-foreground leading-relaxed mb-4 max-w-[65ch]">
               {t("about.parentP1")}
             </p>
-            <p className="text-foreground/80 leading-relaxed">
+            <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
               {t("about.parentP2")}
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            {[
-              { icon: Ship, t: t("about.card.shipyard") },
-              { icon: Award, t: t("about.card.industrial") },
-              { icon: Globe2, t: t("about.card.baltic") },
-              { icon: Clock, t: t("about.card.decades") },
-            ].map((b, i) => (
-              <div key={i} className="bg-background border border-border rounded-lg p-6">
-                <div className="w-11 h-11 bg-primary/5 rounded-md flex items-center justify-center mb-3">
-                  <b.icon className="w-5 h-5 text-brand-red" />
+
+          {/* Feature list — no boxed cards */}
+          <div className="grid grid-cols-2 gap-x-8 gap-y-6 lg:pt-4">
+            {features.map((f, i) => {
+              const Icon = f.icon;
+              return (
+                <div key={i} className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-md bg-brand-red/8 flex items-center justify-center shrink-0 mt-0.5">
+                    <Icon className="w-4 h-4 text-brand-red" />
+                  </div>
+                  <div className="text-sm font-semibold text-primary leading-snug mt-1.5">
+                    {f.label}
+                  </div>
                 </div>
-                <div className="font-bold text-primary text-sm">{b.t}</div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
-      </section>
+      </RevealSection>
 
-      <section className="py-16 bg-primary-deep text-white">
-        <div className="container-pro flex flex-col md:flex-row items-center justify-between gap-6">
+      {/* ─── CTA ─── */}
+      <RevealSection
+        as="section"
+        className="py-20 bg-[hsl(var(--primary-deep))] text-white relative overflow-hidden"
+      >
+        <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
+        <div className="container-pro relative flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
-            <h3 className="text-2xl text-white mb-2">{t("about.ctaTitle")}</h3>
-            <p className="text-white/70">{t("about.ctaDesc")}</p>
+            <h3 className="text-2xl font-bold tracking-tight text-white mb-2">
+              {t("about.ctaTitle")}
+            </h3>
+            <p className="text-white/55 text-sm max-w-md">{t("about.ctaDesc")}</p>
           </div>
-          <Link to="/contacts" className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-bold px-7 py-4 rounded-md shadow-red whitespace-nowrap">
-            {t("nav.requestSurvey")} <ArrowRight className="w-4 h-4" />
+          <Link
+            to="/contacts"
+            className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm btn-tactile transition-colors whitespace-nowrap shrink-0"
+            style={{ boxShadow: "var(--shadow-red)" }}
+          >
+            {t("nav.requestSurvey")}
+            <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
-      </section>
+      </RevealSection>
     </>
   );
 }
