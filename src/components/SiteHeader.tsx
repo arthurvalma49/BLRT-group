@@ -3,7 +3,6 @@ import { NavLink, Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import logo from "@/assets/logo-symbol.png";
 import { useLanguage } from "@/i18n/LanguageContext";
-import MagneticButton from "@/components/MagneticButton";
 import { businesses, sectorGroups } from "@/data/businesses";
 
 const languages = ["EN", "RU", "ET"] as const;
@@ -139,15 +138,6 @@ export default function SiteHeader() {
               </button>
             ))}
           </div>
-          <MagneticButton>
-            <Link
-              to="/contacts"
-              className="bg-brand-red hover:bg-brand-red-hover text-white text-xs font-bold px-5 py-2.5 rounded transition-colors btn-tactile inline-block"
-              style={{ boxShadow: "var(--shadow-red)" }}
-            >
-              {t("nav.requestSurvey")}
-            </Link>
-          </MagneticButton>
         </div>
 
         {/* ─── Mobile hamburger ─── */}
@@ -276,8 +266,8 @@ export default function SiteHeader() {
                 </div>
               )}
 
-              <div className="flex items-center justify-between pt-3 border-t border-border mt-2">
-                <div className="flex items-center gap-0.5 border border-border rounded-md p-0.5">
+              <div className="pt-3 border-t border-border mt-2">
+                <div className="flex items-center gap-0.5 border border-border rounded-md p-0.5 w-fit">
                   {languages.map((l) => (
                     <button
                       key={l}
@@ -290,13 +280,6 @@ export default function SiteHeader() {
                     </button>
                   ))}
                 </div>
-                <Link
-                  to="/contacts"
-                  onClick={close}
-                  className="bg-brand-red text-white text-xs font-bold px-5 py-3 rounded"
-                >
-                  {t("nav.requestSurvey")}
-                </Link>
               </div>
             </nav>
           </div>

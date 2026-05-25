@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo-symbol.png";
+import logo from "@/assets/logo-white-clean.png";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { businesses } from "@/data/businesses";
 
@@ -31,29 +31,29 @@ export default function SiteFooter() {
             <img
               src={logo}
               alt="BLRT Grupp"
-              width={40}
-              height={40}
-              className="h-10 w-10 object-contain brightness-0 invert"
+              width={48}
+              height={48}
+              className="h-12 w-auto object-contain"
               loading="lazy"
             />
             <div className="flex flex-col leading-none gap-0.5">
               <span className="text-sm font-bold tracking-tight text-white">BLRT GRUPP</span>
-              <span className="text-[10px] font-medium text-white/45 tracking-[0.12em] uppercase">
+              <span className="text-[10px] font-medium text-white/60 tracking-[0.12em] uppercase">
                 Industrial Group · Est. 1912
               </span>
             </div>
           </div>
-          <p className="text-sm leading-relaxed text-white/45 max-w-xs">
+          <p className="text-sm leading-relaxed text-white/65 max-w-xs">
             {t("footer.blrtTagline")}
           </p>
         </div>
 
         {/* Pages */}
         <div>
-          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
+          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/55 mb-5">
             {t("footer.pages")}
           </h4>
-          <ul className="space-y-3 text-sm text-white/55">
+          <ul className="space-y-3 text-sm text-white/70">
             <li>
               <Link to="/" className="hover:text-white transition-colors duration-200">
                 {t("nav.home")}
@@ -79,10 +79,10 @@ export default function SiteFooter() {
 
         {/* Companies */}
         <div>
-          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
+          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/55 mb-5">
             {t("footer.companies")}
           </h4>
-          <ul className="space-y-3 text-sm text-white/55">
+          <ul className="space-y-3 text-sm text-white/70">
             {featuredCompanies.map((biz) => biz && (
               <li key={biz.slug}>
                 <Link
@@ -98,7 +98,7 @@ export default function SiteFooter() {
 
         {/* Contact */}
         <div>
-          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
+          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/55 mb-5">
             {t("footer.contact")}
           </h4>
           <ul className="space-y-4 text-sm">
@@ -111,10 +111,10 @@ export default function SiteFooter() {
             <li className="flex items-start gap-3 text-white/55">
               <Mail className="w-4 h-4 mt-0.5 text-brand-red shrink-0" />
               <a
-                href="mailto:info@tehnometsurvey.ee"
+                href="mailto:info@blrt.ee"
                 className="hover:text-white transition-colors duration-200 break-all"
               >
-                info@tehnometsurvey.ee
+                info@blrt.ee
               </a>
             </li>
             <li className="flex items-start gap-3 text-white/55">
@@ -130,7 +130,7 @@ export default function SiteFooter() {
       </div>
 
       <div className="border-t border-white/8">
-        <div className="container-pro py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/28">
+        <div className="container-pro py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/50">
           <span>© {new Date().getFullYear()} BLRT Grupp. {t("footer.rights")}</span>
           <span className="font-semibold tracking-[0.2em] uppercase text-[10px]">
             {t("footer.blrtMotto")}

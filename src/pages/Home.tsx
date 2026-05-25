@@ -63,7 +63,7 @@ export default function Home() {
               <MagneticButton>
                 <Link
                   to="/about"
-                  className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm btn-tactile transition-colors"
+                  className="btn-shine btn-tactile inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm transition-colors"
                   style={{ boxShadow: "var(--shadow-red)" }}
                 >
                   {t("blrt.learnMore")}
@@ -72,7 +72,7 @@ export default function Home() {
               </MagneticButton>
               <Link
                 to="/contacts"
-                className="inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-semibold px-6 py-3 rounded text-sm transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
+                className="btn-shine inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-semibold px-6 py-3 rounded text-sm transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
               >
                 {t("blrt.contactUs")}
                 <ArrowUpRight className="w-4 h-4" />
@@ -171,7 +171,7 @@ export default function Home() {
             </p>
             <Link
               to="/about"
-              className="inline-flex items-center gap-2 border border-brand-red text-brand-red font-semibold px-5 py-2.5 rounded text-sm hover:bg-brand-red hover:text-white transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] btn-tactile"
+              className="btn-fill btn-tactile inline-flex items-center gap-2 border border-brand-red text-brand-red font-semibold px-5 py-2.5 rounded text-sm"
             >
               {t("blrt.learnMore")}
               <ArrowRight className="w-4 h-4" />

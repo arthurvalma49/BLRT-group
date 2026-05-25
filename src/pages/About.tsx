@@ -106,13 +106,13 @@ export default function About() {
           <div className="flex flex-wrap gap-3 shrink-0">
             <Link
               to="/"
-              className="inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-semibold px-6 py-3 rounded text-sm transition-all duration-300 btn-tactile"
+              className="btn-shine btn-tactile inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-semibold px-6 py-3 rounded text-sm transition-all duration-300"
             >
               {t("blrt.about.ctaBrowse")}
             </Link>
             <Link
               to="/contacts"
-              className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm btn-tactile transition-colors whitespace-nowrap"
+              className="btn-shine btn-tactile inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm transition-colors whitespace-nowrap"
               style={{ boxShadow: "var(--shadow-red)" }}
             >
               {t("nav.contacts")}

@@ -209,8 +209,8 @@ const translations = {
 
   // Contacts page
   "contacts.label": { EN: "Contacts", RU: "Контакты", ET: "Kontaktid" },
-  "contacts.heroTitle": { EN: "Request a survey or get in touch.", RU: "Закажите обследование или свяжитесь с нами.", ET: "Telli ülevaatus või võta ühendust." },
-  "contacts.heroDesc": { EN: "Available 24/7 worldwide — typical response within hours, mobilisation within 24h.", RU: "Доступны 24/7 по всему миру — типичный ответ в течение нескольких часов, мобилизация в течение 24 часов.", ET: "Saadaval 24/7 üle maailma — tavaline vastus tundide jooksul, mobilisatsioon 24 tunniga." },
+  "contacts.heroTitle": { EN: "Get in touch with BLRT Grupp.", RU: "Свяжитесь с BLRT Grupp.", ET: "Võta ühendust BLRT Grupiga." },
+  "contacts.heroDesc": { EN: "Our head office is at Kopli 103, Tallinn. Reach out by phone or email — we respond within hours.", RU: "Наш головной офис находится по адресу Копли 103, Таллин. Свяжитесь с нами по телефону или электронной почте — мы отвечаем в течение нескольких часов.", ET: "Meie peakontor asub Kopli 103, Tallinn. Võtke ühendust telefoni või e-posti teel — vastame tundide jooksul." },
   "contacts.available": { EN: "Available 24/7", RU: "Доступны 24/7", ET: "Saadaval 24/7" },
   "contacts.companyName": { EN: "Tehnomet Survey OÜ", RU: "Tehnomet Survey OÜ", ET: "Tehnomet Survey OÜ" },
   "contacts.companyDesc": { EN: "Ship Repair & Hull Inspection", RU: "Судоремонт и инспекция корпусов", ET: "Laevaremont ja kere inspekteerimine" },

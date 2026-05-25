@@ -1,8 +1,5 @@
-import { useState, FormEvent } from "react";
-import { Phone, Mail, MapPin, Hash, Receipt, Send } from "lucide-react";
-import { toast } from "@/hooks/use-toast";
+import { Phone, Mail, MapPin, Hash } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
-import MagneticButton from "@/components/MagneticButton";
 import RevealSection from "@/components/RevealSection";
 
 const personnel = [
@@ -10,53 +7,30 @@ const personnel = [
     name: "Renat Hassanov",
     role: "Board Member",
     phone: "+372 510 3350",
-    email: "renat.hassanov@tehnometsurvey.ee",
+    email: "renat.hassanov@blrt.ee",
   },
   {
     name: "Ivan Pshenychnyi",
     role: "Technical Manager",
     phone: "+372 5696 8143",
-    email: "ivan.pshenychnyi@tehnometsurvey.ee",
+    email: "ivan.pshenychnyi@blrt.ee",
   },
   {
     name: "Diana Tulus",
     role: "Marketing Manager",
     phone: "+372 5343 2898",
-    email: "diana.tulus@tehnometsurvey.ee",
+    email: "diana.tulus@blrt.ee",
   },
   {
     name: "Pavel Magazov",
     role: "Marketing Manager",
     phone: "+372 5333 1505",
-    email: "pavel.magazov@tehnometsurvey.ee",
+    email: "pavel.magazov@blrt.ee",
   },
 ];
 
 export default function Contacts() {
-  const [submitting, setSubmitting] = useState(false);
   const { t } = useLanguage();
-
-  const services = [
-    t("contacts.service.ndt"),
-    t("contacts.service.utm"),
-    t("contacts.service.steel"),
-    t("contacts.service.class"),
-    t("contacts.service.repair"),
-    t("contacts.service.other"),
-  ];
-
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setSubmitting(true);
-    setTimeout(() => {
-      setSubmitting(false);
-      (e.target as HTMLFormElement).reset();
-      toast({
-        title: t("contacts.toastTitle"),
-        description: t("contacts.toastDesc"),
-      });
-    }, 600);
-  };
 
   const contactItems = [
     {
@@ -75,14 +49,8 @@ export default function Contacts() {
     {
       icon: Mail,
       label: t("contacts.email"),
-      value: "info@tehnometsurvey.ee",
-      href: "mailto:info@tehnometsurvey.ee",
-    },
-    {
-      icon: Receipt,
-      label: "Invoices",
-      value: "arved@tehnometsurvey.ee",
-      href: "mailto:arved@tehnometsurvey.ee",
+      value: "info@blrt.ee",
+      href: "mailto:info@blrt.ee",
     },
     {
       icon: Hash,
@@ -108,10 +76,9 @@ export default function Contacts() {
         </div>
       </section>
 
-      {/* ─── Info + Form ─── */}
+      {/* ─── Info panel ─── */}
       <RevealSection as="section" className="py-20 bg-background">
-        <div className="container-pro grid lg:grid-cols-[5fr_7fr] gap-8 items-start">
-          {/* Info panel */}
+        <div className="container-pro max-w-2xl">
           <div className="bg-[hsl(var(--primary-deep))] text-white rounded-2xl p-8 lg:p-10 relative overflow-hidden">
             <div
               className="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-brand-red/8 blur-3xl pointer-events-none"
@@ -125,10 +92,8 @@ export default function Contacts() {
                 </span>
               </div>
 
-              <h2 className="text-xl font-bold tracking-tight text-white mb-1">
-                {t("contacts.companyName")}
-              </h2>
-              <p className="text-white/50 text-sm mb-8 max-w-xs">{t("contacts.companyDesc")}</p>
+              <h2 className="text-xl font-bold tracking-tight text-white mb-1">BLRT Grupp</h2>
+              <p className="text-white/50 text-sm mb-8">Industrial Group · Kopli, Tallinn</p>
 
               <ul className="space-y-6">
                 {contactItems.map((item, i) => (
@@ -161,77 +126,6 @@ export default function Contacts() {
               </ul>
             </div>
           </div>
-
-          {/* Form */}
-          <form
-            onSubmit={handleSubmit}
-            className="bg-card border border-border rounded-2xl p-8 lg:p-10"
-          >
-            <h2 className="text-2xl font-bold tracking-tight mb-1">{t("contacts.formTitle")}</h2>
-            <p className="text-sm text-muted-foreground mb-8 max-w-[55ch]">
-              {t("contacts.formDesc")}
-            </p>
-
-            <div className="grid sm:grid-cols-2 gap-5">
-              <Field label={t("contacts.firstName")} name="firstName" required />
-              <Field label={t("contacts.lastName")} name="lastName" required />
-              <Field label={t("contacts.company")} name="company" />
-              <Field label={t("contacts.emailField")} name="email" type="email" required />
-              <Field label={t("contacts.phoneField")} name="phone" type="tel" />
-
-              <div>
-                <FieldLabel>{t("contacts.serviceRequired")}</FieldLabel>
-                <select
-                  name="service"
-                  required
-                  className="w-full bg-background border border-input rounded-lg px-3.5 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/15 focus:border-primary/50 transition-colors"
-                >
-                  <option value="">{t("contacts.selectService")}</option>
-                  {services.map((s) => (
-                    <option key={s}>{s}</option>
-                  ))}
-                </select>
-              </div>
-
-              <div className="sm:col-span-2">
-                <Field label={t("contacts.vesselField")} name="vessel" />
-              </div>
-
-              <div className="sm:col-span-2">
-                <FieldLabel>{t("contacts.detailsLabel")}</FieldLabel>
-                <textarea
-                  name="details"
-                  rows={5}
-                  required
-                  placeholder={t("contacts.detailsPlaceholder")}
-                  className="w-full bg-background border border-input rounded-lg px-3.5 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/15 focus:border-primary/50 resize-none transition-colors"
-                />
-              </div>
-            </div>
-
-            <div className="mt-8">
-              <MagneticButton>
-                <button
-                  type="submit"
-                  disabled={submitting}
-                  className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover disabled:opacity-60 text-white font-semibold px-7 py-3 rounded text-sm btn-tactile transition-colors"
-                  style={{ boxShadow: "var(--shadow-red)" }}
-                >
-                  {submitting ? (
-                    <>
-                      <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                      {t("contacts.sending")}
-                    </>
-                  ) : (
-                    <>
-                      <Send className="w-4 h-4" />
-                      {t("contacts.sendRequest")}
-                    </>
-                  )}
-                </button>
-              </MagneticButton>
-            </div>
-          </form>
         </div>
       </RevealSection>
 
@@ -268,40 +162,5 @@ export default function Contacts() {
         </div>
       </RevealSection>
     </>
-  );
-}
-
-function FieldLabel({ children }: { children: React.ReactNode }) {
-  return (
-    <label className="block text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground mb-1.5">
-      {children}
-    </label>
-  );
-}
-
-function Field({
-  label,
-  name,
-  type = "text",
-  required,
-}: {
-  label: string;
-  name: string;
-  type?: string;
-  required?: boolean;
-}) {
-  return (
-    <div>
-      <FieldLabel>
-        {label}
-        {required && <span className="text-brand-red ml-1">*</span>}
-      </FieldLabel>
-      <input
-        type={type}
-        name={name}
-        required={required}
-        className="w-full bg-background border border-input rounded-lg px-3.5 py-2.5 text-sm text-foreground focus:outline-none focus:ring-2 focus:ring-primary/15 focus:border-primary/50 transition-colors"
-      />
-    </div>
   );
 }

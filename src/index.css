@@ -155,6 +155,48 @@
     transform: scale(0.97) translateY(1px);
   }
 
+  /* ── Button shimmer sweep on hover ── */
+  .btn-shine {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+  .btn-shine::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -75%;
+    width: 50%;
+    height: 200%;
+    background: linear-gradient(
+      105deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, 0.22) 50%,
+      rgba(255, 255, 255, 0) 70%,
+      transparent 100%
+    );
+    transform: skewX(-12deg);
+    pointer-events: none;
+  }
+  .btn-shine:hover::before {
+    left: 125%;
+    transition: left 0.52s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* ── Border button fill-from-left on hover ── */
+  .btn-fill {
+    background-image: linear-gradient(to right, hsl(var(--brand-red)) 50%, transparent 50%);
+    background-size: 205% 100%;
+    background-position: right center;
+    transition: background-position 0.38s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s ease, border-color 0.2s ease;
+  }
+  .btn-fill:hover {
+    background-position: left center;
+    color: white;
+    border-color: transparent;
+  }
+
   /* ── Dot grid overlay ── */
   .dot-grid {
     background-image: radial-gradient(circle, hsl(0 0% 100% / 0.08) 1px, transparent 1px);
