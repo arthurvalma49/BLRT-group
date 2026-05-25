@@ -1,23 +1,25 @@
 import { Link } from "react-router-dom";
-import { Building2, Ship, Clock, Award, Globe2, ArrowRight } from "lucide-react";
+import { Anchor, Wrench, Search, Zap, Layers, Ship, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import RevealSection from "@/components/RevealSection";
+
+const sectors = [
+  { icon: Anchor,  label: "Ship Repair",             desc: "Three repair yards across Estonia, Lithuania and Finland." },
+  { icon: Ship,    label: "Shipbuilding",             desc: "Large-block construction and LNG ferry newbuilding." },
+  { icon: Search,  label: "Inspection & Testing",     desc: "Marine NDT, UTM and certified laboratory services." },
+  { icon: Zap,     label: "Engineering",              desc: "Marine electrical, machine building and offshore structures." },
+  { icon: Layers,  label: "Steel & Materials",        desc: "Rolled steel distribution, galvanizing and industrial gases." },
+  { icon: Wrench,  label: "Port & Marine Services",   desc: "Port operations, towage and life-saving equipment service." },
+];
 
 export default function About() {
   const { t } = useLanguage();
 
   const stats = [
-    { v: "300+", l: t("about.stat.vessels") },
-    { v: "24/7", l: t("about.stat.availability") },
-    { v: "27",   l: t("about.stat.experience") },
-    { v: t("about.stat.worldwide"), l: t("about.stat.coverage") },
-  ];
-
-  const features = [
-    { icon: Ship,      label: t("about.card.shipyard") },
-    { icon: Award,     label: t("about.card.industrial") },
-    { icon: Globe2,    label: t("about.card.baltic") },
-    { icon: Clock,     label: t("about.card.decades") },
+    { v: "17",    l: t("blrt.about.stat.companies") },
+    { v: "5",     l: t("blrt.about.stat.countries") },
+    { v: "1912",  l: t("blrt.about.stat.founded") },
+    { v: "6",     l: t("blrt.about.stat.sectors") },
   ];
 
   return (
@@ -26,9 +28,9 @@ export default function About() {
       <section className="bg-[hsl(var(--primary-deep))] text-white py-24 overflow-hidden relative">
         <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
         <div className="container-pro relative">
-          <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("about.label")}</p>
+          <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("blrt.about.label")}</p>
           <h1 className="hero-in hero-in-2 text-5xl lg:text-6xl font-bold tracking-tighter leading-tight text-white max-w-2xl">
-            {t("about.heroTitle")}
+            {t("blrt.about.heroTitle")}
           </h1>
         </div>
       </section>
@@ -38,20 +40,19 @@ export default function About() {
         <div className="container-pro grid lg:grid-cols-[1fr_260px] gap-16">
           <div className="space-y-5">
             <h2 className="text-2xl lg:text-3xl tracking-tighter heading-underline">
-              {t("about.ourStory")}
+              {t("blrt.about.ourStory")}
             </h2>
             <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
-              {t("about.storyP1")}
+              {t("blrt.about.storyP1")}
             </p>
             <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
-              {t("about.storyP2")}
+              {t("blrt.about.storyP2")}
             </p>
             <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
-              {t("about.storyP3")}
+              {t("blrt.about.storyP3")}
             </p>
           </div>
 
-          {/* Stats sidebar — divide-y, no boxed cards */}
           <aside className="divide-y divide-border">
             {stats.map((s) => (
               <div key={s.l} className="py-6 first:pt-0">
@@ -65,36 +66,22 @@ export default function About() {
         </div>
       </RevealSection>
 
-      {/* ─── BLRT Grupp ─── */}
+      {/* ─── Sectors ─── */}
       <RevealSection as="section" className="py-24 bg-surface">
-        <div className="container-pro grid lg:grid-cols-[1.2fr_1fr] gap-16 items-start">
-          <div>
-            <div className="inline-flex items-center gap-2 mb-5">
-              <Building2 className="w-4 h-4 text-brand-red" />
-              <span className="overline">{t("about.parentLabel")}</span>
-            </div>
-            <h2 className="text-3xl lg:text-4xl tracking-tighter heading-underline mb-7">
-              {t("about.parentTitle")}
-            </h2>
-            <p className="text-base text-muted-foreground leading-relaxed mb-4 max-w-[65ch]">
-              {t("about.parentP1")}
-            </p>
-            <p className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
-              {t("about.parentP2")}
-            </p>
-          </div>
-
-          {/* Feature list — no boxed cards */}
-          <div className="grid grid-cols-2 gap-x-8 gap-y-6 lg:pt-4">
-            {features.map((f, i) => {
-              const Icon = f.icon;
+        <div className="container-pro">
+          <p className="overline mb-3">Our Sectors</p>
+          <h2 className="text-3xl tracking-tighter text-primary mb-12">Six areas of industrial expertise</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {sectors.map((s, i) => {
+              const Icon = s.icon;
               return (
-                <div key={i} className="flex items-start gap-3">
-                  <div className="w-8 h-8 rounded-md bg-brand-red/8 flex items-center justify-center shrink-0 mt-0.5">
+                <div key={i} className="flex items-start gap-4 p-6 bg-card border border-border rounded-xl">
+                  <div className="w-9 h-9 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0 mt-0.5">
                     <Icon className="w-4 h-4 text-brand-red" />
                   </div>
-                  <div className="text-sm font-semibold text-primary leading-snug mt-1.5">
-                    {f.label}
+                  <div>
+                    <div className="text-sm font-semibold text-primary mb-1">{s.label}</div>
+                    <div className="text-sm text-muted-foreground leading-relaxed">{s.desc}</div>
                   </div>
                 </div>
               );
@@ -112,18 +99,26 @@ export default function About() {
         <div className="container-pro relative flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div>
             <h3 className="text-2xl font-bold tracking-tight text-white mb-2">
-              {t("about.ctaTitle")}
+              {t("blrt.about.ctaTitle")}
             </h3>
-            <p className="text-white/55 text-sm max-w-md">{t("about.ctaDesc")}</p>
+            <p className="text-white/55 text-sm max-w-md">{t("blrt.about.ctaDesc")}</p>
           </div>
-          <Link
-            to="/contacts"
-            className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm btn-tactile transition-colors whitespace-nowrap shrink-0"
-            style={{ boxShadow: "var(--shadow-red)" }}
-          >
-            {t("nav.requestSurvey")}
-            <ArrowRight className="w-4 h-4" />
-          </Link>
+          <div className="flex flex-wrap gap-3 shrink-0">
+            <Link
+              to="/"
+              className="inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-semibold px-6 py-3 rounded text-sm transition-all duration-300 btn-tactile"
+            >
+              {t("blrt.about.ctaBrowse")}
+            </Link>
+            <Link
+              to="/contacts"
+              className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-hover text-white font-semibold px-6 py-3 rounded text-sm btn-tactile transition-colors whitespace-nowrap"
+              style={{ boxShadow: "var(--shadow-red)" }}
+            >
+              {t("nav.contacts")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
         </div>
       </RevealSection>
     </>

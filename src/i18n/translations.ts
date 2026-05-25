@@ -4,6 +4,7 @@ const translations = {
   // Nav
   "nav.home": { EN: "Home", RU: "Главная", ET: "Avaleht" },
   "nav.about": { EN: "About Us", RU: "О нас", ET: "Meist" },
+  "nav.group": { EN: "BLRT Group", RU: "BLRT Grupp", ET: "BLRT Grupp" },
   "nav.activities": { EN: "Activities", RU: "Деятельность", ET: "Tegevused" },
   "nav.contacts": { EN: "Contacts", RU: "Контакты", ET: "Kontaktid" },
   "nav.requestSurvey": { EN: "Request a Survey", RU: "Заказать обследование", ET: "Telli ülevaatus" },
@@ -281,6 +282,76 @@ const translations = {
   "footer.service.steel": { EN: "Steel Renewal Supervision", RU: "Надзор за заменой стали", ET: "Terase uuendamise järelevalve" },
   "footer.service.class": { EN: "Class Surveys (IACS)", RU: "Классификационные освидетельствования (МАКО)", ET: "Klassifikatsiooniülevaatused (IACS)" },
   "footer.service.repair": { EN: "Repair Specifications", RU: "Ремонтные спецификации", ET: "Remondispetsifikatsioonid" },
+
+  // BLRT Grupp branding
+  "nav.companies": { EN: "Companies", RU: "Компании", ET: "Ettevõtted" },
+
+  // BLRT Home page
+  "blrt.badge": { EN: "Industrial Group · Since 1912", RU: "Промышленная группа · С 1912 года", ET: "Tööstusgrupp · Alates 1912" },
+  "blrt.heroTitle1": { EN: "Baltic industry,", RU: "Балтийская промышленность,", ET: "Balti tööstus," },
+  "blrt.heroTitle2": { EN: "built to endure.", RU: "созданная на века.", ET: "loodud kestma." },
+  "blrt.heroDesc": {
+    EN: "17 companies. 6 industrial sectors. Over a century of engineering excellence across Estonia, Latvia, Lithuania, Finland and Norway.",
+    RU: "17 компаний. 6 промышленных секторов. Более века инженерного совершенства в Эстонии, Латвии, Литве, Финляндии и Норвегии.",
+    ET: "17 ettevõtet. 6 tööstussektorit. Üle sajandi insenerivõimekust Eestis, Lätis, Leedus, Soomes ja Norras.",
+  },
+  "blrt.exploreCompanies": { EN: "Explore Companies", RU: "Наши компании", ET: "Tutvu ettevõtetega" },
+  "blrt.contactUs": { EN: "Contact Us", RU: "Связаться", ET: "Võta ühendust" },
+  "blrt.stat.companies": { EN: "Companies", RU: "Компаний", ET: "Ettevõtet" },
+  "blrt.stat.countries": { EN: "Countries", RU: "Стран", ET: "Riiki" },
+  "blrt.stat.sectors": { EN: "Sectors", RU: "Секторов", ET: "Sektorit" },
+  "blrt.stat.founded": { EN: "Founded", RU: "Основана", ET: "Asutatud" },
+  "blrt.companiesLabel": { EN: "Our Group", RU: "Наша группа", ET: "Meie grupp" },
+  "blrt.companiesTitle": { EN: "17 companies across 6 sectors", RU: "17 компаний в 6 секторах", ET: "17 ettevõtet 6 sektoris" },
+  "blrt.aboutLabel": { EN: "About BLRT Grupp", RU: "О BLRT Grupp", ET: "BLRT Grupist" },
+  "blrt.aboutTitle": { EN: "A century of Baltic industrial leadership", RU: "Столетие балтийского промышленного лидерства", ET: "Sajand Balti tööstusjuhtimist" },
+  "blrt.aboutP1": {
+    EN: "BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate 17 companies across five countries.",
+    RU: "BLRT Grupp является одним из крупнейших промышленных холдингов Балтийского региона с историей, уходящей корнями в 1912 год. От судостроения и судоремонта до морской инспекции, инжиниринга и материалов — мы управляем 17 компаниями в пяти странах.",
+    ET: "BLRT Grupp on üks suurimaid tööstushoiuettevõtteid Balti piirkonnas, mille juured ulatuvad 1912. aastasse. Laevaehitusest ja laevaremondist kuni mereinspektsiooni, inseneeria ja materjalideni — tegutseme 17 ettevõttega viies riigis.",
+  },
+  "blrt.aboutP2": {
+    EN: "Our companies share engineering expertise, shipyard infrastructure and a single commitment: to build and maintain the industrial backbone of the Baltic Sea region.",
+    RU: "Наши компании объединяют инженерный опыт, инфраструктуру верфей и единую цель: строить и поддерживать промышленный хребет региона Балтийского моря.",
+    ET: "Meie ettevõtted jagavad insenerivõimekust, laevatehase infrastruktuuri ja ühist eesmärki: ehitada ja hooldada Läänemere piirkonna tööstusliku selgroog.",
+  },
+  "blrt.learnMore": { EN: "Learn More", RU: "Подробнее", ET: "Loe rohkem" },
+
+  // BLRT About page
+  "blrt.about.label": { EN: "About BLRT Grupp", RU: "О BLRT Grupp", ET: "BLRT Grupist" },
+  "blrt.about.heroTitle": { EN: "Building the Baltic. Since 1912.", RU: "Строим Балтику. С 1912 года.", ET: "Ehitame Baltikumi. Alates 1912." },
+  "blrt.about.ourStory": { EN: "Our Story", RU: "Наша история", ET: "Meie lugu" },
+  "blrt.about.storyP1": {
+    EN: "BLRT Grupp traces its origins to the Tallinn shipyard established in 1912, then one of the largest industrial facilities in the Russian Empire. Through a century of transformation — two world wars, Soviet industrialisation, Estonian independence and Baltic integration into the European Union — the group evolved into the diversified industrial holding it is today.",
+    RU: "История BLRT Grupp восходит к таллинской верфи, основанной в 1912 году, — одному из крупнейших промышленных предприятий Российской империи. Пережив век преобразований — две мировые войны, советскую индустриализацию, восстановление независимости Эстонии и интеграцию Балтии в Европейский союз, — группа превратилась в диверсифицированный промышленный холдинг.",
+    ET: "BLRT Grupi ajalugu ulatub 1912. aastal asutatud Tallinna laevatehase juurde, mis oli tol ajal üks suurimaid tööstusettevõtteid Vene impeeriumis. Läbi sajandi muutuste — kahe maailmasõja, Nõukogude industrialiseerimise, Eesti iseseisvuse taastamise ja Balti riikide Euroopa Liitu integreerumise — arenes grupp tänapäeva mitmekesiseks tööstusvaldusettevõtteks.",
+  },
+  "blrt.about.storyP2": {
+    EN: "Today, BLRT Grupp operates 17 companies across Estonia, Latvia, Lithuania, Finland and Norway. Our core competencies remain maritime — ship repair, shipbuilding and marine services — but the group has grown to encompass engineering, materials, logistics and industrial gas production.",
+    RU: "Сегодня BLRT Grupp управляет 17 компаниями в Эстонии, Латвии, Литве, Финляндии и Норвегии. Наши основные компетенции по-прежнему связаны с морской отраслью — судоремонтом, судостроением и морскими услугами, — однако группа расширилась до инжиниринга, материалов, логистики и производства промышленных газов.",
+    ET: "Täna tegutseb BLRT Grupp 17 ettevõttega Eestis, Lätis, Leedus, Soomes ja Norras. Meie põhipädevused on endiselt merinduses — laevaremondis, laevaehituses ja merendusteenustes — kuid grupp on laienenud inseneeriasse, materjalidesse, logistikasse ja tööstuslike gaaside tootmisse.",
+  },
+  "blrt.about.storyP3": {
+    EN: "Headquartered at Kopli, Tallinn — the historic heart of Estonian maritime industry — BLRT Grupp continues to grow through strategic partnerships and organic development. Our commitment to Baltic industrial tradition and engineering quality unites every company in the group.",
+    RU: "Базируясь в Копли, Таллинне — историческом сердце эстонской морской промышленности — BLRT Grupp продолжает расти благодаря стратегическим партнёрствам и органическому развитию. Наша приверженность балтийской промышленной традиции и инженерному качеству объединяет все компании группы.",
+    ET: "Koplis, Tallinnas asuv BLRT Grupp — Eesti merinduse ajalooline süda — jätkab kasvu strateegiliste partnerluste ja orgaanilise arengu kaudu. Meie pühendumus Balti tööstustraditsioonile ja insenerikvaliteedile ühendab kõiki grupi ettevõtteid.",
+  },
+  "blrt.about.stat.companies": { EN: "Companies", RU: "Компаний", ET: "Ettevõtet" },
+  "blrt.about.stat.countries": { EN: "Countries", RU: "Стран", ET: "Riiki" },
+  "blrt.about.stat.founded": { EN: "Est.", RU: "Основана", ET: "Asutatud" },
+  "blrt.about.stat.sectors": { EN: "Sectors", RU: "Секторов", ET: "Sektorit" },
+  "blrt.about.ctaTitle": { EN: "Interested in working with BLRT Grupp?", RU: "Хотите сотрудничать с BLRT Grupp?", ET: "Huvitatud koostööst BLRT Grupiga?" },
+  "blrt.about.ctaDesc": { EN: "Browse our companies or reach out to our head office directly.", RU: "Ознакомьтесь с нашими компаниями или свяжитесь с головным офисом напрямую.", ET: "Sirvi meie ettevõtteid või võta otse ühendust meie peakontoriga." },
+  "blrt.about.ctaBrowse": { EN: "Browse Companies", RU: "Смотреть компании", ET: "Vaata ettevõtteid" },
+
+  // Footer (BLRT rebrand)
+  "footer.blrtTagline": {
+    EN: "One industrial group. Seventeen companies. A century of Baltic maritime and engineering tradition.",
+    RU: "Одна промышленная группа. Семнадцать компаний. Столетие балтийской морской и инженерной традиции.",
+    ET: "Üks tööstusgrupp. Seitseteist ettevõtet. Sajand Balti merenduse ja inseneritraditsiooni.",
+  },
+  "footer.companies": { EN: "Companies", RU: "Компании", ET: "Ettevõtted" },
+  "footer.blrtMotto": { EN: "Baltic Industry · Built to Endure", RU: "Балтийская промышленность · Создана на века", ET: "Balti tööstus · Loodud kestma" },
 } as const;
 
 export type TranslationKey = keyof typeof translations;

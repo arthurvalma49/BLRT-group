@@ -1,30 +1,54 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo-navy.png";
+import logo from "@/assets/logo-symbol.png";
 import { useLanguage } from "@/i18n/LanguageContext";
+import { businesses } from "@/data/businesses";
+
+// A short curated list of notable companies for the footer
+const featuredSlugs = [
+  "tallinn-shipyard",
+  "tehnomet-survey",
+  "elme-metall",
+  "blrt-era",
+  "marketex-marine",
+  "mereabi",
+];
 
 export default function SiteFooter() {
   const { t } = useLanguage();
+  const featuredCompanies = featuredSlugs
+    .map((s) => businesses.find((b) => b.slug === s))
+    .filter(Boolean);
 
   return (
     <footer className="bg-[hsl(var(--primary-deep))] text-white mt-auto">
       <div className="h-px bg-brand-red/40 w-full" />
 
       <div className="container-pro pt-16 pb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.2fr] gap-10">
+        {/* Brand */}
         <div>
-          <img
-            src={logo}
-            alt="Tehnomet Survey"
-            width={180}
-            height={64}
-            className="h-20 w-auto object-contain brightness-0 invert mb-6"
-            loading="lazy"
-          />
+          <div className="flex items-center gap-3 mb-6">
+            <img
+              src={logo}
+              alt="BLRT Grupp"
+              width={40}
+              height={40}
+              className="h-10 w-10 object-contain brightness-0 invert"
+              loading="lazy"
+            />
+            <div className="flex flex-col leading-none gap-0.5">
+              <span className="text-sm font-bold tracking-tight text-white">BLRT GRUPP</span>
+              <span className="text-[10px] font-medium text-white/45 tracking-[0.12em] uppercase">
+                Industrial Group · Est. 1912
+              </span>
+            </div>
+          </div>
           <p className="text-sm leading-relaxed text-white/45 max-w-xs">
-            {t("footer.tagline")}
+            {t("footer.blrtTagline")}
           </p>
         </div>
 
+        {/* Pages */}
         <div>
           <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
             {t("footer.pages")}
@@ -41,8 +65,8 @@ export default function SiteFooter() {
               </Link>
             </li>
             <li>
-              <Link to="/activities" className="hover:text-white transition-colors duration-200">
-                {t("nav.activities")}
+              <Link to="/our-values" className="hover:text-white transition-colors duration-200">
+                {t("nav.values")}
               </Link>
             </li>
             <li>
@@ -53,19 +77,26 @@ export default function SiteFooter() {
           </ul>
         </div>
 
+        {/* Companies */}
         <div>
           <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
-            {t("footer.services")}
+            {t("footer.companies")}
           </h4>
           <ul className="space-y-3 text-sm text-white/55">
-            <li>{t("footer.service.ndt")}</li>
-            <li>{t("footer.service.utm")}</li>
-            <li>{t("footer.service.steel")}</li>
-            <li>{t("footer.service.class")}</li>
-            <li>{t("footer.service.repair")}</li>
+            {featuredCompanies.map((biz) => biz && (
+              <li key={biz.slug}>
+                <Link
+                  to={`/company/${biz.slug}`}
+                  className="hover:text-white transition-colors duration-200"
+                >
+                  {biz.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
+        {/* Contact */}
         <div>
           <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/35 mb-5">
             {t("footer.contact")}
@@ -100,9 +131,9 @@ export default function SiteFooter() {
 
       <div className="border-t border-white/8">
         <div className="container-pro py-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-white/28">
-          <span>© {new Date().getFullYear()} Tehnomet Survey OÜ. {t("footer.rights")}</span>
+          <span>© {new Date().getFullYear()} BLRT Grupp. {t("footer.rights")}</span>
           <span className="font-semibold tracking-[0.2em] uppercase text-[10px]">
-            {t("footer.motto")}
+            {t("footer.blrtMotto")}
           </span>
         </div>
       </div>
