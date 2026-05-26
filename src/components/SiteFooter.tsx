@@ -1,43 +1,27 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logoSail from "@/assets/logo-sail-white.svg";
+import logoSail from "@/assets/logo-symbol.png";
 import { useLanguage } from "@/i18n/LanguageContext";
-import { businesses } from "@/data/businesses";
-
-// A short curated list of notable companies for the footer
-const featuredSlugs = [
-  "tallinn-shipyard",
-  "tehnomet-survey",
-  "elme-metall",
-  "blrt-era",
-  "marketex-marine",
-  "mereabi",
-];
 
 export default function SiteFooter() {
   const { t } = useLanguage();
-  const featuredCompanies = featuredSlugs
-    .map((s) => businesses.find((b) => b.slug === s))
-    .filter(Boolean);
 
   return (
     <footer className="bg-[hsl(var(--primary-deep))] text-white mt-auto">
       <div className="h-px bg-brand-red/40 w-full" />
 
-      <div className="container-pro pt-16 pb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1.2fr] gap-10">
+      <div className="container-pro pt-16 pb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1.5fr] gap-10">
         {/* Brand */}
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-12 rounded-xl bg-[hsl(var(--primary))] flex items-center justify-center shrink-0">
               <img
                 src={logoSail}
                 alt="BLRT Grupp"
-                width={32}
-                height={32}
-                className="h-8 w-8 object-contain"
+                width={56}
+                height={56}
+                className="h-14 w-14 object-contain"
                 loading="lazy"
               />
-            </div>
             <div className="flex flex-col leading-none gap-0.5">
               <span className="text-sm font-bold tracking-tight text-white">BLRT GRUPP</span>
               <span className="text-[10px] font-medium text-white/60 tracking-[0.12em] uppercase">
@@ -79,26 +63,7 @@ export default function SiteFooter() {
           </ul>
         </div>
 
-        {/* Companies */}
-        <div>
-          <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/55 mb-5">
-            {t("footer.companies")}
-          </h4>
-          <ul className="space-y-3 text-sm text-white/70">
-            {featuredCompanies.map((biz) => biz && (
-              <li key={biz.slug}>
-                <Link
-                  to={`/company/${biz.slug}`}
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  {biz.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Contact */}
+{/* Contact */}
         <div>
           <h4 className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/55 mb-5">
             {t("footer.contact")}

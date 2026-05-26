@@ -106,8 +106,19 @@ export default function Activities() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="bg-[hsl(var(--primary-deep))] text-white py-24 overflow-hidden relative">
-        <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
+      <section className="relative text-white py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1504890396-66f1d15f7440?w=1400&q=75&auto=format&fit=crop"
+            alt=""
+            aria-hidden
+            className="w-full h-full object-cover object-center"
+            style={{ filter: "saturate(0.65) brightness(0.25)" }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--primary-deep))] via-[hsl(218_68%_9%/0.88)] to-[hsl(4_82%_18%/0.3)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--background))] via-transparent to-transparent" />
+        </div>
+        <div className="absolute inset-0 dot-grid pointer-events-none opacity-40" aria-hidden />
         <div className="container-pro relative">
           <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("activities.label")}</p>
           <h1 className="hero-in hero-in-2 text-5xl lg:text-6xl font-bold tracking-tighter leading-tight text-white max-w-2xl">
@@ -127,7 +138,7 @@ export default function Activities() {
                 onClick={() => setActive(tb.id)}
                 className={`pb-4 text-sm font-semibold border-b-2 -mb-px transition-colors duration-200 min-h-[44px] ${
                   active === tb.id
-                    ? "border-brand-red text-primary"
+                    ? "border-brand-red text-foreground"
                     : "border-transparent text-muted-foreground hover:text-foreground"
                 }`}
               >
@@ -179,7 +190,7 @@ export default function Activities() {
               <h3 className="text-lg font-semibold tracking-tight mb-3">{whyMob.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed mb-8">{whyMob.desc}</p>
               <div className="mt-auto pt-8 border-t border-border">
-                <div className="text-4xl font-bold tracking-tighter text-primary leading-none mb-1">24h</div>
+                <div className="text-4xl font-bold tracking-tighter text-foreground leading-none mb-1">24h</div>
                 <div className="text-xs text-muted-foreground font-medium uppercase tracking-wider">
                   Mobilisation window
                 </div>

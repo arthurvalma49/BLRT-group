@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
-import logo from "@/assets/logo-symbol.png";
+import logo from "@/assets/BLRT-LOGO.png";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { businesses, sectorGroups } from "@/data/businesses";
 
@@ -105,6 +105,8 @@ export default function SiteHeader() {
           {/* Companies dropdown trigger */}
           <button
             onClick={() => setCompaniesOpen((v) => !v)}
+            aria-haspopup="true"
+            aria-expanded={companiesOpen}
             className={`relative flex items-center gap-1 py-1 text-sm font-medium transition-colors duration-200 group ${
               companiesOpen ? "text-primary" : "text-muted-foreground hover:text-foreground"
             }`}
@@ -130,7 +132,7 @@ export default function SiteHeader() {
                 onClick={() => setLang(l)}
                 className={`px-2 py-1 text-[11px] font-semibold rounded transition-colors ${
                   lang === l
-                    ? "bg-primary text-white"
+                    ? "bg-foreground/15 text-foreground"
                     : "text-muted-foreground hover:text-foreground"
                 }`}
               >
@@ -147,8 +149,8 @@ export default function SiteHeader() {
               <button
                 key={l}
                 onClick={() => setLang(l)}
-                className={`px-2 py-1 text-[10px] font-semibold rounded transition-colors min-h-[32px] ${
-                  lang === l ? "bg-primary text-white" : "text-muted-foreground hover:text-foreground"
+                className={`px-2 py-1 text-[10px] font-semibold rounded transition-colors min-h-[44px] ${
+                  lang === l ? "bg-foreground/15 text-foreground" : "text-muted-foreground hover:text-foreground"
                 }`}
               >
                 {l}
@@ -211,7 +213,7 @@ export default function SiteHeader() {
       {mobileOpen && (
         <>
           <div
-            className="lg:hidden fixed inset-0 top-16 bg-black/20 z-40"
+            className="lg:hidden fixed inset-0 top-16 bg-[hsl(218_35%_4%/0.55)] z-40"
             onClick={close}
             aria-hidden
           />

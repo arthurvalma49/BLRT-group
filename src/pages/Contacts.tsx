@@ -63,8 +63,20 @@ export default function Contacts() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="bg-[hsl(var(--primary-deep))] text-white py-24 overflow-hidden relative">
-        <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
+      <section className="relative text-white py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1531972111231-7482a960e109?w=1400&q=75&auto=format&fit=crop"
+            alt=""
+            aria-hidden
+            fetchPriority="high"
+            className="w-full h-full object-cover object-center"
+            style={{ filter: "saturate(0.7) brightness(0.22)" }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--primary-deep))] via-[hsl(218_68%_9%/0.88)] to-[hsl(218_68%_9%/0.5)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--background))] via-transparent to-transparent" />
+        </div>
+        <div className="absolute inset-0 dot-grid pointer-events-none opacity-40" aria-hidden />
         <div className="container-pro relative">
           <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("contacts.label")}</p>
           <h1 className="hero-in hero-in-2 text-5xl lg:text-6xl font-bold tracking-tighter leading-tight text-white max-w-2xl">

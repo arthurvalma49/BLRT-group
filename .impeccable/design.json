@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "generated": "2026-05-26",
+  "northStar": "The Drydock Blueprint",
+  "register": "brand",
+  "colorVocabulary": "Hull Black / Navigation Steel / Signal Red",
+  "elevationModel": "tonal",
+
+  "narrative": {
+    "scene": "A port procurement officer reviewing drydock proposals on a dark monitor, dim quayside office, late afternoon. They scan quickly, read carefully when something earns it. The interface must feel like a technical document prepared by people who have been at sea.",
+    "tone": "Quiet competence. No rhetoric. Facts, certifications, named ports. An expert who states their record and lets it speak.",
+    "avoidAt": "Any moment where the interface feels like it is trying to impress rather than inform."
+  },
+
+  "tokens": {
+    "colors": {
+      "hullBlack": "#0d121c",
+      "hullBlackMid": "#131a25",
+      "hullBlackLight": "#151c28",
+      "deepNavy": "#071327",
+      "navigationSteelLight": "#eaecf0",
+      "navigationSteel": "#909aad",
+      "surveyBlue": "#739ee8",
+      "signalRed": "#ec483c",
+      "steelPlate": "#252f41",
+      "darkSteel": "#1f2633",
+      "brass": "#ffcc4d",
+      "runningLightGreen": "#22c55e"
+    },
+    "fonts": {
+      "primary": "Outfit",
+      "stack": "Outfit, system-ui, sans-serif"
+    },
+    "radii": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "xxl": "20px"
+    },
+    "shadows": {
+      "card": "0 1px 3px 0 rgba(0,0,0,0.4), 0 1px 2px -1px rgba(0,0,0,0.4)",
+      "elevated": "0 16px 40px -12px rgba(0,0,0,0.65)",
+      "red": "0 4px 24px -4px hsl(4 82% 40% / 0.55)"
+    }
+  },
+
+  "componentPreviewNotes": {
+    "hero": "Full-bleed photo, saturate(0.65) brightness(0.22), gradient overlay from primary-deep, bottom fade to background, dot-grid at 40% opacity. Never plain color hero.",
+    "bento": "gap-px bg-border grid creates hairline grid separators. Featured cell always bg-primary-deep. Standard cells bg-card.",
+    "stats": "text-4xl font-bold tracking-tighter text-foreground. Never text-primary on numbers.",
+    "overline": "10px, uppercase, tracking-[0.35em], text-muted-foreground. Always above section H2.",
+    "cta": "Signal Red bg, shadow-red glow, btn-shine + btn-tactile classes. Min 44px touch target.",
+    "tabUnderline": "border-b-2 border-brand-red on active. No background fill on tabs."
+  },
+
+  "strictBans": [
+    "border-left/right colored accent (side-stripe)",
+    "gradient text (background-clip: text)",
+    "text-primary on headings or stat numbers",
+    "dynamic Tailwind class construction via template literals",
+    "raw #000 or #fff",
+    "bounce or elastic easing",
+    "em dashes in copy",
+    "marketing superlatives (world-class, leading, cutting-edge)"
+  ],
+
+  "tailwindClassSafelist": [
+    "group-hover:text-sky-400",
+    "group-hover:text-emerald-400",
+    "group-hover:text-amber-400",
+    "group-hover:text-slate-300",
+    "group-hover:text-rose-400",
+    "group-hover:text-cyan-400"
+  ]
+}

@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { businesses, sectorGroups, type ServiceIcon } from "@/data/businesses";
 import RevealSection from "@/components/RevealSection";
+import { useLanguage } from "@/i18n/LanguageContext";
 
 const iconMap: Record<ServiceIcon, React.ComponentType<{ className?: string }>> = {
   anchor: Anchor,
@@ -48,6 +49,7 @@ function ServiceCard({
   fullDesc?: string;
 }) {
   const [expanded, setExpanded] = useState(false);
+  const { t } = useLanguage();
   const Comp = iconMap[icon] ?? FileText;
 
   return (
@@ -55,7 +57,7 @@ function ServiceCard({
       <div className="w-9 h-9 rounded-lg bg-primary/5 group-hover:bg-brand-red/8 flex items-center justify-center mb-4 shrink-0 transition-colors duration-300">
         <Comp className="w-4 h-4 text-brand-red" />
       </div>
-      <h3 className="text-sm font-semibold tracking-tight text-primary mb-2">{title}</h3>
+      <h3 className="text-sm font-semibold tracking-tight text-foreground mb-2">{title}</h3>
       <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
 
       {fullDesc && (
@@ -76,7 +78,7 @@ function ServiceCard({
             className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-red hover:text-brand-red/70 transition-colors self-start min-h-[44px] -ml-1 px-1"
             aria-expanded={expanded}
           >
-            {expanded ? "Show Less" : "Read More"}
+            {expanded ? t("blrt.showLess") : t("blrt.readMore")}
             <ChevronDown
               className={`w-3.5 h-3.5 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`}
             />
@@ -193,7 +195,7 @@ export default function BusinessPage() {
         <RevealSection as="section" className="py-24 bg-surface">
           <div className="container-pro">
             <p className="overline mb-3">What we do</p>
-            <h2 className="text-3xl tracking-tighter text-primary mb-12">Services & Capabilities</h2>
+            <h2 className="text-3xl tracking-tighter text-foreground mb-12">Services & Capabilities</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {biz.services.map((svc, i) => (
                 <ServiceCard
@@ -214,7 +216,7 @@ export default function BusinessPage() {
         <RevealSection as="section" className="py-24 bg-background">
           <div className="container-pro">
             <p className="overline mb-3">Get in touch</p>
-            <h2 className="text-3xl tracking-tighter text-primary mb-10">Contact {biz.name}</h2>
+            <h2 className="text-3xl tracking-tighter text-foreground mb-10">Contact {biz.name}</h2>
             <div className="flex flex-col sm:flex-row flex-wrap gap-5">
               {biz.contact.phone && (
                 <a

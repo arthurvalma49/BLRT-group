@@ -25,8 +25,20 @@ export default function About() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="bg-[hsl(var(--primary-deep))] text-white py-24 overflow-hidden relative">
-        <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
+      <section className="relative text-white py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=75&auto=format&fit=crop"
+            alt=""
+            aria-hidden
+            fetchPriority="high"
+            className="w-full h-full object-cover"
+            style={{ filter: "saturate(0.7) brightness(0.28)" }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--primary-deep))] via-[hsl(218_68%_9%/0.85)] to-[hsl(218_68%_9%/0.55)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--background))] via-transparent to-transparent" />
+        </div>
+        <div className="absolute inset-0 dot-grid pointer-events-none opacity-40" aria-hidden />
         <div className="container-pro relative">
           <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("blrt.about.label")}</p>
           <h1 className="hero-in hero-in-2 text-5xl lg:text-6xl font-bold tracking-tighter leading-tight text-white max-w-2xl">
@@ -56,7 +68,7 @@ export default function About() {
           <aside className="divide-y divide-border">
             {stats.map((s) => (
               <div key={s.l} className="py-6 first:pt-0">
-                <div className="text-4xl font-bold tracking-tighter text-primary leading-none mb-1.5">
+                <div className="text-4xl font-bold tracking-tighter text-foreground leading-none mb-1.5">
                   {s.v}
                 </div>
                 <div className="text-sm text-muted-foreground font-medium">{s.l}</div>
@@ -66,11 +78,28 @@ export default function About() {
         </div>
       </RevealSection>
 
+      {/* ─── Photo band ─── */}
+      <div className="relative h-28 overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1504890396-66f1d15f7440?w=1400&q=75&auto=format&fit=crop"
+          alt=""
+          aria-hidden
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          style={{ filter: "saturate(1.2) brightness(0.35)" }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--background))] via-[hsl(218_40%_8%/0.6)] to-[hsl(var(--background))]" />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="text-white/50 text-[10px] font-bold tracking-[0.35em] uppercase">
+            Six Sectors · Baltic Sea Region · Est. 1912
+          </span>
+        </div>
+      </div>
+
       {/* ─── Sectors ─── */}
       <RevealSection as="section" className="py-24 bg-surface">
         <div className="container-pro">
           <p className="overline mb-3">Our Sectors</p>
-          <h2 className="text-3xl tracking-tighter text-primary mb-12">Six areas of industrial expertise</h2>
+          <h2 className="text-3xl tracking-tighter text-foreground mb-12">Six areas of industrial expertise</h2>
           <div className="divide-y divide-border">
             {sectors.map((s, i) => {
               const Icon = s.icon;

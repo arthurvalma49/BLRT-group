@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 import translations, { Lang, TranslationKey } from "./translations";
 
 type LanguageContextType = {
@@ -11,6 +11,11 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>("EN");
+
+  useEffect(() => {
+    const map: Record<Lang, string> = { EN: "en", RU: "ru", ET: "et" };
+    document.documentElement.lang = map[lang];
+  }, [lang]);
 
   const t = (key: TranslationKey): string => {
     return translations[key]?.[lang] ?? key;

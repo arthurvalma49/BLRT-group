@@ -59,8 +59,19 @@ export default function OurValues() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="bg-[hsl(var(--primary-deep))] text-white py-24 overflow-hidden relative">
-        <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
+      <section className="relative text-white py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=75&auto=format&fit=crop"
+            alt=""
+            aria-hidden
+            className="w-full h-full object-cover object-center"
+            style={{ filter: "saturate(0.6) brightness(0.22)" }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--primary-deep))] via-[hsl(218_68%_9%/0.9)] to-[hsl(218_40%_15%/0.5)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--background))] via-transparent to-transparent" />
+        </div>
+        <div className="absolute inset-0 dot-grid pointer-events-none opacity-40" aria-hidden />
         <div className="container-pro relative">
           <p className="hero-in hero-in-1 overline text-white/45 mb-5">{t("values.label")}</p>
           <h1 className="hero-in hero-in-2 text-5xl lg:text-6xl font-bold tracking-tighter leading-tight text-white max-w-2xl">
@@ -79,7 +90,7 @@ export default function OurValues() {
           */}
           <div className="grid md:grid-cols-2 gap-px bg-border rounded-2xl overflow-hidden">
             {/* People — dark, spans 2 rows */}
-            <div className="bg-primary text-white p-10 md:row-span-2">
+            <div className="bg-[hsl(var(--primary-deep))] text-white p-10 md:row-span-2 border border-white/5">
               <div className="w-11 h-11 rounded-xl bg-white/12 flex items-center justify-center mb-6">
                 <PeopleIcon className="w-5 h-5 text-white" />
               </div>
@@ -107,7 +118,7 @@ export default function OurValues() {
               <h2 className="text-lg font-bold tracking-tight text-primary mb-1">
                 {t(reliability.titleKey)}
               </h2>
-              <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground font-semibold mb-5">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground/70 font-semibold mb-5">
                 {t(reliability.subtitleKey)}
               </p>
               <ul className="space-y-2.5">
