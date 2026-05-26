@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo-white-clean.png";
+import logoSail from "@/assets/logo-sail-white.svg";
 import { useLanguage } from "@/i18n/LanguageContext";
 import { businesses } from "@/data/businesses";
 
@@ -28,14 +28,16 @@ export default function SiteFooter() {
         {/* Brand */}
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <img
-              src={logo}
-              alt="BLRT Grupp"
-              width={48}
-              height={48}
-              className="h-12 w-auto object-contain"
-              loading="lazy"
-            />
+            <div className="w-12 h-12 rounded-xl bg-[hsl(var(--primary))] flex items-center justify-center shrink-0">
+              <img
+                src={logoSail}
+                alt="BLRT Grupp"
+                width={32}
+                height={32}
+                className="h-8 w-8 object-contain"
+                loading="lazy"
+              />
+            </div>
             <div className="flex flex-col leading-none gap-0.5">
               <span className="text-sm font-bold tracking-tight text-white">BLRT GRUPP</span>
               <span className="text-[10px] font-medium text-white/60 tracking-[0.12em] uppercase">

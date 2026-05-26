@@ -140,15 +140,30 @@ export default function SiteHeader() {
           </div>
         </div>
 
-        {/* ─── Mobile hamburger ─── */}
-        <button
-          className="lg:hidden p-2 text-foreground rounded-md min-h-[44px] min-w-[44px] flex items-center justify-center"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
-          aria-expanded={mobileOpen}
-        >
-          {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
+        {/* ─── Mobile right: language + hamburger ─── */}
+        <div className="lg:hidden flex items-center gap-2">
+          <div className="flex items-center gap-0.5 border border-border rounded-md p-0.5">
+            {languages.map((l) => (
+              <button
+                key={l}
+                onClick={() => setLang(l)}
+                className={`px-2 py-1 text-[10px] font-semibold rounded transition-colors min-h-[32px] ${
+                  lang === l ? "bg-primary text-white" : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {l}
+              </button>
+            ))}
+          </div>
+          <button
+            className="p-2 text-foreground rounded-md min-h-[44px] min-w-[44px] flex items-center justify-center"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
+          >
+            {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
       </div>
 
       {/* ─── Megadropdown (desktop) ─── */}
@@ -266,21 +281,6 @@ export default function SiteHeader() {
                 </div>
               )}
 
-              <div className="pt-3 border-t border-border mt-2">
-                <div className="flex items-center gap-0.5 border border-border rounded-md p-0.5 w-fit">
-                  {languages.map((l) => (
-                    <button
-                      key={l}
-                      onClick={() => setLang(l)}
-                      className={`px-3 py-1.5 text-[11px] font-semibold rounded transition-colors min-h-[36px] ${
-                        lang === l ? "bg-primary text-white" : "text-muted-foreground"
-                      }`}
-                    >
-                      {l}
-                    </button>
-                  ))}
-                </div>
-              </div>
             </nav>
           </div>
         </>

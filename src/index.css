@@ -227,6 +227,26 @@
   .reveal.delay-100.visible { transition-delay: 0.1s; }
   .reveal.delay-200.visible { transition-delay: 0.2s; }
   .reveal.delay-300.visible { transition-delay: 0.3s; }
+
+  /* ── Stagger items: revealed when ancestor .reveal becomes .visible ── */
+  .stagger-item {
+    opacity: 0;
+    transform: translateY(14px);
+    transition:
+      opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.visible .stagger-item {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── Marquee strip ── */
+  .marquee-track {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee 35s linear infinite;
+  }
 }
 
 /* ── Keyframes ── */
@@ -249,6 +269,22 @@
   0%   { box-shadow: 0 0 0 0 hsl(var(--brand-red) / 0.7); }
   70%  { box-shadow: 0 0 0 14px hsl(var(--brand-red) / 0); }
   100% { box-shadow: 0 0 0 0 hsl(var(--brand-red) / 0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 2.4s ease-in-out infinite;
+  }
 }
 
 /* ── Reduced motion: kill everything ── */

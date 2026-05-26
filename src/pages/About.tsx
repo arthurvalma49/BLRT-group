@@ -71,16 +71,22 @@ export default function About() {
         <div className="container-pro">
           <p className="overline mb-3">Our Sectors</p>
           <h2 className="text-3xl tracking-tighter text-primary mb-12">Six areas of industrial expertise</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="divide-y divide-border">
             {sectors.map((s, i) => {
               const Icon = s.icon;
               return (
-                <div key={i} className="flex items-start gap-4 p-6 bg-card border border-border rounded-xl">
-                  <div className="w-9 h-9 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0 mt-0.5">
-                    <Icon className="w-4 h-4 text-brand-red" />
+                <div
+                  key={i}
+                  className="group flex items-center gap-6 lg:gap-10 py-6 rounded-lg transition-colors duration-200 hover:bg-background -mx-2 px-2"
+                >
+                  <div className="w-8 shrink-0 text-xl font-bold tabular-nums text-muted-foreground/25 group-hover:text-brand-red transition-colors duration-300 leading-none select-none">
+                    {String(i + 1).padStart(2, "0")}
                   </div>
-                  <div>
-                    <div className="text-sm font-semibold text-primary mb-1">{s.label}</div>
+                  <div className="w-10 h-10 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0">
+                    <Icon className="w-5 h-5 text-brand-red" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-sm font-semibold text-primary mb-0.5">{s.label}</div>
                     <div className="text-sm text-muted-foreground leading-relaxed">{s.desc}</div>
                   </div>
                 </div>

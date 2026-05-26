@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import MagneticButton from "@/components/MagneticButton";
@@ -7,22 +8,55 @@ import { useLanguage } from "@/i18n/LanguageContext";
 import { businesses, sectorGroups } from "@/data/businesses";
 
 const sectorAccents: Record<string, string> = {
-  repair:     "bg-sky-500/10 text-sky-700",
-  building:   "bg-indigo-500/10 text-indigo-700",
-  inspection: "bg-brand-red/8 text-brand-red",
-  engineering:"bg-amber-500/10 text-amber-700",
-  materials:  "bg-emerald-500/10 text-emerald-700",
-  port:       "bg-cyan-500/10 text-cyan-700",
+  repair:      "bg-sky-500/10 text-sky-700",
+  building:    "bg-indigo-500/10 text-indigo-700",
+  inspection:  "bg-brand-red/8 text-brand-red",
+  engineering: "bg-amber-500/10 text-amber-700",
+  materials:   "bg-emerald-500/10 text-emerald-700",
+  port:        "bg-cyan-500/10 text-cyan-700",
 };
+
+function StatNumber({ target, animate }: { target: number; animate: boolean }) {
+  const [display, setDisplay] = useState(animate ? 0 : target);
+  const ref = useRef<HTMLSpanElement>(null);
+  const started = useRef(false);
+
+  useEffect(() => {
+    if (!animate) return;
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting || started.current) return;
+        started.current = true;
+        const t0 = performance.now();
+        const dur = 900;
+        const tick = (now: number) => {
+          const p = Math.min((now - t0) / dur, 1);
+          setDisplay(Math.round((1 - Math.pow(1 - p, 3)) * target));
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      },
+      { threshold: 0.5 },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [target, animate]);
+
+  return <span ref={ref}>{display}</span>;
+}
+
+const tickerItems = [...sectorGroups, ...sectorGroups].map((s) => s.label);
 
 export default function Home() {
   const { t } = useLanguage();
 
   const stats = [
-    { value: "17",     label: t("blrt.stat.companies") },
-    { value: "5",      label: t("blrt.stat.countries") },
-    { value: "6",      label: t("blrt.stat.sectors") },
-    { value: "1912",   label: t("blrt.stat.founded") },
+    { value: 17,   label: t("blrt.stat.companies"), animate: true  },
+    { value: 5,    label: t("blrt.stat.countries"),  animate: true  },
+    { value: 6,    label: t("blrt.stat.sectors"),    animate: true  },
+    { value: 1912, label: t("blrt.stat.founded"),    animate: false },
   ];
 
   return (
@@ -81,8 +115,24 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center" aria-hidden>
+        {/* Scroll indicator */}
+        <div className="absolute bottom-14 left-1/2 -translate-x-1/2 flex flex-col items-center" aria-hidden>
           <div className="w-px h-8 bg-gradient-to-b from-white/25 to-transparent animate-float" />
+        </div>
+
+        {/* Sector ticker */}
+        <div className="absolute bottom-0 left-0 right-0 h-10 border-t border-white/6 overflow-hidden flex items-center" aria-hidden>
+          <div className="marquee-track">
+            {tickerItems.map((name, i) => (
+              <span
+                key={i}
+                className="inline-flex items-center gap-3 px-6 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/30"
+              >
+                <span className="w-1 h-1 rounded-full bg-brand-red/50 shrink-0" />
+                {name}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -93,10 +143,11 @@ export default function Home() {
             {stats.map((s, i) => (
               <div
                 key={i}
-                className="py-10 px-6 lg:px-8 flex flex-col gap-1.5 border-b border-r border-border"
+                className="stagger-item py-10 px-6 lg:px-8 flex flex-col gap-1.5 border-b border-r border-border"
+                style={{ transitionDelay: `${i * 0.08}s` }}
               >
                 <div className="text-4xl lg:text-5xl font-bold tracking-tighter text-primary leading-none">
-                  {s.value}
+                  <StatNumber target={s.value} animate={s.animate} />
                 </div>
                 <div className="text-sm text-muted-foreground font-medium">{s.label}</div>
               </div>
@@ -127,6 +178,9 @@ export default function Home() {
                   <div className="flex items-center gap-3 mb-5">
                     <span className={`text-[10px] font-bold uppercase tracking-[0.2em] px-2.5 py-1 rounded ${accentClass}`}>
                       {sector.label}
+                    </span>
+                    <span className="text-[10px] font-medium tabular-nums text-muted-foreground/50">
+                      {sectorBiz.length}
                     </span>
                     <div className="flex-1 h-px bg-border" />
                   </div>
@@ -182,12 +236,18 @@ export default function Home() {
           <div className="lg:pt-4 divide-y divide-border">
             {[
               { label: "Headquarters", value: "Kopli, Tallinn, Estonia" },
-              { label: "Founded", value: "1912" },
-              { label: "Companies", value: "17 across 6 sectors" },
-              { label: "Markets", value: "EE · LV · LT · FI · NO" },
-            ].map((fact) => (
-              <div key={fact.label} className="py-4 flex items-baseline justify-between gap-4">
-                <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground shrink-0">{fact.label}</span>
+              { label: "Founded",      value: "1912" },
+              { label: "Companies",   value: "17 across 6 sectors" },
+              { label: "Markets",     value: "EE · LV · LT · FI · NO" },
+            ].map((fact, i) => (
+              <div
+                key={fact.label}
+                className="stagger-item py-4 flex items-baseline justify-between gap-4"
+                style={{ transitionDelay: `${i * 0.07}s` }}
+              >
+                <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground shrink-0">
+                  {fact.label}
+                </span>
                 <span className="text-sm font-semibold text-primary text-right">{fact.value}</span>
               </div>
             ))}
