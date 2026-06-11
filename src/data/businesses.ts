@@ -388,7 +388,7 @@ export const businesses: Business[] = [
     sector: "Inspection & Testing",
     sectorId: "inspection",
     countries: "LT",
-    tagline: "Modern laboratory for testing, measurement and analysis",
+    tagline: "Let's build future ships together",
     heroDesc:
       "Destructive and non-destructive testing, ultrasonic thickness measurement, chemical analysis, welding process control and welder certification. 40+ services, 1,500 projects annually.",
     aboutP1:
