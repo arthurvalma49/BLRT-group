@@ -669,34 +669,41 @@ export const businesses: Business[] = [
     sector: "Steel & Materials",
     sectorId: "materials",
     countries: "EE · LV · LT · FI · PL",
-    tagline: "Baltic States leader in rolled steel sales and metal processing",
+    tagline: "Comprehensive solutions for rolled steel products and processing services",
     heroDesc:
-      "Distribution and processing of rolled steel products across five countries. Galvanization, prefabrication and structural sections for construction and manufacturing.",
+      "Elme Metall is a company offering a wide range of rolled steel products and processing services in its service centres equipped with state-of-the-art high-performance equipment. 5 countries, 6 service centres, 10 warehouses, 1,000 t/day, 20,000+ customers.",
     aboutP1:
-      "Elme Metall is the largest distributor and processor of rolled steel products in the Baltic States, operating warehousing and processing centres in Estonia, Latvia, Lithuania, Finland and Poland. Founded in 2001, the company serves the construction, shipbuilding, engineering and manufacturing sectors with a broad product portfolio and rapid delivery capability.",
+      "Elme Metall was founded on 30 May 2001 and has grown into the largest metal service centre in the Baltic States, with 400 employees and 195 million euros in sales volume. Operating in Estonia, Lithuania, Latvia, Poland and Finland, the company leverages extensive experience and effective procurement and logistics to deliver comprehensive solutions depending on clients' specific needs for rolled steel products and processing services.",
     aboutP2:
-      "Processing services include galvanization, plasma and laser cutting, bending, drilling and prefabrication, allowing clients to source both standard stock and finished components from a single supplier.",
+      "The company's vision is to become the largest metal service centre in the Baltic States and Scandinavia, providing services in the processing and pre-processing of metal products. Elme Metall serves the energy, steel structures fabrication, infrastructure, shipbuilding and ship repair, construction, and mechanical engineering sectors. Its mission is to facilitate the long-term development of customers' business and increase their competitiveness in the market.",
     services: [
       {
         icon: "layers",
-        title: "Rolled Steel Distribution",
-        desc: "Structural sections, plates, tubes, bars and merchant bar from European mills.",
+        title: "Flat Products Prefabrication",
+        desc: "Plasma, oxyfuel, water jet and laser cutting; sheet bending and rolling for carbon steel, stainless steel and aluminium.",
         fullDesc:
-          "Elme Metall operates a network of steel warehousing and distribution centres in Estonia, Latvia, Lithuania, Finland and Poland, providing customers across the Baltic region with rapid access to a broad range of structural steel products. The product portfolio covers structural sections (HEA, HEB, IPE, UPN), flat products (plates, sheets, strips), hollow sections, round and square bars, reinforcing bar and merchant bar.\n\nSteel is sourced from leading European mills — ArcelorMittal, SSAB, Ruukki and others — with mill certificates provided for all structural grades. Deliveries are made by road from the nearest stocking location, with lead times typically of one to five working days across the Baltic region.",
+          "Elme Metall's flat products prefabrication service covers processing and fabrication of parts from sheet metal materials using multiple cutting and forming technologies.\n\nPlasma cutting handles 3–50 mm thick material across a 3,500 × 22,000 mm operating area to ISO 9013–432 tolerances. Oxyfuel gas cutting processes thicker materials from 15–200 mm across a 3,600 × 34,000 mm area using dual portals with three cutters. Water jet cutting operates on materials up to 200 mm thick across a 3,000 × 8,000 mm area at 5,200 bar, accommodating aluminium alloys, stainless steel and carbon steel. Laser cutting with 6 or 10 kW systems processes carbon steel, stainless steel and aluminium across a 2,500 × 8,000 mm area to ISO 9013–221/331 tolerances.\n\nForming capabilities include sheet bending (1–50 mm, 400–1,250-tonne presses producing angles, ducts, U-channels, cones and Z-profiles) and sheet rolling (7–50 mm, up to 30,000 mm length, using four 4,000 mm-wide rolls). An automated blank manufacturing line provides integrated drilling, threading (M8–M30) and cutting. All operations are certified to ISO and EN 1090.",
       },
       {
-        icon: "shield",
-        title: "Hot-Dip Galvanization",
-        desc: "Corrosion protection galvanizing for structural steel components.",
+        icon: "building",
+        title: "Prefabrication of Structural, Tube and Merchant Sections",
+        desc: "Robotic processing, profile bending and cutting of structural sections, round pipes and hollow sections up to 18,000 mm.",
         fullDesc:
-          "Elme Metall operates galvanizing plants providing hot-dip galvanization of structural steel components to EN ISO 1461 standard. Galvanizing provides long-term corrosion protection for steel structures exposed to outdoor environments, extending service life and reducing maintenance costs.\n\nThe galvanizing service handles components for the construction, infrastructure, agricultural, industrial and marine sectors, with basket sizes accommodating standard structural sections, fabricated assemblies and custom components. Pre-treatment — including degreasing, pickling and fluxing — is performed in-house. Customers can supply fabricated assemblies for dipping or source materials and processing from Elme Metall as a single package.",
+          "Elme Metall provides comprehensive prefabrication services for processing and fabrication of parts from profiled steel products, including structural sections, tubes and merchant bars.\n\nProfile bending is performed with a 400-tonne press accommodating profiles up to HEM 1000 size and part weights up to 9,000 kg. Three machining robot systems handle different material types: sections processing (10–600 mm thickness, 60–1,250 mm width, up to 18,000 mm length), round pipe processing (diameters 60–1,150 mm, maximum 16,000 mm length), and hollow sections processing (square 60 × 60 to 350 × 350 mm and rectangular sections, up to 16,000 mm length).\n\nFinishing operations include profile cutting to size, drilling of orifices in profiles, and oxyfuel or plasma cutting. Marking capabilities include machine stamping with fonts up to 10 mm. The operation holds ISO Cutcentre and EN 1090 certifications.",
       },
       {
         icon: "ruler",
-        title: "Steel Processing",
-        desc: "Cutting, bending, drilling and prefabrication to client drawings and specifications.",
+        title: "Reinforcement Products Prefabrication",
+        desc: "Welded mesh, reinforcement cages and cold-formed rebar for construction; laboratory testing per EN ISO 15630.",
         fullDesc:
-          "In addition to standard stock, Elme Metall offers value-added processing services allowing customers to order finished-to-size or partially fabricated components rather than raw stock. Services include plasma and laser cutting, bending, drilling, shot blasting and priming.\n\nProcessed components are delivered to customer drawings and specifications, reducing or eliminating fabrication work at the customer's own facility. This service is particularly valued by shipyards, structural fabricators and engineering companies requiring large volumes of cut and drilled plate or section — a single order combining material supply and processing simplifies purchasing and reduces total cost.",
+          "Elme Metall's reinforcement products prefabrication service covers processing and fabrication of parts from reinforcing bars for construction applications.\n\nReinforcement mesh is fabricated on high-performance equipment from cold-formed materials per EN 10080 standards, with meshes up to 6,000 mm length and 2,400 mm width, rod diameters 4–12 mm. Reinforcement cages are manufactured by three methods: resistance welding (round, square and rectangular sections up to 12,000 mm), semiautomatic CO₂ welding per EN ISO 17660-1 (diameters up to 1,400 mm), and manual assembly with modern welding equipment.\n\nCold-formed riffled reinforcing bars are produced in diameters 5–12 mm in rolls weighing approximately 2.5 tonnes, complying with EN 10080:2006 and SFS1300:2014. Cutting and bending equipment handles automatic cutting from rolls (Ø 4–16 mm) and straight stock (Ø 8–40 mm) with 2D/3D bending. A service centre laboratory fitted with modern equipment offers testing per EN ISO 15630-1:2010 and EN ISO 15630-2:2010 with Swedish calibration certification.",
+      },
+      {
+        icon: "shield",
+        title: "Surface Treatment and Hot-Dip Galvanization",
+        desc: "Shotblasting, priming and hot-dip galvanizing of parts and steel structures to EVS EN ISO 1461:2022.",
+        fullDesc:
+          "Elme Metall provides surface treatment and hot-dip galvanizing of parts and steel structures across several integrated processes.\n\nFlat products are processed on an automatic shotblasting and priming line accepting materials 5–600 mm thick and up to 3,200 mm wide, lengths 3,000–16,000 mm, with zinc silicate and epoxy primers applied at 20 ± 5 µm. A dedicated automatic line processes structural profiles up to 18,000 mm in length (6 mm minimum thickness) using 6 turbines at 18.5 kW. Heating infrastructure includes a pre-heater reaching 300 °C and a fabrication painting system with 4 spray guns for profiles up to 18,000 mm.\n\nThe main hot-dip galvanizing bath measures 13 m long, 3 m deep and 1.6 m wide, applying coatings up to 400 µm per EVS EN ISO 1461:2022 standard, with 12-tonne crane capacity. Services are delivered by affiliated companies Toorik, Metalgama, Cutcentre and Elme metalas, all holding the required ISO quality certifications.",
       },
     ],
     contact: {
@@ -712,32 +719,41 @@ export const businesses: Business[] = [
     sector: "Steel & Materials",
     sectorId: "materials",
     countries: "EE",
-    tagline: "Industrial and medical gases across the Baltic market",
+    tagline: "Leading gas company in the Baltic region",
     heroDesc:
-      "Production and sale of industrial and medical gases. Joint venture with Germany's Messer Group since 1999.",
+      "A reliable supplier of technical gases for your continuous production process. Joint venture with Germany's Messer Group since 1999 — 3,000+ Estonian clients, 130+ gas types.",
     aboutP1:
-      "Elme Messer Gaas is a joint venture established in 1999 between BLRT Grupp and Messer Group, one of Europe's leading industrial gas producers. The company manufactures and distributes compressed and liquid gases — including oxygen, nitrogen, argon, hydrogen and CO₂ — to industrial, medical and food-processing customers across Estonia and the Baltic region.",
+      "The name ELME MESSER GAAS has been associated with expertise in industrial gases for more than 25 years. Established in 1999 as a joint venture between AS BLRT Grupp (Estonia) and MESSER GROUP (Germany), the company manufactures and supplies oxygen, nitrogen, argon, carbon dioxide, hydrogen, helium, inert welding gases, specialty gases, medical-grade gases and gas mixtures, together with application equipment.",
+    aboutP2:
+      "Elme Messer Gaas serves over 3,000 customers in Estonia across the steel and metals, chemicals, food and pharmaceuticals, automotive, electronics, medicine, research and environmental technology sectors. Messer Group is the world's largest independent industrial gas specialist, bringing global production and logistics expertise to the joint venture. Customers benefit from fast next-day delivery (orders before 15:00), 130+ gas types, a 24/7 web shop at GasBox.ee, and a broad sales network across Estonia.",
     services: [
       {
         icon: "beaker",
-        title: "Industrial Gases",
-        desc: "Oxygen, nitrogen, argon, hydrogen, acetylene and CO₂ for welding, cutting and processing.",
+        title: "Gas in Cylinders and Packages",
+        desc: "Compressed gas cylinders and bundles for smaller-quantity needs — technical, welding, food, medical, specialty and breathing gases.",
         fullDesc:
-          "Elme Messer Gaas produces and distributes the full range of industrial gases needed for welding, cutting, heat treatment and industrial processing applications. Oxygen, nitrogen, argon, hydrogen, acetylene, CO₂ and gas mixtures are available in compressed cylinder, liquid bulk and micro-bulk formats, supplied to customers across Estonia and the Baltic region.\n\nThe joint venture with Messer Group brings access to Messer's European production and logistics network, ensuring security of supply and the technical expertise of one of Europe's largest industrial gas producers. Gas mixture formulations are tailored to customers' specific welding and process requirements.",
+          "Cylinders or bundles are suitable for supplying gas in smaller quantities. The size range varies from very small cylinders for mobile use up to bundles for big demands. Cylinders vary in case materials (steel, aluminium, plastic) and valve configurations (standard valve or built-in pressure regulator), operating at a typical working pressure of 200 bar.\n\nRecent developments — including the modern MEGAPACK C4 bundles featuring Duplex technology — turn this supply format into a modern and attractive alternative for customers requiring reliable, flexible access to gas without bulk infrastructure. Available product categories include technical gases, welding and cutting gases, gases for the food industry, medical gases, specialty gases, and breathing gases.",
       },
       {
-        icon: "shield",
-        title: "Medical Gases",
-        desc: "Medical-grade oxygen and other gases for healthcare facilities.",
+        icon: "droplets",
+        title: "Liquefied Gases",
+        desc: "Cryogenic liquid gas supply in tanks for medium and large-volume industrial customers.",
         fullDesc:
-          "Medical-grade gases — including oxygen, nitrous oxide and medical air — are produced and distributed by Elme Messer Gaas to hospitals, clinics and healthcare facilities throughout Estonia. All medical gases comply with the applicable pharmacopoeia standards and are distributed under the company's medical gas supplier licences.\n\nMedical oxygen cylinders and bulk liquid deliveries are managed under strict documentation and traceability requirements, with safety data sheets, certificates of analysis and delivery records provided for every supply. The company works closely with hospital pharmacies and biomedical engineering teams to ensure uninterrupted supply of critical medical gases.",
+          "Liquefied gases are supplied in cryogenic form for medium and large-volume customers, providing a cost-effective alternative to cylinder deliveries for high-consumption operations. Liquid oxygen, nitrogen, argon and CO₂ are delivered by tanker to customer-site cryogenic tanks, where they are vaporised on demand to supply process and welding gases at the required flow rates.\n\nElme Messer Gaas manages bulk tank installation, maintenance and telemetry monitoring, enabling automatic reordering to ensure uninterrupted supply. This supply model is particularly suited to industrial production, welding fabrication, food processing and medical facility applications requiring continuous, high-volume gas availability.",
       },
       {
-        icon: "package",
-        title: "Gas Supply Solutions",
-        desc: "Cylinder, bulk liquid and on-site gas generation supply contracts.",
+        icon: "layers",
+        title: "Dry Ice",
+        desc: "Solid CO₂ at −79 °C for cooling and dry ice blasting — supplied in pellets and blocks.",
         fullDesc:
-          "Beyond cylinder deliveries, Elme Messer Gaas designs and implements total gas supply solutions for high-volume industrial customers. Bulk liquid storage tanks — for liquid oxygen, nitrogen and argon — are installed and maintained at customer sites, with gas delivered by tanker and vaporised on demand. On-site nitrogen and oxygen generators are supplied for customers requiring captive gas production.\n\nSupply contracts are managed to ensure that customers never run short of critical process gases, with telemetry monitoring of bulk tank levels enabling automatic reordering. Long-term supply contracts provide customers with price certainty and supply security.",
+          "Dry ice is solid CO₂ with a temperature of approximately −79 °C at atmospheric pressure. It is non-toxic, non-flammable, inert, tasteless and odourless, with a density of approximately 1,500 kg/m³ in compact form. Dry ice evaporates without leaving residue, making it ideal for applications where no secondary waste is acceptable.\n\nElme Messer Gaas manufactures dry ice by expanding liquid carbon dioxide through a pelletiser, forming dry ice snow that is pressed through an extruder plate into pellets or larger blocks. Applications include cooling (blocks and larger pellets serve as an effective cooling medium with high cooling capacity) and dry ice blasting (a powerful, gentle, dry and ecologically friendly cleaning method producing no secondary waste). Standard pellet diameter for blasting is 3 mm, with 1.7 mm pellets available for delicate surfaces. The company provides convenient full service including supply in insulated boxes and cost-effective all-in-one rental concepts.",
+      },
+      {
+        icon: "wrench",
+        title: "Gas Equipment and Supply Systems",
+        desc: "Fittings, regulators, valves and complete gas supply systems from cylinder connections to gas cabinets.",
+        fullDesc:
+          "Elme Messer Gaas supplies the full range of gas equipment and supply systems — from individual fittings and pressure regulators to complete piped gas installations. The product range covers valves, regulators, hoses, manifolds, flow meters and gas cabinets configured for the customer's specific gas types and consumption profile.\n\nBeyond equipment supply, the company offers consultations, training, audits, installation and optimisation of production processes. E-services enable customers to manage their account, view invoices and control documentation online. The technical team advises on supply system design and safe gas handling, ensuring compliance with applicable standards and minimising operational risk at customer sites.",
       },
     ],
     contact: {
@@ -752,33 +768,35 @@ export const businesses: Business[] = [
     name: "Elme Trans",
     sector: "Steel & Materials",
     sectorId: "materials",
-    countries: "EE",
-    tagline: "International road transport and logistics",
+    countries: "EE · LV · LT · UA",
+    tagline: "International transportation and equipment rental services",
     heroDesc:
-      "International road transport, equipment rental and car rental across Estonia, Ukraine, and Central and Northern Europe.",
+      "Transport company ELME Trans provides international and local transportation and equipment rental services. Established 2001, EU Authorised Economic Operator since 2014, with branches in Estonia, Latvia, Lithuania and Ukraine.",
     aboutP1:
-      "Elme Trans provides international road transport and logistics services for industrial and commercial clients throughout Estonia and wider Europe. The company operates a fleet of vehicles for cargo transport and offers equipment rental services supporting the construction and manufacturing sectors.",
+      "Elme Trans renders international transportation and equipment rental services as part of BLRT Grupp. Established in 2001, the company operates branches in Estonia, Latvia, Lithuania and Ukraine, covering the Baltic States, Scandinavia, and Eastern and Western Europe. Since 2014 the company has held authorised economic operator status within the European Union, reflecting compliance with EU standards for dangerous goods transportation.",
+    aboutP2:
+      "Elme Trans specialises in shipping dangerous, bulky and heavy cargo, with all vehicles carrying ADR certification for dangerous goods. The company manages over 300 equipment units across Estonia and Lithuania — including telescopic loaders, scissor lifts, diesel and battery-powered lifts up to 41 metres, forklift tracks, office cabins and scaffolding systems — and also offers car rental.",
     services: [
       {
         icon: "truck",
-        title: "International Road Transport",
-        desc: "Full and part load transport across Europe, Central Asia and the Baltic States.",
+        title: "International and Local Transport",
+        desc: "Dangerous, bulky and heavy cargo across the Baltic States, Scandinavia, Eastern and Western Europe — ADR-certified fleet.",
         fullDesc:
-          "Elme Trans operates a fleet of road freight vehicles providing full-load and part-load transport services across Europe and beyond. The company's network covers the Baltic States, Scandinavia, Central Europe and, through partner carriers, extends to Ukraine and Central Asia.\n\nAll transport operations are managed by experienced dispatchers using modern fleet management tools, providing clients with real-time shipment visibility and reliable delivery schedules. Cargo types handled include steel products, industrial equipment, project cargo and general groupage freight. ADR-certified drivers and vehicles are available for hazardous goods transport where required.",
+          "Elme Trans provides international and local transportation services with specialisation in hazardous materials. The company handles dangerous, bulky and heavy cargo shipping in the Baltic States, Scandinavia, Eastern and Western Europe. All vehicles carry ADR modification and are certified to transport dangerous goods.\n\nThe fleet operates lorries with tanks designed for liquefied gas transport, curtain-sided vehicles and bed trucks. Branch offices in Estonia, Latvia, Lithuania and Ukraine enable service delivery throughout the Baltic region and into broader European markets. Since 2014 the company has held authorised economic operator status within the EU, reflecting compliance with EU standards for dangerous goods transportation.",
       },
       {
-        icon: "package",
+        icon: "gauge",
         title: "Equipment Rental",
-        desc: "Construction and industrial equipment rental for short and long-term projects.",
+        desc: "Over 300 units across Estonia and Lithuania — telescopic loaders, scissor lifts, aerial work platforms to 41 m, forklifts, cranes and construction cabins.",
         fullDesc:
-          "Elme Trans provides construction and industrial equipment rental for short and long-term projects across Estonia and neighbouring markets. The rental fleet includes forklifts, telescopic handlers, loading equipment and specialised lifting devices suited to industrial and construction site operations.\n\nRental equipment is maintained to a high standard and delivered to site with operator training and safety documentation. Long-term rental contracts are available for project clients requiring dedicated equipment for the duration of a construction or industrial programme, with flexible return arrangements as project scopes change.",
+          "Elme Trans manages over 300 equipment units for rental across Estonia and Lithuania. The fleet covers a comprehensive range of equipment for industrial and construction operations: telescopic equipment including JLG 450-AJ aerial work platforms (16 m reach); scissor lifts reaching up to 12 metres; diesel and battery-powered work platforms reaching up to 41 metres; telescopic trailers for extended reach; heavy-duty lifting equipment including Liebherr 55 LTM cranes; earthmoving equipment including JCB 4CX; portable office and accommodation cabins (2.5 × 6 m); portable fencing (3.5 × 2 m); and specialised tools including diesel heating units (Master BV 690, 200 kW).\n\nRental is available for short and long-term periods across Estonia and Lithuania, with multilingual support teams (Estonian, English, Russian, Lithuanian).",
       },
       {
-        icon: "layers",
-        title: "Logistics Solutions",
-        desc: "Freight forwarding, warehousing and customs clearance services.",
+        icon: "truck",
+        title: "Car Rental",
+        desc: "Peugeot Partner and Peugeot Expert vehicles available for short and long-term rental.",
         fullDesc:
-          "Beyond direct transport, Elme Trans provides freight forwarding, warehousing and customs clearance services to industrial clients importing and exporting across European and Baltic borders. The company's logistics coordinators manage the full supply chain — booking, documentation, customs procedures, warehousing and final delivery — on behalf of clients, simplifying international procurement and distribution.\n\nWarehouse capacity supports short-term storage between production and delivery, with inventory management and pick-and-pack services available. The customs team has extensive experience with Baltic and EU border procedures, ensuring smooth clearance for both standard commercial goods and complex project shipments.",
+          "Elme Trans offers car rental services alongside its transport and equipment rental operations. Available vehicle categories include cars (Peugeot Partner) and minivans (Peugeot Expert), suitable for business use and site mobility needs. Rental is operated from the company's Tallinn base at Kopli 103.",
       },
     ],
     contact: {
