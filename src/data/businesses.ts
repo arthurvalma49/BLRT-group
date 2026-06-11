@@ -270,7 +270,7 @@ export const businesses: Business[] = [
     heroDesc:
       "A modern shipyard offering a full range of services from conceptual design to turn-key solutions. 70+ years of experience, 600+ ships built, 50,000 m² of covered workshop space in Klaipeda.",
     aboutP1:
-      "Western Baltic Shipbuilding is a modern shipyard offering a full range of services from conceptual design to turn-key solutions. Part of Western Shipyard Group, owned by BLRT Grupp — the leading industrial holding in the Baltic Sea region. Founded in 1947 in Klaipeda, Lithuania, the yard has grown into one of the most experienced shipyards in the Baltic region.",
+      "Western Baltic Shipbuilding is a modern shipyard offering a full range of services from conceptual design to turn-key solutions. Part of Western Shipyard Group, owned by BLRT Grupp — the leading industrial holding in the Baltic Sea region. With roots tracing to 1946 in Klaipeda, Lithuania, the yard has grown into one of the most experienced shipyards in the Baltic region.",
     aboutP2:
       "With 70+ years of shipbuilding experience, 600+ ships constructed and more than 350 highly skilled employees, the team brings accumulated experience and new ideas that are recognised and valued by world-known customers. The facility spans 25 hectares and holds ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 and NATO AQAP 2110 certifications.",
     services: [
@@ -309,7 +309,7 @@ export const businesses: Business[] = [
     sector: "Shipbuilding",
     sectorId: "building",
     countries: "NO",
-    tagline: "The work must be carried out properly, so you don't lie sleepless when the vessels are at sea in bad weather",
+    tagline: "It must be proper work, so you do not lie sleepless when the boats are at sea in the storm.",
     heroDesc:
       "A 50/50 joint venture with Norway's Fiskerstrand Verft AS — a multipurpose shipyard with extensive expertise in newbuilding, conversion, repair and maintenance, founded in 1909 in Sula municipality.",
     aboutP1:
