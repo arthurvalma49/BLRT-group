@@ -792,7 +792,7 @@ export const businesses: Business[] = [
           "Elme Trans manages over 300 equipment units for rental across Estonia and Lithuania. The fleet covers a comprehensive range of equipment for industrial and construction operations: telescopic equipment including JLG 450-AJ aerial work platforms (16 m reach); scissor lifts reaching up to 12 metres; diesel and battery-powered work platforms reaching up to 41 metres; telescopic trailers for extended reach; heavy-duty lifting equipment including Liebherr 55 LTM cranes; earthmoving equipment including JCB 4CX; portable office and accommodation cabins (2.5 × 6 m); portable fencing (3.5 × 2 m); and specialised tools including diesel heating units (Master BV 690, 200 kW).\n\nRental is available for short and long-term periods across Estonia and Lithuania, with multilingual support teams (Estonian, English, Russian, Lithuanian).",
       },
       {
-        icon: "truck",
+        icon: "package",
         title: "Car Rental",
         desc: "Peugeot Partner and Peugeot Expert vehicles available for short and long-term rental.",
         fullDesc:
