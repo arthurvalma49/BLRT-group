@@ -352,48 +352,27 @@ export const businesses: Business[] = [
     sector: "Inspection & Testing",
     sectorId: "inspection",
     countries: "EE",
-    tagline: "Independent marine NDT and hull inspection, worldwide",
+    tagline: "Be aware. Be confident. Be safe.",
     heroDesc:
-      "Non-destructive testing, ultrasonic thickness measurement and steel renewal supervision for fleet operators. Certified technicians mobilised to any port within 24 hours.",
+      "An actively developing service company specialising in ship repair and inspection of hull structures of marine vessels. Operating worldwide — 300 vessels inspected per year, 24/7 at your service.",
     aboutP1:
-      "Tehnomet Survey is an actively developing service company founded in 1998, operating in the field of ship repair and inspection of hull structures of marine vessels. We operate worldwide, with certified technicians holding all documents necessary for rapid international mobilisation.",
+      "Tehnomet Survey is an actively developing service company, operating in the field of ship repair and inspection of hull structures of marine vessels, founded in 1998. We operate globally, with certified technicians holding all documents necessary for rapid international mobilisation to vessel locations on client request.",
     aboutP2:
-      "Our inspectors work in close cooperation with all major classification societies — LR, DNV, BV, ABS, RINA, KR, IR, NKK and WTA — ensuring every report and certificate we produce is accepted globally. Independence and technical rigour are at the core of how we operate.",
+      "Our quality management system is ISO 9001:2015 certified. We are approved by all major classification societies — BV, LR, DNV, RINA, ABS, KR, IR, NKK and WTA — ensuring every report and certificate we produce is accepted globally. Our vision is to become the most sought-after and successful company in the field of hull structure inspection.",
     services: [
       {
         icon: "waves",
         title: "Non-Destructive Testing (NDT)",
         desc: "UT, MT, PT, VT, RT and ET methods performed by certified Level II and III technicians.",
         fullDesc:
-          "Inspection of hull structures and welds without interrupting vessel operations. Our certified technicians detect surface and sub-surface defects to confirm structural integrity, with reports accepted by all major classification societies.\n\nUltrasonic Testing (UT) uses high-frequency sound waves to detect internal flaws in welds and hull structures. Magnetic Particle Testing (MT) reveals surface and near-surface discontinuities in ferromagnetic materials. Penetrant Testing (PT) uses capillary action of dye penetrants to identify surface-breaking defects. Visual Testing (VT) provides systematic examination of welds, structures and coatings. Radiographic Testing (RT) uses X-ray and gamma-ray imaging for full volumetric weld inspection. Eddy Current (ET) uses electromagnetic induction to detect surface and sub-surface flaws in conductive materials.\n\nAll technicians are certified to Level II and III under internationally recognised schemes. Reports are issued in accordance with classification society requirements and are accepted by LR, DNV, BV, ABS, RINA, KR, IR, NKK and WTA.",
+          "Inspection of hull structures and welds without interrupting vessel operations. Our certified technicians detect surface and sub-surface defects to confirm structural integrity, with reports accepted by all major classification societies.\n\nUltrasonic Testing (UT) uses high-frequency sound waves to detect internal flaws in welds and hull structures. Magnetic Particle Testing (MT) reveals surface and near-surface discontinuities in ferromagnetic materials. Penetrant Testing (PT) uses capillary action of dye penetrants to identify surface-breaking defects. Visual Testing (VT) provides systematic examination of welds, structures and coatings. Radiographic Testing (RT) uses X-ray and gamma-ray imaging for full volumetric weld inspection. Eddy Current (ET) uses electromagnetic induction to detect surface and sub-surface flaws in conductive materials.\n\nAll technicians are certified to Level II and III under internationally recognised schemes. Reports are issued in accordance with classification society requirements and are accepted by BV, LR, DNV, RINA, ABS, KR, IR, NKK and WTA.",
       },
       {
         icon: "ruler",
-        title: "Ultrasonic Thickness Measurement",
-        desc: "Residual thickness mapping of hull structures per classification society rules.",
+        title: "Ultrasonic Thickness Measurement (UTM) & Steel Supervision",
+        desc: "Residual thickness mapping of hull structures, repair sketches, pitting survey and anchor chain calibration.",
         fullDesc:
-          "Pursuant to the international rules of classification societies, all vessels are subject to periodical survey in connection with the technical condition of the hull. In the course of survey, the hull is inspected for deformations, cracks or structural breaches, and the obligatory measurement of residual thickness of the hull structures is carried out. The results of survey and measurements are compared with a relevant normative value.\n\nBased on the obtained results, the customer receives a full picture of work required or recommended to be carried out on board. Residual thickness of hull structures is measured by the most widely used UTM method.\n\nOur technicians are top-ranking experts with comprehensive training. Most hold higher education in the field of shipbuilding and ship repair. Inspection and survey can be carried out to the customer's preference — either a pre-docking inspection or dock-side on short notice. Reporting documentation is always submitted to the customer immediately upon completion.",
-      },
-      {
-        icon: "file",
-        title: "Repair Sketches & Steel Calculation",
-        desc: "Weight calculations and repair sketches for docking budgets and steel renewal scopes.",
-        fullDesc:
-          "Appropriate training of technicians enables us, besides providing reports on the actual condition of the vessel, to also supply the client with repair sketches and suggestions, and to calculate the weight of metal to be replaced by reference to specific features of ship repair technologies.\n\nPre-conducted survey of the vessel and proper calculation of weights of structures to be replaced allows our customers to be better prepared for docking work, take into account all aspects when budgeting, and avoid costly surprises. Every sketch and calculation is prepared in accordance with the applicable classification society and IACS rules.",
-      },
-      {
-        icon: "droplets",
-        title: "Pitting Corrosion Survey",
-        desc: "Detection and reporting of pitting in ballast and cargo tanks with IACS-compliant tolerances.",
-        fullDesc:
-          "Pitting corrosion or pitting wear of metal can develop on any ship structure, and is most common in ballast and cargo tanks. Pitting corrosion left undetected and without timely intervention can lead to costly repairs, lengthy vessel downtime and environmental hazards.\n\nOur technicians have considerable expertise in pitting corrosion research. Upon completion of inspection, they provide a detailed report covering the location of problem areas, their depth and extent, together with appropriate repair suggestions based on the requirements and tolerances of classification societies and IACS rules.",
-      },
-      {
-        icon: "anchor",
-        title: "Anchor Chain Calibration",
-        desc: "Calibration of anchor chains from the second special survey onwards per class requirements.",
-        fullDesc:
-          "Starting from the second special survey of the vessel (10 years from the date of construction), the classification society representative may also request calibration of the anchor chain to ensure total wear is within the normal range.\n\nOur UTM teams can perform this work both during the preliminary inspection or during dockage, and prepare appropriate reports along with replacement suggestions for all parties concerned. All calibrations are carried out in strict accordance with the applicable classification society rules.",
+          "Pursuant to the international rules of classification societies, all vessels are subject to periodical survey in connection with the technical condition of the hull. In the course of survey, the hull is inspected for deformations, cracks or structural breaches, and the obligatory measurement of residual thickness of the hull structures is carried out. The results of survey and measurements are compared with a relevant normative value.\n\nBased on the obtained results, the customer receives a full picture of work required or recommended to be carried out on board. Residual thickness of hull structures is measured by the most widely used UTM method.\n\nOur technicians are top-ranking experts with comprehensive training. Most hold higher education in the field of shipbuilding and ship repair. Inspection and survey can be carried out to the customer's preference — either a pre-docking inspection or dock-side on short notice. Reporting documentation is always submitted to the customer immediately upon completion.\n\nBeyond thickness measurements, our technicians provide repair sketches and weight calculations for steel renewal, pitting corrosion surveys in ballast and cargo tanks (with IACS-compliant reporting), and anchor chain calibration from the second special survey onwards — all in strict accordance with applicable classification society rules.",
       },
     ],
     contact: {
@@ -409,32 +388,48 @@ export const businesses: Business[] = [
     sector: "Inspection & Testing",
     sectorId: "inspection",
     countries: "LT",
-    tagline: "Accredited material testing for maritime and industrial sectors",
+    tagline: "Modern laboratory for testing, measurement and analysis",
     heroDesc:
-      "Destructive and non-destructive material testing services from an accredited laboratory in Klaipeda.",
+      "Destructive and non-destructive testing, ultrasonic thickness measurement, chemical analysis, welding process control and welder certification. 40+ services, 1,500 projects annually.",
     aboutP1:
-      "Western Central Laboratory is part of the BLRT Western Shipyard group in Klaipeda, Lithuania, providing certified material analysis and testing services to the shipbuilding, ship repair and wider industrial sectors. The laboratory holds national and international accreditations and operates in accordance with relevant EN and ISO standards.",
+      "Western Central Laboratory is a modern laboratory that conducts destructive testing and non-destructive testing using various methods, ultrasonic thickness measurement, quality control and inspection, control of welding processes and other tests, measurements and analyses. A daughter company of Western Shipyard Group within BLRT Grupp, the laboratory was formally established in 2003, building on experience that traces back to 1969.",
+    aboutP2:
+      "With 35+ highly qualified specialists and over 1,500 projects completed annually, our strength is the ability to deliver high-quality services and consultations focused on customer needs that are provided worldwide — not only in our laboratories but also at customer sites including ships, factories and construction units. Staff hold IRATA certification for rope access work, reducing scaffolding costs. The laboratory is accredited by Lithuania's National Accreditation Bureau and recognised by Bureau Veritas, DNV, Lloyd's Register and Registro Italiano Navale.",
     services: [
       {
-        icon: "waves",
-        title: "Non-Destructive Testing",
-        desc: "UT, MT, PT and VT on welds, castings and fabricated components.",
+        icon: "eye",
+        title: "Non-Destructive Testing (NDT)",
+        desc: "Visual (VT), ultrasonic (UT), magnetic particle (MT), penetrant (PT), radiographic (RT) and leak testing (LT) methods.",
         fullDesc:
-          "Western Central Laboratory provides NDT services to the shipbuilding and ship repair facilities of the BLRT Western Shipyard group in Klaipeda, as well as external industrial clients throughout Lithuania. Weld inspection, casting examination and component NDT are carried out by certified technicians using UT, MT, PT and VT methods.\n\nAll NDT is performed in accordance with applicable EN and ISO standards and reported in the format required by the client's classification society or industrial standard. The laboratory holds Lithuanian accreditations for its testing methods and works under quality management systems aligned with ISO 9001.",
+          "Western Central Laboratory performs a full suite of NDT methods in accordance with LST EN ISO, ASTM, AWS and DNV standards. The laboratory is accredited by Lithuania's National Accreditation Bureau and recognised by Bureau Veritas, DNV-GL and Lloyd's Register.\n\nVisual Testing (VT) — systematic weld and structure examination. Ultrasonic Testing (UT) — high-frequency sound waves to detect internal flaws. Magnetic Particle Testing (MT) — surface and near-surface discontinuities in ferromagnetic materials. Penetrant Testing (PT) — capillary dye method to reveal surface-breaking defects. Radiographic Testing (RT) — X-ray and gamma-ray imaging for volumetric weld inspection. Leak Testing (LT) — verification of pressure-tight integrity.\n\nServices are carried out both in the laboratory and at customer sites — including ships, factories and construction units. Technicians hold IRATA certification and can perform testing by rope access, reducing the need for scaffolding.",
       },
       {
         icon: "beaker",
-        title: "Destructive Testing",
-        desc: "Tensile, impact, bend and hardness testing to EN and ASTM standards.",
+        title: "Destructive Testing (DT)",
+        desc: "Tensile, bend, impact, hardness, microstructure and chemical composition tests to EN and ASTM standards.",
         fullDesc:
-          "The laboratory's materials testing capability covers the full range of mechanical property tests required for shipbuilding material approval, weld procedure qualification and production test records. Tensile testing, Charpy impact testing, bend testing and hardness measurement are performed on a modern testing machine park calibrated to ILAC-MRA standards.\n\nTest reports are issued with full chain-of-custody documentation, suitable for submission to classification societies and industrial clients requiring EN 10204 material certification. The laboratory has experience with ship structural steels, stainless steels, aluminium alloys and wear-resistant steel grades.",
+          "The laboratory conducts destructive (mechanical) testing to quickly and efficiently assess the mechanical properties and characteristics of materials, verifying compliance with technical documentation and standards. The laboratory is recognised by Bureau Veritas for destructive testing.\n\nTest methods include: tensile, bend, flattening and stretching tests; impact resistance (Charpy) tests; hardness tests; microstructure and macrostructure analysis; determination of chemical composition of metals and alloys; and other mechanical tests.\n\nTest reports are issued with full documentation and are suitable for submission to classification societies. The laboratory has extensive experience with ship structural steels, stainless steels and aluminium alloys.",
       },
       {
-        icon: "file",
-        title: "Material Certification",
-        desc: "Test reports and material certificates accepted by classification societies.",
+        icon: "ruler",
+        title: "Ultrasonic Thickness Measurement (UTM)",
+        desc: "Hull and structure thickness surveys for Class Renewal, CAP assessments and special surveys — over 2,000 ships tested.",
         fullDesc:
-          "Western Central Laboratory issues material test reports and certificates for structural steels, welded assemblies and fabricated components in formats accepted by all major classification societies operating in the Baltic market. Certificates are prepared by qualified laboratory personnel and backed by accredited testing records.\n\nFor shipbuilding and offshore applications, the laboratory coordinates with production teams to provide timely testing during manufacturing, minimising delays to the construction programme. Rush testing and expedited reporting are available for time-critical applications.",
+          "Ultrasonic thickness measurement is a non-destructive testing method to measure the thickness of an integral solid element based on the ultrasonic pulse return time to the surface. Western Central Laboratory performs UTM testing on commercial vessels, platforms, metal structures, pipelines, pressure vessels, cranes and bridges. The laboratory has tested over 2,000 ships throughout its history.\n\nThe laboratory is recognised by Bureau Veritas, DNV, Lloyd's Register and Registro Italiano Navale. Technicians comply with ISO 9712 international standards and carry GE and Cygnus instruments. Testing is conducted globally at shipyards, ports and at sea.\n\nService programmes include: Condition Assessment Program (CAP) — overall ship condition evaluation, operational inspections and hull strength assessment; Special Survey / Class Renewal — compliance with classification society requirements and IACS standards.",
+      },
+      {
+        icon: "beaker",
+        title: "Chemical Laboratory",
+        desc: "Air, water and petroleum product analysis; salt and dust contamination testing on metal surfaces.",
+        fullDesc:
+          "The chemical laboratory conducts testing across five primary domains: air pollution, water, petroleum products, determination of salt concentration on metal surfaces, and determination of dustiness of metal surfaces.\n\nUnder permit No. 1AT-293 from Lithuania's Environmental Protection Agency, the lab performs air testing (dust, nitrogen dioxide, sulphur dioxide, and industrial emission gases including NOₓ, CO, NH₃ and HCl) and water testing (pH, metals, phosphorus, BOD₇, suspended solids, chlorides, sulphates and nitrogen).\n\nPetroleum product analysis covers density, viscosity, mechanical impurities, water content and flash point. Surface contamination testing is accredited to ISO 8502-9:2001 (salt) and ISO 8502-3:2017 (dust) — essential for coating quality control in shipbuilding and ship repair.",
+      },
+      {
+        icon: "shield",
+        title: "Control of Welding Processes & Welder Certification",
+        desc: "WPS/WPQR development, welding supervision, material inspection and welder qualification testing to ISO and EN standards.",
+        fullDesc:
+          "Western Central Laboratory provides comprehensive welding process control services: product welding work coordination, welding work supervision, welding work documentation management and related procedures.\n\nServices include development and approval of Welding Procedure Specifications (WPS) and Welding Procedure Qualification Records (WPQR) per LST EN ISO 15609 and LST EN ISO 15612; material inspection with preparation of Type 3.2 certificates per LST EN 10204; product quality control before, during and after welding; and expert consultation by internationally certified Welding Engineers (IWE) and Welding Inspectors (IWI/CSWIP).\n\nWelder certification is carried out under LST EN ISO / IEC 17024 standard, covering qualification testing per LST EN ISO 9606-1 (fusion welding, steels) and LST EN ISO 14732 (welding operators and weld setters for mechanised and automatic welding). The laboratory works in collaboration with Bureau Veritas, Lloyd's Register and DNV.",
       },
     ],
     contact: {
