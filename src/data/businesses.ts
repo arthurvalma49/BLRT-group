@@ -814,32 +814,34 @@ export const businesses: Business[] = [
     sector: "Port & Marine Services",
     sectorId: "port",
     countries: "EE",
-    tagline: "Port operations hub at the heart of Tallinn Harbour",
+    tagline: "Let's build future ships together",
     heroDesc:
-      "Towing, mooring, berth management and water traffic services at the Kopli peninsula, Tallinn.",
+      "Port and towing services on the Kopli peninsula in Tallinn — 168.3 ha water area, 2,360 m of berths, two tugs and a 100-tonne floating crane available year-round.",
     aboutP1:
-      "Vene-Balti Sadam operates the port facilities at Kopli, Tallinn — the geographic and operational heart of the BLRT Grupp maritime cluster. The company provides towing, mooring, water traffic management and port administration services to vessels calling at the BLRT yards and the wider Tallinn port area.",
+      "Founded in 2000, Vene-Balti Sadam OÜ is a subsidiary of BLRT Grupp, the largest industrial holding in the Baltics. The port occupies the Kopli peninsula in Tallinn with a water area of 168.3 hectares and 2,360 metres of total berth length, offering year-round safe navigation and a full range of towing, mooring and crane services.",
+    aboutP2:
+      "As port authority, Vene-Balti Sadam manages berth operations and water traffic coordination for the BLRT Grupp maritime cluster. The port serves vessels up to 30,000 DWT and supports cargo handling, vessel repair and maintenance, short-term lay-up, ship scrapping, and industrial offshore construction activities.",
     services: [
       {
         icon: "anchor",
-        title: "Towage & Mooring",
-        desc: "Tug assistance and mooring operations for vessels entering and departing the Kopli port.",
+        title: "Berths",
+        desc: "2,360 m of berths with fresh water, compressed air and electrical supply connections for vessels up to 30,000 DWT.",
         fullDesc:
-          "Vene-Balti Sadam provides tug assistance for vessels entering and departing the Kopli port and BLRT yard complex in Tallinn. Tug operations are coordinated around the dry docking and repair schedule at Tallinn Shipyard, with around-the-clock availability during active docking operations.\n\nThe company's experienced tug masters work in close cooperation with Tallinn Shipyard's harbour master and the vessel's crew to ensure safe, efficient dry dock entry and undocking. Mooring teams are available for both BLRT yard vessels and commercial shipping calling at the Kopli berths, with mooring equipment maintained to international safety standards.",
+          "Vene-Balti Sadam operates 2,360 metres of total berth length on the Kopli peninsula, with individual berths ranging from 37 to 158 metres and depths of 4.3 to 10.6 metres. Each berth is equipped with fresh water supply, compressed air and electrical power connections.\n\nThe port features a North Basin (max vessel 185 m × 35 m, draft 10.2 m) and a South Basin (max vessel 200 m × 35 m, draft 7.1 m), both with a minimum capacity of 7,500 tonnes. Three floating docks with deck lengths of 110–180 metres accommodate vessels of 4,500–12,000 DWT. Berths support cargo handling, vessel repair and maintenance, short-term lay-up, ship scrapping, launching aquaculture barges, main engine trials and industrial offshore construction.",
       },
       {
         icon: "ship",
-        title: "Berth Management",
-        desc: "Berth scheduling and vessel traffic coordination for the BLRT yard complex.",
+        title: "Tugs",
+        desc: "Two tugs available in port for mooring and manoeuvring assistance, extendable to other Estonian ports on request.",
         fullDesc:
-          "Berth scheduling and vessel traffic coordination at the Kopli complex is managed by Vene-Balti Sadam's port administration team. The team coordinates vessel arrival and departure times, berth allocation, and crane positioning in support of Tallinn Shipyard's repair programme.\n\nA busy repair yard with multiple docks and alongside berths requires careful traffic management to avoid conflicts and maximise throughput. Vene-Balti Sadam's deep familiarity with the Kopli port layout and BLRT Grupp's operational requirements enables efficient scheduling that minimises delays for all vessels in the yard.",
+          "Vene-Balti Sadam operates two tugs available around the clock for mooring and manoeuvring assistance within the port, with services extendable to other Estonian ports on request.\n\nThe fleet includes AGAR, an azimuth-propulsion tug (Rolls-Royce system) rated at 3,042 BHP / 2,237 kW with a bollard pull of 45 tonnes and ice class 1A. AGAR measures 25.4 m × 8.8 m with a draft of 3.24 m, carries a fore towing winch rated at 100 tonnes with 180 m of 50 mm towing line, and is equipped with a Palfinger PC 2700 M deck crane and a Volvo Penta fire-fighting system. Tug orders within the port are placed directly via Vene-Balti Sadam OÜ.",
       },
       {
-        icon: "globe",
-        title: "Port Administration",
-        desc: "Port authority functions, customs interface and vessel documentation support.",
+        icon: "layers",
+        title: "Floating Crane",
+        desc: "Floating crane HERACLES — 100-tonne capacity, 33 m boom height, available within the port and at other Estonian ports.",
         fullDesc:
-          "Beyond operational port services, Vene-Balti Sadam handles the administrative and regulatory interface for vessels operating at Kopli. This includes vessel documentation processing, customs interface for foreign-flagged vessels, port dues administration and liaison with the port authority.\n\nThe company maintains close working relationships with the port authority of Tallinn, Estonian maritime administration and customs, ensuring that all necessary consents and clearances are obtained promptly for vessels entering the yard. International vessel operators benefit from the company's experience managing the Estonian port entry process.",
+          "The port's floating crane HERACLES provides heavy-lift services within the Kopli port area and at other Estonian ports upon request. HERACLES has a lifting capacity of 100 tonnes, a working radius of 35 m at 25 tonnes and 20 m at full 100-tonne capacity, and a maximum boom height of 33 m above water level.\n\nThe vessel measures 40 m in length and 20 m in breadth with a draft of 1.95 m (gross tonnage 637 / net tonnage 191) and is powered by twin engines (2 × 132.5 kW). In addition to the floating crane, the port operates portal cranes of 10–32 tonnes and a crawler crane with an 850-tonne lifting capacity, as well as a 500-tonne KAMAG transporter system for heavy cargo movements ashore.",
       },
     ],
     contact: {
@@ -855,34 +857,41 @@ export const businesses: Business[] = [
     sector: "Port & Marine Services",
     sectorId: "port",
     countries: "EE",
-    tagline: "Marine safety equipment maintenance since 1975",
+    tagline: "Minding your safety and saving environment",
     heroDesc:
-      "Maintenance and servicing of life-saving appliances and fire-fighting equipment for the international maritime fleet. Serving Finland, Sweden, Belgium and Norway.",
+      "The oldest and top-demanded marine safety service provider in the Baltic region — supply, rental, servicing and sales of life-saving and fire-fighting equipment since 1975.",
     aboutP1:
-      "Mereabi has been providing marine safety equipment services since 1975, making it one of the most experienced LSA service stations in the Baltic region. The company maintains, inspects and certifies life-saving appliances — including liferafts, lifeboats, EPIRBs and fire-fighting equipment — for vessels of all flag states and classes.",
+      "Mereabi traces its origins to 1975 as a shipyard safety-equipment division; the company name was registered in 1996. Today it is a fully owned subsidiary of BLRT Grupp (acquired 2017) and operates two service stations in the Baltic region, serving clients across Finland, Sweden, Belgium and Norway with 24/7 availability.",
     aboutP2:
-      "Fully acquired by BLRT Grupp in 2017, Mereabi operates approved service stations recognised by all major classification societies and serves clients from Tallinn as well as at ports across Finland, Sweden, Belgium and Norway.",
+      "Approved by all major IACS classification societies and ISO 9001:2015 certified, Mereabi offers integrated comprehensive service, specialised solutions and modern technologies for marine equipment and appliances maintenance. The company holds Estonian Maritime Administration certificates and complies with the SOLAS Convention and IMO Resolutions throughout all operations.",
     services: [
       {
+        icon: "package",
+        title: "Supply",
+        desc: "Maritime provisioning across 43 IMPA catalogue categories — safety gear, deck equipment, tools, paint, rigging and more.",
+        fullDesc:
+          "Mereabi supplies goods in accordance with the IMPA catalogue across 43 product categories, covering all essential maritime provisioning needs. Categories include safety equipment and protective gear, cleaning materials and chemicals, hand tools and electrical tools, rope, rigging and nautical equipment, marine paints and painting supplies, metal components, pipes and fittings, welding equipment and machinery.\n\nCustomers can request quotations directly through the company's online form. The supply service is supported by Mereabi's deep stock knowledge and its network of approved global brand representatives, ensuring competitive lead times for both routine orders and urgent vessel requirements.",
+      },
+      {
+        icon: "clock",
+        title: "Rent",
+        desc: "Short- and long-term rental of life rafts, fire extinguishers, breathing apparatus and air cylinders for commercial and yacht fleets.",
+        fullDesc:
+          "Mereabi provides rental of marine safety equipment for both commercial fleet operators and yacht owners, covering life rafts (commercial and yacht grades), fire extinguishers, breathing apparatus and air cylinders.\n\nRental is a practical solution for vessels with infrequent trading patterns, vessels undergoing survey, or operators who wish to maintain SOLAS compliance without the capital cost of ownership. Equipment is maintained in service-ready condition by Mereabi's certified technicians and can be collected from the Tallinn service station or arranged for delivery to Baltic region ports.",
+      },
+      {
+        icon: "wrench",
+        title: "Service",
+        desc: "OEM and multi-brand annual and 5-year servicing of lifeboats, rescue boats, davits, fire-fighting systems, GMDSS and navigation equipment.",
+        fullDesc:
+          "Mereabi's service division covers the full range of marine safety appliances. Life-saving appliance services include OEM and multi-brand annual and 5-year servicing, testing and repairs of lifeboats, rescue boats, davits and hooks; gangway inspections; deck crane load testing up to 600 tonnes; lifeboat engine overhauls; and fibreglass repairs. Life rafts (commercial fleet and yachts), inflatable rescue boats, inflatable lifejackets (SOLAS and non-SOLAS) and immersion suits are also inspected and repacked.\n\nFire-fighting services encompass modernisation and installation of fire suppression systems, maintenance of fire extinguishers, foam applicators, fixed systems (CO₂, dry powder, foam, water mist), breathing apparatus, oxygen cylinders and fireman's outfits. Additional services include annual GMDSS radio surveys, navigation equipment testing, measuring device calibration and Oil Discharge Monitoring Equipment (ODME) service. The company operates a 100-tonne crane for load testing at its Tallinn facility.",
+      },
+      {
         icon: "shield",
-        title: "Life-Saving Appliance Service",
-        desc: "Annual inspection, servicing and re-certification of liferafts, lifeboats and rescue equipment.",
+        title: "Products",
+        desc: "Sales of lifeboats, life rafts, fire-fighting equipment, GMDSS and navigation equipment from leading global manufacturers.",
         fullDesc:
-          "Mereabi is an approved service station for the inspection, servicing and re-certification of life-saving appliances including inflatable liferafts (all major brands), davit-launched lifeboats, rescue boats and man-overboard (MOB) equipment. Annual servicing is performed to SOLAS requirements and the applicable manufacturers' service manuals, with test reports issued for classification society acceptance.\n\nThe company operates approved service facilities in Tallinn and works at ports across Finland, Sweden, Belgium and Norway, allowing fleet operators to schedule LSA service at whichever location is most convenient for their vessel's trading pattern. All technicians are manufacturer-certified for the brands they service.",
-      },
-      {
-        icon: "flame",
-        title: "Fire-Fighting Equipment",
-        desc: "Maintenance and certification of fixed and portable fire-fighting systems.",
-        fullDesc:
-          "Mereabi maintains and certifies both fixed and portable fire-fighting systems installed on board marine vessels. Fixed systems include CO₂ total flooding systems, HFC and halon alternative systems, and hi-fog water mist systems — all serviced to SOLAS and classification society requirements.\n\nPortable equipment — fire extinguishers, breathing apparatus, fireman's outfits and thermal protective aids — is inspected, recharged or replaced on an annual cycle. Hydrostatic pressure testing of portable extinguisher cylinders is performed at the company's own test facility. Records are maintained and reports issued to the vessel's safety management system.",
-      },
-      {
-        icon: "award",
-        title: "EPIRB & SART Service",
-        desc: "Testing and battery replacement for emergency radio and AIS beacons.",
-        fullDesc:
-          "Emergency position-indicating radio beacons (EPIRBs) and search and rescue transponders (SARTs) require periodic testing and battery replacement to remain effective in a genuine emergency. Mereabi performs EPIRB registration checks, self-test verification, battery replacement and hydrostatic pressure testing in accordance with the requirements of the relevant flag state administration and classification society.\n\nAIS SARTs and radar SARTs are tested and calibrated by Mereabi technicians, with test reports issued for the vessel's records. The company stays current with evolving GMDSS regulations and can advise vessel operators on the transition to new GMDSS equipment requirements under the IMO's GMDSS modernisation programme.",
+          "Mereabi sells marine safety and navigation products across four main categories. Life-saving appliances include lifeboats, rescue boats, davits and hooks, gangways, accommodation ladders, lifting tools, chain blocks, wire ropes and boat engines. Fire-fighting products cover fire extinguishers, foam applicators, breathing apparatus, Emergency Escape Breathing Devices (EEBD), air cylinders, diving equipment, medical resuscitators, oxygen cylinders, fireman outfits, and fire hoses with nozzles.\n\nLife rafts and safety equipment include life rafts for commercial and yacht use, inflatable rescue boats, inflatable and standard lifejackets (SOLAS and non-SOLAS), lifebuoys, immersion suits, chemical and thermal protective suits, safety harnesses with lines and snap hooks, plus pilot and embarkation ladders. The product range is completed by navigation equipment. All products are sourced from approved global manufacturers and comply with applicable SOLAS and IMO requirements.",
       },
     ],
     contact: {
