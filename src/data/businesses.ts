@@ -448,41 +448,41 @@ export const businesses: Business[] = [
     sector: "Engineering",
     sectorId: "engineering",
     countries: "EE",
-    tagline: "Marine and industrial electrical engineering since 1948",
+    tagline: "Electrical engineering for shipbuilding, offshore energy and industry",
     heroDesc:
-      "Electrical engineering works for shipbuilding, ship repair, offshore energy and industrial facilities. Part of BLRT Grupp since 1996.",
+      "BLRT ERA was established in Tallinn in 1948 and since 1996 is a subsidiary of BLRT Grupp, one of the largest industrial holdings in the Baltic Sea region. Operating in the fields of shipbuilding and ship repair, offshore energy, and the industrial sector.",
     aboutP1:
-      "BLRT ERA AS has been delivering electrical engineering solutions since 1948, making it one of the most experienced marine electrical contractors in the Baltic region. The company covers everything from design and installation to commissioning and maintenance of complex electrical systems on new vessels, repair projects and offshore platforms.",
+      "BLRT ERA AS has been delivering electrical engineering solutions since 1948 — one of the most experienced marine electrical contractors in the Baltic region. The company operates branches across Estonia, Lithuania and Finland, with mobile teams capable of providing worldwide service. Core business covers shipbuilding and ship repair, offshore energy and industrial operations.",
     aboutP2:
-      "Operating from Tallinn, BLRT ERA works closely with BLRT Repair Yards, Western Baltic Shipbuilding and external clients across the Baltic and North Seas, providing integrated electrical engineering from a single trusted source.",
+      "BLRT ERA is the official key partner for Moteurs Leroy-Somer SAS (Nidec Group), holding exclusive rights to upgrade, maintain and repair their electric generators and alternators across Estonia, Latvia, Lithuania and Finland. The company is also an authorised Danfoss distributor for variable speed motor control equipment. Certified to ISO 9001, 14001, 18001 and 45001 in Estonia and Lithuania, and additionally holds RINA and EASA (Electrical Apparatus Service Association) accreditations.",
     services: [
       {
-        icon: "zap",
-        title: "Marine Electrical Installation",
-        desc: "Power distribution, switchboards, cable installation and commissioning on new and repair vessels.",
+        icon: "wrench",
+        title: "Electrical Machine Repair & Maintenance",
+        desc: "Repair and maintenance of AC/DC electrical machines, including generators and motors.",
         fullDesc:
-          "BLRT ERA's installation teams carry out complete electrical fit-out of new vessels and extensive refits of existing ships in dry dock or alongside. Scope covers main switchboard installation, cable routing and termination, motor control centres, lighting systems and all secondary distribution to machinery and accommodation spaces.\n\nAll installation work is performed by qualified electricians working to approved drawings, and commissioned under the supervision of the attending classification surveyor. BLRT ERA maintains close relationships with major electrical equipment suppliers, enabling competitive procurement of switchboards, cables, motors and automation hardware for both large programmes and single-vessel repair jobs.",
+          "BLRT ERA performs repair and maintenance of AC/DC electrical machines including generators, motors and alternators. The company operates a balancing machine with 3,500 kg load capacity and a dedicated testing stand for AC/DC engines and generators (10 t + 5 t crane lifting capacity), enabling thorough overhaul and verification of repaired units before return to service.\n\nAs the official key partner for Moteurs Leroy-Somer SAS (Nidec Group), BLRT ERA holds exclusive regional rights to service their electric generators and alternators across Estonia, Latvia, Lithuania and Finland. Over 70,000 engines and generators have been repaired and serviced throughout the company's history.",
+      },
+      {
+        icon: "zap",
+        title: "Switchboard Manufacturing & Modification",
+        desc: "Manufacturing of new switchboards and regulating stations; modifications and upgrades of existing switchboards.",
+        fullDesc:
+          "BLRT ERA manufactures switchboards and regulating stations to customer specifications, and carries out modifications and upgrades to existing installations. Switchboard testing and testing of protection settings are performed in connection with classification society surveys.\n\nThe company's electricians carry out assembly and installation of electrotechnical equipment and cable works, including cable route installation on new vessels and during repair projects. All work is performed to classification society requirements.",
       },
       {
         icon: "circuit",
-        title: "Automation & Control",
-        desc: "Alarm monitoring, power management and control system integration.",
+        title: "Automation System Repair & Adjustment",
+        desc: "Repair, adjustment and upgrade of automation systems and radio navigation equipment.",
         fullDesc:
-          "The company's automation engineers design, install and commission alarm monitoring systems, power management systems (PMS) and integrated bridge systems (IBS) for new vessels and retrofit projects. Redundant power control and load monitoring systems are delivered in compliance with classification society requirements for unattended machinery spaces (UMS).\n\nFault diagnosis, software update and system upgrade services are available for existing automation installations across a wide range of third-party system brands. Emergency call-out for critical automation failures minimises vessel downtime and loss-of-class risk for fleet operators.",
+          "BLRT ERA's automation engineers repair, adjust and upgrade automation systems installed on vessels and industrial facilities. Services include adjustment of automation systems, repair of automation systems, and troubleshooting of complex control installations.\n\nRadio navigation equipment adjustment is provided with the aid of specialist partners. Infrared thermography (IRT) and thermal imaging of electrical switchboards and components is performed as a predictive maintenance and fault-finding service, identifying hotspots and anomalies before they cause failures.",
       },
       {
-        icon: "zap",
-        title: "Offshore Electrical Works",
-        desc: "Electrical engineering for offshore platforms and energy installations.",
+        icon: "gauge",
+        title: "Generator & Drive Services",
+        desc: "Delivery, retrofitting and AVR servicing of generators; drive delivery and installation for propulsion, cranes, pumps and winches.",
         fullDesc:
-          "BLRT ERA provides electrical engineering services to the offshore energy sector, including oil and gas platforms and offshore renewable energy installations. Electrical installation and commissioning on offshore structures presents unique challenges in terms of hazardous area classification, environmental protection and remote location — all areas where BLRT ERA's experienced engineers have accumulated extensive expertise.\n\nClose coordination with the construction and commissioning schedule ensures that electrical systems are tested and ready for handover on time, meeting the tight operational windows typical of offshore project delivery.",
-      },
-      {
-        icon: "shield",
-        title: "Industrial Projects",
-        desc: "Electrical works for industrial facilities, including substations and motor control centres.",
-        fullDesc:
-          "Beyond marine and offshore, BLRT ERA delivers electrical engineering for onshore industrial facilities including manufacturing plants, logistics centres and power infrastructure. Projects include medium-voltage substation installation, motor control centre supply and commissioning, industrial lighting and power distribution.\n\nThe company's project management team handles design coordination, permitting interface, installation supervision and commissioning reporting for turnkey industrial electrical scopes, providing clients with a single accountable delivery partner from design through to energisation.",
+          "BLRT ERA supplies and retrofits generators to vessels and industrial facilities, and provides troubleshooting, service and upgrade of generator voltage regulation systems (AVRs). The company is the authorised Danfoss distributor in the region, offering the complete range of variable speed motor control equipment and products.\n\nDrive delivery and retrofitting covers most applications — propulsion, cranes, pumps and winches — with experienced engineers handling installation and commissioning. These services extend across the marine, offshore energy and industrial sectors served by the company.",
       },
     ],
     contact: {
@@ -498,32 +498,34 @@ export const businesses: Business[] = [
     sector: "Engineering",
     sectorId: "engineering",
     countries: "EE · NO",
-    tagline: "Offshore and marine electrical engineering in the North Sea and Baltic",
+    tagline: "Multidisciplinary engineering services for the offshore and marine industry",
     heroDesc:
-      "Electrical engineering, installation and commissioning for the offshore and marine industry. Offices in Tallinn and Norway.",
+      "A subsidiary of BLRT Grupp operating branches in Estonia and Norway. 500+ successfully completed projects worldwide, 10 types of multidisciplinary services, 3 patented products.",
     aboutP1:
-      "Bars Elekter specialises in electrical engineering services for the offshore and marine industries, operating from dual bases in Tallinn, Estonia and Norway. The company serves the Norwegian offshore sector as well as Baltic marine clients, providing skilled electrical crews for installation, repair and commissioning projects.",
+      "Bars Elekter is a subsidiary of BLRT Grupp, one of the largest industrial holdings in the Baltic Sea region. The company specialises in electrical engineering, installation and commissioning for the offshore and marine industries, with branches in Estonia and Norway serving both the Norwegian offshore sector and Baltic marine clients.",
+    aboutP2:
+      "With a team of professionals with extensive experience in the offshore and marine industry, Bars Elekter delivers Services, Products and Solutions centred on customer satisfaction and environmental responsibility. The company is ISO 9001:2015 certified (LRQA) and holds 3 patents for its products. Core values: Focus on People, Reliability, Efficiency and Development.",
     services: [
       {
         icon: "zap",
-        title: "Offshore Electrical Installation",
-        desc: "Electrical installation and commissioning on offshore rigs, platforms and FPSOs.",
+        title: "Turnkey Engineering Services",
+        desc: "Full project lifecycle: feasibility study, basic design, project management, detailed design, procurement, FAT and site commissioning.",
         fullDesc:
-          "Bars Elekter deploys skilled electrical crews to offshore rigs, platforms and FPSOs for installation, repair and commissioning of complex electrical systems in challenging marine environments. The company operates from dual bases in Tallinn and Norway, providing rapid mobilisation to both the Norwegian offshore sector and Baltic industrial clients.\n\nAll electricians working on offshore projects hold relevant offshore safety certifications (OPITO/BOSIET) and are experienced in working within hazardous area (ATEX/IECEx) classified environments. Project management and engineering coordination are provided from the company's offices.",
+          "Bars Elekter delivers turnkey engineering services across three phases. In the pre-project phase: feasibility study, basic design, system planning and advice, safety and reliability analysis. During the project phase: project management, procurement, detailed design and software development. In the commissioning and after-sales phase: factory acceptance testing (FAT) with marine certification, site commissioning and start-up.\n\nThe company's approach optimises component configuration, improves durability and minimises structural changes to vessels — ultimately reducing maintenance costs and ensuring efficient installation.",
       },
       {
         icon: "circuit",
-        title: "Marine Electrical Repair",
-        desc: "Fault finding, repair and system upgrade on marine vessels.",
+        title: "Shore Connection (HVSC)",
+        desc: "Compact, reliable high-voltage shore connection shipsets for retrofitting or new-build integration on Ro-Ro, tanker and marine unit vessels.",
         fullDesc:
-          "Fault finding and electrical system repair on marine vessels demands a combination of technical depth and rapid mobilisation. Bars Elekter's technicians are experienced in diagnosing complex electrical faults on a wide variety of vessel types — from offshore supply vessels to ferries and general cargo ships — and restoring vessels to operational status with minimal disruption.\n\nSystem upgrades — including navigation equipment replacement, VDR and AIS installation, and bridge equipment refit — are carried out at yards or alongside. The company coordinates closely with classification surveyors to ensure all work is appropriately inspected and certified for flag state compliance.",
+          "Bars Elekter offers a complete range of reliable shore connection (HVSC) shipsets with very compact footprint, suitable for retrofitting on any existing vessel or integration into new-build projects. Marine applications cover Ro-Ro Passenger and Ro-Ro Cargo vessels, LNG/OIL Tankers, marine units and rigs.\n\nShore connection systems also serve ashore operations, delivering efficient and reliable power that maximises safety and minimises environmental impact. The product line reflects the company's three registered patents and its focus on innovative, low-footprint solutions.",
       },
       {
-        icon: "shield",
-        title: "Project-Based Engineering",
-        desc: "Turnkey electrical scopes for newbuilding and conversion projects.",
+        icon: "gauge",
+        title: "Power Conversion Solutions",
+        desc: "PTI, PTH, PTO and Energy Storage Solutions for power balancing, peak shaving and improved grid stability.",
         fullDesc:
-          "For newbuilding projects and major conversions, Bars Elekter can take on turnkey electrical scopes covering design review, material supply, installation and commissioning. The company's dual-country presence allows it to mobilise the appropriate resource mix — Norwegian project management with cost-effective Baltic installation crews — to optimise project delivery.\n\nProject references include electrical installation scopes at Norwegian shipyards and conversion yards, as well as at Baltic repair facilities. Quality management systems aligned with ISO 9001 underpin all project delivery.",
+          "Bars Elekter provides integrated power conversion solutions for marine and offshore applications. Power Take In (PTI): motor takes over propulsion diesel for slow speed or provides a boost when the main diesel is on. Power Take Home (PTH): generator takes over propulsion diesel for slow speed. Power Take Out (PTO): motor acting as a generator driven by main propulsion.\n\nEnergy Storage Solutions (ESS) make load profiles easier to manage and flatten, improving grid stability and security. These solutions help clients with power balancing, peak shaving, frequency regulation and electrical grid support — drawing on the company's 500+ completed projects worldwide.",
       },
     ],
     contact: {
@@ -539,32 +541,34 @@ export const businesses: Business[] = [
     sector: "Engineering",
     sectorId: "engineering",
     countries: "EE",
-    tagline: "Precision machine building for power, transport and industry",
+    tagline: "Serial production and machining of metal products and structures",
     heroDesc:
-      "Metal products and structures for power generation, transport and paper processing industries. Export markets across Central Europe and Scandinavia.",
+      "A modern and dynamically developing machine building company established in 2004. 6,000 m² production area, 50 specialists, 14 CNC machines — serving Central Europe and Scandinavia.",
     aboutP1:
-      "BLRT Masinaehitus was established in 2002 as a specialised machine building company within BLRT Grupp. The company manufactures precision metal components and structures for clients in the energy, transport and paper processing sectors, with a strong export track record to Central European and Scandinavian markets.",
+      "BLRT Masinaehitus is a modern and dynamically developing machine building company established in 2004, operating as a subsidiary of BLRT Grupp — the leading industrial holding in the Baltics. The company specialises in series production and machining of metal products and structures for power and transport engineering, cellulose and paper, wood, and other industrial sectors.",
+    aboutP2:
+      "Operating from a 6,000 m² production facility in Tallinn with 50 specialists and 14 CNC machines, BLRT Masinaehitus serves primary markets in Central Europe and Scandinavia. The company is certified to ISO 9001:2015, ISO 14001:2015, EN 1090-1 and EN ISO 3834-2:2021 (welding capability).",
     services: [
       {
         icon: "layers",
-        title: "Metal Structures & Fabrication",
-        desc: "Welded and machined steel structures to tight engineering tolerances.",
+        title: "Series Production & Metal Structures",
+        desc: "Serial production and machining of metal components and structures for power, transport, cellulose and paper, and wood industries.",
         fullDesc:
-          "BLRT Masinaehitus specialises in precision-welded and machined steel structures produced to tight dimensional tolerances for demanding industrial applications. The Tallinn workshop is equipped with CNC cutting, bending and welding equipment, supported by dimensional inspection capability.\n\nFabrication scopes include complex multi-part assemblies, large weldments and precision-machined components. All welding is performed to approved procedures by certified welders, with NDT testing of critical joints to applicable standards. Manufacturing documentation and material traceability are maintained throughout the production process.",
+          "BLRT Masinaehitus specialises in series production and machining of metal products and structures for industrial applications. The company works from client drawings to manufacture components and assemblies for power and transport engineering, cellulose and paper production, wood processing and related sectors.\n\nThe 6,000 m² Tallinn production facility houses vertical milling machines, horizontal milling machines, turning machines and welding equipment. All welding is performed under EN ISO 3834-2:2021 certification, and structural steel fabrication meets EN 1090-1 requirements. Manufacturing documentation, material traceability and certificate packages accompany every delivery.",
       },
       {
         icon: "gauge",
-        title: "Power Generation Components",
-        desc: "Parts and assemblies for turbines, generators and power plant equipment.",
+        title: "CNC Machining",
+        desc: "Precision CNC milling and turning on 14 machines for tight-tolerance components.",
         fullDesc:
-          "The company produces components and assemblies for gas and steam turbines, generators, switchgear enclosures and auxiliary power plant equipment. Clients in the power generation sector choose BLRT Masinaehitus for its ability to work from complex engineering drawings to close tolerances, combined with competitive Baltic manufacturing costs.\n\nExport contracts to Central European and Scandinavian power utility and OEM clients demonstrate the company's ability to meet international quality requirements. Certificate packages — including material certificates, dimensional inspection records and NDE reports — are compiled for each delivery.",
+          "With 14 CNC machines covering vertical milling, horizontal milling and turning operations, BLRT Masinaehitus delivers precision-machined components to tight dimensional tolerances for demanding industrial customers. Components are produced to client-approved engineering drawings with full dimensional inspection records.\n\nCNC machining capability supports both series production runs and smaller batch orders, making the company a flexible partner for OEM clients in the power generation, transport and process industries of Central Europe and Scandinavia.",
       },
       {
         icon: "wrench",
-        title: "Transport Engineering",
-        desc: "Components for rail and road transport equipment.",
+        title: "Welding & Fabrication",
+        desc: "Certified welding and structural fabrication to EN ISO 3834-2 and EN 1090-1.",
         fullDesc:
-          "Rail and road transport equipment manufacturers require steel components and assemblies manufactured to precise dimensional standards and tight quality controls. BLRT Masinaehitus delivers such components to Central European transport sector clients, drawing on its precision fabrication and machining capabilities.\n\nComponents include structural frames, housings, brackets and chassis assemblies, produced from engineering steel grades to client-approved drawings. Delivery schedules are managed to support clients' production programmes, and component marking and certificate packages accompany every delivery.",
+          "BLRT Masinaehitus performs welded fabrication certified to EN ISO 3834-2:2021 and structural steel fabrication to EN 1090-1. Welded assemblies range from precision sub-components to larger structural frames and weldments, produced by certified welders working to qualified procedures.\n\nThe company's welding and fabrication capability is integral to its series production business — components combining machined and welded elements are a common product. Export customers in Central Europe and Scandinavia receive full certificate packages including material certificates, welding records and dimensional inspection reports.",
       },
     ],
     contact: {
@@ -580,34 +584,34 @@ export const businesses: Business[] = [
     sector: "Engineering",
     sectorId: "engineering",
     countries: "EE",
-    tagline: "Turn-key steel barges for the global aquaculture industry",
+    tagline: "Sophisticated large-sized carbon steel solutions for fish farming and small shipbuilding",
     heroDesc:
-      "More than 350 carbon steel barges built for fish farming operations worldwide. 850-tonne crane capacity.",
+      "Marketex Marine offers solutions for the small shipbuilding and fish farming markets from project design and development through to the finished product delivery. Over 400 barges built, in the Norwegian market since 2000.",
     aboutP1:
-      "Marketex Marine is the leading European manufacturer of carbon steel service barges for the aquaculture industry. Operating from Tallinn with an 850-tonne crane, the company delivers complete turn-key barge solutions — from initial design through fabrication, outfitting and delivery.",
+      "Established in 2013 as a subsidiary of BLRT Grupp, Marketex Marine is the leading European manufacturer of carbon steel feed barges for the aquaculture industry. The company has served the Norwegian market since 2000, building over 400 feed barges and leveraging more than 120 qualified specialists, state-of-the-art equipment and direct sea access at its Tallinn facility.",
     aboutP2:
-      "With over 350 barges completed for Norwegian, Chilean and global fish farming operators, Marketex Marine brings deep domain knowledge of the aquaculture sector to every project.",
+      "Marketex Marine delivers sophisticated large-sized carbon steel solutions as fully customised turnkey projects covering design development, construction, painting, piping, electrical works, hydraulic and pneumatic equipment installation, lining and outfitting. Feed barges operate globally — in Norway, Chile, Japan and Greece — with feed storage capacities from 100 to 900 tonnes. Certified to ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, EN ISO 3834-2, DNV 402B and NS 9415.",
     services: [
       {
         icon: "ship",
-        title: "Aquaculture Barge Construction",
-        desc: "Complete carbon steel barges for fish farming — feed barges, accommodation barges and service craft.",
+        title: "Feed Storage Barge Construction",
+        desc: "Turnkey carbon steel feed barges in capacities from 100 to 900 tonnes — design, construction, painting, outfitting and certification.",
         fullDesc:
-          "Marketex Marine has delivered more than 350 carbon steel service barges to fish farming operators in Norway, Chile, Iceland and beyond, making it the leading European specialist in this growing sector. Barges are fully customised to each client's operational requirements — feed barges carry automated feeding systems, accommodation barges provide crew quarters and support facilities, and service craft are configured for daily farm operations.\n\nAll barges are designed and built in-house at the Tallinn facility, with the design team working closely with the client from initial concept through classification approval and final delivery. DNV, Bureau Veritas and other classification society approvals are standard.",
+          "Marketex Marine has constructed over 400 carbon steel feed barges for fish farming operators worldwide — making it the leading European specialist in this field. Feed barges are available in seven standard capacity tiers: 300, 400, 450, 600, 650, 850 and 900 tonnes, with custom configurations to match each farm's operational requirements.\n\nEvery barge is delivered as a fully turnkey product covering design development, construction, painting, piping, electrical works, hydraulic and pneumatic equipment installation, lining and outfitting. The Tallinn facility features a PEMA automated welding portal, modern slipway shop, one of the largest paint booths in the Baltic region, and the only 850-tonne crane in the Baltic States for barge launching. Barges are certified to NS 9415 and DNV class approvals as required.",
       },
       {
         icon: "layers",
-        title: "Steel Fabrication & Outfitting",
-        desc: "In-house steel fabrication, equipment installation and system integration.",
+        title: "Offshore Projects",
+        desc: "Large-scale steel fabrication and offshore project construction.",
         fullDesc:
-          "The Tallinn workshop handles all structural steel fabrication in-house, from steel cutting and plate bending to welding and blasting. Structural steelwork is followed by full outfitting — mechanical systems, electrical installation, automation and equipment integration — all performed by the company's own teams.\n\nThe 850-tonne crane at the Tallinn facility allows for the handling and assembly of large barge sections, with final assembly and launch carried out in the sheltered waters of Tallinn Bay. Post-launch outfitting and commissioning are completed prior to classification survey and delivery to the client.",
+          "In addition to aquaculture barges, Marketex Marine undertakes offshore projects utilising its large-scale steel fabrication and assembly capabilities. The Tallinn facility's 25-metre workshop height, 850-tonne crane, 500-tonne transporter and automated welding equipment support construction of substantial offshore steel structures.\n\nThe company's certifications — including EN ISO 3834-2, DNV 402B and IACS NDT for offshore structures — underpin the quality and documentation requirements of offshore project delivery. Marketex Marine's vision is to be the best long-term European partner in implementing advanced large-size steel projects.",
       },
       {
-        icon: "anchor",
-        title: "Delivery & Commissioning",
-        desc: "Sea transport, on-site commissioning and aftersales support.",
+        icon: "ruler",
+        title: "Design & Project Management",
+        desc: "In-house design development, project management and certification management from concept to delivery.",
         fullDesc:
-          "Completed barges are delivered worldwide by sea transport, with route planning and logistics coordinated by the Marketex Marine team. On-site commissioning at the fish farm location is performed by experienced commissioning engineers who travel with the vessel to ensure all systems — feeding automation, mooring, utilities and accommodation — are fully operational before handover.\n\nAftersales support continues beyond delivery, with spare parts supply, technical advice and return-to-workshop repair services available to clients throughout the vessel's operational life. Long-term relationships with Norwegian and global aquaculture operators are a key feature of the company's commercial model.",
+          "Marketex Marine manages the complete project lifecycle in-house: from initial design development and engineering through construction management to certification and delivery. The design team works directly with customers to develop barge configurations meeting their operational specifications, while coordinating with classification societies (DNV, NS 9415) for all required approvals.\n\nProject management covers scheduling, quality control, subcontractor coordination and customer communication throughout the build. The company's focus on quality, adherence to time frames, flexibility and long-term customer relationships has sustained partnerships with Norwegian and global aquaculture operators spanning 20+ years.",
       },
     ],
     contact: {
