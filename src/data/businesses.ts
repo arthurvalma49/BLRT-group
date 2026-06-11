@@ -418,7 +418,7 @@ export const businesses: Business[] = [
           "Ultrasonic thickness measurement is a non-destructive testing method to measure the thickness of an integral solid element based on the ultrasonic pulse return time to the surface. Western Central Laboratory performs UTM testing on commercial vessels, platforms, metal structures, pipelines, pressure vessels, cranes and bridges. The laboratory has tested over 2,000 ships throughout its history.\n\nThe laboratory is recognised by Bureau Veritas, DNV, Lloyd's Register and Registro Italiano Navale. Technicians comply with ISO 9712 international standards and carry GE and Cygnus instruments. Testing is conducted globally at shipyards, ports and at sea.\n\nService programmes include: Condition Assessment Program (CAP) — overall ship condition evaluation, operational inspections and hull strength assessment; Special Survey / Class Renewal — compliance with classification society requirements and IACS standards.",
       },
       {
-        icon: "beaker",
+        icon: "droplets",
         title: "Chemical Laboratory",
         desc: "Air, water and petroleum product analysis; salt and dust contamination testing on metal surfaces.",
         fullDesc:
