@@ -72,20 +72,20 @@ export const businesses: Business[] = [
     sector: "Ship Repair",
     sectorId: "repair",
     countries: "EE",
-    tagline: "One of Northern Europe's largest dry docks",
+    tagline: "Three dry docks in the Port of Tallinn",
     heroDesc:
-      "Ship repair, conversion and dry docking at the Port of Tallinn, Estonia. Home to one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m, with three dry docks and 2,300 m of berths.",
+      "Ship repair, conversion and dry docking at the Port of Tallinn, Estonia. Three dry docks with the largest at 165 m × 30 m, plus 2,300 m of berths.",
     aboutP1:
       "The BLRT Repair Yards team is dedicated to delivering quality results through precise planning and seamless collaboration. Tallinn Shipyard operates from Kopli 103 in Tallinn, Estonia, as part of BLRT Repair Yards — a group of ship repair yards serving the international maritime market from three strategic locations in the Baltic Sea region.",
     aboutP2:
-      "The yard's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. Three dry docks accommodate vessels from coastal craft to large tankers, with the largest dock measuring 265 m × 70 m × 7.1 m.",
+      "The yard's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. Three dry docks accommodate vessels from coastal craft to large tankers, with the largest dock (Dock 22) measuring 165 m × 30 m at 10,000 t lifting capacity.",
     services: [
       {
         icon: "anchor",
         title: "Ship Repair & Dry Docking",
-        desc: "Three dry docks including one of Northern Europe's largest at 265 m × 70 m × 7.1 m, with 2,300 m of berths and vessels up to 200 m alongside.",
+        desc: "Three dry docks — the largest (Dock 22) at 165 m × 30 m, 10,000 t — with 2,300 m of berths and vessels up to 200 m alongside.",
         fullDesc:
-          "Tallinn Shipyard operates three dry docks: Dock 2 (4,500 t, 101.00 m × 22.00 m), Dock 34 (8,500 t, 139.50 m × 23.80 m), and Dock 22 (10,000 t, 165.00 m × 30.00 m). The yard also features one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m, a floating crane of 100 t capacity, a mobile crane of 850 t, and lifting platforms rated at 250 t and 500 t.\n\nWith 2,300 m of berths and 1,200 m of quays fully equipped with fresh water, compressed air and electrical power, the yard accommodates vessels up to 200 m in length alongside. Hull blasting, coating and structural steel works are performed in the dry dock to classification society requirements.",
+          "Tallinn Shipyard operates three dry docks: Dock 2 (4,500 t, 101.00 m × 22.00 m), Dock 34 (8,500 t, 139.50 m × 23.80 m), and Dock 22 (10,000 t, 165.00 m × 30.00 m). Supporting equipment includes a floating crane of 100 t capacity, a mobile crane of 850 t, and lifting platforms rated at 250 t and 500 t.\n\nWith 2,300 m of berths and 1,200 m of quays fully equipped with fresh water, compressed air and electrical power, the yard accommodates vessels up to 200 m in length alongside. Hull blasting, coating and structural steel works are performed in the dry dock to classification society requirements.",
       },
       {
         icon: "waves",
