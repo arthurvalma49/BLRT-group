@@ -309,11 +309,11 @@ export const businesses: Business[] = [
     sector: "Shipbuilding",
     sectorId: "building",
     countries: "NO",
-    tagline: "It must be proper work, so you do not lie sleepless when the boats are at sea in the storm.",
+    tagline: "Innovative vessel construction, guided by Norwegian quality tradition",
     heroDesc:
       "A 50/50 joint venture with Norway's Fiskerstrand Verft AS — a multipurpose shipyard with extensive expertise in newbuilding, conversion, repair and maintenance, founded in 1909 in Sula municipality.",
     aboutP1:
-      "Fiskerstrand Verft AS was established in 1909 as Fiskerstrand Slip & Motorverksted and remains a strong cornerstone company in the local community in Sula municipality. The yard delivers extensive expertise in shipbuilding, maintenance, repair and modification, guided by the founding principle of Peder E. Fiskerstrand: quality work you can stand behind.",
+      "BLRT Fiskerstrand is a 50/50 joint venture between BLRT Grupp and Fiskerstrand Verft AS, combining BLRT's Baltic manufacturing scale with Fiskerstrand's century-long shipbuilding heritage in Sula municipality, Norway. The partnership brings together competitive knowledge in projecting, planning and building innovative vessels with the operational depth of one of Norway's most experienced multipurpose yards.",
     aboutP2:
       "The yard's core values — Quality, Reliability, Inclusion and Renewable practices — underpin everything from complex newbuilding projects to 24/7 emergency repair response. Fiskerstrand leverages Norway's prominent maritime cluster and strong supplier relationships to compete in international markets, and operates as an approved training company within Norway's maritime sector.",
     services: [
@@ -322,7 +322,7 @@ export const businesses: Business[] = [
         title: "Newbuilding",
         desc: "New vessel construction drawing on over a century of Norwegian shipbuilding heritage.",
         fullDesc:
-          "BLRT Fiskerstrand has established a leading position in the design and construction of LNG-powered passenger ferries for the Norwegian market, drawing on Fiskerstrand Verft's century of shipbuilding heritage and BLRT Grupp's Baltic manufacturing capabilities.\n\nThe yard's landmark delivery, MF Boknafjord in 2011, was at the time the world's largest LNG-powered ferry. Subsequent deliveries have continued to raise the bar in LNG propulsion technology, hull form efficiency and passenger environment. All vessels are designed and built in close collaboration with Norwegian public ferry operators and their classification societies.",
+          "BLRT Fiskerstrand brings together Fiskerstrand Verft's century of shipbuilding expertise and BLRT Grupp's Baltic manufacturing capabilities to deliver innovative vessels across a broad range of types. The yard's competitive knowledge spans the full cycle from projecting and planning through to delivery, with a focus on advanced propulsion solutions, hull form efficiency and close collaboration with owners and classification societies.\n\nPast deliveries include landmark LNG-powered passenger ferries for the Norwegian market — among them MF Boknafjord (2011), at the time the world's largest LNG ferry — as well as a range of other vessel types that reflect the yard's multipurpose newbuilding capability. Each project draws on Norway's prominent maritime cluster and strong supplier network to meet the demands of modern, sustainable vessel operation.",
       },
       {
         icon: "wrench",
