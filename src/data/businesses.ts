@@ -266,34 +266,34 @@ export const businesses: Business[] = [
     sector: "Shipbuilding",
     sectorId: "building",
     countries: "LT",
-    tagline: "Large-block construction for the world's most complex vessels",
+    tagline: "Let's build future ships together",
     heroDesc:
-      "Construction of grand blocks for cruise ships, multifunctional supply vessels, research ships and tugboats. 50,000 m² of covered workshop space in Klaipeda.",
+      "A modern shipyard offering a full range of services from conceptual design to turn-key solutions. 70+ years of experience, 600+ ships built, 50,000 m² of covered workshop space in Klaipeda.",
     aboutP1:
-      "Western Baltic Shipbuilding is a specialist newbuilding facility within the BLRT Western Shipyard group in Klaipeda, Lithuania. The yard focuses on the construction of large steel sections and complete blocks for the world's major cruise ship and passenger ferry builders, as well as full newbuilding contracts for offshore supply and research vessels.",
+      "Western Baltic Shipbuilding is a modern shipyard offering a full range of services from conceptual design to turn-key solutions. Part of Western Shipyard Group, owned by BLRT Grupp — the leading industrial holding in the Baltic Sea region. Founded in 1947 in Klaipeda, Lithuania, the yard has grown into one of the most experienced shipyards in the Baltic region.",
     aboutP2:
-      "With one of the largest covered building halls in the eastern Baltic, Western Baltic Shipbuilding delivers complex steel structures to exacting dimensional tolerances, supported by a highly skilled workforce and integrated engineering, NDT and outfitting capabilities.",
+      "With 70+ years of shipbuilding experience, 600+ ships constructed and more than 350 highly skilled employees, the team brings accumulated experience and new ideas that are recognised and valued by world-known customers. The facility spans 25 hectares and holds ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 and NATO AQAP 2110 certifications.",
     services: [
       {
         icon: "ship",
-        title: "Cruise Ship Block Construction",
-        desc: "Grand block and superstructure sections for major European cruise ship yards.",
+        title: "Turn-Key Vessel Construction",
+        desc: "Complete newbuilding from conceptual design to delivery — ferries, tugboats, research vessels and more.",
         fullDesc:
-          "Western Baltic Shipbuilding is one of Europe's most capable manufacturers of large steel blocks and superstructure sections for cruise ships and passenger ferries. The company delivers grand blocks to the major European cruise yards — including Meyer Werft, Fincantieri and others — to exacting dimensional tolerances, pre-outfitted and ready for lifting into the vessel.\n\nWith 50,000 m² of covered workshop space and substantial overhead crane capacity, the Klaipeda facility can produce multiple large blocks simultaneously, running parallel production programmes to meet tight construction schedules. All blocks are fabricated and dimensionally checked against the shipyard's production drawings and classification-approved design documentation before despatch.",
+          "Western Baltic Shipbuilding delivers complete turn-key vessel construction across a wide range of vessel types: double-ended ferries (including battery-powered models), multipurpose vessels, cargo vessels, dredgers, trawlers, tugboats, research vessels and specialised offshore structures.\n\nThe yard's turn-key service covers every stage from conceptual design through engineering, steel construction, outfitting and sea trials to final delivery. The ice-free Klaipeda port location enables year-round operations, and the facility's 120 × 21 m covered hull assembly hall, four robotic stations and three covered blasting/painting chambers support efficient parallel production.",
       },
       {
         icon: "layers",
-        title: "Multifunctional Vessel Construction",
-        desc: "Complete newbuilding of offshore supply, research and special purpose vessels.",
+        title: "Hull Manufacturing",
+        desc: "Hull construction for commercial, passenger, fishing and military vessels to classification society standards.",
         fullDesc:
-          "Beyond large-block subcontracting, Western Baltic Shipbuilding delivers complete newbuilding contracts for offshore supply vessels, research ships and special purpose craft. These projects are managed from initial steel cutting through commissioning and class delivery by the Klaipeda team, working in close coordination with classification surveyors and the client's own technical team.\n\nThe yard's engineering department provides design review, production engineering and construction management for full newbuilding contracts. NDT inspection, hydrostatic testing, outfitting and final commissioning are all performed in-house, with sea trials conducted in the adjacent Baltic Sea waters.",
+          "Western Baltic Shipbuilding's hull manufacturing capability covers a broad portfolio: LNG-powered double-ended ferries up to 129.90 m, freezer trawlers and research fishing vessels, multipurpose vessels up to 105 m, split hopper dredgers, patrol ships and support vessels.\n\nAll hulls are built to classification society rules — including DNV — with in-house NDT inspection, hydrostatic testing and dimensional control at every stage. The 50,000 m² covered workshop area ensures production continuity regardless of season, and the 800 m outfitting and launching area allows for efficient final-stage work alongside the quay.",
       },
       {
-        icon: "file",
-        title: "Engineering & Design",
-        desc: "In-house design and engineering support for production planning and classification approval.",
+        icon: "building",
+        title: "Steel Block Production",
+        desc: "Superstructure, hotel, volume, double bottom, fore and aft, and bulb blocks for major shipyards.",
         fullDesc:
-          "Western Baltic Shipbuilding's in-house engineering team provides design and production engineering services for both subcontract block work and full newbuilding projects. Classification society documentation — including structural drawings, material certificates and inspection records — is prepared and submitted by the engineering department, simplifying the client's approval process.\n\nProduction engineering covers block assembly sequencing, welding procedure specifications, cutting lists and fit-out schedules, all aimed at maximising the efficiency of the Klaipeda facility's production throughput while maintaining the dimensional accuracy demanded by the world's leading cruise ship yards.",
+          "Western Baltic Shipbuilding manufactures a full range of steel block types for delivery to major shipyards worldwide: superstructure blocks, hotel blocks, volume blocks, double bottom blocks, fore and aft blocks, and bulb blocks.\n\nBlock production is supported by four robotic welding stations and a highly skilled workforce, enabling precise, repeatable fabrication to tight dimensional tolerances. Each block is inspected and certified before despatch, simplifying the receiving yard's integration process.",
       },
     ],
     contact: {
@@ -309,34 +309,34 @@ export const businesses: Business[] = [
     sector: "Shipbuilding",
     sectorId: "building",
     countries: "NO",
-    tagline: "Specialists in LNG-powered ferries and advanced marine vessels",
+    tagline: "The work must be carried out properly, so you don't lie sleepless when the vessels are at sea in bad weather",
     heroDesc:
-      "A 50/50 joint venture with Norway's Fiskerstrand Verft AS. Builders of the world's largest LNG-powered ferry and pioneers in zero-emission vessel technology.",
+      "A 50/50 joint venture with Norway's Fiskerstrand Verft AS — a multipurpose shipyard with extensive expertise in newbuilding, conversion, repair and maintenance, founded in 1909 in Sula municipality.",
     aboutP1:
-      "BLRT Fiskerstrand combines BLRT Grupp's Baltic manufacturing expertise with Fiskerstrand Verft's century-old Norwegian shipbuilding tradition. The collaboration has produced a series of groundbreaking LNG and battery-electric vessels for the Norwegian coastal and fjord ferry market.",
+      "Fiskerstrand Verft AS was established in 1909 as Fiskerstrand Slip & Motorverksted and remains a strong cornerstone company in the local community in Sula municipality. The yard delivers extensive expertise in shipbuilding, maintenance, repair and modification, guided by the founding principle of Peder E. Fiskerstrand: quality work you can stand behind.",
     aboutP2:
-      "The yard delivered MF Boknafjord in 2011 — at the time the world's largest LNG-powered ferry — and has continued to push the boundary of sustainable marine propulsion through successive contracts with Norwegian public ferry operators.",
+      "The yard's core values — Quality, Reliability, Inclusion and Renewable practices — underpin everything from complex newbuilding projects to 24/7 emergency repair response. Fiskerstrand leverages Norway's prominent maritime cluster and strong supplier relationships to compete in international markets, and operates as an approved training company within Norway's maritime sector.",
     services: [
       {
         icon: "ship",
-        title: "LNG Ferry Construction",
-        desc: "Design and build of LNG-powered ro-pax ferries for Norwegian coastal routes.",
+        title: "Newbuilding",
+        desc: "New vessel construction drawing on over a century of Norwegian shipbuilding heritage.",
         fullDesc:
           "BLRT Fiskerstrand has established a leading position in the design and construction of LNG-powered passenger ferries for the Norwegian market, drawing on Fiskerstrand Verft's century of shipbuilding heritage and BLRT Grupp's Baltic manufacturing capabilities.\n\nThe yard's landmark delivery, MF Boknafjord in 2011, was at the time the world's largest LNG-powered ferry. Subsequent deliveries have continued to raise the bar in LNG propulsion technology, hull form efficiency and passenger environment. All vessels are designed and built in close collaboration with Norwegian public ferry operators and their classification societies.",
       },
       {
-        icon: "zap",
-        title: "Battery-Electric Vessels",
-        desc: "Zero-emission ferry newbuilding and hybrid propulsion integration.",
+        icon: "wrench",
+        title: "Conversion & Repair",
+        desc: "All kinds of vessel conversion, rebuilding, repair and maintenance — often more financially efficient than newbuilding.",
         fullDesc:
-          "Building on its pioneering work in LNG propulsion, BLRT Fiskerstrand has expanded into zero-emission vessel technology, delivering battery-electric and hybrid ferries for Norwegian fjord and coastal routes. As Norwegian public tender requirements increasingly favour zero-emission vessels, the yard has invested in the design expertise and supplier relationships needed to deliver these highly specified vessels on time and within budget.\n\nBattery systems, charging infrastructure and energy management systems are integrated during construction and commissioned with the operator's technical team before delivery. The yard supports clients through the full development process from concept design to post-delivery warranty.",
+          "Conversion is often more financially efficient for the owner than building a new vessel. Fiskerstrand handles all kinds of conversion and rebuilding projects, with project management, naval architects, design companies and suppliers working together to ensure successful retrofitting.\n\nRepair and maintenance services range from routine scheduled work to 24/7 emergency response. The yard's capabilities include underwater inspection and condition monitoring via Deep Drawing Micro ROV, hull maintenance using remote-controlled spray robots, propeller and rudder servicing with 40-ton hydraulic capacity, and advanced machinery inspection with fibre-optic equipment. Framework maintenance agreements ensure trouble-free operation for regular clients.",
       },
       {
-        icon: "layers",
-        title: "Advanced Marine Engineering",
-        desc: "Complex systems integration, outfitting and sea trials for high-specification vessels.",
+        icon: "anchor",
+        title: "Docking & 24/7 Service",
+        desc: "Docking facilities and round-the-clock emergency maritime support.",
         fullDesc:
-          "The construction of environmentally advanced passenger ferries demands exceptional systems integration capability. BLRT Fiskerstrand manages the full scope of complex outfitting — electrical, mechanical, HVAC, interior and safety systems — integrating subcontractors and suppliers from across Norway and the wider European market.\n\nSea trials are conducted in the demanding Norwegian fjord environment, ensuring that all systems — propulsion, manoeuvring, safety and passenger amenities — perform to specification under real operating conditions before the vessel is formally delivered to the operator.",
+          "Fiskerstrand operates docking facilities and provides 24/7 emergency maritime service, reachable at any hour for urgent repair and support needs. The yard's specialist teams are trained in propulsion system work and trusted to find creative solutions backed by generational expertise.\n\nThe 24/7 service line (+47 95 247 247) ensures that vessel operators can reach experienced personnel at any time, minimising downtime and keeping fleets operational in Norway's demanding coastal and fjord environment.",
       },
     ],
     contact: {
