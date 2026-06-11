@@ -72,47 +72,61 @@ export const businesses: Business[] = [
     sector: "Ship Repair",
     sectorId: "repair",
     countries: "EE",
-    tagline: "Northern Europe's largest ship repair facility",
+    tagline: "One of Northern Europe's largest dry docks",
     heroDesc:
-      "Full-cycle ship repair, conversion and dry docking at the heart of Tallinn's Old City Harbour. Three dry docks accommodating vessels up to 265 × 70 m.",
+      "Ship repair, conversion and dry docking at the Port of Tallinn, Estonia. Home to one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m, with three dry docks and 2,300 m of berths.",
     aboutP1:
-      "Tallinn Shipyard is the flagship repair facility of the BLRT Grupp, operating from the historic Kopli peninsula in Tallinn, Estonia. With over a century of uninterrupted shipbuilding and repair tradition, the yard handles everything from routine maintenance to complex conversion projects for tankers, bulk carriers, container ships and offshore units.",
+      "The BLRT Repair Yards team is dedicated to delivering quality results through precise planning and seamless collaboration. Tallinn Shipyard operates from Kopli 103 in Tallinn, Estonia, as part of BLRT Repair Yards — a group of ship repair yards serving the international maritime market from three strategic locations in the Baltic Sea region.",
     aboutP2:
-      "Operating as part of the BLRT Repair Yards network alongside Western Shiprepair in Lithuania and Turku Repair Yard in Finland, Tallinn Shipyard offers clients coordinated scheduling across three Baltic Sea locations, seven dry docks combined, and a single engineering and procurement team.",
+      "The yard's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. Three dry docks accommodate vessels from coastal craft to large tankers, with the largest dock measuring 265 m × 70 m × 7.1 m.",
     services: [
       {
         icon: "anchor",
-        title: "Dry Docking & Hull Work",
-        desc: "Three dry docks up to 265 × 70 m for hull cleaning, blasting, coating and structural steel renewals.",
+        title: "Ship Repair & Dry Docking",
+        desc: "Three dry docks including one of Northern Europe's largest at 265 m × 70 m × 7.1 m, with 2,300 m of berths and vessels up to 200 m alongside.",
         fullDesc:
-          "Three dry docks at the Kopli yard accommodate vessels up to 265 × 70 metres, providing the capacity to handle large tankers, bulk carriers, RoRo vessels and offshore units. Hull cleaning, water-jetting and abrasive blasting are carried out to Sa 2.5 standard before application of approved marine coatings.\n\nStructural steel renewals are performed by certified welders in accordance with classification society requirements. The yard operates 24/7 during active docking periods, with an in-house steel workshop capable of fabricating replacement panels and frames to speed turnaround. Dock entries are coordinated across the three BLRT Repair Yards — Tallinn, Klaipeda and Turku — to minimise waiting time for fleet operators.",
+          "Tallinn Shipyard operates three dry docks: Dock 2 (4,500 t, 101.00 m × 22.00 m), Dock 34 (8,500 t, 139.50 m × 23.80 m), and Dock 22 (10,000 t, 165.00 m × 30.00 m). The yard also features one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m, a floating crane of 100 t capacity, a mobile crane of 850 t, and lifting platforms rated at 250 t and 500 t.\n\nWith 2,300 m of berths and 1,200 m of quays fully equipped with fresh water, compressed air and electrical power, the yard accommodates vessels up to 200 m in length alongside. Hull blasting, coating and structural steel works are performed in the dry dock to classification society requirements.",
       },
       {
-        icon: "wrench",
-        title: "Mechanical & Machinery Repair",
-        desc: "Main engine overhaul, propeller and shaft work, thruster repairs, and auxiliary machinery servicing.",
+        icon: "waves",
+        title: "Afloat Repairs & Voyage Repair Services",
+        desc: "Repairs carried out while vessels remain in water, including steel, piping, deck machinery, propulsion, electrical and emergency technical assistance.",
         fullDesc:
-          "Tallinn Shipyard's machine shop and engineering team handle the full range of main engine overhauls, from cylinder head and piston ring renewal to liner inspections and fuel injection system servicing. Diesel and dual-fuel engines are covered, with experience spanning MAN, Wärtsilä, Caterpillar and other major OEM types.\n\nPropulsion work includes shaft alignment, coupling removal, propeller blade repairs and bearing replacement. Bow thrusters, CPP units and stabiliser systems are serviced afloat or in the dry dock. Auxiliary machinery including generators, compressors, pumps, separators and heat exchangers are overhauled by dedicated teams, with original or classification-approved replacement parts supplied through the yard's procurement network.",
+          "Tallinn Shipyard provides afloat repair services covering: minor steel repairs and structural works in accessible areas; piping repairs, renewal and installation; valve repairs, overhaul and pressure testing where systems can be safely isolated; replacement or maintenance of anchor chains and related deck equipment; selected stern tube seal works depending on vessel design; deck machinery repairs including mooring equipment, winches and windlasses; hatch cover, ramp and cargo access equipment repairs; safety and lifesaving equipment maintenance; engines and auxiliary machinery repairs including pumps and heat exchangers; electrical, automation, control and instrumentation works; inspection, troubleshooting and repair preparation before dry docking; and emergency technical assistance and voyage repair support.",
       },
       {
         icon: "layers",
-        title: "Vessel Conversion & Modification",
-        desc: "Structural modifications, accommodation upgrades, ballast water treatment system installation and lengthening.",
+        title: "Conversion and Modernization",
+        desc: "Vessel upgrades, structural modifications, cargo area modifications, propulsion and energy-efficiency upgrades, and class-related modernisation.",
         fullDesc:
-          "The yard has an established track record in vessel conversion and modification projects, from ballast water treatment system (BWTS) retrofits required under the IMO convention to full-scale vessel lengthening and accommodation refurbishment.\n\nStructural modifications are designed and approved by the yard's engineering department in cooperation with classification society plan approval. Common conversion scopes include scrubber installation, engine replacement, cargo hold modifications and life-saving appliance upgrades. The proximity of sister companies BLRT ERA (electrical) and Tehnomet Survey (NDT) allows the yard to manage complex, multi-discipline refits under a single commercial interface.",
+          "Whether the goal is to improve vessel performance, meet new regulatory requirements, increase operational flexibility, or extend the service life of an existing asset, BLRT Repair Yards provides practical ship conversion and modernisation solutions across our multi-yard network.\n\nTypical projects include: vessel upgrades and life-extension work; structural modifications and steel fabrication; cargo area modifications and capacity improvements; new equipment and system installation; propulsion and energy-efficiency upgrades; electrical, automation and control system modernisation; accommodation, deck and service area modifications; and class-related modernisation and inspection support.",
       },
       {
-        icon: "zap",
-        title: "Electrical & Automation",
-        desc: "Electrical overhaul, navigation equipment, automation and control system refits.",
+        icon: "wrench",
+        title: "Retrofit",
+        desc: "Equipment and system retrofits to meet new regulatory requirements and improve vessel performance.",
         fullDesc:
-          "Electrical overhaul and refit work is performed in close collaboration with BLRT ERA, the group's dedicated marine electrical engineering company. Scope covers complete rewiring of power distribution systems, switchboard overhaul and replacement, navigation equipment upgrade (AIS, ECDIS, radar, VDR), and automation system refits.\n\nAutomation and alarm monitoring upgrades are carried out for vessels entering new trade areas with updated flag state requirements. Emergency generator overhauls, battery bank replacements and shore power connection installations are also regularly performed during docking intervals.",
+          "Tallinn Shipyard performs vessel retrofit projects to help owners meet changing regulatory requirements and improve operational efficiency. Retrofit work is delivered using the yard's ship repair expertise, engineering support, project management and multi-disciplinary production capabilities. The yard coordinates with sister companies within BLRT Grupp for specialist electrical, NDT and engineering scope.",
+      },
+      {
+        icon: "eye",
+        title: "Inspections",
+        desc: "Vessel condition assessment, repair scope evaluation, class renewal and docking preparation support.",
+        fullDesc:
+          "Inspection services at Tallinn Shipyard include: vessel condition assessment before dry docking or repair; repair scope evaluation based on inspection findings; class renewal and class survey preparation support; hull, deck, tank, piping, machinery and equipment inspection support; identifying steel renewal needs, pipe work requirements, coating repairs and mechanical repair needs; and docking preparation and technical clarification of repair specifications.\n\nThese services help determine vessel condition, establish repair requirements, estimate work scope and select appropriate repair approaches — improving cost management, enabling safer execution and minimising downtime.",
+      },
+      {
+        icon: "ruler",
+        title: "Design & Engineering",
+        desc: "Technical planning and engineering support for repair, conversion and modernisation projects.",
+        fullDesc:
+          "The yard's engineering support capability covers technical planning, design development and project management for repair, conversion and modernisation scopes. Engineering support is combined with the yard's multi-disciplinary production capabilities to deliver practical solutions. Close coordination with BLRT Grupp's specialist companies — including BLRT ERA for electrical engineering and Tehnomet Survey for NDT — allows complex, multi-discipline projects to be managed under a single commercial interface.",
       },
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
-      phone: "+372 610 2900",
-      email: "info@blrtyards.com",
+      phone: "+372 610 2252",
+      email: "info@blrtgrupp.ee",
       website: "https://blrtyards.com/en/",
     },
   },
@@ -122,39 +136,62 @@ export const businesses: Business[] = [
     sector: "Ship Repair",
     sectorId: "repair",
     countries: "LT",
-    tagline: "Full-service ship repair in Klaipeda",
+    tagline: "Ship repair in Klaipėda, Lithuania",
     heroDesc:
-      "Ship maintenance, repair and conversion at the Port of Klaipeda, Lithuania. Part of the BLRT Repair Yards network.",
+      "Ship repair, dry docking and conversion at Klaipėda, Lithuania. Part of BLRT Repair Yards — serving the international maritime market from three strategic Baltic Sea locations.",
     aboutP1:
-      "Western Shiprepair operates from the Lithuanian seaport city of Klaipeda, offering full-cycle ship repair services to Baltic, North Sea and Atlantic fleet operators. As part of BLRT Western Shipyard — the largest marine engineering corporation in Lithuania — Western Shiprepair draws on an extensive pool of qualified engineers, welders and outfitting specialists.",
+      "The BLRT Repair Yards team is dedicated to delivering quality results through precise planning and seamless collaboration. Western Shiprepair is BLRT Repair Yards' facility in Klaipėda, Lithuania, one of three strategic ship repair locations operated by the group across Estonia, Lithuania and Finland.",
     aboutP2:
-      "The yard handles a broad range of vessel types from ferries and tankers to offshore support vessels, leveraging close collaboration with sister engineering companies for electrical, piping and structural works.",
+      "Western Shiprepair's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. The yard operates as part of a multi-yard network with 7 docks combined, including the largest floating dock in the Baltics at 235 m × 45 m.",
     services: [
       {
         icon: "anchor",
-        title: "Dry Docking",
-        desc: "Dry dock and floating dock capacity for hull inspection, blasting and coating.",
+        title: "Ship Repair & Dry Docking",
+        desc: "Dry docking capacity at Klaipėda including the largest floating dock in the Baltics at 235 m × 45 m.",
         fullDesc:
-          "Western Shiprepair operates dry dock and floating dock capacity at the Port of Klaipeda, offering hull inspection, abrasive blasting and marine coating services for vessels across the Baltic, North Sea and Atlantic trade routes.\n\nThe yard handles a wide range of vessel types including ferries, tankers, general cargo ships and offshore support vessels. Hull cleaning is carried out to the coating system manufacturer's requirements, followed by primer and antifouling application. All blasting and painting work is supervised by qualified coating inspectors and reported to the attending classification surveyor.",
+          "Western Shiprepair operates docking infrastructure at the Port of Klaipėda, Lithuania, as part of the BLRT Repair Yards network which collectively operates 7 docks across Estonia, Lithuania and Finland. The network's largest floating dock measures 235 m × 45 m.\n\nHull blasting and coating are carried out to classification society and coating manufacturer requirements. The yard handles a range of vessel types serving Baltic, North Sea and Atlantic trade routes, with dock scheduling coordinated across the multi-yard network to minimise waiting time for fleet operators.",
       },
       {
-        icon: "wrench",
-        title: "Machinery Repair",
-        desc: "Main engine overhaul, gearbox, shafting, propeller and bow thruster repairs.",
+        icon: "waves",
+        title: "Afloat Repairs & Voyage Repair Services",
+        desc: "Repairs carried out while vessels remain in water, including steel, piping, deck machinery, propulsion, electrical and emergency technical assistance.",
         fullDesc:
-          "Klaipeda's skilled engineering workforce handles main engine overhauls for all major diesel and dual-fuel engine types, drawing on decades of experience in Baltic ship repair. Piston removal, liner measurement, crankshaft inspection and injection system servicing are standard scope items.\n\nShafting and propulsion work covers propeller removal, shaft withdrawal, sterntube inspection and bearing replacement. Gearbox overhauls and bow thruster repairs are completed in the dry dock or alongside, depending on vessel schedule. Auxiliary machinery servicing including generators, pumps, compressors and separators completes the mechanical scope.",
+          "Western Shiprepair provides afloat repair services covering: minor steel repairs and structural works in accessible areas; piping repairs, renewal and installation; valve repairs, overhaul and pressure testing where systems can be safely isolated; replacement or maintenance of anchor chains and related deck equipment; selected stern tube seal works depending on vessel design; deck machinery repairs including mooring equipment, winches and windlasses; hatch cover, ramp and cargo access equipment repairs; safety and lifesaving equipment maintenance; engines and auxiliary machinery repairs including pumps and heat exchangers; electrical, automation, control and instrumentation works; inspection, troubleshooting and repair preparation before dry docking; and emergency technical assistance and voyage repair support.",
       },
       {
         icon: "layers",
-        title: "Steel & Outfitting",
-        desc: "Structural steel renewal, pipe systems, insulation and accommodation outfitting.",
+        title: "Conversion and Modernization",
+        desc: "Vessel upgrades, structural modifications, cargo area modifications, propulsion and energy-efficiency upgrades, and class-related modernisation.",
         fullDesc:
-          "Structural steel renewals are carried out by certified welders working to classification society-approved procedures. The yard's steel workshop fabricates replacement plates, frames and structural sections in-house, minimising lead times and logistics costs.\n\nOutfitting works cover pipe system repair and renewal, HVAC, insulation, joinery and accommodation refurbishment. The yard's outfitting teams have extensive experience with passenger ferry interiors and can carry out refurbishments to tight scheduling requirements, with work proceeding simultaneously across multiple vessels where berth space allows.",
+          "Whether the goal is to improve vessel performance, meet new regulatory requirements, increase operational flexibility, or extend the service life of an existing asset, BLRT Repair Yards provides practical ship conversion and modernisation solutions across our multi-yard network.\n\nTypical projects include: vessel upgrades and life-extension work; structural modifications and steel fabrication; cargo area modifications and capacity improvements; new equipment and system installation; propulsion and energy-efficiency upgrades; electrical, automation and control system modernisation; accommodation, deck and service area modifications; and class-related modernisation and inspection support.",
+      },
+      {
+        icon: "wrench",
+        title: "Retrofit",
+        desc: "Equipment and system retrofits to meet new regulatory requirements and improve vessel performance.",
+        fullDesc:
+          "Western Shiprepair performs vessel retrofit projects to help owners meet changing regulatory requirements and improve operational efficiency. Retrofit work is delivered using the yard's ship repair expertise, engineering support, project management and multi-disciplinary production capabilities, coordinated across the BLRT Repair Yards multi-yard network.",
+      },
+      {
+        icon: "eye",
+        title: "Inspections",
+        desc: "Vessel condition assessment, repair scope evaluation, class renewal and docking preparation support.",
+        fullDesc:
+          "Inspection services at Western Shiprepair include: vessel condition assessment before dry docking or repair; repair scope evaluation based on inspection findings; class renewal and class survey preparation support; hull, deck, tank, piping, machinery and equipment inspection support; identifying steel renewal needs, pipe work requirements, coating repairs and mechanical repair needs; and docking preparation and technical clarification of repair specifications.\n\nThese services help determine vessel condition, establish repair requirements, estimate work scope and select appropriate repair approaches — improving cost management, enabling safer execution and minimising downtime.",
+      },
+      {
+        icon: "ruler",
+        title: "Design & Engineering",
+        desc: "Technical planning and engineering support for repair, conversion and modernisation projects.",
+        fullDesc:
+          "Engineering support at Western Shiprepair covers technical planning, design development and project management for repair, conversion and modernisation scopes. The yard combines ship repair expertise, engineering support, project management and multi-disciplinary production capabilities as part of the BLRT Repair Yards network.",
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2252",
+      email: "info@blrtgrupp.ee",
       website: "https://blrtyards.com/en/",
-      email: "info@blrtyards.com",
     },
   },
   {
@@ -163,38 +200,62 @@ export const businesses: Business[] = [
     sector: "Ship Repair",
     sectorId: "repair",
     countries: "FI",
-    tagline: "Ship repair at the gateway to the Baltic",
+    tagline: "Ship repair in Finland, part of BLRT Repair Yards",
     heroDesc:
-      "One of Scandinavia's largest dry docking facilities, located at the Port of Naantali, Finland.",
+      "Ship repair, dry docking and conversion in Finland. Turku Repair Yard is part of BLRT Repair Yards — a group serving the international maritime market from three strategic Baltic Sea locations.",
     aboutP1:
-      "Turku Repair Yard is situated in Naantali near Turku, at the western entrance to the Finnish archipelago. The facility serves the Nordic ferry routes, tanker fleet and offshore support market with dry docking capacity for large vessels and a highly experienced local workforce.",
+      "The BLRT Repair Yards team is dedicated to delivering quality results through precise planning and seamless collaboration. Turku Repair Yard is BLRT Repair Yards' facility in Finland, one of three strategic ship repair locations operated by the group across Estonia, Lithuania and Finland.",
     aboutP2:
-      "As part of BLRT Repair Yards, Turku coordinates scheduling, procurement and engineering resources with Tallinn Shipyard and Western Shiprepair, giving clients Baltic-wide coverage under one commercial relationship.",
+      "Turku Repair Yard's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. The yard operates as part of a multi-yard network with 7 docks combined across the Baltic Sea region.",
     services: [
       {
         icon: "anchor",
-        title: "Dry Docking",
-        desc: "Large floating dry dock accommodating ferries, RoRo vessels and tankers.",
+        title: "Ship Repair & Dry Docking",
+        desc: "Dry docking capacity in Finland as part of the BLRT Repair Yards network of 7 docks across Estonia, Lithuania and Finland.",
         fullDesc:
-          "Turku Repair Yard operates one of the largest floating dry docks in Scandinavia at the Port of Naantali, near Turku. The dock accommodates large ferries and RoRo vessels typical of the Nordic route network, as well as tankers and offshore support units serving the Gulf of Bothnia and North Sea.\n\nHull blasting is performed to Sa 2.5 standard with modern equipment, followed by application of approved marine antifouling and protection systems. The yard coordinates closely with BLRT Repair Yards colleagues in Tallinn and Klaipeda to offer clients flexible scheduling across three Baltic Sea locations.",
+          "Turku Repair Yard operates docking infrastructure in Finland as part of the BLRT Repair Yards network, which collectively operates 7 docks across three countries. The network includes one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m (Tallinn) and the largest floating dock in the Baltics at 235 m × 45 m.\n\nHull blasting and coating are carried out to classification society and coating manufacturer requirements. Dock scheduling is coordinated across the multi-yard network — Tallinn Shipyard in Estonia, Western Shiprepair in Lithuania and Turku Repair Yard in Finland — to minimise waiting time for fleet operators.",
+      },
+      {
+        icon: "waves",
+        title: "Afloat Repairs & Voyage Repair Services",
+        desc: "Repairs carried out while vessels remain in water, including steel, piping, deck machinery, propulsion, electrical and emergency technical assistance.",
+        fullDesc:
+          "Turku Repair Yard provides afloat repair services covering: minor steel repairs and structural works in accessible areas; piping repairs, renewal and installation; valve repairs, overhaul and pressure testing where systems can be safely isolated; replacement or maintenance of anchor chains and related deck equipment; selected stern tube seal works depending on vessel design; deck machinery repairs including mooring equipment, winches and windlasses; hatch cover, ramp and cargo access equipment repairs; safety and lifesaving equipment maintenance; engines and auxiliary machinery repairs including pumps and heat exchangers; electrical, automation, control and instrumentation works; inspection, troubleshooting and repair preparation before dry docking; and emergency technical assistance and voyage repair support.",
+      },
+      {
+        icon: "layers",
+        title: "Conversion and Modernization",
+        desc: "Vessel upgrades, structural modifications, cargo area modifications, propulsion and energy-efficiency upgrades, and class-related modernisation.",
+        fullDesc:
+          "Whether the goal is to improve vessel performance, meet new regulatory requirements, increase operational flexibility, or extend the service life of an existing asset, BLRT Repair Yards provides practical ship conversion and modernisation solutions across our multi-yard network.\n\nTypical projects include: vessel upgrades and life-extension work; structural modifications and steel fabrication; cargo area modifications and capacity improvements; new equipment and system installation; propulsion and energy-efficiency upgrades; electrical, automation and control system modernisation; accommodation, deck and service area modifications; and class-related modernisation and inspection support.",
       },
       {
         icon: "wrench",
-        title: "Machinery & Hull Work",
-        desc: "Propulsion, thruster, steering gear overhaul and hull steel renewals.",
+        title: "Retrofit",
+        desc: "Equipment and system retrofits to meet new regulatory requirements and improve vessel performance.",
         fullDesc:
-          "The Naantali yard's engineering team has deep experience with vessels on Nordic ferry routes, including high-cycle propulsion systems on short sea RoRo and passenger ferries. Propeller and shafting overhauls, thruster unit replacement and steering gear servicing are regularly performed.\n\nHull steel work includes structural plate renewal, frame repairs and bilge keel replacements. Weld repairs to hull structures are carried out by certified welders and tested by NDT technicians to classification society requirements. Close coordination with sister company Tehnomet Survey enables rapid NDT deployment at Naantali during vessel inspections.",
+          "Turku Repair Yard performs vessel retrofit projects to help owners meet changing regulatory requirements and improve operational efficiency. Retrofit work is delivered using the yard's ship repair expertise, engineering support, project management and multi-disciplinary production capabilities, coordinated across the BLRT Repair Yards multi-yard network.",
       },
       {
-        icon: "shield",
-        title: "Coating & Blasting",
-        desc: "Full abrasive blasting and marine coating application to class requirements.",
+        icon: "eye",
+        title: "Inspections",
+        desc: "Vessel condition assessment, repair scope evaluation, class renewal and docking preparation support.",
         fullDesc:
-          "All surface preparation and coating work at Turku Repair Yard is carried out to the requirements of the coating system manufacturer and the attending classification surveyor. Abrasive blasting achieves Sa 2.5 cleanliness on hull steel, with surface profile and salt contamination measurements recorded and reported before primer application.\n\nAntifouling paint systems are selected in consultation with the shipowner based on the vessel's trading routes and dry dock intervals. The yard holds approvals for leading marine coating systems and can apply self-polishing copolymer, hybrid and tin-free antifouling systems. Boot-topping and topside coatings are also applied as part of the full hull coating package.",
+          "Inspection services at Turku Repair Yard include: vessel condition assessment before dry docking or repair; repair scope evaluation based on inspection findings; class renewal and class survey preparation support; hull, deck, tank, piping, machinery and equipment inspection support; identifying steel renewal needs, pipe work requirements, coating repairs and mechanical repair needs; and docking preparation and technical clarification of repair specifications.\n\nThese services help determine vessel condition, establish repair requirements, estimate work scope and select appropriate repair approaches — improving cost management, enabling safer execution and minimising downtime.",
+      },
+      {
+        icon: "ruler",
+        title: "Design & Engineering",
+        desc: "Technical planning and engineering support for repair, conversion and modernisation projects.",
+        fullDesc:
+          "Engineering support at Turku Repair Yard covers technical planning, design development and project management for repair, conversion and modernisation scopes. The yard combines ship repair expertise, engineering support, project management and multi-disciplinary production capabilities as part of the BLRT Repair Yards network.",
       },
     ],
     contact: {
-      website: "http://www.turkurepairyard.com/",
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2252",
+      email: "info@blrtgrupp.ee",
+      website: "https://blrtyards.com/en/",
     },
   },
 
@@ -236,6 +297,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Pilies str. 8, LT-91503, Klaipeda, Lithuania",
+      phone: "+370 46 398 249",
+      email: "info@wbs.lt",
       website: "https://wbs.lt/en/",
     },
   },
@@ -335,7 +399,7 @@ export const businesses: Business[] = [
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
       phone: "+372 610 2997",
-      email: "info@blrt.ee",
+      email: "info@tehnomet.ee",
       website: "https://tehnometsurvey.ee/en/",
     },
   },
@@ -374,6 +438,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Minijos st. 180, 93269 Klaipėda, Lithuania",
+      phone: "+370 46 483 666",
+      email: "info@wcl.lt",
       website: "https://wcl.lt/",
     },
   },
@@ -425,7 +492,7 @@ export const businesses: Business[] = [
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
-      phone: "+372 610 2900",
+      phone: "+372 610 2307",
       email: "info@blrtera.ee",
       website: "https://blrtera.ee/en/",
     },
@@ -465,8 +532,10 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
-      website: "https://barselekter.com/en/",
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 5326 9035",
       email: "info@barselekter.com",
+      website: "https://barselekter.com/en/",
     },
   },
   {
@@ -504,6 +573,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2113",
+      email: "info@masinaehitus.ee",
       website: "https://masinaehitus.ee/en/",
     },
   },
@@ -544,6 +616,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2553",
+      email: "info@marketexmarine.net",
       website: "https://marketexmarine.net/en/",
     },
   },
@@ -583,6 +658,7 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
       website: "https://www.marketex.ee/",
     },
   },
@@ -625,6 +701,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2554",
+      email: "info@elmemetall.eu",
       website: "https://elmemetall.eu/en/",
     },
   },
@@ -663,6 +742,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2052",
+      email: "info@elmemesser.ee",
       website: "https://www.elmemesser.ee/",
     },
   },
@@ -701,6 +783,8 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2408",
       website: "https://elmetrans.ee/en/",
     },
   },
@@ -743,6 +827,8 @@ export const businesses: Business[] = [
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2753",
+      email: "info@portvenebalti.ee",
       website: "https://portvenebalti.ee/en/",
     },
   },
@@ -784,6 +870,8 @@ export const businesses: Business[] = [
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 660 2320",
+      email: "info@mereabi.ee",
       website: "https://mereabi.ee/en/",
     },
   },
