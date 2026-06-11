@@ -140,7 +140,7 @@ export default function About() {
           </div>
           <div className="flex flex-wrap gap-3 shrink-0">
             <Link
-              to="/"
+              to="/#companies"
               className="btn-shine btn-tactile inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/80 hover:text-white font-semibold px-6 py-3 rounded text-sm transition-all duration-300"
             >
               {t("blrt.about.ctaBrowse")}

@@ -4,7 +4,7 @@ import {
   Anchor, Ship, Wrench, Zap, Shield, Package, Truck, Layers, Ruler,
   Globe2, Award, Clock, Waves, Cpu, FileText, Droplets, Magnet,
   TrendingUp, Building2, Gauge, FlaskConical, HardHat, Flame,
-  Phone, Mail, MapPin, ExternalLink, ArrowLeft, ChevronRight, ChevronDown,
+  Phone, Mail, MapPin, ArrowLeft, ChevronRight, ChevronDown,
 } from "lucide-react";
 import { businesses, sectorGroups, type ServiceIcon } from "@/data/businesses";
 import RevealSection from "@/components/RevealSection";
@@ -110,7 +110,7 @@ export default function BusinessPage() {
         <div className="absolute inset-0 dot-grid pointer-events-none" aria-hidden />
         <div className="container-pro relative">
           <Link
-            to="/"
+            to="/#companies"
             className="hero-in hero-in-1 inline-flex items-center gap-1.5 text-white/45 hover:text-white/75 text-xs font-medium mb-8 transition-colors duration-200"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
@@ -131,19 +131,6 @@ export default function BusinessPage() {
             {biz.heroDesc}
           </p>
 
-          {biz.contact.website && (
-            <div className="hero-in hero-in-4 mt-8">
-              <a
-                href={biz.contact.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-shine btn-tactile inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white/70 hover:text-white text-sm font-medium px-5 py-2.5 rounded transition-all duration-200"
-              >
-                Visit website
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
-            </div>
-          )}
         </div>
       </section>
 
@@ -173,19 +160,6 @@ export default function BusinessPage() {
               <div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-muted-foreground mb-1.5">Group</div>
               <div className="text-sm font-semibold text-primary">BLRT Grupp</div>
             </div>
-            {biz.contact.website && (
-              <div className="pt-5">
-                <a
-                  href={biz.contact.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-brand-red hover:text-brand-red-hover font-medium transition-colors duration-200"
-                >
-                  Company website
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </div>
-            )}
           </aside>
         </div>
       </RevealSection>
@@ -212,7 +186,7 @@ export default function BusinessPage() {
       )}
 
       {/* ─── Contact ─── */}
-      {(biz.contact.address || biz.contact.phone || biz.contact.email || biz.contact.website) && (
+      {(biz.contact.address || biz.contact.phone || biz.contact.email) && (
         <RevealSection as="section" className="py-24 bg-background">
           <div className="container-pro">
             <p className="overline mb-3">Get in touch</p>
@@ -247,19 +221,6 @@ export default function BusinessPage() {
                   </div>
                   {biz.contact.address}
                 </div>
-              )}
-              {biz.contact.website && (
-                <a
-                  href={biz.contact.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
-                >
-                  <div className="w-9 h-9 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0">
-                    <Globe2 className="w-4 h-4 text-brand-red" />
-                  </div>
-                  {biz.contact.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}
-                </a>
               )}
             </div>
           </div>

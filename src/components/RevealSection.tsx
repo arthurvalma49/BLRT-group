@@ -5,6 +5,7 @@ type Tag = keyof JSX.IntrinsicElements;
 interface RevealSectionProps {
   children: React.ReactNode;
   className?: string;
+  id?: string;
   /** Extra CSS delay class: "delay-100" | "delay-200" | "delay-300" */
   delay?: "delay-100" | "delay-200" | "delay-300";
   as?: Tag;
@@ -13,6 +14,7 @@ interface RevealSectionProps {
 export default function RevealSection({
   children,
   className = "",
+  id,
   delay,
   as: Component = "div",
 }: RevealSectionProps) {
@@ -47,6 +49,7 @@ export default function RevealSection({
   return (
     <Tag
       ref={ref as React.Ref<HTMLElement>}
+      id={id}
       className={`reveal ${delay ?? ""} ${className}`}
     >
       {children}

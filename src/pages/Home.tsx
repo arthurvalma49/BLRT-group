@@ -354,7 +354,7 @@ export default function Home() {
       </RevealSection>
 
       {/* ─── Companies — Direction C: classification manifest ─── */}
-      <RevealSection as="section" className="py-24 bg-background">
+      <RevealSection as="section" id="companies" className="py-24 bg-background">
         <div className="container-pro">
           <div className="flex items-end justify-between mb-8">
             <div>
@@ -412,30 +412,12 @@ export default function Home() {
                     <span className="text-[10px] font-medium tabular-nums text-muted-foreground/70">
                       {sectorBiz.length}
                     </span>
-                    <div className="flex-1 h-px bg-border" />
+                    <div className="flex-1 h-px bg-brand-red/35" />
                   </motion.div>
 
-                  {/* Card grid with scanner sweep */}
+                  {/* Card grid */}
                   <div className="relative">
-                    {/* Direction C: scanner line sweeps left→right before cards assemble */}
-                    {!prefersReducedMotion && (
-                      <motion.div
-                        className="absolute inset-x-0 h-px pointer-events-none z-10"
-                        style={{
-                          background:
-                            "linear-gradient(90deg, transparent 0%, hsl(4 82% 58% / 0.55) 50%, transparent 100%)",
-                          top: 0,
-                          originX: 0,
-                        }}
-                        initial={{ scaleX: 0 }}
-                        whileInView={{ scaleX: 1 }}
-                        viewport={{ once: true, amount: 0.3 }}
-                        transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-                        aria-hidden
-                      />
-                    )}
-
-                    {/* Cards assemble after scanner completes */}
+                    {/* Cards assemble */}
                     <motion.div
                       className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
                       initial="hidden"
@@ -446,7 +428,7 @@ export default function Home() {
                         visible: {
                           transition: {
                             staggerChildren: 0.07,
-                            delayChildren: prefersReducedMotion ? 0 : 0.55,
+                            delayChildren: 0,
                           },
                         },
                       }}
