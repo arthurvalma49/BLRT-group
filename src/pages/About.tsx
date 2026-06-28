@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import { Anchor, Wrench, Search, Zap, Layers, Ship, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import RevealSection from "@/components/RevealSection";
+import CertificateBlock from "@/components/CertificateBlock";
+import { type Certificate } from "@/components/CertificateBlock";
 
 const sectors = [
   { icon: Anchor,  label: "Ship Repair",             desc: "Three repair yards across Estonia, Lithuania and Finland." },
@@ -12,11 +14,22 @@ const sectors = [
   { icon: Wrench,  label: "Port & Marine Services",   desc: "Port operations, towage and life-saving equipment service." },
 ];
 
+const groupCertificates: Certificate[] = [
+  { name: "ISO 9001:2015", issuer: "Quality Management System", year: 2023 },
+  { name: "ISO 14001:2015", issuer: "Environmental Management System", year: 2023 },
+  { name: "ISO 45001:2018", issuer: "Occupational Health & Safety", year: 2023 },
+  { name: "Lloyd's Register", issuer: "Classification Society Approval" },
+  { name: "DNV", issuer: "Det Norske Veritas Approval" },
+  { name: "Bureau Veritas", issuer: "Classification & Certification" },
+  { name: "ABS", issuer: "American Bureau of Shipping" },
+  { name: "RINA", issuer: "Registro Italiano Navale" },
+];
+
 export default function About() {
   const { t } = useLanguage();
 
   const stats = [
-    { v: "17",    l: t("blrt.about.stat.companies") },
+    { v: "24",    l: t("blrt.about.stat.companies") },
     { v: "5",     l: t("blrt.about.stat.countries") },
     { v: "1912",  l: t("blrt.about.stat.founded") },
     { v: "6",     l: t("blrt.about.stat.sectors") },
@@ -31,7 +44,7 @@ export default function About() {
             src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1400&q=75&auto=format&fit=crop"
             alt=""
             aria-hidden
-            fetchPriority="high"
+            fetchpriority="high"
             className="w-full h-full object-cover"
             style={{ filter: "saturate(0.7) brightness(0.28)" }}
           />
@@ -122,6 +135,19 @@ export default function About() {
               );
             })}
           </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Group Certifications ─── */}
+      <RevealSection as="section" className="py-20 bg-surface border-t border-border/50">
+        <div className="container-pro">
+          <p className="overline mb-3">{t("about.certs.title")}</p>
+          <h2 className="text-2xl tracking-tighter text-foreground heading-underline mb-10">
+            {t("about.certs.title")}
+          </h2>
+          <CertificateBlock
+            certificates={groupCertificates}
+          />
         </div>
       </RevealSection>
 

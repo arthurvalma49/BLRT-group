@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - text:       
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://moc.ee/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "About us" [ref=e13] [cursor=pointer]:
+                  - /url: https://moc.ee/en/about-us/
+              - listitem [ref=e14]:
+                - link "Activities" [ref=e15] [cursor=pointer]:
+                  - /url: https://moc.ee/en/activities/
+              - listitem [ref=e16]:
+                - link "Virtual tour" [ref=e17] [cursor=pointer]:
+                  - /url: https://moc.ee/en/virtual-tour/
+              - listitem [ref=e18]:
+                - link "News" [ref=e19] [cursor=pointer]:
+                  - /url: https://moc.ee/en/news/
+              - listitem [ref=e20]:
+                - link "Contacts" [ref=e21] [cursor=pointer]:
+                  - /url: https://moc.ee/en/contacts/
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "Switch to Ee" [ref=e25] [cursor=pointer]:
+                  - /url: https://moc.ee/et/
+                  - generic [ref=e26]: Ee
+              - listitem [ref=e27]:
+                - link "En" [ref=e28] [cursor=pointer]:
+                  - /url: https://moc.ee/en/
+                  - generic [ref=e29]: En
+              - listitem [ref=e30]:
+                - link "Switch to Ru" [ref=e31] [cursor=pointer]:
+                  - /url: https://moc.ee/ru/
+                  - generic [ref=e32]: Ru
+          - navigation
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - img [ref=e38]
+            - generic [ref=e40]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e41]:
+            - img [ref=e42]
+            - generic [ref=e44]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - generic [ref=e53]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e58]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e59]:
+            - img [ref=e61]
+            - generic [ref=e63]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e64]:
+            - img [ref=e65]
+            - generic [ref=e67]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e68]:
+            - img [ref=e69]
+            - generic [ref=e71]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e72]:
+            - img [ref=e74]
+            - generic [ref=e76]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e80]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - generic [ref=e84]:
+              - generic:
+                - heading [level=2]
+        - generic [ref=e85]:
+          - button "Go to slide 1" [ref=e86] [cursor=pointer]
+          - button "Go to slide 2" [ref=e87] [cursor=pointer]
+          - button "Go to slide 3" [ref=e88] [cursor=pointer]
+          - button "Go to slide 4" [ref=e89] [cursor=pointer]
+          - button "Go to slide 5" [ref=e90] [cursor=pointer]
+          - button "Go to slide 6" [ref=e91] [cursor=pointer]
+          - button "Go to slide 7" [ref=e92] [cursor=pointer]
+          - button "Go to slide 8" [ref=e93] [cursor=pointer]
+          - button "Go to slide 9" [ref=e94] [cursor=pointer]
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]: About us
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Our core competencies are complex steel structures for Offshore Oil & Gas, Renewables, Infrastructure and Industrial projects.
+            - paragraph [ref=e102]: In 2020, as part of our development program supported by our parent company BLRT Grupp, we have opened the doors on a brand new welding, machining and painting facilities from where we will deliver large fabrication projects for North Sea and beyond.
+            - paragraph [ref=e103]: We manufacture as per NORSOK, DNV GL, ABS and BV requirements.
+            - paragraph [ref=e104]
+          - button "Video " [ref=e106] [cursor=pointer]:
+            - generic [ref=e107]: Video
+            - generic [ref=e108]: 
+          - link "Virtual tour " [ref=e110] [cursor=pointer]:
+            - /url: " /en/virtual-tour/"
+            - generic [ref=e111]: Virtual tour
+            - generic [ref=e112]: 
+          - link "Read more " [ref=e114] [cursor=pointer]:
+            - /url: " /en/about-us/"
+            - generic [ref=e115]: Read more
+            - generic [ref=e116]: 
+        - generic [ref=e117]:
+          - generic [ref=e120]:
+            - strong [ref=e121]: 350 000
+            - text: welding man hours per year
+          - generic [ref=e124]:
+            - strong [ref=e125]: 20 550
+            - text: square meters workshop area
+          - generic [ref=e128]:
+            - strong [ref=e129]: "20"
+            - text: meters up to hook
+      - generic [ref=e130]:
+        - generic [ref=e132]: Activities
+        - generic [ref=e133]:
+          - generic [ref=e135]:
+            - link "Offshore Oil & Gas" [ref=e138] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/offshore-oil-and-gas/
+              - generic [ref=e140]: Offshore Oil & Gas
+            - link "Subsea" [ref=e143] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/subsea/
+              - generic [ref=e145]: Subsea
+            - link "Infrastructure and industrial equipment" [ref=e148] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/infrastructure-and-industrial-equipment/
+              - generic [ref=e150]: Infrastructure and industrial equipment
+            - link "Renewable energy" [ref=e153] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/renewable-energy/
+              - generic [ref=e155]: Renewable energy
+            - link "Offshore Oil & Gas" [ref=e158] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/offshore-oil-and-gas/
+              - generic [ref=e160]: Offshore Oil & Gas
+            - link "Subsea" [ref=e163] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/subsea/
+              - generic [ref=e165]: Subsea
+            - link "Infrastructure and industrial equipment" [ref=e168] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/infrastructure-and-industrial-equipment/
+              - generic [ref=e170]: Infrastructure and industrial equipment
+            - link "Renewable energy" [ref=e173] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/renewable-energy/
+              - generic [ref=e175]: Renewable energy
+            - link "Offshore Oil & Gas" [ref=e178] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/offshore-oil-and-gas/
+              - generic [ref=e180]: Offshore Oil & Gas
+            - link "Subsea" [ref=e183] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/subsea/
+              - generic [ref=e185]: Subsea
+            - link "Infrastructure and industrial equipment" [ref=e188] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/infrastructure-and-industrial-equipment/
+              - generic [ref=e190]: Infrastructure and industrial equipment
+            - link "Renewable energy" [ref=e193] [cursor=pointer]:
+              - /url: https://moc.ee/en/activities-list/renewable-energy/
+              - generic [ref=e195]: Renewable energy
+          - button "Previous slide" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: 
+          - button "Next slide" [ref=e198] [cursor=pointer]:
+            - generic [ref=e199]: 
+      - generic [ref=e203]:
+        - generic [ref=e204]: QHSE
+        - generic [ref=e205]:
+          - paragraph [ref=e206]: Health, Safety & Environmental policy Statement is our top priority for Safety and Health of our employees.
+          - paragraph [ref=e207]: Safety induction training is performed for anyone coming to MOC production workshops.
+          - paragraph [ref=e208]: QHSE Department is QHSE Manager, HSE Engineer, Metrology Engineer and 3 QC inspectors (VT2).
+          - list [ref=e209]:
+            - listitem [ref=e210]: Quality planning, ITP and HSE plan are in accordance with project specific requirements.
+            - listitem [ref=e211]: Regular customer audits
+            - listitem [ref=e212]: QMS procedures cover most of the general quality requirements. Project operational procedures are created for project specific scope and needs.
+            - listitem [ref=e213]: Quality and HSE requirements are communicated to subcontractors (if any) and included in their procedures for the project.
+            - listitem [ref=e214]: Internal/external NCR register includes all activities and improvements taken to raise quality level and avoid recurrence.
+        - link "Safety brochure " [ref=e216] [cursor=pointer]:
+          - /url: /wp-content/uploads/2020/11/moc-safety-brochure.pdf
+          - generic [ref=e217]: Safety brochure
+          - generic [ref=e218]: 
+      - generic [ref=e220]:
+        - generic [ref=e221]: Company news
+        - generic [ref=e223]:
+          - generic [ref=e225]:
+            - link [ref=e226] [cursor=pointer]:
+              - /url: https://moc.ee/en/news-list/happy-independence-day-estonia-3/
+            - generic [ref=e227]:
+              - generic [ref=e228]: 23.02.2026
+              - link "Happy Independence Day, Estonia!" [ref=e229] [cursor=pointer]:
+                - /url: https://moc.ee/en/news-list/happy-independence-day-estonia-3/
+              - link "Read more " [ref=e231] [cursor=pointer]:
+                - /url: https://moc.ee/en/news-list/happy-independence-day-estonia-3/
+                - generic [ref=e232]: Read more
+                - generic [ref=e233]: 
+          - generic [ref=e235]:
+            - link [ref=e236] [cursor=pointer]:
+              - /url: https://moc.ee/en/news-list/happy-holidays-4/
+            - generic [ref=e237]:
+              - generic [ref=e238]: 17.12.2025
+              - link "Happy Holidays!" [ref=e239] [cursor=pointer]:
+                - /url: https://moc.ee/en/news-list/happy-holidays-4/
+              - link "Read more " [ref=e241] [cursor=pointer]:
+                - /url: https://moc.ee/en/news-list/happy-holidays-4/
+                - generic [ref=e242]: Read more
+                - generic [ref=e243]: 
+          - generic [ref=e245]:
+            - link [ref=e246] [cursor=pointer]:
+              - /url: https://moc.ee/en/news-list/happy-independence-restoration-day-estonia-2/
+            - generic [ref=e247]:
+              - generic [ref=e248]: 19.08.2025
+              - link "Happy Independence Restoration Day, Estonia!" [ref=e249] [cursor=pointer]:
+                - /url: https://moc.ee/en/news-list/happy-independence-restoration-day-estonia-2/
+              - link "Read more " [ref=e251] [cursor=pointer]:
+                - /url: https://moc.ee/en/news-list/happy-independence-restoration-day-estonia-2/
+                - generic [ref=e252]: Read more
+                - generic [ref=e253]: 
+    - generic [ref=e256]:
+      - generic [ref=e257]:
+        - generic [ref=e258]: Contacts
+        - list [ref=e260]:
+          - listitem [ref=e261]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e262] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e264]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e266]:
+            - link "marketex.offshore@blrt.ee" [ref=e267] [cursor=pointer]:
+              - /url: mailto:marketex.offshore@blrt.ee
+              - img [ref=e269]
+              - text: marketex.offshore@blrt.ee
+          - listitem [ref=e271]:
+            - link "+372 610 2535" [ref=e272] [cursor=pointer]:
+              - /url: "tel:+372 610 2535 "
+              - img [ref=e274]
+              - text: +372 610 2535
+      - generic [ref=e276]:
+        - generic [ref=e277]: LINKS
+        - list [ref=e279]:
+          - listitem [ref=e280]:
+            - link " About us" [ref=e281] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e282]:
+            - link " News" [ref=e283] [cursor=pointer]:
+              - /url: /en/news/
+          - listitem [ref=e284]:
+            - link " Contacts" [ref=e285] [cursor=pointer]:
+              - /url: /en/contacts/
+      - list [ref=e288]:
+        - listitem [ref=e289]:
+          - link " Linkedin" [ref=e290] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/marketex-offshore-constructions/about/?viewAsMember=true
+            - generic [ref=e291]: 
+            - text: Linkedin
+    - contentinfo [ref=e293]:
+      - generic [ref=e296]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e297] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e298]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e299]:
+    - generic [ref=e300]:
+      - generic [ref=e301]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e303] [cursor=pointer]
+      - button "No" [ref=e304] [cursor=pointer]

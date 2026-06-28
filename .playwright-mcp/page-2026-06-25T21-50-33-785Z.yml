@@ -1,0 +1,124 @@
+- generic [active] [ref=e1]:
+  - text:         
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrtera.ee/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "About us" [ref=e19] [cursor=pointer]:
+                  - /url: https://blrtera.ee/en/about-us/
+              - listitem [ref=e20]:
+                - link "News" [ref=e21] [cursor=pointer]:
+                  - /url: https://blrtera.ee/en/news/
+              - listitem [ref=e22]:
+                - link "Contacts" [ref=e23] [cursor=pointer]:
+                  - /url: "#"
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link "En" [ref=e27] [cursor=pointer]:
+                  - /url: https://blrtera.ee/en/
+                  - generic [ref=e28]: En
+              - listitem [ref=e29]:
+                - link "Switch to Ru" [ref=e30] [cursor=pointer]:
+                  - /url: https://blrtera.ee/ru/
+                  - generic [ref=e31]: Ru
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link " Activities" [ref=e35] [cursor=pointer]:
+                  - /url: https://blrtera.ee/en/activities/
+              - listitem [ref=e36]:
+                - link " Virtual tour" [ref=e37] [cursor=pointer]:
+                  - /url: https://blrtera.ee/en/virtual-tour/
+    - main [ref=e38]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: About us
+          - paragraph [ref=e46]: BLRT ERA was established in Tallinn in 1948 and since 1996 is a subsidiary of BLRT Grupp, one of the largest industrial holdings in the Baltic Sea region. The company has branches in Estonia, Lithuania and Finland. Mobile teams are capable to provide service and to perform core operations worldwide.
+          - link "Read more " [ref=e48] [cursor=pointer]:
+            - /url: " /about-us/"
+            - generic [ref=e49]: Read more
+            - generic [ref=e50]: 
+        - generic [ref=e51]:
+          - generic [ref=e53]:
+            - img [ref=e55]
+            - generic [ref=e62]:
+              - strong [ref=e63]: 3 500 kg
+              - text: load capacity of balancing machine
+          - generic [ref=e65]:
+            - img [ref=e67]
+            - generic [ref=e79]:
+              - strong [ref=e80]: 70 000
+              - text: engines and generators
+              - text: repaired and serviced by us
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - generic [ref=e87]:
+              - strong [ref=e88]: 10 t + 5 t
+              - text: crane lifting capacity
+          - generic [ref=e90]:
+            - img [ref=e92]
+            - generic [ref=e101]:
+              - strong [ref=e102]: Testing stand for AC/DC
+              - text: engines and generators
+      - generic [ref=e103]:
+        - generic [ref=e105]: Activities
+        - generic [ref=e108]:
+          - link "Industrial sector" [ref=e111] [cursor=pointer]:
+            - /url: /en/services/
+            - strong [ref=e113]: Industrial sector
+          - link "Offshore energy" [ref=e116] [cursor=pointer]:
+            - /url: /en/services/
+            - strong [ref=e118]: Offshore energy
+          - link "Shipbuilding and ship repair" [ref=e121] [cursor=pointer]:
+            - /url: /en/services/
+            - strong [ref=e123]: Shipbuilding and ship repair
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - generic [ref=e128]: Contacts
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e132] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e134]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e136]:
+            - link "era@blrt.ee" [ref=e137] [cursor=pointer]:
+              - /url: mailto:era@blrt.ee
+              - img [ref=e139]
+              - text: era@blrt.ee
+          - listitem [ref=e141]:
+            - link "+372 610 2307" [ref=e142] [cursor=pointer]:
+              - /url: tel:+372 610 2307
+              - img [ref=e144]
+              - text: +372 610 2307
+      - generic [ref=e146]:
+        - generic [ref=e147]: LINKS
+        - list [ref=e149]:
+          - listitem [ref=e150]:
+            - link " About us" [ref=e151] [cursor=pointer]:
+              - /url: https://blrtera.ee/en/about-us/
+          - listitem [ref=e152]:
+            - link " Vacancies" [ref=e153] [cursor=pointer]:
+              - /url: https://blrt.ee/et/toopakkumised/
+          - listitem [ref=e154]:
+            - link " Contacts in Estonia" [ref=e155] [cursor=pointer]:
+              - /url: https://blrtera.ee/en/contacts-ee/
+      - generic [ref=e156]:
+        - list
+    - contentinfo [ref=e158]:
+      - generic [ref=e161]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e162] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e163]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e164]:
+    - generic [ref=e165]:
+      - generic [ref=e166]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e168] [cursor=pointer]
+      - button "No" [ref=e169] [cursor=pointer]

@@ -11,6 +11,11 @@ import Activities from "./pages/Activities";
 import Contacts from "./pages/Contacts";
 import OurValues from "./pages/OurValues";
 import BusinessPage from "./pages/BusinessPage";
+import News from "./pages/News";
+import Projects from "./pages/Projects";
+import Careers from "./pages/Careers";
+import Sustainability from "./pages/Sustainability";
+import Companies from "./pages/Companies";
 import NotFound from "./pages/NotFound.tsx";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -32,6 +37,11 @@ const App = () => (
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/our-values" element={<OurValues />} />
               <Route path="/company/:slug" element={<BusinessPage />} />
+              <Route path="/news" element={<News />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/careers" element={<Careers />} />
+              <Route path="/sustainability" element={<Sustainability />} />
+              <Route path="/companies" element={<Companies />} />
               {/* Legacy group page — redirect to home */}
               <Route path="/group" element={<Navigate to="/" replace />} />
               <Route path="*" element={<NotFound />} />

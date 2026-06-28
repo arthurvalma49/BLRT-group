@@ -1,0 +1,384 @@
+- generic [active] [ref=e1]:
+  - text:               
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "Western Technological Solutions - Stainless Steel Engineering & Fabrication Official logo of Western Technological Solutions, a Baltic Sea-based EU manufacturer specializing in large-scale stainless steel tanks, pressure vessels, scrubbers, bridges and welded structures Western Technological Solutions - Stainless Steel Engineering & Fabrication Official logo of Western Technological Solutions, a Baltic Sea-based EU manufacturer specializing in large-scale stainless steel tanks, pressure vessels, scrubbers, bridges and welded structures" [ref=e5] [cursor=pointer]:
+          - /url: https://techsolutions.lt/en/
+          - img "Western Technological Solutions - Stainless Steel Engineering & Fabrication Official logo of Western Technological Solutions, a Baltic Sea-based EU manufacturer specializing in large-scale stainless steel tanks, pressure vessels, scrubbers, bridges and welded structures" [ref=e6]
+          - img "Western Technological Solutions - Stainless Steel Engineering & Fabrication Official logo of Western Technological Solutions, a Baltic Sea-based EU manufacturer specializing in large-scale stainless steel tanks, pressure vessels, scrubbers, bridges and welded structures" [ref=e14]
+        - text:  
+        - generic [ref=e19]:
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "Our Capabilities" [ref=e24] [cursor=pointer]:
+                - /url: https://techsolutions.lt/en/manufacturing-capabilities/
+            - listitem [ref=e25]:
+              - link "Certificates" [ref=e26] [cursor=pointer]:
+                - /url: https://techsolutions.lt/en/certificates/
+            - listitem [ref=e27]:
+              - link "Career" [ref=e28] [cursor=pointer]:
+                - /url: https://techsolutions.lt/en/career/
+          - navigation [ref=e29]:
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - link " OUR PRODUCTS" [ref=e32] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e33]:
+                - link " Custom Products" [ref=e34] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e35]:
+                - link " Duplex Bridges" [ref=e36] [cursor=pointer]:
+                  - /url: https://techsolutions.lt/en/duplex-stainless-steel-bridges/
+              - listitem [ref=e37]:
+                - link " Industries We Serve" [ref=e38] [cursor=pointer]:
+                  - /url: https://techsolutions.lt/en/activities/
+              - listitem [ref=e39]:
+                - link " About us" [ref=e40] [cursor=pointer]:
+                  - /url: https://techsolutions.lt/en/about-us/
+              - listitem [ref=e41]:
+                - link " Contacts" [ref=e42] [cursor=pointer]:
+                  - /url: https://techsolutions.lt/en/contacts/
+    - main [ref=e43]:
+      - heading "Large-Scale Stainless & Aluminum Structures and Tanks" [level=1] [ref=e44]
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - img "fabrication of a- arge welded stainless steel bridge" [ref=e49]
+            - generic [ref=e51]:
+              - heading "Innovative duplex stainless steel bridges for a sustainable European future" [level=2] [ref=e53]:
+                - generic [ref=e54]:
+                  - text: Innovative duplex stainless
+                  - text: steel bridges for a sustainable
+                  - text: European future
+              - link "Read more " [ref=e56] [cursor=pointer]:
+                - /url: " /en/duplex-stainless-steel-bridges/"
+                - generic [ref=e57]: Read more
+                - generic [ref=e58]: 
+          - generic [ref=e59]:
+            - img "Stainless Steel Tower" [ref=e60]
+            - generic [ref=e62]:
+              - heading "Large-scale welded stainless steel structures, prefabricated tanks, and pressure vessels shipped by sea" [level=2] [ref=e64]:
+                - generic [ref=e65]:
+                  - text: Large-scale welded stainless
+                  - text: steel structures, prefabricated
+                  - text: tanks, and pressure vessels
+                  - text: shipped by sea
+              - link "Read more " [ref=e67] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e68]: Read more
+                - generic [ref=e69]: 
+          - generic [ref=e70]:
+            - img "stainless steel absorber unit" [ref=e71]
+            - generic [ref=e73]:
+              - heading "European manufacturer of large-scale stainless steel tanks, pressure vessels, and welded assemblies" [level=2] [ref=e75]:
+                - generic [ref=e76]:
+                  - text: European manufacturer of
+                  - text: large-scale stainless steel
+                  - text: tanks, pressure vessels,
+                  - text: and welded assemblies
+              - link "Read more " [ref=e78] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e79]: Read more
+                - generic [ref=e80]: 
+          - generic [ref=e81]:
+            - img "heavy lift operation" [ref=e82]
+            - generic [ref=e84]:
+              - heading "Large-scale stainless steel welded assemblies, tanks, and pressure vessels manufactured on the Baltic Sea" [level=2] [ref=e86]:
+                - generic [ref=e87]:
+                  - text: Large-scale stainless steel
+                  - text: welded assemblies, tanks,
+                  - text: and pressure vessels
+                  - text: manufactured on the Baltic Sea
+              - link "Read more " [ref=e89] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e90]: Read more
+                - generic [ref=e91]: 
+          - generic [ref=e92]:
+            - img "cylindrical stainless steel shell fabrication" [ref=e93]
+            - generic [ref=e95]:
+              - heading "Large-scale stainless steel structures, scrubbers, tanks for European Decarbonization" [level=2] [ref=e97]:
+                - generic [ref=e98]:
+                  - text: Large-scale stainless steel
+                  - text: structures, scrubbers, tanks
+                  - text: for European Decarbonization
+              - link "Read more " [ref=e100] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e101]: Read more
+                - generic [ref=e102]: 
+          - generic [ref=e103]:
+            - img "fabrication of a- arge welded stainless steel bridge" [ref=e104]
+            - generic [ref=e106]:
+              - heading "Innovative duplex stainless steel bridges for a sustainable European future" [level=2] [ref=e108]:
+                - generic [ref=e109]:
+                  - text: Innovative duplex stainless
+                  - text: steel bridges for a sustainable
+                  - text: European future
+              - link "Read more " [ref=e111] [cursor=pointer]:
+                - /url: " /en/duplex-stainless-steel-bridges/"
+                - generic [ref=e112]: Read more
+                - generic [ref=e113]: 
+          - generic [ref=e114]:
+            - img "Stainless Steel Tower" [ref=e115]
+            - generic [ref=e117]:
+              - heading "Large-scale welded stainless steel structures, prefabricated tanks, and pressure vessels shipped by sea" [level=2] [ref=e119]:
+                - generic [ref=e120]:
+                  - text: Large-scale welded stainless
+                  - text: steel structures, prefabricated
+                  - text: tanks, and pressure vessels
+                  - text: shipped by sea
+              - link "Read more " [ref=e122] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e123]: Read more
+                - generic [ref=e124]: 
+        - generic [ref=e125]:
+          - button "Go to slide 1" [ref=e126] [cursor=pointer]
+          - button "Go to slide 2" [ref=e127] [cursor=pointer]
+          - button "Go to slide 3" [ref=e128] [cursor=pointer]
+          - button "Go to slide 4" [ref=e129] [cursor=pointer]
+          - button "Go to slide 5" [ref=e130] [cursor=pointer]
+      - generic [ref=e132]:
+        - generic [ref=e134]:
+          - generic [ref=e135]: Your Trusted Stainless Steel Partner for Complex EPC Projects
+          - generic [ref=e136]:
+            - paragraph [ref=e137]: Western Technological Solutions provides advanced engineering and manufacturing services for large-scale stainless steel and aluminum products, serving the Chemical, Oil & Gas, Power, Marine, Food, Hydrogen, Carbon Capture, and Decarbonization industries.
+            - paragraph [ref=e138]: As part of the Western Shipyard and BLRT Grupp, one of the leading marine industrial holdings in the Baltic Sea region, we combine strong engineering expertise with modern manufacturing facilities located directly on the port pier in Klaipeda, Lithuania.
+            - paragraph [ref=e139]: Our deep expertise in fabricating complex, large-format stainless steel components has been built through long-term collaborations with leading European engineering companies on major industrial projects.
+            - paragraph [ref=e140]: Western Technological Solutions is your trusted partner for large-scale, customized stainless steel engineering solutions.
+          - link "Read more " [ref=e142] [cursor=pointer]:
+            - /url: about-us/
+            - generic [ref=e143]: Read more
+            - generic [ref=e144]: 
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - img "Partnership icon representing collaboration Western Technological Solutions with leading European engineering companies in heavy industry" [ref=e148]
+            - generic [ref=e151]:
+              - strong [ref=e152]: 10+
+              - text: from EU Top 30 Engineering Companies Trust Us
+          - generic [ref=e153]:
+            - img "Strategic location icon showing direct access from the workshop to the sea pier for heavy stainless steel assembly shipping" [ref=e155]
+            - generic [ref=e158]:
+              - strong [ref=e159]: 70 m
+              - text: only between the workshop gate and the sea pier
+          - generic [ref=e160]:
+            - img "Growth delivered projects icon for Western Technological Solutions – more than 250 large stainless steel structures, tanks, pressure vessels, and scrubbers" [ref=e162]
+            - generic [ref=e165]:
+              - strong [ref=e166]: 250+
+              - text: large-scale stainless steel structures, tanks & pressure vessels, scrubbers delivered
+          - generic [ref=e167]:
+            - img "Icon of Up to 500 t Heavy lifting and large-scale stainless steel assembly production capability at Western Technological Solutions" [ref=e169]
+            - generic [ref=e176]:
+              - strong [ref=e177]: 500+ t
+              - text: single-piece product weight production capability
+          - generic [ref=e178]:
+            - img "Icon showing production capability for stainless steel tanks and pressure vessels up to 6 m internal diameter and 34 m high" [ref=e180]
+            - generic [ref=e187]:
+              - strong [ref=e188]: Up to 6 m
+              - text: Internal Diameter for tanks and pressure vessels up to 34 m high
+          - generic [ref=e189]:
+            - img "Icon for turnkey solutions for prefabricated Class A stainless steel thermal energy storage tanks ranging from 50 to 500 m³" [ref=e191]
+            - generic [ref=e198]:
+              - strong [ref=e199]: 50-500 m³
+              - text: turnkey solutions for Class A stainless steel thermal energy storage tanks
+          - generic [ref=e200]:
+            - img "Icon representing the 3240 m² dedicated stainless steel workshop area at Western Technological Solutions" [ref=e202]
+            - generic [ref=e209]:
+              - strong [ref=e210]: 3240 m²
+              - text: Stainless Steel Workshop Area
+          - generic [ref=e211]:
+            - img "Icon symbolizing the 7000 m² heavy-duty assembly area for large-scale stainless steel structures on the sea pier in Klaipeda" [ref=e213]
+            - generic [ref=e220]:
+              - strong [ref=e221]: 7000 m²
+              - text: of outdoor assembly space available
+      - generic [ref=e222]:
+        - generic [ref=e224]: Industries
+        - generic [ref=e225]:
+          - generic [ref=e227]:
+            - link "gantry crane lifting Hydrogen" [ref=e230] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/hydrogen/
+              - img "gantry crane lifting" [ref=e231]
+              - generic [ref=e232]: Hydrogen
+            - link "stainless steel absorber vessel Environmental" [ref=e235] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/environmental/
+              - img "stainless steel absorber vessel" [ref=e236]
+              - generic [ref=e237]: Environmental
+            - link "energy pressure vessel Energy" [ref=e240] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/energy/
+              - img "energy pressure vessel" [ref=e241]
+              - generic [ref=e242]: Energy
+            - link "storage tanks Chemical" [ref=e245] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/chemical/
+              - img "storage tanks" [ref=e246]
+              - generic [ref=e247]: Chemical
+            - link "Workshop assembly of a complex large-scale stainless steel marine scrubber unit for emission control Marine" [ref=e250] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/marine/
+              - img "Workshop assembly of a complex large-scale stainless steel marine scrubber unit for emission control" [ref=e252]
+              - generic [ref=e253]: Marine
+            - link "large stainless tank Food" [ref=e256] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/food/
+              - img "large stainless tank" [ref=e257]
+              - generic [ref=e258]: Food
+            - link "bridge of custom metal Infrastructure" [ref=e261] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/infrastructure/
+              - img "bridge of custom metal" [ref=e262]
+              - generic [ref=e263]: Infrastructure
+            - link "gantry crane lifting Hydrogen" [ref=e266] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/hydrogen/
+              - img "gantry crane lifting" [ref=e267]
+              - generic [ref=e268]: Hydrogen
+            - link "stainless steel absorber vessel Environmental" [ref=e271] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/environmental/
+              - img "stainless steel absorber vessel" [ref=e272]
+              - generic [ref=e273]: Environmental
+            - link "energy pressure vessel Energy" [ref=e276] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/energy/
+              - img "energy pressure vessel" [ref=e277]
+              - generic [ref=e278]: Energy
+            - link "storage tanks Chemical" [ref=e281] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/chemical/
+              - img "storage tanks" [ref=e282]
+              - generic [ref=e283]: Chemical
+            - link "Workshop assembly of a complex large-scale stainless steel marine scrubber unit for emission control Marine" [ref=e286] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/marine/
+              - img "Workshop assembly of a complex large-scale stainless steel marine scrubber unit for emission control" [ref=e288]
+              - generic [ref=e289]: Marine
+            - link "large stainless tank Food" [ref=e292] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/food/
+              - img "large stainless tank" [ref=e293]
+              - generic [ref=e294]: Food
+            - link "bridge of custom metal Infrastructure" [ref=e297] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/infrastructure/
+              - img "bridge of custom metal" [ref=e298]
+              - generic [ref=e299]: Infrastructure
+            - link "gantry crane lifting Hydrogen" [ref=e302] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/hydrogen/
+              - img "gantry crane lifting" [ref=e303]
+              - generic [ref=e304]: Hydrogen
+            - link "stainless steel absorber vessel Environmental" [ref=e307] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/environmental/
+              - img "stainless steel absorber vessel" [ref=e308]
+              - generic [ref=e309]: Environmental
+            - link "energy pressure vessel Energy" [ref=e312] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/energy/
+              - img "energy pressure vessel" [ref=e313]
+              - generic [ref=e314]: Energy
+            - link "storage tanks Chemical" [ref=e317] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/chemical/
+              - img "storage tanks" [ref=e318]
+              - generic [ref=e319]: Chemical
+            - link "Workshop assembly of a complex large-scale stainless steel marine scrubber unit for emission control Marine" [ref=e322] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/marine/
+              - img "Workshop assembly of a complex large-scale stainless steel marine scrubber unit for emission control" [ref=e324]
+              - generic [ref=e325]: Marine
+            - link "large stainless tank Food" [ref=e328] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/food/
+              - img "large stainless tank" [ref=e329]
+              - generic [ref=e330]: Food
+            - link "bridge of custom metal Infrastructure" [ref=e333] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/activities-list/infrastructure/
+              - img "bridge of custom metal" [ref=e334]
+              - generic [ref=e335]: Infrastructure
+          - generic [ref=e336]:
+            - button "Go to slide 1" [ref=e337] [cursor=pointer]
+            - button "Go to slide 2" [ref=e338] [cursor=pointer]
+            - button "Go to slide 3" [ref=e339] [cursor=pointer]
+            - button "Go to slide 4" [ref=e340] [cursor=pointer]
+            - button "Go to slide 5" [ref=e341] [cursor=pointer]
+            - button "Go to slide 6" [ref=e342] [cursor=pointer]
+            - button "Go to slide 7" [ref=e343] [cursor=pointer]
+          - button "Previous slide" [ref=e344] [cursor=pointer]:
+            - generic [ref=e345]: 
+          - button "Next slide" [ref=e346] [cursor=pointer]:
+            - generic [ref=e347]: 
+      - generic [ref=e351]:
+        - generic [ref=e353]: Infrastructure
+        - paragraph [ref=e355]:
+          - text: Western Technological Solutions offers unique manufacturing capabilities for producing exceptionally heavy, large-scale stainless steel structures that can only be transported by sea.
+          - text: These capabilities are supported by the advanced infrastructure of the Western Shipyard Group.
+          - text: Our services for large-format stainless steel and aluminum structures cover the entire project cycle — from engineering design and fabrication to shipment and on-site installation.
+        - link "Read more " [ref=e357] [cursor=pointer]:
+          - /url: /en/manufacturing-capabilities/
+          - generic [ref=e358]: Read more
+          - generic [ref=e359]: 
+      - generic [ref=e362]:
+        - generic [ref=e363]:
+          - generic [ref=e365]: Social Responsibility
+          - paragraph [ref=e367]:
+            - strong [ref=e368]: Corporate social responsibility (SR)
+            - text: refers to responsibility of companies for impact they have on their employees, society, and environment. It is an integral part of every company, whose business activities are based on the principles of sustainability. The Western Shipyard Group is creating value-based organisational culture and advocating equal rights of the employees, it takes care of occupational safety and health of the employees and invests in the development of competencies to promote career development and personal well-being.
+          - link "Read more " [ref=e370] [cursor=pointer]:
+            - /url: /en/social-responsibility/
+            - generic [ref=e371]: Read more
+            - generic [ref=e372]: 
+        - generic [ref=e374]:
+          - link "Download Western Technological Solutions CORPORATE SOCIAL RESPONSIBILITY REPORT 2024 Corporate SR Report " [ref=e377] [cursor=pointer]:
+            - /url: /wp-content/uploads/2025/07/wsy_srr_2025.pdf
+            - img "Download Western Technological Solutions CORPORATE SOCIAL RESPONSIBILITY REPORT 2024" [ref=e379]
+            - generic [ref=e629]: Corporate SR Report
+            - generic [ref=e630]: 
+          - link "Download Western Technological Solutions CORPORATE SOCIAL RESPONSIBILITY POLICY, large-scale stainless steel structures, tanks, pressure vessels manufacturer Corporate SR Policy " [ref=e633] [cursor=pointer]:
+            - /url: /wp-content/uploads/2021/09/corporate_sr_policy.pdf
+            - img "Download Western Technological Solutions CORPORATE SOCIAL RESPONSIBILITY POLICY, large-scale stainless steel structures, tanks, pressure vessels manufacturer" [ref=e635]
+            - generic [ref=e790]: Corporate SR Policy
+            - generic [ref=e791]: 
+    - generic [ref=e794]:
+      - generic [ref=e795]:
+        - generic [ref=e796]: Contacts
+        - list [ref=e798]:
+          - listitem [ref=e799]:
+            - link "Western Technological Solutions Address Minijos st. 180, LT-93269, Klaipėda, Lithuania" [ref=e800] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Minijos+g.+180,+Klaip%C4%97da+93263,+Lithuania/@55.6537369,21.1637058,17z/data=!3m1!4b1!4m5!3m4!1s0x46e4ddce22a53f85:0x1af8860abbf25229!8m2!3d55.6537369!4d21.1658945
+              - img "Western Technological Solutions Address" [ref=e802]
+              - text: Minijos st. 180, LT-93269, Klaipėda, Lithuania
+          - listitem [ref=e804]:
+            - link "Western Technological Solutions Email solution@wsy.lt" [ref=e805] [cursor=pointer]:
+              - /url: mailto:solution@wsy.lt
+              - img "Western Technological Solutions Email" [ref=e807]
+              - text: solution@wsy.lt
+          - listitem [ref=e809]:
+            - link "Western Technological Solutions Phone Number +370 68 515 464" [ref=e810] [cursor=pointer]:
+              - /url: tel:+370 68 515 464
+              - img "Western Technological Solutions Phone Number" [ref=e812]
+              - text: +370 68 515 464
+          - paragraph [ref=e814]:
+            - text: Vakarų technologiniai sprendimai, UAB
+            - text: "Registration code: 302342692"
+      - generic [ref=e815]:
+        - generic [ref=e816]: LINKS
+        - list [ref=e818]:
+          - listitem [ref=e819]:
+            - link " About us" [ref=e820] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/about-us/
+          - listitem [ref=e821]:
+            - link " Our Capabilities" [ref=e822] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/manufacturing-capabilities/
+          - listitem [ref=e823]:
+            - link " Career" [ref=e824] [cursor=pointer]:
+              - /url: https://techsolutions.lt/en/career/
+        - generic [ref=e825]:
+          - generic [ref=e826]:
+            - img "Magnet JQS qualification badge - Western Technological Solutions, trusted Nordic oil & gas supplier registered in the leading energy sector compliance platform" [ref=e827]
+            - paragraph [ref=e828]: "Magnet JQS ID: 302342692"
+          - generic [ref=e829]:
+            - img "SAP Ariba Business Network badge - Western Technological Solutions, trusted supplier of stainless steel structures, tanks and pressure vessels" [ref=e830]
+            - paragraph [ref=e831]: "Ariba Network ID: AN11090198629"
+      - list [ref=e834]:
+        - listitem [ref=e835]:
+          - link " Linkedin" [ref=e836] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/western-technological-solutions/about/
+            - generic [ref=e837]: 
+            - text: Linkedin
+    - contentinfo [ref=e838]:
+      - generic [ref=e841]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e842] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e843]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e844]:
+    - generic [ref=e845]:
+      - generic [ref=e846]: We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+      - button "Ok" [ref=e848] [cursor=pointer]
+      - button "No" [ref=e849] [cursor=pointer]
+  - iframe [ref=e852]:
+    - generic [ref=f19e6]:
+      - text: protected by
+      - strong [ref=f19e7]: reCAPTCHA

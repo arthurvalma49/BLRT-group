@@ -11,6 +11,23 @@ export interface Service {
   fullDesc?: string;
 }
 
+export interface Certificate {
+  name: string;
+  issuer: string;
+  year?: number;
+}
+
+export interface TechDataRow {
+  label: { EN: string; RU: string; ET: string };
+  value: string;
+}
+
+export interface Product {
+  name: string;
+  desc: string;
+  image?: string;
+}
+
 export interface Business {
   slug: string;
   name: string;
@@ -29,38 +46,44 @@ export interface Business {
     email?: string;
     website?: string;
   };
+  certificates?: Certificate[];
+  techData?: TechDataRow[];
+  products?: Product[];
 }
 
 export const sectorGroups: { id: string; label: string; slugs: string[] }[] = [
   {
     id: "repair",
     label: "Ship Repair",
-    slugs: ["tallinn-shipyard", "western-shiprepair", "turku-repair-yard"],
+    slugs: ["tallinn-shipyard", "western-shiprepair", "turku-repair-yard", "blrt-rekato"],
   },
   {
     id: "building",
     label: "Shipbuilding",
-    slugs: ["western-baltic-shipbuilding", "blrt-fiskerstrand"],
+    slugs: ["western-baltic-shipbuilding"],
   },
   {
     id: "inspection",
     label: "Inspection & Testing",
-    slugs: ["tehnomet-survey", "western-central-laboratory"],
+    slugs: ["tehnomet-survey", "western-central-laboratory", "elme-tks"],
   },
   {
     id: "engineering",
     label: "Engineering",
-    slugs: ["blrt-era", "bars-elekter", "blrt-masinaehitus", "marketex-marine", "marketex-offshore"],
+    slugs: [
+      "blrt-era", "bars-elekter", "blrt-masinaehitus", "marketex-marine", "marketex-offshore",
+      "blrt-valukoda", "moc", "western-tech-solutions", "western-baltic-engineering",
+    ],
   },
   {
     id: "materials",
     label: "Steel & Materials",
-    slugs: ["elme-metall", "elme-messer-gaas", "elme-trans"],
+    slugs: ["elme-metall", "elme-messer-gaas", "elme-trans", "elme"],
   },
   {
     id: "port",
     label: "Port & Marine Services",
-    slugs: ["vene-balti-sadam", "mereabi"],
+    slugs: ["vene-balti-sadam", "mereabi", "western-ships-agency"],
   },
 ];
 
@@ -129,6 +152,22 @@ export const businesses: Business[] = [
       email: "info@blrtgrupp.ee",
       website: "https://blrtyards.com/en/",
     },
+    certificates: [
+      { name: "ISO 9001:2015",   issuer: "Bureau Veritas",   year: 2025 },
+      { name: "ISO 14001:2015",  issuer: "Bureau Veritas",   year: 2024 },
+      { name: "Lloyd's Register", issuer: "Class Acceptance"             },
+      { name: "DNV",              issuer: "Class Acceptance"             },
+      { name: "Bureau Veritas",   issuer: "Class Acceptance"             },
+      { name: "ABS",              issuer: "Class Acceptance"             },
+    ],
+    techData: [
+      { label: { EN: "Dock 22 — Length",    RU: "Сухой Dok 22 — Длина",    ET: "Kuivdokk 22 — Pikkus"   }, value: "165.00 m" },
+      { label: { EN: "Dock 22 — Width",     RU: "Сухой Dok 22 — Ширина",   ET: "Kuivdokk 22 — Laius"   }, value: "30.00 m"  },
+      { label: { EN: "Dock 22 — Capacity",  RU: "Сухой Dok 22 — Грузоподъёмность", ET: "Kuivdokk 22 — Kandejõud" }, value: "10,000 t" },
+      { label: { EN: "Berths total",        RU: "Всего причалов",           ET: "Kaie kokku"             }, value: "2,300 m"  },
+      { label: { EN: "Floating crane",      RU: "Плавкран",                 ET: "Ujurkraana"             }, value: "100 t"    },
+      { label: { EN: "Max vessel length alongside", RU: "Макс. длина судна у причала", ET: "Max laeva pikkus kai ääres" }, value: "200 m" },
+    ],
   },
   {
     slug: "western-shiprepair",
@@ -303,46 +342,6 @@ export const businesses: Business[] = [
       website: "https://wbs.lt/en/",
     },
   },
-  {
-    slug: "blrt-fiskerstrand",
-    name: "BLRT Fiskerstrand",
-    sector: "Shipbuilding",
-    sectorId: "building",
-    countries: "NO",
-    tagline: "Innovative vessel construction, guided by Norwegian quality tradition",
-    heroDesc:
-      "A 50/50 joint venture with Norway's Fiskerstrand Verft AS — a multipurpose shipyard with extensive expertise in newbuilding, conversion, repair and maintenance, founded in 1909 in Sula municipality.",
-    aboutP1:
-      "BLRT Fiskerstrand is a 50/50 joint venture between BLRT Grupp and Fiskerstrand Verft AS, combining BLRT's Baltic manufacturing scale with Fiskerstrand's century-long shipbuilding heritage in Sula municipality, Norway. The partnership brings together competitive knowledge in projecting, planning and building innovative vessels with the operational depth of one of Norway's most experienced multipurpose yards.",
-    aboutP2:
-      "The yard's core values — Quality, Reliability, Inclusion and Renewable practices — underpin everything from complex newbuilding projects to 24/7 emergency repair response. Fiskerstrand leverages Norway's prominent maritime cluster and strong supplier relationships to compete in international markets, and operates as an approved training company within Norway's maritime sector.",
-    services: [
-      {
-        icon: "ship",
-        title: "Newbuilding",
-        desc: "New vessel construction drawing on over a century of Norwegian shipbuilding heritage.",
-        fullDesc:
-          "BLRT Fiskerstrand brings together Fiskerstrand Verft's century of shipbuilding expertise and BLRT Grupp's Baltic manufacturing capabilities to deliver innovative vessels across a broad range of types. The yard's competitive knowledge spans the full cycle from projecting and planning through to delivery, with a focus on advanced propulsion solutions, hull form efficiency and close collaboration with owners and classification societies.\n\nPast deliveries include landmark LNG-powered passenger ferries for the Norwegian market — among them MF Boknafjord (2011), at the time the world's largest LNG ferry — as well as a range of other vessel types that reflect the yard's multipurpose newbuilding capability. Each project draws on Norway's prominent maritime cluster and strong supplier network to meet the demands of modern, sustainable vessel operation.",
-      },
-      {
-        icon: "wrench",
-        title: "Conversion & Repair",
-        desc: "All kinds of vessel conversion, rebuilding, repair and maintenance — often more financially efficient than newbuilding.",
-        fullDesc:
-          "Conversion is often more financially efficient for the owner than building a new vessel. Fiskerstrand handles all kinds of conversion and rebuilding projects, with project management, naval architects, design companies and suppliers working together to ensure successful retrofitting.\n\nRepair and maintenance services range from routine scheduled work to 24/7 emergency response. The yard's capabilities include underwater inspection and condition monitoring via Deep Drawing Micro ROV, hull maintenance using remote-controlled spray robots, propeller and rudder servicing with 40-ton hydraulic capacity, and advanced machinery inspection with fibre-optic equipment. Framework maintenance agreements ensure trouble-free operation for regular clients.",
-      },
-      {
-        icon: "anchor",
-        title: "Docking & 24/7 Service",
-        desc: "Docking facilities and round-the-clock emergency maritime support.",
-        fullDesc:
-          "Fiskerstrand operates docking facilities and provides 24/7 emergency maritime service, reachable at any hour for urgent repair and support needs. The yard's specialist teams are trained in propulsion system work and trusted to find creative solutions backed by generational expertise.\n\nThe 24/7 service line (+47 95 247 247) ensures that vessel operators can reach experienced personnel at any time, minimising downtime and keeping fleets operational in Norway's demanding coastal and fjord environment.",
-      },
-    ],
-    contact: {
-      website: "https://www.fiskerstrand.no/en/",
-    },
-  },
 
   /* ── INSPECTION & TESTING ── */
   {
@@ -381,6 +380,21 @@ export const businesses: Business[] = [
       email: "info@tehnomet.ee",
       website: "https://tehnometsurvey.ee/en/",
     },
+    certificates: [
+      { name: "ISO 9001:2015",  issuer: "Bureau Veritas",     year: 2025 },
+      { name: "Lloyd's Register", issuer: "Class Approval"               },
+      { name: "DNV",              issuer: "Class Approval"               },
+      { name: "Bureau Veritas",   issuer: "Class Approval"               },
+      { name: "RINA",             issuer: "Class Approval"               },
+      { name: "ABS",              issuer: "Class Approval"               },
+    ],
+    techData: [
+      { label: { EN: "Vessels inspected/year", RU: "Судов в год",          ET: "Laevu aastas"          }, value: "300+"       },
+      { label: { EN: "Mobilisation",           RU: "Мобилизация",          ET: "Mobilisatsioon"        }, value: "24/7"       },
+      { label: { EN: "Coverage",               RU: "Охват",                ET: "Tegevuspiirkond"       }, value: "Worldwide"  },
+      { label: { EN: "Founded",                RU: "Основана",             ET: "Asutatud"              }, value: "1998"       },
+      { label: { EN: "NDT Level",              RU: "Уровень НК",           ET: "NDT tase"              }, value: "II & III"   },
+    ],
   },
   {
     slug: "western-central-laboratory",
@@ -388,7 +402,7 @@ export const businesses: Business[] = [
     sector: "Inspection & Testing",
     sectorId: "inspection",
     countries: "LT",
-    tagline: "Let's build future ships together",
+    tagline: "Destructive and non-destructive testing, UTM, chemical analysis and welding certification",
     heroDesc:
       "Destructive and non-destructive testing, ultrasonic thickness measurement, chemical analysis, welding process control and welder certification. 40+ services, 1,500 projects annually.",
     aboutP1:
@@ -712,6 +726,37 @@ export const businesses: Business[] = [
       email: "info@elmemetall.eu",
       website: "https://elmemetall.eu/en/",
     },
+    certificates: [
+      { name: "ISO 9001:2015",     issuer: "Bureau Veritas", year: 2025 },
+      { name: "ISO 14001:2015",    issuer: "Bureau Veritas", year: 2024 },
+      { name: "EN 1090-1:2009+A1", issuer: "EXC 3 Execution Class"      },
+      { name: "ISO Cutcentre",     issuer: "Cutting Quality Certification" },
+    ],
+    techData: [
+      { label: { EN: "Countries",          RU: "Страны",            ET: "Riigid"           }, value: "EE · LV · LT · FI · PL" },
+      { label: { EN: "Service Centres",    RU: "Сервисные центры",  ET: "Teeninduskeskused" }, value: "6"                       },
+      { label: { EN: "Warehouses",         RU: "Склады",            ET: "Laod"             }, value: "10"                      },
+      { label: { EN: "Daily throughput",   RU: "Суточная мощность", ET: "Päevane läbilaskevõime" }, value: "1,000 t/day"       },
+      { label: { EN: "Customers",          RU: "Клиенты",           ET: "Kliendid"         }, value: "20,000+"                 },
+      { label: { EN: "Employees",          RU: "Сотрудники",        ET: "Töötajad"         }, value: "400"                     },
+    ],
+    products: [
+      {
+        name: "Hot-Rolled Steel Sheets & Plates",
+        desc: "S235–S355 hot-rolled plates and coils stocked in thicknesses from 3 mm to 150 mm; laser and plasma cut to order.",
+        image: "https://images.unsplash.com/photo-1568347877321-f8935c7dc5a3?w=600&q=75&auto=format&fit=crop",
+      },
+      {
+        name: "Structural Profiles & Beams",
+        desc: "IPE, HEA/HEB, UPN, UPE and L-profiles in carbon and weathering steel grades — available from stock or cut to length.",
+        image: "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?w=600&q=75&auto=format&fit=crop",
+      },
+      {
+        name: "Laser & Plasma Cut Parts",
+        desc: "Precision laser (up to 25 mm) and plasma (up to 100 mm) cutting, bending, drilling and shot-blasting to customer drawings.",
+        image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=75&auto=format&fit=crop",
+      },
+    ],
   },
   {
     slug: "elme-messer-gaas",
@@ -762,6 +807,22 @@ export const businesses: Business[] = [
       email: "info@elmemesser.ee",
       website: "https://www.elmemesser.ee/",
     },
+    products: [
+      {
+        name: "Technical & Welding Gases",
+        desc: "Oxygen, nitrogen, argon, CO₂, hydrogen and acetylene in cylinders, bundles and bulk — covering technical, welding and cutting applications.",
+        image: "https://images.unsplash.com/photo-1589211188318-737e59cdb411?w=600&q=75&auto=format&fit=crop",
+      },
+      {
+        name: "Specialty & Medical Gases",
+        desc: "High-purity calibration gas mixtures, medical oxygen, nitrous oxide, helium and breathing gases for healthcare, lab and research customers.",
+      },
+      {
+        name: "Dry Ice (Solid CO₂)",
+        desc: "Dry ice pellets (3 mm / 1.7 mm) and blocks at −79 °C for cooling chains and dry-ice blasting — supplied with insulated containers.",
+        image: "https://images.unsplash.com/photo-1590953850766-32da74e5e3c8?w=600&q=75&auto=format&fit=crop",
+      },
+    ],
   },
   {
     slug: "elme-trans",
@@ -814,7 +875,7 @@ export const businesses: Business[] = [
     sector: "Port & Marine Services",
     sectorId: "port",
     countries: "EE",
-    tagline: "Let's build future ships together",
+    tagline: "Port authority and towing services on the Kopli peninsula, Tallinn",
     heroDesc:
       "Port and towing services on the Kopli peninsula in Tallinn — 168.3 ha water area, 2,360 m of berths, two tugs and a 100-tonne floating crane available year-round.",
     aboutP1:
@@ -899,6 +960,353 @@ export const businesses: Business[] = [
       phone: "+372 660 2320",
       email: "info@mereabi.ee",
       website: "https://mereabi.ee/en/",
+    },
+  },
+
+  /* ── BLRT REKATO ── */
+  {
+    slug: "blrt-rekato",
+    name: "BLRT Rekato",
+    fullName: "BLRT Rekato OÜ",
+    sector: "Ship Repair",
+    sectorId: "repair",
+    countries: "EE",
+    tagline: "Ship repair and pipelines manufacturing",
+    heroDesc:
+      "Founded in 2000, BLRT Rekato operates in ship repair, shipbuilding and the Oil & Gas industry from a 6,420 m² production facility at Kopli 103, Tallinn.",
+    aboutP1:
+      "BLRT Rekato OÜ was founded in 2000 as a subsidiary of BLRT Grupp, the leading industrial holding in the Baltics. The company operates in ship repair, shipbuilding and the Oil & Gas industry, with a 6,420 m² production hall equipped with specialised machine tools for manufacturing pipelines, profile structures and metal processing.",
+    services: [
+      {
+        icon: "anchor",
+        title: "Ship Repair",
+        desc: "Repair works for vessels in the Baltic region including steel works, pipework and structural repairs carried out at the Kopli 103 yard.",
+      },
+      {
+        icon: "layers",
+        title: "Pipeline Manufacturing",
+        desc: "Manufacturing of pipelines and pipe systems for marine and Oil & Gas applications using specialised CNC machinery.",
+      },
+      {
+        icon: "wrench",
+        title: "Profile Structure Fabrication",
+        desc: "Fabrication of profile metal structures and assemblies for shipbuilding and industrial customers.",
+      },
+      {
+        icon: "gauge",
+        title: "Metal Processing",
+        desc: "General metal processing including cutting, bending, drilling and machining for marine and industrial applications.",
+      },
+    ],
+    contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2504",
+      email: "rekato@blrt.ee",
+    },
+  },
+
+  /* ── BLRT VALUKODA ── */
+  {
+    slug: "blrt-valukoda",
+    name: "BLRT Valukoda",
+    sector: "Engineering",
+    sectorId: "engineering",
+    countries: "EE",
+    tagline: "The only surviving foundry in Estonia",
+    heroDesc:
+      "BLRT Valukoda is Estonia's only foundry, producing over 100 tonnes per month of grey, spheroidal and wear-resistant cast iron for marine and industrial customers.",
+    aboutP1:
+      "BLRT Valukoda is a subsidiary of BLRT Grupp and the only surviving foundry in Estonia. The company operates two 1,000 kg melting furnaces and one 500 kg furnace, with a monthly output of over 100 tonnes of grey, spheroidal, heat- and wear-resistant cast iron products. Quality management is certified to ISO 9001:2015.",
+    services: [
+      {
+        icon: "flame",
+        title: "Grey Cast Iron (GJL)",
+        desc: "GJL 150–300 grade grey cast iron castings for marine, industrial and mechanical engineering applications.",
+      },
+      {
+        icon: "beaker",
+        title: "Spheroidal (Ductile) Iron (GJS)",
+        desc: "GJS 400–800 grade ductile iron castings offering high strength and toughness for demanding applications.",
+      },
+      {
+        icon: "shield",
+        title: "Heat & Wear-Resistant Castings",
+        desc: "Specialised heat- and wear-resistant cast iron grades for high-temperature and abrasive industrial environments.",
+      },
+      {
+        icon: "ruler",
+        title: "Custom Casting from Drawings",
+        desc: "Custom castings produced to customer drawings with in-house pattern support for serial and one-off production.",
+      },
+    ],
+    contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 511 9437",
+      email: "valukoda@blrt.ee",
+    },
+    certificates: [
+      { name: "ISO 9001:2015", issuer: "Quality Management System", year: 2023 },
+    ],
+  },
+
+  /* ── ELME (AS ELME) ── */
+  {
+    slug: "elme",
+    name: "Elme",
+    fullName: "AS Elme",
+    sector: "Steel & Materials",
+    sectorId: "materials",
+    countries: "EE · LV · LT",
+    tagline: "Industrial goods, energy and technical maintenance",
+    heroDesc:
+      "AS Elme supplies high-quality industrial and marine goods, provides energy services and crane maintenance to Baltic industrial customers from Kopli 103, Tallinn.",
+    aboutP1:
+      "AS Elme is a subsidiary of BLRT Grupp and a supplier of high-quality goods and equipment for industry and the marine sector, with customers across the Baltic States. The company's product range covers welding consumables, zinc, abrasive powders, industrial machinery, marine engines, propulsion systems, anchoring and mooring equipment.",
+    aboutP2:
+      "Beyond goods supply, Elme is a reliable supplier of electrical and thermal energy and a provider of communication services, process equipment and crane maintenance for the BLRT Grupp industrial campus and external customers.",
+    services: [
+      {
+        icon: "package",
+        title: "Industrial Goods Supply",
+        desc: "Welding consumables, zinc, abrasive powders, industrial machinery and tools for manufacturing and construction sectors.",
+      },
+      {
+        icon: "anchor",
+        title: "Marine Equipment Supply",
+        desc: "Marine engines, propulsion systems, anchoring and mooring equipment for the shipbuilding and ship repair industries.",
+      },
+      {
+        icon: "zap",
+        title: "Energy Supply",
+        desc: "Electrical and thermal energy supply services for industrial customers and BLRT Grupp enterprises at the Kopli campus.",
+      },
+      {
+        icon: "wrench",
+        title: "Crane Maintenance",
+        desc: "Maintenance and repair of industrial cranes and lifting equipment on the Kopli industrial campus.",
+      },
+      {
+        icon: "circuit",
+        title: "Network & Communication Services",
+        desc: "Communication infrastructure and network services supporting BLRT Grupp industrial operations.",
+      },
+    ],
+    contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2386",
+      email: "elme@blrt.ee",
+    },
+  },
+
+  /* ── ELME TKS ── */
+  {
+    slug: "elme-tks",
+    name: "Elme TKS",
+    fullName: "ELME TKS OÜ",
+    sector: "Inspection & Testing",
+    sectorId: "inspection",
+    countries: "EE",
+    tagline: "Metals and welds: inspection, testing and technical control",
+    heroDesc:
+      "Established in 2001 from a merger of a calibration laboratory and a testing facility, Elme TKS provides metals and welds inspection, testing and technical control to Baltic industry.",
+    aboutP1:
+      "ELME TKS OÜ was established on 24 April 2001 as a result of a merger between two independent laboratories: a calibration laboratory and a testing facility. The company employs 15 specialists and operates an Integrated Management System covering all core services. Customers include BLRT Grupp companies and metal work manufacturers, engineering, transportation and construction businesses from across Estonia.",
+    services: [
+      {
+        icon: "eye",
+        title: "Metal Inspection & Testing",
+        desc: "Inspection and mechanical testing of metals and metal products to recognised national and international standards.",
+      },
+      {
+        icon: "shield",
+        title: "Weld Quality Control",
+        desc: "Visual, dimensional and non-destructive testing of welds for marine, structural and industrial fabrication.",
+      },
+      {
+        icon: "ruler",
+        title: "Calibration Services",
+        desc: "Calibration of measuring instruments and gauges in accordance with national metrology requirements.",
+      },
+      {
+        icon: "file",
+        title: "Technical Control",
+        desc: "Independent technical supervision and acceptance documentation for production processes and incoming materials.",
+      },
+    ],
+    contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      email: "elmetks@elmetks.ee",
+    },
+  },
+
+  /* ── MARKETEX OFFSHORE CONSTRUCTIONS (MOC) ── */
+  {
+    slug: "moc",
+    name: "Marketex Offshore Constructions",
+    fullName: "Marketex Offshore Constructions OÜ",
+    sector: "Engineering",
+    sectorId: "engineering",
+    countries: "EE",
+    tagline: "Complex steel structures for Offshore, Renewables and Industrial projects",
+    heroDesc:
+      "Marketex Offshore Constructions manufactures complex steel structures for Offshore Oil & Gas, Renewables, Infrastructure and Industrial projects, meeting NORSOK, DNV GL, ABS and Bureau Veritas requirements.",
+    aboutP1:
+      "Marketex Offshore Constructions (MOC) is a subsidiary of BLRT Grupp specialising in complex steel structures for Offshore Oil & Gas, Renewables, Infrastructure and Industrial projects. In 2020, supported by BLRT Grupp's development programme, the company opened a brand-new welding, machining and painting facility dedicated to large fabrication projects serving the North Sea and beyond.",
+    aboutP2:
+      "MOC manufactures to NORSOK, DNV GL, ABS and Bureau Veritas requirements. The company's QHSE Department — comprising a QHSE Manager, HSE Engineer, Metrology Engineer and three VT2-certified QC inspectors — ensures rigorous quality and safety standards across all production activities. Safety induction training is mandatory for all personnel entering MOC production workshops.",
+    services: [
+      {
+        icon: "layers",
+        title: "Offshore Steel Structures",
+        desc: "Complex steel structures for offshore oil and gas platforms, meeting NORSOK and classification society requirements.",
+      },
+      {
+        icon: "waves",
+        title: "Renewables Fabrication",
+        desc: "Steel fabrication for offshore wind and renewables infrastructure, including foundations, transition pieces and secondary structures.",
+      },
+      {
+        icon: "building",
+        title: "Industrial & Infrastructure Structures",
+        desc: "Heavy steel structures for infrastructure and industrial projects, manufactured to DNV GL, ABS and Bureau Veritas standards.",
+      },
+      {
+        icon: "award",
+        title: "QHSE Quality Assurance",
+        desc: "Integrated QHSE system with VT2-certified QC inspectors, HSE engineering and metrology support on every fabrication project.",
+      },
+    ],
+    contact: {
+      address: "Kopli 103, 11712 Tallinn, Estonia",
+      email: "moc@blrt.ee",
+    },
+  },
+
+  /* ── WESTERN TECHNOLOGICAL SOLUTIONS ── */
+  {
+    slug: "western-tech-solutions",
+    name: "Western Technological Solutions",
+    fullName: "Western Technological Solutions (WTS)",
+    sector: "Engineering",
+    sectorId: "engineering",
+    countries: "LT",
+    tagline: "Large-scale stainless steel tanks, pressure vessels and welded assemblies",
+    heroDesc:
+      "Western Technological Solutions manufactures large-scale stainless steel and aluminium structures, tanks and pressure vessels for Chemical, Oil & Gas, Marine, Hydrogen and Decarbonization industries from Klaipėda.",
+    aboutP1:
+      "Western Technological Solutions (WTS) is part of the Western Shipyard Group and BLRT Grupp, offering advanced engineering and manufacturing services for large-scale stainless steel and aluminium products. Manufacturing facilities sit directly on the port pier in Klaipėda, Lithuania — enabling sea transport of oversized structures that cannot be moved by road.",
+    aboutP2:
+      "WTS serves the Chemical, Oil & Gas, Power, Marine, Food, Hydrogen, Carbon Capture and Decarbonization industries. Deep expertise in complex, large-format stainless steel components has been built through long-term collaborations with leading European engineering companies on major industrial projects.",
+    services: [
+      {
+        icon: "beaker",
+        title: "Stainless Steel Tanks & Pressure Vessels",
+        desc: "Large-scale stainless steel pressure vessels, storage tanks and process vessels to EN/ASME standards — sea-shipped from Klaipėda.",
+      },
+      {
+        icon: "layers",
+        title: "Large-Format Welded Assemblies",
+        desc: "Complex stainless steel and aluminium welded assemblies including scrubbers, heat exchangers and structural fabrications.",
+      },
+      {
+        icon: "trending",
+        title: "Duplex Stainless Steel Bridges",
+        desc: "Innovative duplex stainless steel bridge structures for infrastructure and decarbonization projects across Europe.",
+      },
+      {
+        icon: "ruler",
+        title: "Full Project Cycle",
+        desc: "End-to-end service from engineering design and fabrication through sea shipment and on-site installation at the customer's location.",
+      },
+    ],
+    contact: {
+      address: "Minijos Str. 180, 93269 Klaipėda, Lithuania",
+      email: "info@techsolutions.lt",
+    },
+  },
+
+  /* ── WESTERN BALTIC ENGINEERING ── */
+  {
+    slug: "western-baltic-engineering",
+    name: "Western Baltic Engineering",
+    sector: "Engineering",
+    sectorId: "engineering",
+    countries: "LT",
+    tagline: "Let's design future ships together",
+    heroDesc:
+      "Established in 2003, Western Baltic Engineering has grown from a shipyard engineering department into an independent maritime knowledge centre with 100 in-house engineers in Klaipėda.",
+    aboutP1:
+      "Western Baltic Engineering (WBE) was established in 2003 as an engineering department of Western Baltic Shipbuilding and has since developed into an independent knowledge centre for the maritime industry. The company employs 100 in-house engineers focused on vessel and maritime structure design of various types.",
+    aboutP2:
+      "WBE's portfolio covers newbuilding design, retrofit engineering (BWTS, EGCS, 3D laser scanning), vessel conversions including change of purpose, vessel lengthening and propulsion system modifications, on-site supervision and project management. The company serves shipowners, shipyards and maritime operators throughout Europe.",
+    services: [
+      {
+        icon: "ship",
+        title: "Newbuilding Design",
+        desc: "Complete vessel design packages for various vessel types — from initial concept through classification-approved drawings.",
+      },
+      {
+        icon: "layers",
+        title: "Retrofit Engineering",
+        desc: "Engineering design for BWTS, EGCS (scrubbers), LNG conversion and other regulatory retrofits, including 3D laser scanning.",
+      },
+      {
+        icon: "wrench",
+        title: "Vessel Conversions",
+        desc: "Design for vessel purpose change, lengthening, propulsion system modifications and major structural conversions.",
+      },
+      {
+        icon: "ruler",
+        title: "On-Site Supervision",
+        desc: "Project management and on-site engineering supervision during construction, repair or retrofit execution at yards worldwide.",
+      },
+    ],
+    contact: {
+      address: "Minijos Str. 180, LT-93269 Klaipėda, Lithuania",
+      email: "wbe@wsy.lt",
+    },
+  },
+
+  /* ── WESTERN SHIPS AGENCY ── */
+  {
+    slug: "western-ships-agency",
+    name: "Western Ships Agency",
+    sector: "Port & Marine Services",
+    sectorId: "port",
+    countries: "LT · EE",
+    tagline: "Your requests — Our solutions",
+    heroDesc:
+      "Established in 2002, Western Ships Agency provides multipurpose port agency, cargo logistics and ship supply services in Klaipėda and Tallinn ports.",
+    aboutP1:
+      "Western Ships Agency (WSA) is a subsidiary of BLRT Grupp, established in 2002. The company's core activity is providing best-in-class assistance to shipowners and operators in Klaipėda and Tallinn ports for all matters during a vessel's stay in port.",
+    aboutP2:
+      "WSA's strongest capability is delivering multipurpose agency services for long-term and extraordinary projects covering all vessel types. The company also organises general and oversized cargo delivery, chartering and freight forwarding projects, and handles all aspects of ship supply — from technical spares to provisions.",
+    services: [
+      {
+        icon: "anchor",
+        title: "Port Agency",
+        desc: "Full port agency services in Klaipėda and Tallinn: customs, crew changes, berthing coordination and port dues management.",
+      },
+      {
+        icon: "ship",
+        title: "Ship Supply",
+        desc: "Procurement and delivery of technical spares, lubricants, provisions and deck stores to vessels at berth or anchorage.",
+      },
+      {
+        icon: "truck",
+        title: "Cargo & Freight Forwarding",
+        desc: "Organisation of general and oversized cargo delivery, chartering and freight forwarding projects across the Baltic region.",
+      },
+      {
+        icon: "globe",
+        title: "Multipurpose Agency Services",
+        desc: "Long-term project agency for extraordinary vessel calls — offshore, heavy-lift, cable-lay and construction vessels.",
+      },
+    ],
+    contact: {
+      address: "Minijos Str. 180, 93269 Klaipėda, Lithuania",
+      phone: "+370 699 36 083",
+      email: "agency@wsy.lt",
     },
   },
 ];

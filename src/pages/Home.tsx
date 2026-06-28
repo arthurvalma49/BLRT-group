@@ -3,44 +3,26 @@ import { Link } from "react-router-dom";
 import {
   ArrowRight, ArrowUpRight,
   Building2, Globe2, Layers, Landmark,
-  Wrench, Ship, Search, Zap, Anchor,
+  Leaf, Wind, Droplets,
 } from "lucide-react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import MagneticButton from "@/components/MagneticButton";
 import RevealSection from "@/components/RevealSection";
+import NewsCard from "@/components/NewsCard";
+import ProjectCard from "@/components/ProjectCard";
+import PresenceMap from "@/components/PresenceMap";
 import heroVessel from "@/assets/hero-vessel.jpg";
 import inspectorWork from "@/assets/inspector-work.jpg";
 import { useLanguage } from "@/i18n/LanguageContext";
-import { businesses, sectorGroups } from "@/data/businesses";
-
-const sectorThemes: Record<string, {
-  accentBg: string;
-  accentText: string;
-  nameHover: string;
-  borderHover: string;
-}> = {
-  repair:      { accentBg: "bg-sky-500/12",     accentText: "text-sky-300",     nameHover: "group-hover:text-sky-400",     borderHover: "group-hover:border-sky-400/30"     },
-  building:    { accentBg: "bg-slate-500/12",   accentText: "text-slate-300",   nameHover: "group-hover:text-slate-300",   borderHover: "group-hover:border-slate-400/30"   },
-  inspection:  { accentBg: "bg-rose-500/12",    accentText: "text-rose-300",    nameHover: "group-hover:text-rose-400",    borderHover: "group-hover:border-rose-400/30"    },
-  engineering: { accentBg: "bg-amber-500/12",   accentText: "text-amber-300",   nameHover: "group-hover:text-amber-400",   borderHover: "group-hover:border-amber-400/30"   },
-  materials:   { accentBg: "bg-emerald-500/12", accentText: "text-emerald-300", nameHover: "group-hover:text-emerald-400", borderHover: "group-hover:border-emerald-400/30" },
-  port:        { accentBg: "bg-cyan-500/12",    accentText: "text-cyan-300",    nameHover: "group-hover:text-cyan-400",    borderHover: "group-hover:border-cyan-400/30"    },
-};
-
-const sectorIcons: Record<string, React.ComponentType<{ className?: string }>> = {
-  repair:      Wrench,
-  building:    Ship,
-  inspection:  Search,
-  engineering: Zap,
-  materials:   Layers,
-  port:        Anchor,
-};
+import { sectorGroups } from "@/data/businesses";
+import { news } from "@/data/news";
+import { projects } from "@/data/projects";
 
 const facts = [
   { label: "Headquarters", value: "Kopli, Tallinn" },
   { label: "Founded",      value: "1912" },
-  { label: "Companies",    value: "17 across 6 sectors" },
-  { label: "Markets",      value: "EE · LV · LT · FI · NO" },
+  { label: "Companies",    value: "24 across 6 sectors" },
+  { label: "Markets",      value: "EE · LV · LT · FI" },
 ];
 
 function StatNumber({ target, animate }: { target: number; animate: boolean }) {
@@ -111,7 +93,7 @@ export default function Home() {
   }, [prefersReducedMotion]);
 
   const stats = [
-    { value: 17,   label: t("blrt.stat.companies"), animate: true,  Icon: Building2 },
+    { value: 24,   label: t("blrt.stat.companies"), animate: true,  Icon: Building2 },
     { value: 5,    label: t("blrt.stat.countries"),  animate: true,  Icon: Globe2    },
     { value: 6,    label: t("blrt.stat.sectors"),    animate: true,  Icon: Layers    },
     { value: 1912, label: t("blrt.stat.founded"),    animate: false, Icon: Landmark  },
@@ -353,143 +335,6 @@ export default function Home() {
         </div>
       </RevealSection>
 
-      {/* ─── Companies — Direction C: classification manifest ─── */}
-      <RevealSection as="section" id="companies" className="py-24 bg-background">
-        <div className="container-pro">
-          <div className="flex items-end justify-between mb-8">
-            <div>
-              <p className="overline mb-3">{t("blrt.companiesLabel")}</p>
-              <h2 className="text-3xl tracking-tighter text-foreground heading-underline">{t("blrt.companiesTitle")}</h2>
-            </div>
-          </div>
-
-          {/* Sector quick-jump */}
-          <div className="flex flex-wrap gap-2 mb-10">
-            {sectorGroups.map((sector) => {
-              const qTheme = sectorThemes[sector.id] ?? sectorThemes.inspection;
-              const QIcon = sectorIcons[sector.id] ?? Anchor;
-              return (
-                <a
-                  key={sector.id}
-                  href={`#sector-${sector.id}`}
-                  className={`inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.18em] px-3 py-1.5 rounded-lg transition-opacity duration-150 hover:opacity-75 ${qTheme.accentBg} ${qTheme.accentText}`}
-                >
-                  <QIcon className="w-3 h-3" />
-                  {sector.label}
-                </a>
-              );
-            })}
-          </div>
-
-          <div className="space-y-12">
-            {sectorGroups.map((sector) => {
-              const theme = sectorThemes[sector.id] ?? sectorThemes.inspection;
-              const SectorIcon = sectorIcons[sector.id] ?? Anchor;
-              const sectorBiz = sector.slugs
-                .map((s) => businesses.find((b) => b.slug === s))
-                .filter(Boolean);
-
-              return (
-                <div key={sector.id} id={`sector-${sector.id}`}>
-                  {/* Sector badge stamps in */}
-                  <motion.div
-                    className="flex items-center gap-3 mb-5"
-                    initial={{ opacity: 0, y: 14 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, amount: 0.8 }}
-                    transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                  >
-                    <motion.span
-                      className={`inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.18em] px-3 py-1.5 rounded-lg ${theme.accentBg} ${theme.accentText}`}
-                      initial={{ opacity: 0, scale: 0.86 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.3, delay: 0.08, ease: [0.16, 1, 0.3, 1] }}
-                    >
-                      <SectorIcon className="w-3 h-3" />
-                      {sector.label}
-                    </motion.span>
-                    <span className="text-[10px] font-medium tabular-nums text-muted-foreground/70">
-                      {sectorBiz.length}
-                    </span>
-                    <div className="flex-1 h-px bg-brand-red/35" />
-                  </motion.div>
-
-                  {/* Card grid */}
-                  <div className="relative">
-                    {/* Cards assemble */}
-                    <motion.div
-                      className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"
-                      initial="hidden"
-                      whileInView="visible"
-                      viewport={{ once: true, amount: 0.1 }}
-                      variants={{
-                        hidden: {},
-                        visible: {
-                          transition: {
-                            staggerChildren: 0.07,
-                            delayChildren: 0,
-                          },
-                        },
-                      }}
-                    >
-                      {sectorBiz.map((biz) => biz && (
-                        <motion.div
-                          key={biz.slug}
-                          variants={{
-                            hidden: { opacity: 0, y: 18, scale: 0.97 },
-                            visible: {
-                              opacity: 1, y: 0, scale: 1,
-                              transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] },
-                            },
-                          }}
-                          className="group"
-                        >
-                          <Link
-                            to={`/company/${biz.slug}`}
-                            className={`flex flex-col overflow-hidden rounded-xl border border-border transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:shadow-elevated hover:-translate-y-0.5 h-full ${theme.borderHover}`}
-                          >
-                            {/* Card header — dark steel plate */}
-                            <div className="relative h-[72px] bg-gradient-to-br from-[hsl(218_25%_16%)] to-[hsl(218_28%_12%)] overflow-hidden flex-shrink-0">
-                              <div
-                                className="absolute inset-0"
-                                style={{
-                                  backgroundImage: "radial-gradient(hsl(218 18% 55% / 0.12) 1px, transparent 1px)",
-                                  backgroundSize: "18px 18px",
-                                }}
-                              />
-                              <div className="absolute -bottom-6 -right-6 w-20 h-20 rounded-full bg-white/5" />
-                              <div className="absolute -top-5 -left-5 w-14 h-14 rounded-full bg-[hsl(218_68%_5%/0.35)]" />
-                              <span className="absolute top-2 right-2.5 text-[9px] font-bold tracking-[0.14em] text-white/35 uppercase">
-                                {biz.countries}
-                              </span>
-                              <div className="absolute bottom-2 left-3 w-7 h-7 rounded-lg bg-white/8 flex items-center justify-center">
-                                <SectorIcon className="w-3.5 h-3.5 text-muted-foreground" />
-                              </div>
-                            </div>
-
-                            {/* Card body */}
-                            <div className="p-4 flex flex-col gap-1.5 flex-1 bg-card">
-                              <div className="flex items-start justify-between gap-2">
-                                <span className={`text-sm font-semibold text-primary transition-colors duration-200 leading-tight ${theme.nameHover}`}>
-                                  {biz.name}
-                                </span>
-                                <ArrowUpRight className="w-3.5 h-3.5 text-muted-foreground/35 group-hover:text-brand-red transition-colors duration-200 shrink-0 mt-0.5" />
-                              </div>
-                              <span className="text-xs text-muted-foreground leading-snug line-clamp-2">{biz.tagline}</span>
-                            </div>
-                          </Link>
-                        </motion.div>
-                      ))}
-                    </motion.div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </RevealSection>
-
       {/* ─── Photo band divider ─── */}
       <div className="relative h-36 overflow-hidden">
         <img
@@ -551,6 +396,142 @@ export default function Home() {
               ))}
             </div>
           </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Presence Map ─── */}
+      <PresenceMap />
+
+      {/* ─── Sustainability teaser ─── */}
+      <RevealSection as="section" className="py-20 bg-[hsl(var(--primary-deep))] border-t border-white/8">
+        <div className="container-pro grid lg:grid-cols-[1.1fr_1fr] gap-14 items-center">
+          <div>
+            <p className="overline text-white/45 mb-4">{t("home.sustain.label")}</p>
+            <h2 className="text-3xl lg:text-4xl font-bold tracking-tighter leading-tight text-white mb-5">
+              {t("home.sustain.title")}
+            </h2>
+            <p className="text-sm text-white/55 leading-relaxed max-w-[52ch] mb-8">
+              {t("home.sustain.desc")}
+            </p>
+            <Link
+              to="/sustainability"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-brand-red text-white text-sm font-semibold hover:bg-brand-red/90 transition-colors shadow-[var(--shadow-red)]"
+            >
+              {t("home.sustain.cta")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            {[
+              { Icon: Leaf,     stat: "2,150 m²",    label: t("sustainability.pillar.environment"), sub: "Enclosed weatherproof treatment sheds" },
+              { Icon: Wind,     stat: "World's 1st", label: t("sustainability.pillar.people"),      sub: "Rotor sail ferry fitted at BLRT yards" },
+              { Icon: Droplets, stat: "MC4000",      label: t("sustainability.pillar.community"),   sub: "First autonomous dock cleaning robot" },
+            ].map(({ Icon, stat, label, sub }) => (
+              <div key={stat} className="flex items-center gap-5 bg-white/5 border border-white/8 rounded-xl px-5 py-4">
+                <div className="w-9 h-9 rounded-lg bg-brand-red/15 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5 text-brand-red" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="text-[10px] font-semibold uppercase tracking-[0.15em] text-white/35 mb-0.5">{label}</div>
+                  <div className="text-xl font-bold tracking-tighter text-white leading-none">{stat}</div>
+                  <div className="text-xs text-white/40 mt-0.5">{sub}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── News preview ─── */}
+      <RevealSection as="section" className="py-24 bg-background border-t border-border/50">
+        <div className="container-pro">
+          <div className="flex items-end justify-between mb-10">
+            <div>
+              <p className="overline mb-3">{t("nav.news")}</p>
+              <h2 className="text-3xl tracking-tighter text-foreground heading-underline">
+                {t("home.news.title")}
+              </h2>
+            </div>
+            <Link
+              to="/news"
+              className="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold text-brand-red hover:text-brand-red/70 transition-colors shrink-0"
+            >
+              {t("home.news.viewall")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {news.slice(0, 3).map((item) => (
+              <NewsCard key={item.id} news={item} />
+            ))}
+          </div>
+          <div className="mt-8 sm:hidden">
+            <Link
+              to="/news"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-red hover:text-brand-red/70 transition-colors"
+            >
+              {t("home.news.viewall")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Projects preview ─── */}
+      <RevealSection as="section" className="py-24 bg-surface/30 border-t border-border/50">
+        <div className="container-pro">
+          <div className="flex items-end justify-between mb-10">
+            <div>
+              <p className="overline mb-3">{t("nav.projects")}</p>
+              <h2 className="text-3xl tracking-tighter text-foreground heading-underline">
+                {t("home.projects.title")}
+              </h2>
+            </div>
+            <Link
+              to="/projects"
+              className="hidden sm:inline-flex items-center gap-1.5 text-sm font-semibold text-brand-red hover:text-brand-red/70 transition-colors shrink-0"
+            >
+              {t("home.projects.viewall")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {projects.filter((p) => p.featured).slice(0, 3).map((p) => (
+              <ProjectCard key={p.id} project={p} variant="grid" />
+            ))}
+          </div>
+          <div className="mt-8 sm:hidden">
+            <Link
+              to="/projects"
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-red hover:text-brand-red/70 transition-colors"
+            >
+              {t("home.projects.viewall")}
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Careers CTA band ─── */}
+      <RevealSection as="section" className="py-20 bg-[hsl(var(--primary-deep))] border-t border-white/8">
+        <div className="container-pro flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <p className="overline text-white/45 mb-3">{t("nav.careers")}</p>
+            <h2 className="text-2xl lg:text-3xl font-bold tracking-tighter text-white mb-2">
+              {t("home.careers.title")}
+            </h2>
+            <p className="text-sm text-white/60 max-w-xl leading-relaxed">
+              {t("home.careers.sub")}
+            </p>
+          </div>
+          <Link
+            to="/careers"
+            className="shrink-0 inline-flex items-center gap-2 px-6 py-3 rounded bg-brand-red text-white text-sm font-semibold hover:bg-brand-red/90 transition-colors shadow-[var(--shadow-red)] whitespace-nowrap"
+          >
+            {t("home.careers.cta")}
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </RevealSection>
     </>

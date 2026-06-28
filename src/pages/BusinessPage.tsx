@@ -2,13 +2,18 @@ import { useState } from "react";
 import { useParams, Navigate, Link } from "react-router-dom";
 import {
   Anchor, Ship, Wrench, Zap, Shield, Package, Truck, Layers, Ruler,
-  Globe2, Award, Clock, Waves, Cpu, FileText, Droplets, Magnet,
+  Eye, Globe2, Award, Clock, Waves, Cpu, FileText, Droplets, Magnet,
   TrendingUp, Building2, Gauge, FlaskConical, HardHat, Flame,
-  Phone, Mail, MapPin, ArrowLeft, ChevronRight, ChevronDown,
+  Phone, Mail, MapPin, ExternalLink, ArrowLeft, ChevronRight, ChevronDown,
 } from "lucide-react";
 import { businesses, sectorGroups, type ServiceIcon } from "@/data/businesses";
 import RevealSection from "@/components/RevealSection";
 import { useLanguage } from "@/i18n/LanguageContext";
+import CertificateBlock from "@/components/CertificateBlock";
+import TechDataTable from "@/components/TechDataTable";
+import ProjectCard from "@/components/ProjectCard";
+import ProductCard from "@/components/ProductCard";
+import { projects } from "@/data/projects";
 
 const iconMap: Record<ServiceIcon, React.ComponentType<{ className?: string }>> = {
   anchor: Anchor,
@@ -20,7 +25,7 @@ const iconMap: Record<ServiceIcon, React.ComponentType<{ className?: string }>> 
   truck: Truck,
   layers: Layers,
   ruler: Ruler,
-  eye: Gauge,
+  eye: Eye,
   globe: Globe2,
   award: Award,
   clock: Clock,
@@ -91,6 +96,7 @@ function ServiceCard({
 
 export default function BusinessPage() {
   const { slug } = useParams<{ slug: string }>();
+  const { t } = useLanguage();
   const biz = businesses.find((b) => b.slug === slug);
 
   if (!biz) return <Navigate to="/" replace />;
@@ -185,8 +191,71 @@ export default function BusinessPage() {
         </RevealSection>
       )}
 
+      {/* ─── Products ─── */}
+      {biz.products && biz.products.length > 0 && (
+        <RevealSection as="section" className="py-24 bg-background">
+          <div className="container-pro">
+            <p className="overline mb-3">{t("business.products.title")}</p>
+            <h2 className="text-3xl tracking-tighter text-foreground mb-12">
+              {t("business.products.title")}
+            </h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {biz.products.map((product, i) => (
+                <ProductCard key={i} product={product} />
+              ))}
+            </div>
+          </div>
+        </RevealSection>
+      )}
+
+      {/* ─── Projects ─── */}
+      {(() => {
+        const bizProjects = projects.filter((p) => p.companySlug === biz.slug);
+        return bizProjects.length > 0 ? (
+          <RevealSection as="section" className="py-24 bg-background">
+            <div className="container-pro">
+              <p className="overline mb-3">{t("business.projects.title")}</p>
+              <h2 className="text-3xl tracking-tighter text-foreground mb-12">
+                {t("business.projects.title")}
+              </h2>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {bizProjects.map((p) => (
+                  <ProjectCard key={p.id} project={p} variant="grid" />
+                ))}
+              </div>
+            </div>
+          </RevealSection>
+        ) : null;
+      })()}
+
+      {/* ─── Certificates ─── */}
+      {biz.certificates && biz.certificates.length > 0 && (
+        <RevealSection as="section" className="py-20 bg-surface border-t border-border/50">
+          <div className="container-pro">
+            <p className="overline mb-3">{t("business.certs.title")}</p>
+            <h2 className="text-2xl tracking-tighter text-foreground heading-underline mb-10">
+              {t("business.certs.title")}
+            </h2>
+            <CertificateBlock certificates={biz.certificates} />
+          </div>
+        </RevealSection>
+      )}
+
+      {/* ─── Technical Data ─── */}
+      {biz.techData && biz.techData.length > 0 && (
+        <RevealSection as="section" className="py-20 bg-background border-t border-border/50">
+          <div className="container-pro">
+            <p className="overline mb-3">{t("business.techdata.title")}</p>
+            <h2 className="text-2xl tracking-tighter text-foreground heading-underline mb-10">
+              {t("business.techdata.title")}
+            </h2>
+            <TechDataTable rows={biz.techData} />
+          </div>
+        </RevealSection>
+      )}
+
       {/* ─── Contact ─── */}
-      {(biz.contact.address || biz.contact.phone || biz.contact.email) && (
+      {(biz.contact.address || biz.contact.phone || biz.contact.email || biz.contact.website) && (
         <RevealSection as="section" className="py-24 bg-background">
           <div className="container-pro">
             <p className="overline mb-3">Get in touch</p>
@@ -221,6 +290,19 @@ export default function BusinessPage() {
                   </div>
                   {biz.contact.address}
                 </div>
+              )}
+              {biz.contact.website && (
+                <a
+                  href={biz.contact.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
+                >
+                  <div className="w-9 h-9 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0">
+                    <ExternalLink className="w-4 h-4 text-brand-red" />
+                  </div>
+                  {biz.contact.website.replace(/^https?:\/\//, "").replace(/\/$/, "")}
+                </a>
               )}
             </div>
           </div>

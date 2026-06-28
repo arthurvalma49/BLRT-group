@@ -1,0 +1,226 @@
+- generic [active] [ref=e1]:
+  - text:                 
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://wbs.lt/en/
+          - img [ref=e6]
+          - img [ref=e13]
+        - text:  
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - list [ref=e21]:
+              - listitem [ref=e22]:
+                - link "About us" [ref=e23] [cursor=pointer]:
+                  - /url: https://wbs.lt/en/about-us/
+              - listitem [ref=e24]:
+                - link "News" [ref=e25] [cursor=pointer]:
+                  - /url: https://wsy.lt/en/news/
+              - listitem [ref=e26]:
+                - link "Career" [ref=e27] [cursor=pointer]:
+                  - /url: https://wsy.lt/en/career/
+              - listitem [ref=e28]:
+                - link "Contacts" [ref=e29] [cursor=pointer]:
+                  - /url: https://wbs.lt/en/contacts/
+            - list [ref=e32]:
+              - listitem [ref=e33]:
+                - link "" [ref=e34] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/western-baltija-shipbuilding/
+                  - generic [ref=e35]: 
+              - listitem [ref=e36]:
+                - link "" [ref=e37] [cursor=pointer]:
+                  - /url: https://www.facebook.com/Vakarulaivugamykla/
+                  - generic [ref=e38]: 
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link "En" [ref=e42] [cursor=pointer]:
+                  - /url: https://wbs.lt/en/about-us/
+                  - generic [ref=e43]: En
+          - navigation [ref=e44]:
+            - list [ref=e45]:
+              - listitem [ref=e46]:
+                - link " What We Do" [ref=e47] [cursor=pointer]:
+                  - /url: https://wbs.lt/en/activities/
+              - listitem [ref=e48]:
+                - link " FACILITIES" [ref=e49] [cursor=pointer]:
+                  - /url: /en/about-us/#facilities
+              - listitem [ref=e50]:
+                - link " CERTIFICATES" [ref=e51] [cursor=pointer]:
+                  - /url: /en/about-us/#certificates
+              - listitem [ref=e52]:
+                - link " Virtual Tour" [ref=e53] [cursor=pointer]:
+                  - /url: https://wbs.lt/en/virtual-tour/
+              - listitem [ref=e54]:
+                - link " VIDEOS" [ref=e55] [cursor=pointer]:
+                  - /url: https://wbs.lt/en/videos/
+    - main [ref=e56]:
+      - generic [ref=e59]:
+        - heading "About us" [level=1] [ref=e60]
+        - generic [ref=e61]:
+          - link "Home" [ref=e62] [cursor=pointer]:
+            - /url: https://wbs.lt/en/
+          - text: / About us
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]: About us
+          - generic [ref=e68]:
+            - paragraph [ref=e69]: Western Baltija Shipbuilding is a modern shipyard offering full range of services from conceptual design to “turn-key” solutions. Company is a part of Western Shipyard Group which belongs to the leading industrial holding in the Baltic Sea region – BLRT Grupp.
+            - paragraph [ref=e70]: The main direction of Western Baltija Shipbuilding strategy is building “turn key” vessels, hulls and steel blocks. Our team offers accumulated experience and new ideas, which are recognized and valued by our world-known customers.
+            - paragraph [ref=e71]: Western Baltija Shipbuilding, having implemented a huge number of different projects, is one of the most experienced shipyards in the Baltic region. Ice-free Klaipeda port allows uninterrupted business operations all over the year. High quality and on-time deliveries are secured by more than 350 highly skilled employees whose training and professional development is constantly being improved.
+          - link "BROCHURE " [ref=e73] [cursor=pointer]:
+            - /url: /wp-content/uploads/2024/01/picture-006_01-infrastructure.png
+            - generic [ref=e74]: BROCHURE
+            - generic [ref=e75]: 
+        - generic [ref=e76]:
+          - generic [ref=e78]:
+            - img [ref=e80]
+            - generic [ref=e86]:
+              - strong [ref=e87]: 25 ha
+              - text: total territory
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - generic [ref=e97]:
+              - strong [ref=e98]: 120 x 21 m
+              - text: covered hull assembly hall
+          - generic [ref=e100]:
+            - img [ref=e102]
+            - generic [ref=e107]:
+              - strong [ref=e108]: "4"
+              - text: robotic stations
+          - generic [ref=e110]:
+            - img [ref=e112]
+            - generic [ref=e117]:
+              - strong [ref=e118]: "3"
+              - text: covered blasting/painting chambers
+          - generic [ref=e120]:
+            - img [ref=e122]
+            - generic [ref=e127]:
+              - strong [ref=e128]: 800 m
+              - text: outfitting/launching/trial area
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - generic [ref=e134]: Facilities
+          - paragraph [ref=e136]: Please familiarize with our standard capabilities, however we are open & flexible to expand the boundaries and possibilities for Your project.
+        - link "Facilities " [ref=e141] [cursor=pointer]:
+          - /url: /wp-content/uploads/2024/01/picture-006_01-infrastructure.png
+          - generic [ref=e143]: Facilities
+          - generic [ref=e144]: 
+      - generic [ref=e146]:
+        - generic [ref=e147]: Certificates
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: "Western Baltija Shipbuilding operates following the guidelines and rules of our Integrated Management System Policy intended to promote continuous improvement of production processes, maintain the high quality of our products and services, ensure occupational safety and reduce the environmental impact. The company is certified with:"
+          - table [ref=e151]:
+            - rowgroup [ref=e152]:
+              - row "Quality management system ISO 9001:2015" [ref=e153]:
+                - cell "Quality management system" [ref=e154]
+                - cell "ISO 9001:2015" [ref=e155]:
+                  - link "ISO 9001:2015" [ref=e156] [cursor=pointer]:
+                    - /url: https://wbs.lt/wp-content/uploads/2026/06/iso-14001_9001_45001-sertifikatas.pdf
+              - row "Environmental management system ISO 14001:2015" [ref=e157]:
+                - cell "Environmental management system" [ref=e158]
+                - cell "ISO 14001:2015" [ref=e159]:
+                  - link "ISO 14001:2015" [ref=e160] [cursor=pointer]:
+                    - /url: https://wbs.lt/wp-content/uploads/2026/06/iso-14001_9001_45001-sertifikatas.pdf
+              - row "Occupational health and safety management system ISO 45001:2018" [ref=e161]:
+                - cell "Occupational health and safety management system" [ref=e162]
+                - cell "ISO 45001:2018" [ref=e163]:
+                  - link "ISO 45001:2018" [ref=e164] [cursor=pointer]:
+                    - /url: https://wbs.lt/wp-content/uploads/2026/06/iso-14001_9001_45001-sertifikatas.pdf
+              - row "NATO quality assurance certificate AQAP 2110 Edition D Ver 1" [ref=e165]:
+                - cell "NATO quality assurance certificate" [ref=e166]
+                - cell "AQAP 2110 Edition D Ver 1" [ref=e167]:
+                  - link "AQAP 2110 Edition D Ver 1" [ref=e168] [cursor=pointer]:
+                    - /url: https://wbs.lt/wp-content/uploads/2026/06/aqap_2110_vbls.pdf
+              - row "Factory production control conformity certificate Up to EXC4 according to EN 1090-2:2018" [ref=e169]:
+                - cell "Factory production control conformity certificate" [ref=e170]
+                - cell "Up to EXC4 according to EN 1090-2:2018" [ref=e171]:
+                  - link "Up to EXC4 according to EN 1090-2:2018" [ref=e172] [cursor=pointer]:
+                    - /url: /wp-content/uploads/2023/08/factory-production-control-conformity-certificate.pdf
+              - row "Welding workshop approval certificate LST EN ISO 3834-2:2021" [ref=e173]:
+                - cell "Welding workshop approval certificate" [ref=e174]
+                - cell "LST EN ISO 3834-2:2021" [ref=e175]:
+                  - link "LST EN ISO 3834-2:2021" [ref=e176] [cursor=pointer]:
+                    - /url: /wp-content/uploads/2025/07/welding-workshop-approval-certificate.pdf
+              - row "DNV Welding workshop approval certificate Certificate" [ref=e177]:
+                - cell "DNV Welding workshop approval certificate" [ref=e178]
+                - cell "Certificate" [ref=e179]:
+                  - link "Certificate" [ref=e180] [cursor=pointer]:
+                    - /url: /wp-content/uploads/2023/08/dnv-welding-workshop-approval-certificate.pdf
+              - row "Company accreditation certificate Certificate" [ref=e181]:
+                - cell "Company accreditation certificate" [ref=e182]
+                - cell "Certificate" [ref=e183]:
+                  - link "Certificate" [ref=e184] [cursor=pointer]:
+                    - /url: /wp-content/uploads/2023/08/company-accreditation-certificate.pdf
+              - row "Risk assessment program Grade B- – JH143" [ref=e185]:
+                - cell "Risk assessment program" [ref=e186]
+                - cell "Grade B- – JH143" [ref=e187]
+      - generic [ref=e191]:
+        - generic [ref=e193]: History
+        - generic [ref=e194]:
+          - paragraph [ref=e195]: The Western Baltija Shipbuilding’s history began in 1946, when was decided to expand and develop the country’s shipbuilding sector. And the decision included construction of a shipyard in the Baltic Sea basin…
+          - paragraph [ref=e196]: The construction of the Baltic shipbuilding yard commenced in February 1947 in the territory of swamps with deep channels and trenches. By June 1952 the shipyard was established although construction itself continued until completion in 1958.
+          - paragraph [ref=e197]: The purpose of the shipyard was the construction of fishing trawlers. But the starting point, prior to the full manning and the building of the yard, was the production of barges. Shipbuilders laid down the first keel of dry cargo dump barge in October 1952.
+        - link "Read more " [ref=e199] [cursor=pointer]:
+          - /url: /en/history/
+          - generic [ref=e200]: Read more
+          - generic [ref=e201]: 
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]: Contacts
+        - list [ref=e213]:
+          - listitem [ref=e214]:
+            - link "Pilies str. 8, LT-91503, Klaipeda, Lithuania" [ref=e215] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Pilies+g.+8,+91234+Klaip%C4%97da,+Lithuania/@55.7033822,21.1344406,17z/data=!3m1!4b1!4m6!3m5!1s0x46e4dbf4040c6985:0x6d25ab342e8854d2!8m2!3d55.7033822!4d21.1344406!16s%2Fg%2F11tfn0bckq
+              - img [ref=e217]
+              - text: Pilies str. 8, LT-91503, Klaipeda, Lithuania
+          - listitem [ref=e219]:
+            - link "+370 46 398 249" [ref=e220] [cursor=pointer]:
+              - /url: "tel:+370 46 398 249 "
+              - img [ref=e222]
+              - text: +370 46 398 249
+          - listitem [ref=e224]:
+            - link "newbuilding@wsy.lt" [ref=e225] [cursor=pointer]:
+              - /url: mailto:newbuilding@wsy.lt
+              - img [ref=e227]
+              - text: newbuilding@wsy.lt
+      - generic [ref=e229]:
+        - generic [ref=e230]: LINKS
+        - list [ref=e232]:
+          - listitem [ref=e233]:
+            - link " About us" [ref=e234] [cursor=pointer]:
+              - /url: https://wbs.lt/en/about-us/
+          - listitem [ref=e235]:
+            - link " News" [ref=e236] [cursor=pointer]:
+              - /url: https://wsy.lt/en/news/
+          - listitem [ref=e237]:
+            - link " Contacts" [ref=e238] [cursor=pointer]:
+              - /url: https://wbs.lt/en/contacts/
+          - listitem [ref=e239]:
+            - link " Career" [ref=e240] [cursor=pointer]:
+              - /url: https://wsy.lt/en/career/
+      - list [ref=e243]:
+        - listitem [ref=e244]:
+          - link " Facebook" [ref=e245] [cursor=pointer]:
+            - /url: https://www.facebook.com/Vakarulaivugamykla/
+            - generic [ref=e246]: 
+            - text: Facebook
+        - listitem [ref=e247]:
+          - link " Linkedin" [ref=e248] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/western-baltija-shipbuilding/
+            - generic [ref=e249]: 
+            - text: Linkedin
+    - contentinfo [ref=e250]:
+      - generic [ref=e253]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e254] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e255]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e256]:
+    - generic [ref=e257]:
+      - generic [ref=e258]: We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+      - button "Ok" [ref=e260] [cursor=pointer]
+      - button "No" [ref=e261] [cursor=pointer]
+  - iframe [ref=e264]:
+    - generic [ref=f25e6]:
+      - text: protected by
+      - strong [ref=f25e7]: reCAPTCHA
