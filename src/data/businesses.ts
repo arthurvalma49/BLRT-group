@@ -153,8 +153,8 @@ export const businesses: Business[] = [
       website: "https://blrtyards.com/en/",
     },
     certificates: [
-      { name: "ISO 9001:2015",   issuer: "Bureau Veritas",   year: 2025 },
-      { name: "ISO 14001:2015",  issuer: "Bureau Veritas",   year: 2024 },
+      { name: "ISO 9001:2015",   issuer: "Lloyd's Register", year: 2025 },
+      { name: "ISO 14001:2015",  issuer: "Lloyd's Register", year: 2024 },
       { name: "Lloyd's Register", issuer: "Class Acceptance"             },
       { name: "DNV",              issuer: "Class Acceptance"             },
       { name: "Bureau Veritas",   issuer: "Class Acceptance"             },
@@ -181,14 +181,14 @@ export const businesses: Business[] = [
     aboutP1:
       "The BLRT Repair Yards team is dedicated to delivering quality results through precise planning and seamless collaboration. Western Shiprepair is BLRT Repair Yards' facility in Klaipėda, Lithuania, one of three strategic ship repair locations operated by the group across Estonia, Lithuania and Finland.",
     aboutP2:
-      "Western Shiprepair's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. The yard operates as part of a multi-yard network with 7 docks combined, including the largest floating dock in the Baltics at 235 m × 45 m.",
+      "Western Shiprepair's mission is to ensure the seaworthiness and performance of the global fleet, helping shipowners and operators maintain existing vessels, improve efficiency, meet regulatory requirements and move towards more sustainable maritime operations. The yard operates as part of a multi-yard network with 7 docks combined, including the largest floating dock in the Baltics at 235 m × 44 m.",
     services: [
       {
         icon: "anchor",
         title: "Ship Repair & Dry Docking",
-        desc: "Dry docking capacity at Klaipėda including the largest floating dock in the Baltics at 235 m × 45 m.",
+        desc: "Dry docking capacity at Klaipėda including the largest floating dock in the Baltics at 235 m × 44 m.",
         fullDesc:
-          "Western Shiprepair operates docking infrastructure at the Port of Klaipėda, Lithuania, as part of the BLRT Repair Yards network which collectively operates 7 docks across Estonia, Lithuania and Finland. The network's largest floating dock measures 235 m × 45 m.\n\nHull blasting and coating are carried out to classification society and coating manufacturer requirements. The yard handles a range of vessel types serving Baltic, North Sea and Atlantic trade routes, with dock scheduling coordinated across the multi-yard network to minimise waiting time for fleet operators.",
+          "Western Shiprepair operates docking infrastructure at the Port of Klaipėda, Lithuania, as part of the BLRT Repair Yards network which collectively operates 7 docks across Estonia, Lithuania and Finland. The network's largest floating dock measures 235 m × 44 m.\n\nHull blasting and coating are carried out to classification society and coating manufacturer requirements. The yard handles a range of vessel types serving Baltic, North Sea and Atlantic trade routes, with dock scheduling coordinated across the multi-yard network to minimise waiting time for fleet operators.",
       },
       {
         icon: "waves",
@@ -252,7 +252,7 @@ export const businesses: Business[] = [
         title: "Ship Repair & Dry Docking",
         desc: "Dry docking capacity in Finland as part of the BLRT Repair Yards network of 7 docks across Estonia, Lithuania and Finland.",
         fullDesc:
-          "Turku Repair Yard operates docking infrastructure in Finland as part of the BLRT Repair Yards network, which collectively operates 7 docks across three countries. The network includes one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m (Tallinn) and the largest floating dock in the Baltics at 235 m × 45 m.\n\nHull blasting and coating are carried out to classification society and coating manufacturer requirements. Dock scheduling is coordinated across the multi-yard network — Tallinn Shipyard in Estonia, Western Shiprepair in Lithuania and Turku Repair Yard in Finland — to minimise waiting time for fleet operators.",
+          "Turku Repair Yard operates docking infrastructure in Finland as part of the BLRT Repair Yards network, which collectively operates 7 docks across three countries. The network includes one of Northern Europe's largest dry docks at 265 m × 70 m × 7.1 m (Naantali, Finland) and the largest floating dock in the Baltics at 235 m × 44 m.\n\nHull blasting and coating are carried out to classification society and coating manufacturer requirements. Dock scheduling is coordinated across the multi-yard network — Tallinn Shipyard in Estonia, Western Shiprepair in Lithuania and Turku Repair Yard in Finland — to minimise waiting time for fleet operators.",
       },
       {
         icon: "waves",
@@ -377,7 +377,7 @@ export const businesses: Business[] = [
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
       phone: "+372 610 2997",
-      email: "info@tehnomet.ee",
+      email: "info@tehnometsurvey.ee",
       website: "https://tehnometsurvey.ee/en/",
     },
     certificates: [
@@ -449,7 +449,7 @@ export const businesses: Business[] = [
     contact: {
       address: "Minijos st. 180, 93269 Klaipėda, Lithuania",
       phone: "+370 46 483 666",
-      email: "info@wcl.lt",
+      email: "wcl@wcl.lt",
       website: "https://wcl.lt/",
     },
   },
@@ -458,7 +458,7 @@ export const businesses: Business[] = [
   {
     slug: "blrt-era",
     name: "BLRT ERA",
-    fullName: "BLRT ERA AS",
+    fullName: "BLRT ERA OÜ",
     sector: "Engineering",
     sectorId: "engineering",
     countries: "EE",
@@ -466,7 +466,7 @@ export const businesses: Business[] = [
     heroDesc:
       "BLRT ERA was established in Tallinn in 1948 and since 1996 is a subsidiary of BLRT Grupp, one of the largest industrial holdings in the Baltic Sea region. Operating in the fields of shipbuilding and ship repair, offshore energy, and the industrial sector.",
     aboutP1:
-      "BLRT ERA AS has been delivering electrical engineering solutions since 1948 — one of the most experienced marine electrical contractors in the Baltic region. The company operates branches across Estonia, Lithuania and Finland, with mobile teams capable of providing worldwide service. Core business covers shipbuilding and ship repair, offshore energy and industrial operations.",
+      "BLRT ERA OÜ has been delivering electrical engineering solutions since 1948 — one of the most experienced marine electrical contractors in the Baltic region. The company operates branches across Estonia, Lithuania and Finland, with mobile teams capable of providing worldwide service. Core business covers shipbuilding and ship repair, offshore energy and industrial operations.",
     aboutP2:
       "BLRT ERA is the official key partner for Moteurs Leroy-Somer SAS (Nidec Group), holding exclusive rights to upgrade, maintain and repair their electric generators and alternators across Estonia, Latvia, Lithuania and Finland. The company is also an authorised Danfoss distributor for variable speed motor control equipment. Certified to ISO 9001, 14001, 18001 and 45001 in Estonia and Lithuania, and additionally holds RINA and EASA (Electrical Apparatus Service Association) accreditations.",
     services: [
@@ -557,9 +557,9 @@ export const businesses: Business[] = [
     countries: "EE",
     tagline: "Serial production and machining of metal products and structures",
     heroDesc:
-      "A modern and dynamically developing machine building company established in 2004. 6,000 m² production area, 50 specialists, 14 CNC machines — serving Central Europe and Scandinavia.",
+      "A modern and dynamically developing machine building company established in 2002. 6,000 m² production area, 50 specialists, 14 CNC machines — serving Central Europe and Scandinavia.",
     aboutP1:
-      "BLRT Masinaehitus is a modern and dynamically developing machine building company established in 2004, operating as a subsidiary of BLRT Grupp — the leading industrial holding in the Baltics. The company specialises in series production and machining of metal products and structures for power and transport engineering, cellulose and paper, wood, and other industrial sectors.",
+      "BLRT Masinaehitus is a modern and dynamically developing machine building company established in 2002, operating as a subsidiary of BLRT Grupp — the leading industrial holding in the Baltics. The company specialises in series production and machining of metal products and structures for power and transport engineering, cellulose and paper, wood, and other industrial sectors.",
     aboutP2:
       "Operating from a 6,000 m² production facility in Tallinn with 50 specialists and 14 CNC machines, BLRT Masinaehitus serves primary markets in Central Europe and Scandinavia. The company is certified to ISO 9001:2015, ISO 14001:2015, EN 1090-1 and EN ISO 3834-2:2021 (welding capability).",
     services: [
@@ -687,7 +687,7 @@ export const businesses: Business[] = [
     heroDesc:
       "Elme Metall is a company offering a wide range of rolled steel products and processing services in its service centres equipped with state-of-the-art high-performance equipment. 5 countries, 6 service centres, 10 warehouses, 1,000 t/day, 20,000+ customers.",
     aboutP1:
-      "Elme Metall was founded on 30 May 2001 and has grown into the largest metal service centre in the Baltic States, with 400 employees and 195 million euros in sales volume. Operating in Estonia, Lithuania, Latvia, Poland and Finland, the company leverages extensive experience and effective procurement and logistics to deliver comprehensive solutions depending on clients' specific needs for rolled steel products and processing services.",
+      "Elme Metall was founded on 31 May 2001 and has grown into the largest metal service centre in the Baltic States, with 400 employees and 195 million euros in sales volume. Operating in Estonia, Lithuania, Latvia, Poland and Finland, the company leverages extensive experience and effective procurement and logistics to deliver comprehensive solutions depending on clients' specific needs for rolled steel products and processing services.",
     aboutP2:
       "The company's vision is to become the largest metal service centre in the Baltic States and Scandinavia, providing services in the processing and pre-processing of metal products. Elme Metall serves the energy, steel structures fabrication, infrastructure, shipbuilding and ship repair, construction, and mechanical engineering sectors. Its mission is to facilitate the long-term development of customers' business and increase their competitiveness in the market.",
     services: [
@@ -721,9 +721,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
-      address: "Kopli 103, 11712 Tallinn, Estonia",
+      address: "Vana-Narva mnt 24a, 74114 Maardu, Estonia",
       phone: "+372 610 2554",
-      email: "info@elmemetall.eu",
+      email: "elmemetall@blrt.ee",
       website: "https://elmemetall.eu/en/",
     },
     certificates: [

@@ -1,4 +1,4 @@
-import { Leaf, Wind, Droplets } from "lucide-react";
+import { Leaf, Wind, Droplets, Flame, Zap, Building2, RefreshCw, Filter, Plug } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/i18n/LanguageContext";
 import RevealSection from "@/components/RevealSection";
@@ -6,13 +6,13 @@ import CertificateBlock from "@/components/CertificateBlock";
 import type { Certificate } from "@/components/CertificateBlock";
 
 const groupCertificates: Certificate[] = [
-  { name: "ISO 9001:2015",          issuer: "Bureau Veritas",    year: 2025 },
-  { name: "ISO 14001:2015",         issuer: "Bureau Veritas",    year: 2024 },
-  { name: "ISO 45001:2018",         issuer: "Bureau Veritas",    year: 2024 },
-  { name: "Lloyd's Register",       issuer: "Class Society Acceptance"           },
-  { name: "DNV",                    issuer: "Class Society Acceptance"           },
-  { name: "Bureau Veritas",         issuer: "Class Society Acceptance"           },
-  { name: "ABS",                    issuer: "Class Society Acceptance"           },
+  { name: "ISO 9001:2015",    issuer: "Lloyd's Register",        year: 2025 },
+  { name: "ISO 14001:2015",   issuer: "Lloyd's Register",        year: 2024 },
+  { name: "ISO 45001:2018",   issuer: "Lloyd's Register",        year: 2024 },
+  { name: "Lloyd's Register", issuer: "Class Society Acceptance"             },
+  { name: "DNV",              issuer: "Class Society Acceptance"             },
+  { name: "Bureau Veritas",   issuer: "Class Society Acceptance"             },
+  { name: "ABS",              issuer: "Class Society Acceptance"             },
 ];
 
 const pillars = [
@@ -21,8 +21,8 @@ const pillars = [
     titleKey: "sustainability.pillar.environment",
     heading: "sustainability.env.title",
     desc: "sustainability.env.desc",
-    stat: "2,150 m²",
-    statLabel: "enclosed weatherproof treatment sheds",
+    stat: "100%",
+    statLabel: "emission-free blasting chambers",
   },
   {
     icon: Wind,
@@ -30,17 +30,34 @@ const pillars = [
     heading: "sustainability.people.title",
     desc: "sustainability.people.desc",
     stat: "World's 1st",
-    statLabel: "rotor sail ferry fitted at BLRT yards",
+    statLabel: "rotor sail passenger vessel globally",
   },
   {
     icon: Droplets,
     titleKey: "sustainability.pillar.community",
     heading: "sustainability.community.title",
     desc: "sustainability.community.desc",
-    stat: "MC4000",
-    statLabel: "first autonomous dock water cleaning robot globally",
+    stat: "Zero",
+    statLabel: "discharge policy in dock operations",
   },
 ];
+
+const yardInitiatives = [
+  { icon: Flame,      titleKey: "sustainability.yard.blasting.title", descKey: "sustainability.yard.blasting.desc" },
+  { icon: Building2,  titleKey: "sustainability.yard.sheds.title",    descKey: "sustainability.yard.sheds.desc"    },
+  { icon: Zap,        titleKey: "sustainability.yard.energy.title",   descKey: "sustainability.yard.energy.desc"   },
+  { icon: Droplets,   titleKey: "sustainability.yard.water.title",    descKey: "sustainability.yard.water.desc"    },
+  { icon: RefreshCw,  titleKey: "sustainability.yard.waste.title",    descKey: "sustainability.yard.waste.desc"    },
+  { icon: Wind,       titleKey: "sustainability.yard.wind.title",     descKey: "sustainability.yard.wind.desc"     },
+] as const;
+
+const solutions = [
+  { icon: Filter,   titleKey: "sustainability.sol.scrubber.title", descKey: "sustainability.sol.scrubber.desc" },
+  { icon: Plug,     titleKey: "sustainability.sol.shore.title",    descKey: "sustainability.sol.shore.desc"    },
+  { icon: Droplets, titleKey: "sustainability.sol.bwts.title",     descKey: "sustainability.sol.bwts.desc"     },
+  { icon: Wind,     titleKey: "sustainability.sol.rotor.title",    descKey: "sustainability.sol.rotor.desc"    },
+  { icon: Leaf,     titleKey: "sustainability.sol.decarb.title",   descKey: "sustainability.sol.decarb.desc"   },
+] as const;
 
 export default function Sustainability() {
   const { t } = useLanguage();
@@ -87,24 +104,76 @@ export default function Sustainability() {
                     <Icon className="w-5 h-5 text-brand-red" />
                   </div>
                   <span className="overline text-[10px] font-semibold tracking-widest text-brand-red uppercase">
-                    {t(titleKey as Parameters<typeof t>[0])}
+                    {t(titleKey)}
                   </span>
                 </div>
-
                 <div className="text-3xl font-bold tracking-tighter text-foreground leading-none">
                   {stat}
                   <span className="block text-xs font-normal text-muted-foreground mt-1 tracking-normal">
                     {statLabel}
                   </span>
                 </div>
-
                 <div>
-                  <h3 className="text-sm font-semibold text-foreground mb-2">
-                    {t(heading as Parameters<typeof t>[0])}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    {t(desc as Parameters<typeof t>[0])}
-                  </p>
+                  <h3 className="text-sm font-semibold text-foreground mb-2">{t(heading)}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{t(desc)}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Green Deal in Ship Repair ─── */}
+      <RevealSection as="section" className="py-24 bg-surface/30 border-t border-border/50">
+        <div className="container-pro">
+          <p className="overline mb-4">{t("sustainability.deal.label")}</p>
+          <h2 className="text-3xl font-bold tracking-tighter heading-underline mb-4">
+            {t("sustainability.deal.title")}
+          </h2>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-12 max-w-[65ch]">
+            {t("sustainability.deal.sub")}
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {yardInitiatives.map(({ icon: Icon, titleKey, descKey }) => (
+              <div
+                key={titleKey}
+                className="bg-card border border-border rounded-xl p-6 hover:border-brand-red/20 hover:shadow-[var(--shadow-elevated)] transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col gap-4"
+              >
+                <div className="w-10 h-10 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5 text-brand-red" />
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold text-foreground mb-2">{t(titleKey)}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{t(descKey)}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Green Solutions for Shipowners ─── */}
+      <RevealSection as="section" className="py-24 bg-[hsl(var(--navy-section))] border-t border-white/8">
+        <div className="container-pro">
+          <p className="overline text-white/45 mb-4">{t("sustainability.solutions.label")}</p>
+          <h2 className="text-3xl font-bold tracking-tighter text-white mb-4">
+            {t("sustainability.solutions.title")}
+          </h2>
+          <p className="text-white/55 text-sm leading-relaxed mb-12 max-w-[65ch]">
+            {t("sustainability.solutions.sub")}
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {solutions.map(({ icon: Icon, titleKey, descKey }, i) => (
+              <div
+                key={titleKey}
+                className={`bg-white/5 border border-white/10 rounded-xl p-6 hover:border-brand-red/30 hover:bg-white/8 transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col gap-4${i === 4 ? " lg:col-start-2" : ""}`}
+              >
+                <div className="w-10 h-10 rounded-lg bg-brand-red/15 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5 text-brand-red" />
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold text-white mb-2">{t(titleKey)}</h3>
+                  <p className="text-sm text-white/55 leading-relaxed">{t(descKey)}</p>
                 </div>
               </div>
             ))}
@@ -122,7 +191,7 @@ export default function Sustainability() {
         </div>
       </RevealSection>
 
-      {/* ─── Report CTA ─── */}
+      {/* ─── Shipowner solutions CTA ─── */}
       <RevealSection as="section" className="py-20 bg-background">
         <div className="container-pro max-w-2xl text-center mx-auto">
           <h2 className="text-2xl font-bold tracking-tighter mb-4">

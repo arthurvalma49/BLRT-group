@@ -1,0 +1,183 @@
+- generic [active] [ref=e1]:
+  - text:          
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://elmetrans.ee/et/
+          - img [ref=e6]
+          - img [ref=e12]
+        - text:  
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "Ettevõttest" [ref=e22] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/kontsernist/
+              - listitem [ref=e23]:
+                - link "Kontaktid" [ref=e24] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/kontaktid/
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "Ee" [ref=e28] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/
+                  - generic [ref=e29]: Ee
+              - listitem [ref=e30]:
+                - link "Switch to En" [ref=e31] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/
+                  - generic [ref=e32]: En
+              - listitem [ref=e33]:
+                - link "Switch to Ru" [ref=e34] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/ru/
+                  - generic [ref=e35]: Ru
+              - listitem [ref=e36]:
+                - link "Switch to Lt" [ref=e37] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/lt/
+                  - generic [ref=e38]: Lt
+          - navigation [ref=e39]:
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link " Veoteenused" [ref=e42] [cursor=pointer]:
+                  - /url: /et/tegevussuunad-et/veoteenused/
+              - listitem [ref=e43]:
+                - link " Ehitustehnika ja seadmete rent" [ref=e44] [cursor=pointer]:
+                  - /url: /et/tegevussuunad-et/seadmete-rent/
+              - listitem [ref=e45]:
+                - link " Vabad töökohad" [ref=e46] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/toopakkumised/
+    - main [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - img [ref=e52]
+            - generic [ref=e54]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e55]:
+            - img [ref=e56]
+            - generic [ref=e58]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e62]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e63]:
+            - img [ref=e64]
+            - generic [ref=e66]:
+              - generic:
+                - heading [level=2]
+        - generic [ref=e67]:
+          - button "Go to slide 1" [ref=e68] [cursor=pointer]
+          - button "Go to slide 2" [ref=e69] [cursor=pointer]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - link "Ehitustehnika ja seadmete rent " [ref=e77] [cursor=pointer]:
+            - /url: /et/tegevussuunad-et/seadmete-rent/
+            - generic [ref=e78]:
+              - img [ref=e79]
+              - img [ref=e82]
+            - generic [ref=e85]: Ehitustehnika ja seadmete rent
+            - generic [ref=e86]: 
+          - generic [ref=e88]:
+            - paragraph [ref=e90]:
+              - strong [ref=e91]: Ilja Šustrov (EST, RUS, ENG)
+              - text: Müügijuht
+              - link "+372 5683 6297" [ref=e92] [cursor=pointer]:
+                - /url: tel:+37256836297
+              - link "tehnikarent@blrt.ee" [ref=e93] [cursor=pointer]:
+                - /url: mailto:tehnikarent@blrt.ee
+            - paragraph [ref=e95]:
+              - strong [ref=e96]: Raul Urbalu (EST, RUS, ENG)
+              - text: Müügispetsialist
+              - link "+372 5672 2290" [ref=e97] [cursor=pointer]:
+                - /url: tel:+37256722290
+              - link "raul.urbalu@blrt.ee" [ref=e98] [cursor=pointer]:
+                - /url: mailto:raul.urbalu@blrt.ee
+            - paragraph [ref=e100]:
+              - strong [ref=e101]: Juri Samoshenkov (EST, RUS, ENG)
+              - text: Projektijuht
+              - link "+372 515 6767" [ref=e102] [cursor=pointer]:
+                - /url: tel:+3725156767
+              - link "j.samoshenkov@blrt.ee" [ref=e103] [cursor=pointer]:
+                - /url: mailto:j.samoshenkov@blrt.ee
+            - paragraph [ref=e105]:
+              - strong [ref=e106]: Dmitri Butakov (RUS)
+              - text: Projektijuht
+              - link "+372 5558 6492" [ref=e107] [cursor=pointer]:
+                - /url: tel:+37255586492
+              - link "rent@blrt.ee" [ref=e108] [cursor=pointer]:
+                - /url: mailto:rent@blrt.ee
+        - generic [ref=e109]:
+          - link "Veoteenused " [ref=e111] [cursor=pointer]:
+            - /url: /et/tegevussuunad-et/veoteenused/
+            - generic [ref=e112]:
+              - img [ref=e113]
+              - img [ref=e120]
+            - generic [ref=e126]: Veoteenused
+            - generic [ref=e127]: 
+          - generic [ref=e129]:
+            - paragraph [ref=e131]:
+              - strong [ref=e132]: Vadim Kolenchenko (EST, RUS, ENG)
+              - text: Rahvusvaheline vedu
+              - link "+372 5302 1726" [ref=e133] [cursor=pointer]:
+                - /url: tel:+372 5302 1726
+              - link "transport@blrt.ee" [ref=e134] [cursor=pointer]:
+                - /url: mailto:transport@blrt.ee
+            - paragraph [ref=e136]:
+              - strong [ref=e137]: Julia Sizova (EST, RUS)
+              - text: Siseriiklik vedu
+              - link "+372 514 5329" [ref=e138] [cursor=pointer]:
+                - /url: tel:+372 514 5329
+              - link "vedu@blrt.ee" [ref=e139] [cursor=pointer]:
+                - /url: mailto:vedu@blrt.ee
+        - generic [ref=e140]:
+          - link "Autorent " [ref=e142] [cursor=pointer]:
+            - /url: /et/Rent-of-equipment/peugeot-partner/
+            - generic [ref=e143]:
+              - img [ref=e144]
+              - img [ref=e151]
+            - generic [ref=e156]: Autorent
+            - generic [ref=e157]: 
+          - paragraph [ref=e160]:
+            - strong [ref=e161]: Juri Samoshenkov (EST, RUS, ENG)
+            - text: Projektijuht
+            - link "+372 515 6767" [ref=e162] [cursor=pointer]:
+              - /url: tel:+372 515 6767
+            - link "j.samoshenkov@blrt.ee" [ref=e163] [cursor=pointer]:
+              - /url: mailto:j.samoshenkov@blrt.ee
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]: Kontaktid
+        - list [ref=e170]:
+          - listitem [ref=e171]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e172] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e174]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+      - generic [ref=e176]:
+        - generic [ref=e177]: LINGID
+        - list [ref=e179]:
+          - listitem [ref=e180]:
+            - link " Ettevõttest" [ref=e181] [cursor=pointer]:
+              - /url: https://elmetrans.ee/et/kontsernist/
+          - listitem [ref=e182]:
+            - link " Kontaktid" [ref=e183] [cursor=pointer]:
+              - /url: https://elmetrans.ee/et/kontaktid/
+      - generic [ref=e184]:
+        - list
+    - contentinfo [ref=e186]:
+      - generic [ref=e189]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e190] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e191]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e195]:
+    - generic [ref=e196]:
+      - generic [ref=e197]: Sellel veebilehel kasutatakse küpsiseid. Kasutamist jätkates nõustud küpsiste kasutamisega.
+      - button "Ok" [ref=e199] [cursor=pointer]
+      - button "No" [ref=e200] [cursor=pointer]
+  - iframe [ref=e194]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA

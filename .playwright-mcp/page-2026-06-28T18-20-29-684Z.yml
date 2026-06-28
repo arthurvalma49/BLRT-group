@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - text:         
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://masinaehitus.ee/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "About us" [ref=e19] [cursor=pointer]:
+                  - /url: https://masinaehitus.ee/en/about-us/
+              - listitem [ref=e20]:
+                - link "Contacts" [ref=e21] [cursor=pointer]:
+                  - /url: https://masinaehitus.ee/en/contacts/
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "Switch to Ee" [ref=e25] [cursor=pointer]:
+                  - /url: https://masinaehitus.ee/et/contacts/
+                  - generic [ref=e26]: Ee
+              - listitem [ref=e27]:
+                - link "En" [ref=e28] [cursor=pointer]:
+                  - /url: https://masinaehitus.ee/en/contacts/
+                  - generic [ref=e29]: En
+              - listitem [ref=e30]:
+                - link "Switch to Ru" [ref=e31] [cursor=pointer]:
+                  - /url: https://masinaehitus.ee/ru/kontakty/
+                  - generic [ref=e32]: Ru
+          - navigation [ref=e33]:
+            - list [ref=e34]:
+              - listitem [ref=e35]:
+                - link " Equipment" [ref=e36] [cursor=pointer]:
+                  - /url: https://masinaehitus.ee/en/activities/
+              - listitem [ref=e37]:
+                - link " VACANCIES" [ref=e38] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/toopakkumised/
+    - main [ref=e39]:
+      - generic [ref=e42]:
+        - heading "Contacts" [level=1] [ref=e43]
+        - generic [ref=e44]:
+          - link "Home" [ref=e45] [cursor=pointer]:
+            - /url: https://masinaehitus.ee/en/
+          - text: / Contacts
+      - iframe [ref=e48]:
+        - generic [ref=f48e3]:
+          - region "Map" [ref=f48e4]
+          - iframe [ref=f48e33]:
+            
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: BLRT Masinaehitus OÜ
+          - paragraph [ref=e56]:
+            - text: Kopli 103, 11712 Tallinn, Estonia
+            - text: +372 610 2113
+            - text: "E-mail:"
+            - link "masinaehitus@blrt.ee" [ref=e57] [cursor=pointer]:
+              - /url: "mailto: masinaehitus@blrt.ee"
+            - text: "Invoices:"
+            - link "invoices@blrt.ee" [ref=e58] [cursor=pointer]:
+              - /url: "mailto: invoices@blrt.ee"
+            - text: "Reg. code: 11092376"
+        - paragraph [ref=e62]:
+          - strong [ref=e63]: Secretary
+          - text: Julia Nikolaev
+          - text: +372 610 2113
+          - text: +372 5681 6805
+          - link "masinaehitus@blrt.ee" [ref=e64] [cursor=pointer]:
+            - /url: "mailto: masinaehitus@blrt.ee"
+        - generic [ref=e69]:
+          - generic [ref=e70]: Management
+          - text: Priit Lind
+          - text: Member of the Board
+          - text: +372 610 2113
+          - link "priit.lind@blrt.ee" [ref=e71] [cursor=pointer]:
+            - /url: "mailto: priit.lind@blrt.ee"
+        - generic [ref=e79]:
+          - generic [ref=e80]: Marketing and Sales Department
+          - text: Veronika Demeskevits
+          - text: Sales Manager
+          - text: +372 528 6511
+          - link "v.demeskevits@blrt.ee" [ref=e81] [cursor=pointer]:
+            - /url: "mailto: v.demeskevits@blrt.ee"
+        - generic [ref=e83]:
+          - text: Yurii Pchelintsev
+          - text: Sales Manager
+          - text: +372 5895 8170
+          - link "y.pchelintsev@blrt.ee" [ref=e85] [cursor=pointer]:
+            - /url: "mailto: y.pchelintsev@blrt.ee"
+        - generic [ref=e90]:
+          - generic [ref=e91]: HR Department
+          - text: General information
+          - text: +372 610 2260
+          - link "personal@blrt.ee" [ref=e92] [cursor=pointer]:
+            - /url: "mailto: personal@blrt.ee"
+        - generic [ref=e94]:
+          - text: Recruitment specialist
+          - text: +372 5627 5105
+          - link "cv@blrt.ee" [ref=e96] [cursor=pointer]:
+            - /url: "mailto: cv@blrt.ee"
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]: Contacts
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e108] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e110]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e112]:
+            - link "masinaehitus@blrt.ee" [ref=e113] [cursor=pointer]:
+              - /url: mailto:masinaehitus@blrt.ee
+              - img [ref=e115]
+              - text: masinaehitus@blrt.ee
+          - listitem [ref=e117]:
+            - link "+372 610 2113" [ref=e118] [cursor=pointer]:
+              - /url: tel:+372 610 2113
+              - img [ref=e120]
+              - text: +372 610 2113
+      - generic [ref=e122]:
+        - generic [ref=e123]: LINKS
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link " About us" [ref=e127] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e128]:
+            - link " Contacts" [ref=e129] [cursor=pointer]:
+              - /url: /contacts/
+          - listitem [ref=e130]:
+            - link " Vacansies" [ref=e131] [cursor=pointer]:
+              - /url: https://blrt.ee/et/toopakkumised/
+      - list [ref=e134]:
+        - listitem [ref=e135]:
+          - link " Linkedin" [ref=e136] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/blrt-masinaehitus/?viewAsMember=true
+            - generic [ref=e137]: 
+            - text: Linkedin
+        - listitem [ref=e138]:
+          - link " Brochure" [ref=e139] [cursor=pointer]:
+            - /url: /wp-content/uploads/2021/06/masinaehitus_web-brochure_eng_070621.pdf
+            - generic [ref=e140]: 
+            - text: Brochure
+    - contentinfo [ref=e141]:
+      - generic [ref=e144]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e145] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e146]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e147]:
+    - generic [ref=e148]:
+      - generic [ref=e149]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e151] [cursor=pointer]
+      - button "No" [ref=e152] [cursor=pointer]

@@ -403,39 +403,49 @@ export default function Home() {
       <PresenceMap />
 
       {/* ─── Sustainability teaser ─── */}
-      <RevealSection as="section" className="py-20 bg-[hsl(var(--primary-deep))] border-t border-white/8">
-        <div className="container-pro grid lg:grid-cols-[1.1fr_1fr] gap-14 items-center">
+      <RevealSection as="section" className="relative py-24 border-t border-white/8 overflow-hidden">
+        {/* Full-section background: green leaves, heavily darkened */}
+        <div className="absolute inset-0">
+          <img
+            src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1400&q=75&auto=format&fit=crop"
+            alt=""
+            aria-hidden
+            className="w-full h-full object-cover"
+            style={{ filter: "saturate(0.85) brightness(0.55)" }}
+          />
+          <div className="absolute inset-0 bg-[hsl(218_68%_8%/0.45)]" />
+        </div>
+        <div className="container-pro relative grid lg:grid-cols-[1.1fr_1fr] gap-14 items-center">
           <div>
-            <p className="overline text-white/45 mb-4">{t("home.sustain.label")}</p>
+            <p className="overline text-[#1ac51b] mb-4">{t("home.sustain.label")}</p>
             <h2 className="text-3xl lg:text-4xl font-bold tracking-tighter leading-tight text-white mb-5">
               {t("home.sustain.title")}
             </h2>
-            <p className="text-sm text-white/55 leading-relaxed max-w-[52ch] mb-8">
+            <p className="text-sm text-white/60 leading-relaxed max-w-[52ch] mb-8">
               {t("home.sustain.desc")}
             </p>
             <Link
               to="/sustainability"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-brand-red text-white text-sm font-semibold hover:bg-brand-red/90 transition-colors shadow-[var(--shadow-red)]"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-[#1ac51b] text-white text-sm font-semibold hover:bg-[#17b018] transition-colors"
             >
               {t("home.sustain.cta")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
-
           <div className="flex flex-col gap-3">
             {[
-              { Icon: Leaf,     stat: "2,150 m²",    label: t("sustainability.pillar.environment"), sub: "Enclosed weatherproof treatment sheds" },
-              { Icon: Wind,     stat: "World's 1st", label: t("sustainability.pillar.people"),      sub: "Rotor sail ferry fitted at BLRT yards" },
-              { Icon: Droplets, stat: "MC4000",      label: t("sustainability.pillar.community"),   sub: "First autonomous dock cleaning robot" },
+              { Icon: Wind,     stat: "World's 1st", label: "Wind-assisted propulsion",   sub: "Rotor sail on a passenger vessel — Viking Grace" },
+              { Icon: Leaf,     stat: "5+",          label: "Green fleet technologies",    sub: "Scrubbers, shore power, BWTS, wind sails & more" },
+              { Icon: Droplets, stat: "Zero",        label: "Harmful overboard discharge", sub: "New-generation containment at every berth" },
             ].map(({ Icon, stat, label, sub }) => (
-              <div key={stat} className="flex items-center gap-5 bg-white/5 border border-white/8 rounded-xl px-5 py-4">
-                <div className="w-9 h-9 rounded-lg bg-brand-red/15 flex items-center justify-center shrink-0">
-                  <Icon className="w-5 h-5 text-brand-red" />
+              <div key={label} className="flex items-center gap-4 bg-[hsl(218_68%_8%/0.7)] border border-white/12 rounded-xl px-5 py-4 backdrop-blur-sm">
+                <div className="w-9 h-9 rounded-lg bg-[#1ac51b]/20 flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5 text-[#1ac51b]" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <div className="text-[10px] font-semibold uppercase tracking-[0.15em] text-white/35 mb-0.5">{label}</div>
                   <div className="text-xl font-bold tracking-tighter text-white leading-none">{stat}</div>
-                  <div className="text-xs text-white/40 mt-0.5">{sub}</div>
+                  <div className="text-[10px] font-semibold uppercase tracking-[0.15em] text-white/55 mt-1">{label}</div>
+                  <div className="text-xs text-white/45 mt-0.5 leading-snug">{sub}</div>
                 </div>
               </div>
             ))}

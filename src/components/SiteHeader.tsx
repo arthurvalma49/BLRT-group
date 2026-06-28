@@ -123,7 +123,7 @@ export default function SiteHeader() {
           <Link to="/" onClick={close} className="group flex items-center gap-3 py-2 shrink-0 transition-opacity duration-200 hover:opacity-80" aria-label="BLRT Grupp home">
             <img src={logo} alt="BLRT Grupp" width={36} height={36} className="h-9 w-9 object-contain transition-transform duration-200 group-hover:scale-110" />
             <div className="flex flex-col leading-none gap-0.5">
-              <span className="text-sm font-bold text-primary tracking-tight">BLRT grupp</span>
+              <span className="text-sm font-bold text-brand-red tracking-tight">BLRT grupp</span>
               <span className="text-[10px] font-medium text-muted-foreground tracking-[0.12em] uppercase">
                 Industrial Group · Est. 1912
               </span>
@@ -147,7 +147,7 @@ export default function SiteHeader() {
         <Link to="/" onClick={close} className="lg:hidden group flex items-center gap-3 py-2 shrink-0 transition-opacity duration-200 hover:opacity-80" aria-label="BLRT Grupp home">
           <img src={logo} alt="BLRT Grupp" width={36} height={36} className="h-9 w-9 object-contain transition-transform duration-200 group-hover:scale-110" />
           <div className="flex flex-col leading-none gap-0.5">
-            <span className="text-sm font-bold text-primary tracking-tight">BLRT grupp</span>
+            <span className="text-sm font-bold text-brand-red tracking-tight">BLRT grupp</span>
             <span className="text-[10px] font-medium text-muted-foreground tracking-[0.12em] uppercase">
               Industrial Group · Est. 1912
             </span>

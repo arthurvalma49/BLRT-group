@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - text:           
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrt.ee/en/
+          - img [ref=e6]
+          - img [ref=e19]
+        - text:  
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - link "About us" [ref=e29] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/about-us/
+              - listitem [ref=e30]:
+                - link "News" [ref=e31] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/news/
+              - listitem [ref=e32]:
+                - link "Career" [ref=e33] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/career/
+              - listitem [ref=e34]:
+                - link "Contacts" [ref=e35] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/contacts/
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "Switch to Ee" [ref=e39] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/tegevussuunad-et/metalli-ja-metalltoodete-tootlemine-ja-muuk/
+                  - generic [ref=e40]: Ee
+              - listitem [ref=e41]:
+                - link "En" [ref=e42] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/activities-list/metal-product-processing-and-sale/
+                  - generic [ref=e43]: En
+              - listitem [ref=e44]:
+                - link "Switch to Ru" [ref=e45] [cursor=pointer]:
+                  - /url: https://blrt.ee/ru/napravlenijadejatelnosti/obrabotka-i-prodazha-metalla-i-metallop/
+                  - generic [ref=e46]: Ru
+          - navigation [ref=e47]:
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link " Activities" [ref=e50] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/activities/
+              - listitem [ref=e51]:
+                - link " Tenders" [ref=e52] [cursor=pointer]:
+                  - /url: https://tenders.blrt.ee/
+              - listitem [ref=e53]:
+                - link " Social responsibility" [ref=e54] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/social-responsibility/
+              - listitem [ref=e55]:
+                - link " Subsidiaries" [ref=e56] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/subsidiaries/
+    - main [ref=e57]:
+      - main [ref=e59]:
+        - generic [ref=e62]:
+          - heading "Metal product processing and sale" [level=1] [ref=e63]
+          - generic [ref=e64]:
+            - link "Home" [ref=e65] [cursor=pointer]:
+              - /url: https://blrt.ee/en/
+            - text: / Activities / Metal product processing and sale
+        - generic [ref=e73]:
+          - paragraph [ref=e74]:
+            - link "Elme Metall" [ref=e75] [cursor=pointer]:
+              - /url: http://www.elmemetall.eu/en/
+            - text: a subsidiary of BLRT Grupp, is a leader in the Baltic States in the sale of rolled steel and processing of metal products. Elme Metall today is an international company with about 500 employees and offices in Estonia, Latvia, Lithuania, Finland, Poland. Elme Metall has established itself as a reliable partner in the Baltic States, Scandinavia, Eastern and Central Europe.
+          - link "elmemetall.eu " [ref=e77] [cursor=pointer]:
+            - /url: http://www.elmemetall.eu
+            - generic [ref=e78]: elmemetall.eu
+            - generic [ref=e79]: 
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e84]: Contacts
+        - list [ref=e86]:
+          - listitem [ref=e87]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e88] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e90]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e92]:
+            - link "blrt@blrt.ee" [ref=e93] [cursor=pointer]:
+              - /url: mailto:blrt@blrt.ee
+              - img [ref=e95]
+              - text: blrt@blrt.ee
+          - listitem [ref=e97]:
+            - link "+372 610 2408" [ref=e98] [cursor=pointer]:
+              - /url: tel:+372 610 2408
+              - img [ref=e100]
+              - text: +372 610 2408
+      - generic [ref=e102]:
+        - generic [ref=e103]: LINKS
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link " About us" [ref=e107] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e108]:
+            - link " News" [ref=e109] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e110]:
+            - link " Privacy policy" [ref=e111] [cursor=pointer]:
+              - /url: https://blrt.ee/en/privacy-policy-2/
+          - listitem [ref=e112]:
+            - link " Career" [ref=e113] [cursor=pointer]:
+              - /url: /career/
+          - listitem [ref=e114]:
+            - link " Contacts" [ref=e115] [cursor=pointer]:
+              - /url: /contacts/
+          - listitem [ref=e116]:
+            - link " General Terms" [ref=e117] [cursor=pointer]:
+              - /url: /en/general-terms/
+          - listitem [ref=e118]:
+            - link " General Terms Archive" [ref=e119] [cursor=pointer]:
+              - /url: https://blrt.ee/en/general-terms-archive/
+          - listitem [ref=e120]:
+            - link " Violation report" [ref=e121] [cursor=pointer]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=enAOge4PhkyVGZSBH0mtDuiJEHbRpqxJkIuYYfNya7JUOVE5STRWRzk5NzZTTlZOT1ZTUFY0VUFTVi4u&lang=en-US
+      - list [ref=e124]:
+        - listitem [ref=e125]:
+          - link " Facebook" [ref=e126] [cursor=pointer]:
+            - /url: https://www.facebook.com/blrtgrupp
+            - generic [ref=e127]: 
+            - text: Facebook
+        - listitem [ref=e128]:
+          - link " Linkedin" [ref=e129] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/blrt-grupp
+            - generic [ref=e130]: 
+            - text: Linkedin
+    - contentinfo [ref=e131]:
+      - generic [ref=e134]: © 2026 BLRT Grupp. All rights reserved. https://sudamest.com/
+    - link "" [ref=e135] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e136]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e137]:
+    - generic [ref=e138]:
+      - generic [ref=e139]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e141] [cursor=pointer]
+      - button "No" [ref=e142] [cursor=pointer]
