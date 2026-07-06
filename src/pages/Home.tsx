@@ -21,8 +21,8 @@ import { projects } from "@/data/projects";
 const facts = [
   { label: "Headquarters", value: "Kopli, Tallinn" },
   { label: "Founded",      value: "1912" },
-  { label: "Companies",    value: "24 across 6 sectors" },
-  { label: "Markets",      value: "EE · LV · LT · FI" },
+  { label: "Companies",    value: "50+ across 6 sectors" },
+  { label: "Markets",      value: "EE · LV · LT · FI · PL · UA · BR" },
 ];
 
 function StatNumber({ target, animate }: { target: number; animate: boolean }) {
@@ -93,10 +93,10 @@ export default function Home() {
   }, [prefersReducedMotion]);
 
   const stats = [
-    { value: 24,   label: t("blrt.stat.companies"), animate: true,  Icon: Building2 },
-    { value: 5,    label: t("blrt.stat.countries"),  animate: true,  Icon: Globe2    },
-    { value: 6,    label: t("blrt.stat.sectors"),    animate: true,  Icon: Layers    },
-    { value: 1912, label: t("blrt.stat.founded"),    animate: false, Icon: Landmark  },
+    { value: 50,   suffix: "+", label: t("blrt.stat.companies"), animate: true,  Icon: Building2 },
+    { value: 7,    suffix: "",  label: t("blrt.stat.countries"),  animate: true,  Icon: Globe2    },
+    { value: 6,    suffix: "",  label: t("blrt.stat.sectors"),    animate: true,  Icon: Layers    },
+    { value: 1912, suffix: "",  label: t("blrt.stat.founded"),    animate: false, Icon: Landmark  },
   ];
 
   return (
@@ -263,7 +263,7 @@ export default function Home() {
       <RevealSection as="section" className="py-16 bg-[hsl(var(--navy-section))]">
         <div className="container-pro" style={{ perspective: "1200px" }}>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            {stats.map(({ value, label, animate, Icon }, i) => (
+            {stats.map(({ value, suffix, label, animate, Icon }, i) => (
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 40, rotateX: 22 }}
@@ -278,7 +278,7 @@ export default function Home() {
                   <Icon className="w-5 h-5 text-brand-red" />
                 </div>
                 <div className="text-4xl lg:text-5xl font-bold tracking-tighter text-white leading-none">
-                  <StatNumber target={value} animate={animate} />
+                  <StatNumber target={value} animate={animate} />{suffix}
                 </div>
                 <div className="text-sm text-white/60 font-medium">{label}</div>
 

@@ -1,33 +1,33 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, Hash, CheckCircle2 } from "lucide-react";
+import { Phone, Mail, MapPin, Hash, CheckCircle2, Linkedin, Facebook } from "lucide-react";
 import { useLanguage } from "@/i18n/LanguageContext";
 import RevealSection from "@/components/RevealSection";
 import { cn } from "@/lib/utils";
 
 const personnel = [
   {
-    name: "Renat Hassanov",
-    role: "Board Member",
-    phone: "+372 510 3350",
-    email: "renat.hassanov@blrt.ee",
+    name: "Kristina Uustalu",
+    role: "Office Manager",
+    phone: "+372 610 2408",
+    email: "blrt@blrt.ee",
   },
   {
-    name: "Ivan Pshenychnyi",
-    role: "Technical Manager",
-    phone: "+372 5696 8143",
-    email: "ivan.pshenychnyi@blrt.ee",
+    name: "Karina Kond",
+    role: "Director of Communication",
+    phone: "+372 610 2403",
+    email: "karina.kond@blrt.ee",
   },
   {
-    name: "Diana Tulus",
-    role: "Marketing Manager",
-    phone: "+372 5343 2898",
-    email: "diana.tulus@blrt.ee",
+    name: "Inga Stern",
+    role: "Communications Specialist",
+    phone: "+372 610 2593",
+    email: "inga.stern@blrt.ee",
   },
   {
-    name: "Pavel Magazov",
-    role: "Marketing Manager",
-    phone: "+372 5333 1505",
-    email: "pavel.magazov@blrt.ee",
+    name: "Algerd Andruškevičius",
+    role: "Member of the Management Board",
+    phone: "+372 511 2272",
+    email: "blrt@blrt.ee",
   },
 ];
 
@@ -62,25 +62,25 @@ export default function Contacts() {
       icon: MapPin,
       label: t("contacts.address"),
       value: "Kopli 103, 11712 Tallinn",
-      sub: "Estonia · BLRT Grupp",
+      sub: "Estonia · BLRT Grupp AS",
       href: "https://maps.google.com/?q=Kopli+103+Tallinn+Estonia",
     },
     {
       icon: Phone,
       label: t("contacts.phone"),
-      value: "+372 610 2997",
-      href: "tel:+3726102997",
+      value: "+372 610 2408",
+      href: "tel:+3726102408",
     },
     {
       icon: Mail,
       label: t("contacts.email"),
-      value: "info@blrt.ee",
-      href: "mailto:info@blrt.ee",
+      value: "blrt@blrt.ee",
+      href: "mailto:blrt@blrt.ee",
     },
     {
       icon: Hash,
       label: "Reg. code",
-      value: "10910683",
+      value: "10068499",
       href: undefined,
     },
   ];
@@ -161,6 +161,61 @@ export default function Contacts() {
                   </li>
                 ))}
               </ul>
+
+              {/* Social media */}
+              <div className="flex items-center gap-3 mt-8 pt-6 border-t border-white/10">
+                <span className="text-[10px] uppercase tracking-[0.2em] text-white/35 font-semibold">Follow</span>
+                <a
+                  href="https://www.linkedin.com/company/blrt-grupp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded bg-white/8 flex items-center justify-center hover:bg-brand-red/80 transition-colors duration-200"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="w-3.5 h-3.5 text-white" />
+                </a>
+                <a
+                  href="https://www.facebook.com/blrtgrupp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-8 h-8 rounded bg-white/8 flex items-center justify-center hover:bg-brand-red/80 transition-colors duration-200"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="w-3.5 h-3.5 text-white" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Klaipėda hub ─── */}
+      <RevealSection as="section" className="pb-8 bg-background">
+        <div className="container-pro max-w-2xl">
+          <div className="bg-[hsl(218_40%_13%)] text-white rounded-2xl p-8 lg:p-10 relative overflow-hidden border border-white/6">
+            <div className="relative">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-white/35 font-semibold mb-4">Klaipėda / Lithuania Hub</p>
+              <h2 className="text-xl font-bold tracking-tight text-white mb-1">Western Shipyard Group</h2>
+              <p className="text-white/50 text-sm mb-6">Minijos st. 180, LT-93269 Klaipėda, Lithuania</p>
+              <div className="flex flex-wrap gap-6">
+                <a href="tel:+37046483600" className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">
+                  <Phone className="w-3.5 h-3.5 text-brand-red" />
+                  +370 46 483 600
+                </a>
+                <a href="mailto:info@wsy.lt" className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors">
+                  <Mail className="w-3.5 h-3.5 text-brand-red" />
+                  info@wsy.lt
+                </a>
+                <a
+                  href="https://maps.google.com/?q=Minijos+st+180+Klaipeda+Lithuania"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-white/70 hover:text-white transition-colors"
+                >
+                  <MapPin className="w-3.5 h-3.5 text-brand-red" />
+                  View on map
+                </a>
+              </div>
             </div>
           </div>
         </div>

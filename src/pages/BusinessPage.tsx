@@ -305,6 +305,43 @@ export default function BusinessPage() {
                 </a>
               )}
             </div>
+
+            {/* Named contacts */}
+            {biz.personnel && biz.personnel.length > 0 && (
+              <div className="mt-10">
+                <p className="text-[10px] uppercase tracking-[0.2em] font-semibold text-muted-foreground mb-5">Key Contacts</p>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border rounded-xl overflow-hidden">
+                  {biz.personnel.map((p) => (
+                    <div key={p.name} className="bg-card p-5">
+                      <div className="text-[10px] uppercase tracking-[0.2em] font-semibold text-brand-red mb-2">
+                        {p.role}
+                      </div>
+                      <div className="text-sm font-bold text-primary mb-3 leading-snug">{p.name}</div>
+                      <div className="space-y-1.5">
+                        {p.phone && (
+                          <a
+                            href={`tel:${p.phone.replace(/\s/g, "")}`}
+                            className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
+                          >
+                            <Phone className="w-3 h-3 shrink-0" />
+                            {p.phone}
+                          </a>
+                        )}
+                        {p.email && (
+                          <a
+                            href={`mailto:${p.email}`}
+                            className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors break-all"
+                          >
+                            <Mail className="w-3 h-3 shrink-0" />
+                            {p.email}
+                          </a>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </RevealSection>
       )}

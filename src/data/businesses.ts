@@ -28,6 +28,13 @@ export interface Product {
   image?: string;
 }
 
+export interface Personnel {
+  name: string;
+  role: string;
+  phone?: string;
+  email?: string;
+}
+
 export interface Business {
   slug: string;
   name: string;
@@ -46,6 +53,7 @@ export interface Business {
     email?: string;
     website?: string;
   };
+  personnel?: Personnel[];
   certificates?: Certificate[];
   techData?: TechDataRow[];
   products?: Product[];
@@ -73,6 +81,7 @@ export const sectorGroups: { id: string; label: string; slugs: string[] }[] = [
     slugs: [
       "blrt-era", "bars-elekter", "blrt-masinaehitus", "marketex-marine", "marketex-offshore",
       "blrt-valukoda", "moc", "western-tech-solutions", "western-baltic-engineering",
+      "marine-technology-lt",
     ],
   },
   {
@@ -83,7 +92,7 @@ export const sectorGroups: { id: string; label: string; slugs: string[] }[] = [
   {
     id: "port",
     label: "Port & Marine Services",
-    slugs: ["vene-balti-sadam", "mereabi", "western-ships-agency"],
+    slugs: ["vene-balti-sadam", "mereabi", "western-ships-agency", "western-stevedoring"],
   },
 ];
 
@@ -152,6 +161,11 @@ export const businesses: Business[] = [
       email: "info@blrtgrupp.ee",
       website: "https://blrtyards.com/en/",
     },
+    personnel: [
+      { name: "Andrejus Babachinas", role: "CEO, BLRT Repair Yards", phone: "+370 46 483 764" },
+      { name: "Sergei Kravtsenko",   role: "Managing Director, Tallinn Shipyard", phone: "+372 610 2252", email: "sergei.kravtsenko@blrtyards.com" },
+      { name: "Gabrielius Jasas",    role: "Head of Sales & Marketing", phone: "+370 61 494 651", email: "gabrielius.jasas@blrtyards.com" },
+    ],
     certificates: [
       { name: "ISO 9001:2015",   issuer: "Lloyd's Register", year: 2025 },
       { name: "ISO 14001:2015",  issuer: "Lloyd's Register", year: 2024 },
@@ -227,8 +241,8 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
-      address: "Kopli 103, 11712 Tallinn, Estonia",
-      phone: "+372 610 2252",
+      address: "Minijos str. 180, LT-93269 Klaipėda, Lithuania",
+      phone: "+370 46 483 764",
       email: "info@blrtgrupp.ee",
       website: "https://blrtyards.com/en/",
     },
@@ -291,9 +305,9 @@ export const businesses: Business[] = [
       },
     ],
     contact: {
-      address: "Kopli 103, 11712 Tallinn, Estonia",
-      phone: "+372 610 2252",
-      email: "info@blrtgrupp.ee",
+      address: "Navirentie, 21100 Naantali, Finland",
+      phone: "+358 400 669 713",
+      email: "antti.simula@turunkorjaustelakka.fi",
       website: "https://blrtyards.com/en/",
     },
   },
@@ -341,6 +355,10 @@ export const businesses: Business[] = [
       email: "info@wbs.lt",
       website: "https://wbs.lt/en/",
     },
+    personnel: [
+      { name: "Ilja Andrusenko",  role: "Marketing & Sales",   phone: "+370 610 424 38" },
+      { name: "Dmitrij Martynov", role: "Project Management",  phone: "+370 688 963 83" },
+    ],
   },
 
   /* ── INSPECTION & TESTING ── */
@@ -452,6 +470,10 @@ export const businesses: Business[] = [
       email: "wcl@wcl.lt",
       website: "https://wcl.lt/",
     },
+    personnel: [
+      { name: "Rosvaldas Janušaitis", role: "Director",       phone: "+370 614 315 22", email: "r.janusaitis@wcl.lt" },
+      { name: "Arūnas Toliušis",      role: "Head of Sales",  phone: "+370 650 408 04", email: "a.toliusis@wcl.lt"   },
+    ],
   },
 
   /* ── ENGINEERING ── */
@@ -505,6 +527,10 @@ export const businesses: Business[] = [
       email: "info@blrtera.ee",
       website: "https://blrtera.ee/en/",
     },
+    personnel: [
+      { name: "Oleg Pljusnin",  role: "Board Member",   phone: "+372 610 2307", email: "o.pljusnin@blrtera.ee" },
+      { name: "Andrei Miklin",  role: "Head of Sales",  phone: "+372 56047847", email: "a.miklin@blrtera.ee"   },
+    ],
   },
   {
     slug: "bars-elekter",
@@ -541,6 +567,13 @@ export const businesses: Business[] = [
         fullDesc:
           "Bars Elekter provides integrated power conversion solutions for marine and offshore applications. Power Take In (PTI): motor takes over propulsion diesel for slow speed or provides a boost when the main diesel is on. Power Take Home (PTH): generator takes over propulsion diesel for slow speed. Power Take Out (PTO): motor acting as a generator driven by main propulsion.\n\nEnergy Storage Solutions (ESS) make load profiles easier to manage and flatten, improving grid stability and security. These solutions help clients with power balancing, peak shaving, frequency regulation and electrical grid support — drawing on the company's 500+ completed projects worldwide.",
       },
+      {
+        icon: "droplets",
+        title: "Green ICT Projects — Shore Power",
+        desc: "EU-funded shore power R&D: Norway Grants / Enterprise Estonia Green ICT Programme grants delivering shore connections for Tallink Grupp vessels and Klaipėda State Seaport.",
+        fullDesc:
+          "Bars Elekter received two Enterprise Estonia Green ICT Programme grants (total ~€218,772) to develop shore power technology aligned with the EU 'Fit for 55' CO₂ reduction targets.\n\nCompleted projects include shore power connections for M/S SILJA EUROPA (2022), M/S VICTORIA I (2022), and M/S Isabelle (April 2024), all Tallink Grupp vessels. The company also won the Klaipėda State Seaport Authority shore power tender. This programme positions Bars Elekter as one of the Baltic region's leading shore power specialists.",
+      },
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
@@ -557,9 +590,9 @@ export const businesses: Business[] = [
     countries: "EE",
     tagline: "Serial production and machining of metal products and structures",
     heroDesc:
-      "A modern and dynamically developing machine building company established in 2002. 6,000 m² production area, 50 specialists, 14 CNC machines — serving Central Europe and Scandinavia.",
+      "A modern and dynamically developing machine building company established in 2004. 6,000 m² production area, 50 specialists, 14 CNC machines — serving Central Europe and Scandinavia.",
     aboutP1:
-      "BLRT Masinaehitus is a modern and dynamically developing machine building company established in 2002, operating as a subsidiary of BLRT Grupp — the leading industrial holding in the Baltics. The company specialises in series production and machining of metal products and structures for power and transport engineering, cellulose and paper, wood, and other industrial sectors.",
+      "BLRT Masinaehitus is a modern and dynamically developing machine building company established in 2004, operating as a subsidiary of BLRT Grupp — the leading industrial holding in the Baltics. The company specialises in series production and machining of metal products and structures for power and transport engineering, cellulose and paper, wood, and other industrial sectors.",
     aboutP2:
       "Operating from a 6,000 m² production facility in Tallinn with 50 specialists and 14 CNC machines, BLRT Masinaehitus serves primary markets in Central Europe and Scandinavia. The company is certified to ISO 9001:2015, ISO 14001:2015, EN 1090-1 and EN ISO 3834-2:2021 (welding capability).",
     services: [
@@ -591,6 +624,10 @@ export const businesses: Business[] = [
       email: "info@masinaehitus.ee",
       website: "https://masinaehitus.ee/en/",
     },
+    personnel: [
+      { name: "Priit Lind",            role: "Board Member",  email: "priit.lind@masinaehitus.ee" },
+      { name: "Veronika Demeskevits",  role: "Sales Manager", phone: "+372 528 6511"               },
+    ],
   },
   {
     slug: "marketex-marine",
@@ -634,6 +671,10 @@ export const businesses: Business[] = [
       email: "info@marketexmarine.net",
       website: "https://marketexmarine.net/en/",
     },
+    personnel: [
+      { name: "Fjodor Kvich",         role: "Chairman",               phone: "+372 505 2516", email: "fjodor.kvich@marketexmarine.net"       },
+      { name: "Dmitri Gornostajev",   role: "Board Member, Sales",    phone: "+372 524 7518", email: "dmitri.gornostajev@marketexmarine.net" },
+    ],
   },
   {
     slug: "marketex-offshore",
@@ -726,6 +767,10 @@ export const businesses: Business[] = [
       email: "elmemetall@blrt.ee",
       website: "https://elmemetall.eu/en/",
     },
+    personnel: [
+      { name: "Georgiy Grigoryan",  role: "Chairman",            phone: "+372 610 2801" },
+      { name: "Maksim Malanjins",   role: "Commercial Director", phone: "+371 2322 9596" },
+    ],
     certificates: [
       { name: "ISO 9001:2015",     issuer: "Bureau Veritas", year: 2025 },
       { name: "ISO 14001:2015",    issuer: "Bureau Veritas", year: 2024 },
@@ -863,8 +908,15 @@ export const businesses: Business[] = [
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
       phone: "+372 610 2408",
+      email: "info@elmetrans.ee",
       website: "https://elmetrans.ee/en/",
     },
+    personnel: [
+      { name: "Ilja Šustrov",        role: "Sales Manager (Equipment Rental)", phone: "+372 5683 6297" },
+      { name: "Vadim Kolenchenko",   role: "International Transport",           phone: "+372 5302 1726" },
+      { name: "Ricards Vaitonis",    role: "Director, Latvia",                  phone: "+371 29602961"  },
+      { name: "Zygimantas Kristutis",role: "Head of Rental, Lithuania",         phone: "+370 655 79634" },
+    ],
   },
 
   /* ── PORT & MARINE SERVICES ── */
@@ -911,6 +963,10 @@ export const businesses: Business[] = [
       email: "info@portvenebalti.ee",
       website: "https://portvenebalti.ee/en/",
     },
+    personnel: [
+      { name: "Marek Rauk", role: "Board Member / Harbourmaster", phone: "+372 610 2205", email: "marek.rauk@portvenebalti.ee" },
+      { name: "Port Dispatcher (24/7)", role: "Operations", phone: "+372 5341 9708", email: "dispatcher@portvenebalti.ee" },
+    ],
   },
   {
     slug: "mereabi",
@@ -961,6 +1017,11 @@ export const businesses: Business[] = [
       email: "info@mereabi.ee",
       website: "https://mereabi.ee/en/",
     },
+    personnel: [
+      { name: "Marina Skljarova",    role: "Board Member",          phone: "+372 5307 3883"                    },
+      { name: "Irina Laskova",       role: "Director, Lithuania",   phone: "+370 630 05 991", email: "info@mereabi.lt" },
+      { name: "Uljana Prosvetova",   role: "Sales Manager, Estonia",phone: "+372 534 59 753"                    },
+    ],
   },
 
   /* ── BLRT REKATO ── */
@@ -973,9 +1034,9 @@ export const businesses: Business[] = [
     countries: "EE",
     tagline: "Ship repair and pipelines manufacturing",
     heroDesc:
-      "Founded in 2000, BLRT Rekato operates in ship repair, shipbuilding and the Oil & Gas industry from a 6,420 m² production facility at Kopli 103, Tallinn.",
+      "Founded in 2000, BLRT Rekato operates in ship repair, shipbuilding, Oil & Gas and renewable energy from a 6,420 m² production facility at Kopli 103, Tallinn. 100 specialists, 45 tonnes/month production capacity.",
     aboutP1:
-      "BLRT Rekato OÜ was founded in 2000 as a subsidiary of BLRT Grupp, the leading industrial holding in the Baltics. The company operates in ship repair, shipbuilding and the Oil & Gas industry, with a 6,420 m² production hall equipped with specialised machine tools for manufacturing pipelines, profile structures and metal processing.",
+      "BLRT Rekato OÜ was founded in 2000 as a subsidiary of BLRT Grupp, the leading industrial holding in the Baltics. With 100 specialists and a production capacity of 45 tonnes per month, the company operates in ship repair, shipbuilding, Oil & Gas and renewable energy, with a 6,420 m² production hall equipped with specialised machine tools for manufacturing pipelines, profile structures and metal processing.",
     services: [
       {
         icon: "anchor",
@@ -997,11 +1058,16 @@ export const businesses: Business[] = [
         title: "Metal Processing",
         desc: "General metal processing including cutting, bending, drilling and machining for marine and industrial applications.",
       },
+      {
+        icon: "waves",
+        title: "Oil & Gas and Renewable Energy",
+        desc: "Fabrication services for offshore oil & gas structures and renewable energy infrastructure, including wind energy components.",
+      },
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
       phone: "+372 610 2504",
-      email: "rekato@blrt.ee",
+      email: "info@blrtrekato.ee",
     },
   },
 
@@ -1014,29 +1080,31 @@ export const businesses: Business[] = [
     countries: "EE",
     tagline: "The only surviving foundry in Estonia",
     heroDesc:
-      "BLRT Valukoda is Estonia's only foundry, producing over 100 tonnes per month of grey, spheroidal and wear-resistant cast iron for marine and industrial customers.",
+      "BLRT Valukoda is Estonia's only foundry, producing over 100 tonnes per month of grey, spheroidal and wear-resistant cast iron. 30 specialists, 1,400 product names, EU Cohesion Fund investment in progress.",
     aboutP1:
-      "BLRT Valukoda is a subsidiary of BLRT Grupp and the only surviving foundry in Estonia. The company operates two 1,000 kg melting furnaces and one 500 kg furnace, with a monthly output of over 100 tonnes of grey, spheroidal, heat- and wear-resistant cast iron products. Quality management is certified to ISO 9001:2015.",
+      "BLRT Valukoda is a subsidiary of BLRT Grupp and the only surviving foundry in Estonia. With 30 specialists and a product range of 1,400 names, the company produces grey, spheroidal, heat- and wear-resistant cast iron in excess of 100 tonnes per month. Equipment includes two Mixer Omega Spartan units (10 t/h capacity each), Inductotherm induction furnaces (1.0 t, 1.0 t, 0.5 t), shot blasting machinery, an 8–10 t reclamation plant, and an automated spray paint cabinet with conveyor system.",
+    aboutP2:
+      "Iron grades produced: grey iron GJL150, GJL200, GJL250, GJL300; nodular iron GJS400-15, GJS500-7, GJS500-14, GJS600-3, GJS600-10, GJS700-2, GJS800-2; wear-resistant Ni-Hard cast iron; heat-resistant chromium cast iron (up to 30% chromium content). Quality management is certified to ISO 9001:2015. An EU Cohesion Fund investment of €860,845 for foundry expansion and CO₂ reduction was celebrated with a topping-out ceremony in April 2026.",
     services: [
       {
         icon: "flame",
         title: "Grey Cast Iron (GJL)",
-        desc: "GJL 150–300 grade grey cast iron castings for marine, industrial and mechanical engineering applications.",
+        desc: "GJL150, GJL200, GJL250 and GJL300 grade grey cast iron castings for marine, industrial and mechanical engineering applications.",
       },
       {
         icon: "beaker",
         title: "Spheroidal (Ductile) Iron (GJS)",
-        desc: "GJS 400–800 grade ductile iron castings offering high strength and toughness for demanding applications.",
+        desc: "Full GJS range: GJS400-15, GJS500-7, GJS500-14, GJS600-3, GJS600-10, GJS700-2, GJS800-2 — high strength ductile iron for demanding applications.",
       },
       {
         icon: "shield",
         title: "Heat & Wear-Resistant Castings",
-        desc: "Specialised heat- and wear-resistant cast iron grades for high-temperature and abrasive industrial environments.",
+        desc: "Ni-Hard wear-resistant cast iron and chromium cast iron (up to 30% chromium content) for high-temperature and abrasive industrial environments.",
       },
       {
         icon: "ruler",
         title: "Custom Casting from Drawings",
-        desc: "Custom castings produced to customer drawings with in-house pattern support for serial and one-off production.",
+        desc: "Custom castings produced to customer drawings with in-house pattern support for serial and one-off production. 1,400 product names in range.",
       },
     ],
     contact: {
@@ -1044,6 +1112,9 @@ export const businesses: Business[] = [
       phone: "+372 511 9437",
       email: "valukoda@blrt.ee",
     },
+    personnel: [
+      { name: "Paul Gross", role: "Managing Director" },
+    ],
     certificates: [
       { name: "ISO 9001:2015", issuer: "Quality Management System", year: 2023 },
     ],
@@ -1132,11 +1203,37 @@ export const businesses: Business[] = [
         title: "Technical Control",
         desc: "Independent technical supervision and acceptance documentation for production processes and incoming materials.",
       },
+      {
+        icon: "beaker",
+        title: "Chemical Analyses",
+        desc: "Chemical analysis of metals and materials for composition verification and quality assurance.",
+      },
+      {
+        icon: "hard-hat",
+        title: "Occupational Health and Safety Hazard Assessment",
+        desc: "OHS hazard assessment accreditation enabling ELME TKS to evaluate workplace safety risks for industrial clients.",
+      },
+      {
+        icon: "award",
+        title: "Training & Certification",
+        desc: "Industrial training and certification programmes under the Educational Activities License, including NDT technician qualification.",
+      },
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2408",
       email: "elmetks@elmetks.ee",
     },
+    certificates: [
+      { name: "ISO 9001:2015",              issuer: "Quality Management System"                    },
+      { name: "ISO 14001:2015",             issuer: "Environmental Management"                     },
+      { name: "ISO 45001:2018",             issuer: "Occupational Health & Safety"                 },
+      { name: "Industrial Radiography Permit", issuer: "Radiation Safety Authority"               },
+      { name: "Destructive Testing",        issuer: "EN ISO/IEC 17025 Accreditation"               },
+      { name: "Non-destructive Testing",    issuer: "Accreditation"                                },
+      { name: "Calibration Laboratory",     issuer: "Accreditation"                                },
+      { name: "DNV",                        issuer: "NDT Classification Society Approval"          },
+    ],
   },
 
   /* ── MARKETEX OFFSHORE CONSTRUCTIONS (MOC) ── */
@@ -1149,11 +1246,11 @@ export const businesses: Business[] = [
     countries: "EE",
     tagline: "Complex steel structures for Offshore, Renewables and Industrial projects",
     heroDesc:
-      "Marketex Offshore Constructions manufactures complex steel structures for Offshore Oil & Gas, Renewables, Infrastructure and Industrial projects, meeting NORSOK, DNV GL, ABS and Bureau Veritas requirements.",
+      "Marketex Offshore Constructions manufactures complex steel structures for Offshore Oil & Gas, Renewables, Infrastructure and Industrial projects. 20,550 m² workshop, 350,000 man-hours/year welding capacity, 20 m crane hook height.",
     aboutP1:
-      "Marketex Offshore Constructions (MOC) is a subsidiary of BLRT Grupp specialising in complex steel structures for Offshore Oil & Gas, Renewables, Infrastructure and Industrial projects. In 2020, supported by BLRT Grupp's development programme, the company opened a brand-new welding, machining and painting facility dedicated to large fabrication projects serving the North Sea and beyond.",
+      "Marketex Offshore Constructions (MOC) is a subsidiary of BLRT Grupp specialising in complex steel structures for Offshore Oil & Gas, Renewables, Subsea, Infrastructure and Industrial projects. In 2020, supported by BLRT Grupp's development programme, the company opened a brand-new welding, machining and painting facility of 20,550 m² dedicated to large fabrication projects serving the North Sea and beyond.",
     aboutP2:
-      "MOC manufactures to NORSOK, DNV GL, ABS and Bureau Veritas requirements. The company's QHSE Department — comprising a QHSE Manager, HSE Engineer, Metrology Engineer and three VT2-certified QC inspectors — ensures rigorous quality and safety standards across all production activities. Safety induction training is mandatory for all personnel entering MOC production workshops.",
+      "MOC's annual welding capacity stands at 350,000 man-hours, with a maximum crane hook height of 20 m. The company manufactures to NORSOK, DNV GL, ABS and Bureau Veritas requirements. The QHSE Department — comprising a QHSE Manager, HSE Engineer, Metrology Engineer and three VT2-certified QC inspectors — ensures rigorous quality and safety standards across all production activities.",
     services: [
       {
         icon: "layers",
@@ -1171,6 +1268,11 @@ export const businesses: Business[] = [
         desc: "Heavy steel structures for infrastructure and industrial projects, manufactured to DNV GL, ABS and Bureau Veritas standards.",
       },
       {
+        icon: "droplets",
+        title: "Subsea Structures",
+        desc: "Fabrication of subsea structural components for offshore and underwater installation projects.",
+      },
+      {
         icon: "award",
         title: "QHSE Quality Assurance",
         desc: "Integrated QHSE system with VT2-certified QC inspectors, HSE engineering and metrology support on every fabrication project.",
@@ -1178,8 +1280,13 @@ export const businesses: Business[] = [
     ],
     contact: {
       address: "Kopli 103, 11712 Tallinn, Estonia",
+      phone: "+372 610 2535",
       email: "moc@blrt.ee",
     },
+    personnel: [
+      { name: "Nadezda Vassiljeva", role: "Sales Director",  email: "moc.sales@blrt.ee"                             },
+      { name: "Dmitri Osmjorkin",   role: "Sales Manager",   phone: "+372 5673 3414", email: "moc.osmjorkin@blrt.ee" },
+    ],
   },
 
   /* ── WESTERN TECHNOLOGICAL SOLUTIONS ── */
@@ -1192,21 +1299,26 @@ export const businesses: Business[] = [
     countries: "LT",
     tagline: "Large-scale stainless steel tanks, pressure vessels and welded assemblies",
     heroDesc:
-      "Western Technological Solutions manufactures large-scale stainless steel and aluminium structures, tanks and pressure vessels for Chemical, Oil & Gas, Marine, Hydrogen and Decarbonization industries from Klaipėda.",
+      "Western Technological Solutions manufactures large-scale stainless steel tanks, pressure vessels and carbon capture systems. 3,240 m² workshop + 7,000 m² outdoor space, 70 m to sea pier, 250+ large-scale structures delivered, 10+ EU Top 30 clients.",
     aboutP1:
-      "Western Technological Solutions (WTS) is part of the Western Shipyard Group and BLRT Grupp, offering advanced engineering and manufacturing services for large-scale stainless steel and aluminium products. Manufacturing facilities sit directly on the port pier in Klaipėda, Lithuania — enabling sea transport of oversized structures that cannot be moved by road.",
+      "Western Technological Solutions (WTS) — legal name Vakarų technologiniai sprendimai, UAB — is part of the Western Shipyard Group and BLRT Grupp, offering advanced engineering and manufacturing for large-scale stainless steel and aluminium products. The 3,240 m² workshop sits just 70 m from the sea pier, enabling direct ship loading of oversized structures. Outdoor assembly space of 7,000 m² accommodates tanks up to 6 m internal diameter and 34 m height. Heavy lifting capacity reaches 500+ tons single piece.",
     aboutP2:
-      "WTS serves the Chemical, Oil & Gas, Power, Marine, Food, Hydrogen, Carbon Capture and Decarbonization industries. Deep expertise in complex, large-format stainless steel components has been built through long-term collaborations with leading European engineering companies on major industrial projects.",
+      "WTS has delivered 250+ large-scale stainless steel structures with more than 10 clients from the EU Top 30 Engineering Companies. Sectors served: Chemical, Oil & Gas, Power, Marine, Food, Hydrogen, Carbon Capture and Decarbonization. Products include pressurized and atmospheric thermal energy storage tanks (50–500 m³), chilled water storage tanks, stainless steel scrubbers, CO₂ capture absorbers, flue gas treatment systems, water and wastewater treatment systems, and Duplex stainless steel bridges. SAP Ariba Network ID: AN11090198629.",
     services: [
       {
         icon: "beaker",
-        title: "Stainless Steel Tanks & Pressure Vessels",
-        desc: "Large-scale stainless steel pressure vessels, storage tanks and process vessels to EN/ASME standards — sea-shipped from Klaipėda.",
+        title: "Tanks & Pressure Vessels",
+        desc: "Tanks up to 6 m internal diameter, 34 m height. Pressurized heating buffer tanks, atmospheric thermal energy storage (50–500 m³), chilled water storage — sea-shipped from Klaipėda.",
       },
       {
         icon: "layers",
-        title: "Large-Format Welded Assemblies",
-        desc: "Complex stainless steel and aluminium welded assemblies including scrubbers, heat exchangers and structural fabrications.",
+        title: "Carbon Capture & Flue Gas Treatment",
+        desc: "Stainless steel CO₂ capture absorbers and quenchers separating CO₂ from industrial emissions. Flue gas treatment systems including scrubbers and electrostatic precipitators.",
+      },
+      {
+        icon: "droplets",
+        title: "Water & Wastewater Treatment Systems",
+        desc: "Custom stainless steel water and wastewater treatment systems for industrial and municipal clients.",
       },
       {
         icon: "trending",
@@ -1216,13 +1328,19 @@ export const businesses: Business[] = [
       {
         icon: "ruler",
         title: "Full Project Cycle",
-        desc: "End-to-end service from engineering design and fabrication through sea shipment and on-site installation at the customer's location.",
+        desc: "End-to-end service: engineering design, fabrication (up to 500+ ton single-piece), sea shipment and on-site installation. 70 m from workshop gate to sea pier.",
       },
     ],
     contact: {
       address: "Minijos Str. 180, 93269 Klaipėda, Lithuania",
+      phone: "+370 68 515 464",
       email: "info@techsolutions.lt",
+      website: "https://techsolutions.lt",
     },
+    personnel: [
+      { name: "Laurynas Trilikauskas", role: "Chief Commercial Officer", phone: "+370 685 993 36", email: "l.trilikauskas@techsolutions.lt" },
+      { name: "Renata Labutienė",      role: "Sales Manager",            phone: "+370 610 482 81"                                           },
+    ],
   },
 
   /* ── WESTERN BALTIC ENGINEERING ── */
@@ -1243,7 +1361,7 @@ export const businesses: Business[] = [
       {
         icon: "ship",
         title: "Newbuilding Design",
-        desc: "Complete vessel design packages for various vessel types — from initial concept through classification-approved drawings.",
+        desc: "Complete vessel design packages for fishing trawlers, passenger vessels, RO-PAX, LNG bunkering vessels, MPV vessels, dredgers, special purpose/offshore vessels, and workboats — concept through classification-approved drawings.",
       },
       {
         icon: "layers",
@@ -1263,8 +1381,15 @@ export const businesses: Business[] = [
     ],
     contact: {
       address: "Minijos Str. 180, LT-93269 Klaipėda, Lithuania",
-      email: "wbe@wsy.lt",
+      phone: "+370 686 376 81",
+      email: "info@wbe.lt",
+      website: "https://wbe.lt",
     },
+    personnel: [
+      { name: "Marius Arkušauskas", role: "Director"                                                              },
+      { name: "Andrius Sutnikas",   role: "Chief Business Development Officer", phone: "+370 686 376 81"          },
+      { name: "Loreta Gedraitienė", role: "Sales Manager",                      phone: "+370 660 397 76"          },
+    ],
   },
 
   /* ── WESTERN SHIPS AGENCY ── */
@@ -1307,6 +1432,117 @@ export const businesses: Business[] = [
       address: "Minijos Str. 180, 93269 Klaipėda, Lithuania",
       phone: "+370 699 36 083",
       email: "agency@wsy.lt",
+      website: "https://wsa.lt",
+    },
+    personnel: [
+      { name: "Estonia Branch", role: "Kopli 103, Tallinn", phone: "+372 5621 0888" },
+    ],
+  },
+
+  /* ── MARINE TECHNOLOGY LT ── */
+  {
+    slug: "marine-technology-lt",
+    name: "Marine Technology LT",
+    sector: "Engineering",
+    sectorId: "engineering",
+    countries: "LT",
+    tagline: "EPCI for cable handling systems — offshore wind, subsea and oil & gas",
+    heroDesc:
+      "Engineering, Procurement, Construction and Installation for cable handling systems. Founded 1994 in Norway, acquired by Western Shipyard Group in 2010 — operating from Klaipėda with 100+ employees and 25,000 m² of workshop space.",
+    aboutP1:
+      "Marine Technology LT is an EPCI (Engineering, Procurement, Construction, Installation) specialist for cable handling systems serving offshore wind energy, subsea, oil & gas, and industrial cable reel manufacturing sectors. Founded in 1994 in Grimstad, Norway, the company was acquired by Western Shipyard Group in 2010 and now operates from Klaipėda, Lithuania, with over 100 employees and 25,000 m² of workshop space.",
+    aboutP2:
+      "The company's proprietary products include the Composite Reel and Modular Reel — both developed and patented in-house. Marine Technology LT holds QHSE certifications covering production, management and environmental protection.",
+    services: [
+      {
+        icon: "circuit",
+        title: "Cable Reel Manufacturing",
+        desc: "Proprietary Composite Reel and Modular Reel systems for offshore and industrial cable handling applications.",
+        fullDesc:
+          "Marine Technology LT designs and manufactures cable reels for offshore and industrial use. Proprietary products include the Composite Reel — a lightweight, high-strength composite-material reel — and the Modular Reel, offering reconfigurable geometry for varied cable diameters and capacities. Both products are developed and patented in-house.",
+      },
+      {
+        icon: "anchor",
+        title: "Offshore Wind EPCI",
+        desc: "Full Engineering, Procurement, Construction and Installation services for offshore wind cable handling systems.",
+        fullDesc:
+          "Marine Technology LT delivers complete EPCI packages for offshore wind energy projects, covering all phases from engineering design through procurement, fabrication and offshore installation of cable handling equipment. The company's experience spans array and export cable laying systems for wind farms in the North Sea, Baltic Sea and beyond.",
+      },
+      {
+        icon: "droplets",
+        title: "Subsea & Oil and Gas",
+        desc: "Cable handling systems and EPCI services for subsea and oil & gas operations.",
+        fullDesc:
+          "The company provides cable reel and handling solutions for subsea pipeline and umbilical installation, as well as oil and gas platform and FPSO cable systems. QHSE-certified operations meet the stringent safety and environmental standards of the oil and gas sector.",
+      },
+      {
+        icon: "gauge",
+        title: "Industrial Cable Systems",
+        desc: "Custom industrial cable reel manufacturing and handling solutions for non-marine sectors.",
+        fullDesc:
+          "Beyond offshore applications, Marine Technology LT supplies cable reels and cable handling equipment for industrial manufacturing customers. The 25,000 m² workshop provides capacity for both series production and bespoke single-unit fabrication.",
+      },
+    ],
+    contact: {
+      address: "Minijos St. 180, 93269 Klaipėda, Lithuania",
+      phone: "+370 682 42098",
+      email: "info@marinetechnology.lt",
+      website: "https://marinetechnology.lt",
+    },
+  },
+
+  /* ── WESTERN STEVEDORING ── */
+  {
+    slug: "western-stevedoring",
+    name: "Western Stevedoring",
+    sector: "Port & Marine Services",
+    sectorId: "port",
+    countries: "LT",
+    tagline: "Dry bulk, break bulk and liquid cargo handling at the Port of Klaipėda",
+    heroDesc:
+      "Maritime stevedoring at the ice-free Port of Klaipėda. 5 specialized terminals, 10 quays, 2.5+ km of berths, 2.5 million tons annual cargo throughput, 150+ employees.",
+    aboutP1:
+      "Western Stevedoring was founded in 2003 and is a major cargo handling and storage operator at the southern section of the ice-free Port of Klaipėda. Part of Western Shipyard Group (20 companies), the company operates 5 specialized terminals across 10 quays totalling over 2.5 km of berths, with an internal railway of 6.5 km connected to the Draugystė Railway Station.",
+    aboutP2:
+      "Storage infrastructure includes 16 covered warehouses totalling 50,000 m² and 150,000 m² of open storage. The terminal accommodates Panamax-class vessels up to 230 m in length with a draft of 13.4 m. Western Stevedoring is ISO certified and deployed one of the Port of Klaipėda's first hydroelectric cranes in 2022 as part of EU Green Deal compliance commitments.",
+    services: [
+      {
+        icon: "package",
+        title: "Dry Bulk Handling",
+        desc: "Ship, rail and vehicle loading/unloading for dry bulk commodities including grain, fertilizers and industrial ash.",
+        fullDesc:
+          "Western Stevedoring handles dry bulk cargo across 5 specialized terminals: loading and unloading by ship, rail and vehicle; conveyor and pneumatic discharge systems; processing and blending; quality control sampling. Annual dry bulk throughput is part of the 2.5+ million ton total capacity.",
+      },
+      {
+        icon: "layers",
+        title: "Break Bulk & General Cargo",
+        desc: "Break bulk, general cargo and heavy/oversized cargo handling and storage at 5 specialized terminals.",
+        fullDesc:
+          "The terminal handles break bulk including steel, timber, machinery and project cargo. Oversized and heavy-lift cargo is managed using specialized equipment. 16 covered warehouses (50,000 m²) and 150,000 m² of open storage provide flexible storage options.",
+      },
+      {
+        icon: "droplets",
+        title: "Liquid Cargo Handling",
+        desc: "Liquid cargo reception and transfer at dedicated liquid terminals.",
+      },
+      {
+        icon: "building",
+        title: "Storage & Warehousing",
+        desc: "16 covered warehouses (50,000 m²) plus 150,000 m² open storage — flexible solutions for all cargo types.",
+        fullDesc:
+          "Covered warehouse capacity: 16 warehouses, 50,000 m² total. Open storage: 150,000 m². The internal railway network of 6.5 km links directly to the Draugystė Railway Station (2.5 km external section), enabling efficient rail-to-storage-to-vessel cargo flow.",
+      },
+      {
+        icon: "truck",
+        title: "Logistics & Ancillary Services",
+        desc: "Railway shunting, containerization, customs brokerage, cargo weighing and processing services.",
+      },
+    ],
+    contact: {
+      address: "Minijos Street 180, LT-93269 Klaipėda, Lithuania",
+      phone: "+370 605 342 94",
+      email: "info@wst.lt",
+      website: "https://wst.lt",
     },
   },
 ];

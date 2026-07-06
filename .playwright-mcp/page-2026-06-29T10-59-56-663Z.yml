@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - text:    
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrt.ee/en/
+          - img [ref=e6]
+          - img [ref=e19]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - link "About us" [ref=e29] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/about-us/
+              - listitem [ref=e30]:
+                - link "News" [ref=e31] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/news/
+              - listitem [ref=e32]:
+                - link "Career" [ref=e33] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/career/
+              - listitem [ref=e34]:
+                - link "Contacts" [ref=e35] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/contacts/
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "Switch to Ee" [ref=e39] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/kontaktid/
+                  - generic [ref=e40]: Ee
+              - listitem [ref=e41]:
+                - link "En" [ref=e42] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/contacts/
+                  - generic [ref=e43]: En
+              - listitem [ref=e44]:
+                - link "Switch to Ru" [ref=e45] [cursor=pointer]:
+                  - /url: https://blrt.ee/ru/kontakty/
+                  - generic [ref=e46]: Ru
+          - navigation [ref=e47]:
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link " Activities" [ref=e50] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/activities/
+              - listitem [ref=e51]:
+                - link " Tenders" [ref=e52] [cursor=pointer]:
+                  - /url: https://tenders.blrt.ee/
+              - listitem [ref=e53]:
+                - link " Social responsibility" [ref=e54] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/social-responsibility/
+              - listitem [ref=e55]:
+                - link " Subsidiaries" [ref=e56] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/subsidiaries/
+    - main [ref=e57]:
+      - generic [ref=e60]:
+        - heading "Contacts" [level=1] [ref=e61]
+        - generic [ref=e62]:
+          - link "Home" [ref=e63] [cursor=pointer]:
+            - /url: https://blrt.ee/en/
+          - text: / Contacts
+      - iframe [ref=e66]:
+        
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - generic [ref=e73]: BLRT GRUPP AS
+          - text: "Address: Kopli 103, 11712 Tallinn, Estonia"
+          - text: "Phone: +372 610 2408"
+          - text: "E-mail: blrt@blrt.ee"
+          - text: "Invoices: invoices@blrt.ee"
+          - text: "Reg. code: 10068499"
+          - text: "Bank name: Swedbank AS"
+          - text: "Bank address: Liivalaia 8, 15040 Tallinn, Estonia"
+          - text: "IBAN: EE85 2200 2210 0117 6974"
+        - generic [ref=e75]:
+          - strong [ref=e77]: Office Manager
+          - text: Kristina Uustalu
+          - text: +372 610 2408
+          - text: blrt@blrt.ee
+        - generic [ref=e82]:
+          - generic [ref=e83]: Communication department
+          - text: Karina Kond
+          - text: Director of Communication
+          - text: +372 610 2403
+          - text: karina.kond@blrt.ee
+        - generic [ref=e85]:
+          - text: Inga Stern
+          - text: Communications specialist
+          - text: +372 610 2593
+          - text: inga.stern@blrt.ee
+        - generic [ref=e88]:
+          - text: Aleksandr Kobrissov
+          - text: Communications specialist
+          - text: a.kobrisov@blrt.ee
+        - generic [ref=e91]:
+          - generic [ref=e92]: HR department
+          - text: General information
+          - text: +372 5343 1868
+          - text: personal@blrt.ee
+        - generic [ref=e94]:
+          - text: Recruitment specialist
+          - text: +372 5627 5105
+          - text: cv@blrt.ee
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]: Contacts
+        - list [ref=e102]:
+          - listitem [ref=e103]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e104] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e106]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e108]:
+            - link "blrt@blrt.ee" [ref=e109] [cursor=pointer]:
+              - /url: mailto:blrt@blrt.ee
+              - img [ref=e111]
+              - text: blrt@blrt.ee
+          - listitem [ref=e113]:
+            - link "+372 610 2408" [ref=e114] [cursor=pointer]:
+              - /url: tel:+372 610 2408
+              - img [ref=e116]
+              - text: +372 610 2408
+      - generic [ref=e118]:
+        - generic [ref=e119]: LINKS
+        - list [ref=e121]:
+          - listitem [ref=e122]:
+            - link " About us" [ref=e123] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e124]:
+            - link " News" [ref=e125] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e126]:
+            - link " Privacy policy" [ref=e127] [cursor=pointer]:
+              - /url: https://blrt.ee/en/privacy-policy-2/
+          - listitem [ref=e128]:
+            - link " Career" [ref=e129] [cursor=pointer]:
+              - /url: /career/
+          - listitem [ref=e130]:
+            - link " Contacts" [ref=e131] [cursor=pointer]:
+              - /url: /contacts/
+          - listitem [ref=e132]:
+            - link " General Terms" [ref=e133] [cursor=pointer]:
+              - /url: /en/general-terms/
+          - listitem [ref=e134]:
+            - link " General Terms Archive" [ref=e135] [cursor=pointer]:
+              - /url: https://blrt.ee/en/general-terms-archive/
+          - listitem [ref=e136]:
+            - link " Violation report" [ref=e137] [cursor=pointer]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=enAOge4PhkyVGZSBH0mtDuiJEHbRpqxJkIuYYfNya7JUOVE5STRWRzk5NzZTTlZOT1ZTUFY0VUFTVi4u&lang=en-US
+      - list [ref=e140]:
+        - listitem [ref=e141]:
+          - link " Facebook" [ref=e142] [cursor=pointer]:
+            - /url: https://www.facebook.com/blrtgrupp
+            - generic [ref=e143]: 
+            - text: Facebook
+        - listitem [ref=e144]:
+          - link " Linkedin" [ref=e145] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/blrt-grupp
+            - generic [ref=e146]: 
+            - text: Linkedin
+    - contentinfo [ref=e147]:
+      - generic [ref=e150]: © 2026 BLRT Grupp. All rights reserved. https://sudamest.com/
+    - link "" [ref=e151] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e152]: 
+  - dialog "Compliance by Hu-manity.co"

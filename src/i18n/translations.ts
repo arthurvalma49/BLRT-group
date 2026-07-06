@@ -291,9 +291,9 @@ const translations = {
   "blrt.heroTitle1": { EN: "Baltic industry,", RU: "Балтийская промышленность,", ET: "Balti tööstus," },
   "blrt.heroTitle2": { EN: "built to endure.", RU: "созданная на века.", ET: "loodud kestma." },
   "blrt.heroDesc": {
-    EN: "24 companies. 6 industrial sectors. Over a century of shipbuilding and maritime engineering across Estonia, Latvia, Lithuania and Finland.",
-    RU: "24 компании. 6 промышленных секторов. Более века инженерного совершенства в Эстонии, Латвии, Литве и Финляндии.",
-    ET: "24 ettevõtet. 6 tööstussektorit. Üle sajandi insenerivõimekust Eestis, Lätis, Leedus ja Soomes.",
+    EN: "50+ companies. 6 industrial sectors. Over a century of shipbuilding and maritime engineering across Estonia, Latvia, Lithuania, Finland, Poland, Ukraine and Brazil.",
+    RU: "Более 50 компаний. 6 промышленных секторов. Более века инженерного совершенства в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии.",
+    ET: "50+ ettevõtet. 6 tööstussektorit. Üle sajandi insenerivõimekust Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias.",
   },
   "blrt.exploreCompanies": { EN: "Explore Companies", RU: "Наши компании", ET: "Tutvu ettevõtetega" },
   "blrt.contactUs": { EN: "Contact Us", RU: "Связаться", ET: "Võta ühendust" },
@@ -304,13 +304,13 @@ const translations = {
   "blrt.readMore": { EN: "Read more", RU: "Подробнее", ET: "Loe edasi" },
   "blrt.showLess": { EN: "Show less", RU: "Свернуть", ET: "Peida" },
   "blrt.companiesLabel": { EN: "Our Group", RU: "Наша группа", ET: "Meie grupp" },
-  "blrt.companiesTitle": { EN: "24 companies across 6 sectors", RU: "24 компании в 6 секторах", ET: "24 ettevõtet 6 sektoris" },
+  "blrt.companiesTitle": { EN: "50+ companies across 6 sectors", RU: "Более 50 компаний в 6 секторах", ET: "50+ ettevõtet 6 sektoris" },
   "blrt.aboutLabel": { EN: "About BLRT Grupp", RU: "О BLRT Grupp", ET: "BLRT Grupist" },
   "blrt.aboutTitle": { EN: "Over a century of Baltic industrial operations", RU: "Столетие балтийского промышленного лидерства", ET: "Sajand Balti tööstusjuhtimist" },
   "blrt.aboutP1": {
-    EN: "BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate 24 companies across Estonia, Latvia, Lithuania and Finland.",
-    RU: "BLRT Grupp является одним из крупнейших промышленных холдингов Балтийского региона с историей, уходящей корнями в 1912 год. От судостроения и судоремонта до морской инспекции, инжиниринга и материалов — мы управляем 24 компаниями в Эстонии, Латвии, Литве и Финляндии.",
-    ET: "BLRT Grupp on üks suurimaid tööstushoiuettevõtteid Balti piirkonnas, mille juured ulatuvad 1912. aastasse. Laevaehitusest ja laevaremondist kuni mereinspektsiooni, inseneeria ja materjalideni — tegutseme 24 ettevõttega Eestis, Lätis, Leedus ja Soomes.",
+    EN: "BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate more than 50 companies across Estonia, Latvia, Lithuania, Finland, Poland, Ukraine and Brazil.",
+    RU: "BLRT Grupp является одним из крупнейших промышленных холдингов Балтийского региона с историей, уходящей корнями в 1912 год. От судостроения и судоремонта до морской инспекции, инжиниринга и материалов — мы управляем более чем 50 компаниями в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии.",
+    ET: "BLRT Grupp on üks suurimaid tööstushoiuettevõtteid Balti piirkonnas, mille juured ulatuvad 1912. aastasse. Laevaehitusest ja laevaremondist kuni mereinspektsiooni, inseneeria ja materjalideni — tegutseme enam kui 50 ettevõttega Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias.",
   },
   "blrt.aboutP2": {
     EN: "Our companies share engineering expertise, shipyard infrastructure and a network of maritime specialists across the Baltic Sea region.",
@@ -324,14 +324,14 @@ const translations = {
   "blrt.about.heroTitle": { EN: "Building the Baltic. Since 1912.", RU: "Строим Балтику. С 1912 года.", ET: "Ehitame Baltikumi. Alates 1912." },
   "blrt.about.ourStory": { EN: "Our Story", RU: "Наша история", ET: "Meie lugu" },
   "blrt.about.storyP1": {
-    EN: "BLRT Grupp traces its origins to the Tallinn shipyard established in 1912, then one of the largest industrial facilities in the Russian Empire. Through a century of transformation, spanning two world wars, Soviet industrialisation, Estonian independence and Baltic integration into the European Union, the group evolved into the diversified industrial holding it is today.",
-    RU: "История BLRT Grupp восходит к таллинской верфи, основанной в 1912 году, — одному из крупнейших промышленных предприятий Российской империи. Пережив век преобразований — две мировые войны, советскую индустриализацию, восстановление независимости Эстонии и интеграцию Балтии в Европейский союз, — группа превратилась в диверсифицированный промышленный холдинг.",
-    ET: "BLRT Grupi ajalugu ulatub 1912. aastal asutatud Tallinna laevatehase juurde, mis oli tol ajal üks suurimaid tööstusettevõtteid Vene impeeriumis. Läbi sajandi muutuste — kahe maailmasõja, Nõukogude industrialiseerimise, Eesti iseseisvuse taastamise ja Balti riikide Euroopa Liitu integreerumise — arenes grupp tänapäeva mitmekesiseks tööstusvaldusettevõtteks.",
+    EN: "BLRT Grupp traces its origins to 12 June 1912, when the Russo-Baltic Shipbuilding Yard was founded on the Kopli peninsula in Tallinn — then one of the largest industrial facilities in the Russian Empire. Through a century of transformation, spanning two world wars, Soviet industrialisation, Estonian independence and Baltic integration into the European Union, the group evolved into the diversified industrial holding it is today. The name BLRT Grupp was adopted in 2001.",
+    RU: "История BLRT Grupp восходит к 12 июня 1912 года, когда на полуострове Копли в Таллинне был основан Русско-Балтийский судостроительный завод — одно из крупнейших промышленных предприятий Российской империи. Пережив век преобразований — две мировые войны, советскую индустриализацию, восстановление независимости Эстонии и интеграцию Балтии в Европейский союз, — группа превратилась в диверсифицированный промышленный холдинг. Название BLRT Grupp было принято в 2001 году.",
+    ET: "BLRT Grupi ajalugu ulatub 12. juunini 1912, mil Tallinna Kopli poolsaarele asutati Vene-Balti laevaehitustehas — tol ajal üks suurimaid tööstusettevõtteid Vene impeeriumis. Läbi sajandi muutuste — kahe maailmasõja, Nõukogude industrialiseerimise, Eesti iseseisvuse taastamise ja Balti riikide Euroopa Liitu integreerumise — arenes grupp tänapäeva mitmekesiseks tööstusvaldusettevõtteks. Nimi BLRT Grupp võeti kasutusele 2001. aastal.",
   },
   "blrt.about.storyP2": {
-    EN: "Today, BLRT Grupp operates 24 companies across Estonia, Latvia, Lithuania and Finland. Our core competencies remain maritime: ship repair, shipbuilding and marine services. The group has grown to encompass engineering, materials, logistics and industrial gas production.",
-    RU: "Сегодня BLRT Grupp управляет 24 компаниями в Эстонии, Латвии, Литве и Финляндии. Наши основные компетенции по-прежнему связаны с морской отраслью — судоремонтом, судостроением и морскими услугами, — однако группа расширилась до инжиниринга, материалов, логистики и производства промышленных газов.",
-    ET: "Täna tegutseb BLRT Grupp 24 ettevõttega Eestis, Lätis, Leedus ja Soomes. Meie põhipädevused on endiselt merinduses — laevaremondis, laevaehituses ja merendusteenustes — kuid grupp on laienenud inseneeriasse, materjalidesse, logistikasse ja tööstuslike gaaside tootmisse.",
+    EN: "Today, BLRT Grupp operates more than 50 companies across Estonia, Latvia, Lithuania, Finland, Poland, Ukraine and Brazil, employing over 4,000 people. Our core competencies remain maritime: ship repair, shipbuilding and marine services. The group has grown to encompass engineering, materials, logistics, industrial gas production, stevedoring and offshore fabrication.",
+    RU: "Сегодня BLRT Grupp управляет более чем 50 компаниями в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии, насчитывая свыше 4 000 сотрудников. Наши основные компетенции по-прежнему связаны с морской отраслью — судоремонтом, судостроением и морскими услугами, — однако группа расширилась до инжиниринга, материалов, логистики, производства промышленных газов, стивидорных операций и офшорного производства.",
+    ET: "Täna tegutseb BLRT Grupp rohkem kui 50 ettevõttega Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias, andes tööd üle 4 000 inimesele. Meie põhipädevused on endiselt merinduses — laevaremondis, laevaehituses ja merendusteenustes — kuid grupp on laienenud inseneeriasse, materjalidesse, logistikasse, tööstuslike gaaside tootmisse, sadamateenustesse ja offshore-konstruktsioonide valmistamisse.",
   },
   "blrt.about.storyP3": {
     EN: "Headquartered at Kopli, Tallinn (the historic heart of Estonian maritime industry), BLRT Grupp continues to grow through strategic partnerships and organic development. Commitment to Baltic industrial tradition and engineering quality unites every company in the group.",
@@ -348,9 +348,9 @@ const translations = {
 
   // Footer (BLRT rebrand)
   "footer.blrtTagline": {
-    EN: "One industrial group. 24 companies. A century of Baltic maritime and engineering tradition.",
-    RU: "Одна промышленная группа. 24 компании. Столетие балтийской морской и инженерной традиции.",
-    ET: "Üks tööstusgrupp. 24 ettevõtet. Sajand Balti merenduse ja inseneritraditsiooni.",
+    EN: "One industrial group. 50+ companies. A century of Baltic maritime and engineering tradition.",
+    RU: "Одна промышленная группа. Более 50 компаний. Столетие балтийской морской и инженерной традиции.",
+    ET: "Üks tööstusgrupp. 50+ ettevõtet. Sajand Balti merenduse ja inseneritraditsiooni.",
   },
   "footer.companies": { EN: "Companies", RU: "Компании", ET: "Ettevõtted" },
   "footer.blrtMotto": { EN: "Baltic Industry · Built to Endure", RU: "Балтийская промышленность · Создана на века", ET: "Balti tööstus · Loodud kestma" },
@@ -384,7 +384,7 @@ const translations = {
   "careers.hero.sub":            { EN: "Join one of the Baltic region's largest industrial groups.", RU: "Присоединяйтесь к одному из крупнейших промышленных конгломератов Балтийского региона.", ET: "Liitu ühe Baltikumi suurima tööstuskontserniga." },
   "careers.why.title":           { EN: "Why work with us?",     RU: "Почему мы?",             ET: "Miks töötada meiega?"        },
   "careers.why.growth":          { EN: "Growth & Development",  RU: "Рост и развитие",        ET: "Kasv ja areng"               },
-  "careers.why.growth.desc":     { EN: "Structured career paths, funded training programmes and cross-company development opportunities across 24 companies.", RU: "Структурированные карьерные пути, финансируемые программы обучения и возможности развития в 24 компаниях.", ET: "Struktureeritud karjääriteed, rahastatavad koolitusprogrammid ja ristettevõtete arenemisvõimalused 24 ettevõttes." },
+  "careers.why.growth.desc":     { EN: "Structured career paths, funded training programmes and cross-company development opportunities across 50+ companies.", RU: "Структурированные карьерные пути, финансируемые программы обучения и возможности развития в более чем 50 компаниях.", ET: "Struktureeritud karjääriteed, rahastatavad koolitusprogrammid ja ristettevõtete arenemisvõimalused 50+ ettevõttes." },
   "careers.why.stability":       { EN: "Stability & Scale",     RU: "Стабильность и масштаб", ET: "Stabiilsus ja mastaap"       },
   "careers.why.stability.desc":  { EN: "Over 110 years of continuous industrial operations. A group built to endure economic cycles, with deep roots in the Baltic region.", RU: "Более 110 лет непрерывных промышленных операций. Группа, созданная для устойчивости к экономическим циклам, с глубокими корнями в Балтийском регионе.", ET: "Üle 110 aasta pidevat tööstustegevust. Grupp, mis on loodud taluma majandustsükleid, sügavate juurtega Baltikumi piirkonnas." },
   "careers.why.innovation":      { EN: "Innovation & Impact",   RU: "Инновации и результат",  ET: "Innovatsioon ja mõju"        },

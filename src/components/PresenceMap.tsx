@@ -2,7 +2,7 @@ import mapImage from "@/assets/blrt-map.png";
 import RevealSection from "@/components/RevealSection";
 
 const core = ["Estonia", "Latvia", "Lithuania", "Finland"];
-const additional = ["Norway", "Poland"];
+const additional = ["Norway", "Poland", "Brazil"];
 
 export default function PresenceMap() {
   return (

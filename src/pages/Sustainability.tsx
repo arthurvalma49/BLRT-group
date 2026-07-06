@@ -1,4 +1,4 @@
-import { Leaf, Wind, Droplets, Flame, Zap, Building2, RefreshCw, Filter, Plug } from "lucide-react";
+import { Leaf, Wind, Droplets, Flame, Zap, Building2, RefreshCw, Filter, Plug, GraduationCap, Music, Trophy, BookOpen, Download, ExternalLink, Factory, Cpu, Anchor } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/i18n/LanguageContext";
 import RevealSection from "@/components/RevealSection";
@@ -13,6 +13,8 @@ const groupCertificates: Certificate[] = [
   { name: "DNV",              issuer: "Class Society Acceptance"             },
   { name: "Bureau Veritas",   issuer: "Class Society Acceptance"             },
   { name: "ABS",              issuer: "Class Society Acceptance"             },
+  { name: "RINA",             issuer: "Registro Italiano Navale"             },
+  { name: "NATO AQAP 2110",   issuer: "Allied Quality Assurance Publication" },
 ];
 
 const pillars = [
@@ -58,6 +60,102 @@ const solutions = [
   { icon: Wind,     titleKey: "sustainability.sol.rotor.title",    descKey: "sustainability.sol.rotor.desc"    },
   { icon: Leaf,     titleKey: "sustainability.sol.decarb.title",   descKey: "sustainability.sol.decarb.desc"   },
 ] as const;
+
+const csrPillars = [
+  {
+    icon: Trophy,
+    title: "Sport Sponsorship",
+    items: [
+      "Estonian national men's and women's basketball teams",
+      "Lithuanian BC Neptūnas basketball club",
+      "Estonian men's tennis national team",
+    ],
+  },
+  {
+    icon: GraduationCap,
+    title: "Education Partnerships",
+    items: [
+      "TalTech (Tallinn University of Technology)",
+      "Estonian Maritime Academy",
+      "Lithuanian Maritime Academy",
+      "University of Klaipėda",
+    ],
+  },
+  {
+    icon: Music,
+    title: "Culture Support",
+    items: [
+      "Sudalinna Theater",
+      "Saaremaa Opera Days",
+      "Days of the Sea festival",
+    ],
+  },
+  {
+    icon: BookOpen,
+    title: "BLRT Fond Scholarship",
+    items: [
+      "Annual €2,000 scholarship for engineering and maritime students",
+      "Awarded via the Estonian National Culture Foundation",
+      "Applications at ankeet.erkf.ee",
+    ],
+  },
+];
+
+const greenInitiatives = [
+  {
+    icon: Plug,
+    year: "2022–2024",
+    company: "Bars Elekter",
+    title: "Norway Grants Shore Power Programme",
+    desc: "Two Enterprise Estonia Green ICT Programme grants (~€218,772 total) to develop shore power technology aligned with EU 'Fit for 55' CO₂ reduction goals. Completed connections for M/S SILJA EUROPA, M/S VICTORIA I, and M/S Isabelle.",
+  },
+  {
+    icon: Factory,
+    year: "2024–2026",
+    company: "BLRT Valukoda",
+    title: "EU Cohesion Fund Foundry Upgrade",
+    desc: "€860,845.50 EU Cohesion Fund investment in a new induction melting furnace (5–7% energy savings), automated sand mixer and waste heat recovery system. CO₂ target: from 3.44 → 3.20 t CO₂-eq per tonne of output.",
+  },
+  {
+    icon: Cpu,
+    year: "Ongoing",
+    company: "Western Technological Solutions",
+    title: "Industrial Carbon Capture Systems",
+    desc: "WTS manufactures stainless steel CO₂ capture absorbers and flue gas treatment systems (scrubbers, electrostatic precipitators) for European industrial decarbonisation customers.",
+  },
+  {
+    icon: Anchor,
+    year: "2022",
+    company: "Western Stevedoring",
+    title: "Hydroelectric Crane — EU Green Deal",
+    desc: "One of the first hydroelectric cranes deployed at the Port of Klaipėda as part of EU Green Deal compliance commitments, improving cargo handling efficiency and reducing emissions.",
+  },
+  {
+    icon: Droplets,
+    year: "2024",
+    company: "Vene-Balti Sadam",
+    title: "KIK Marine Pollution Control Upgrade",
+    desc: "KIK Marine Environment Programme-funded upgrade of pollution control equipment at the Kopli 103 port, with new pollution incident response scenarios approved February 2024.",
+  },
+];
+
+const reports = [
+  {
+    title: "WSY Corporate SR Report 2025",
+    desc: "Western Shipyard Group Annual Sustainability & Responsibility Report",
+    href: "https://wbs.lt/wp-content/uploads/2025/07/wsy_srr_2025.pdf",
+  },
+  {
+    title: "WSY Corporate SR Policy",
+    desc: "Western Shipyard Group Social Responsibility Policy",
+    href: "https://wbs.lt/wp-content/uploads/2021/09/corporate_sr_policy.pdf",
+  },
+  {
+    title: "BLRT Grupp Code of Conduct",
+    desc: "Group-wide ethical standards and conduct guidelines (EN, 2020)",
+    href: "https://blrt.ee/wp-content/uploads/2023/02/blrt-grupp-code-of-conduct-en_2020.pdf",
+  },
+];
 
 export default function Sustainability() {
   const { t } = useLanguage();
@@ -123,8 +221,44 @@ export default function Sustainability() {
         </div>
       </RevealSection>
 
+      {/* ─── Group Social Responsibility ─── */}
+      <RevealSection as="section" className="py-24 bg-surface border-t border-border">
+        <div className="container-pro">
+          <p className="overline mb-3">Group Social Responsibility</p>
+          <h2 className="text-3xl font-bold tracking-tighter heading-underline mb-4">
+            Community, Culture &amp; Education
+          </h2>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-12 max-w-[65ch]">
+            BLRT Grupp supports sport, education and culture across the Baltic region, and offers annual scholarships through the BLRT Fond programme.
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {csrPillars.map((pillar) => {
+              const Icon = pillar.icon;
+              return (
+                <div key={pillar.title} className="bg-card border border-border rounded-xl p-6 flex flex-col gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0">
+                    <Icon className="w-5 h-5 text-brand-red" />
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-foreground mb-3">{pillar.title}</h3>
+                    <ul className="space-y-1.5">
+                      {pillar.items.map((item) => (
+                        <li key={item} className="text-xs text-muted-foreground leading-snug flex items-start gap-1.5">
+                          <span className="text-brand-red mt-0.5 shrink-0">·</span>
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </RevealSection>
+
       {/* ─── Green Deal in Ship Repair ─── */}
-      <RevealSection as="section" className="py-24 bg-surface/30 border-t border-border/50">
+      <RevealSection as="section" className="py-24 bg-background border-t border-border/50">
         <div className="container-pro">
           <p className="overline mb-4">{t("sustainability.deal.label")}</p>
           <h2 className="text-3xl font-bold tracking-tighter heading-underline mb-4">
@@ -148,6 +282,51 @@ export default function Sustainability() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </RevealSection>
+
+      {/* ─── Group Green Initiatives ─── */}
+      <RevealSection as="section" className="py-24 bg-surface border-t border-border">
+        <div className="container-pro">
+          <p className="overline mb-3">Group Green Initiatives</p>
+          <h2 className="text-3xl font-bold tracking-tighter heading-underline mb-4">
+            Decarbonisation Across the Group
+          </h2>
+          <p className="text-muted-foreground text-sm leading-relaxed mb-12 max-w-[65ch]">
+            Sustainability commitments span the entire BLRT Grupp — from EU-funded foundry upgrades and shore power R&amp;D to industrial carbon capture manufacturing and port decarbonisation.
+          </p>
+          <div className="space-y-4">
+            {greenInitiatives.map((item) => {
+              const Icon = item.icon;
+              return (
+                <div key={item.title} className="bg-card border border-border rounded-xl p-6 flex gap-5 hover:border-brand-red/20 transition-colors">
+                  <div className="w-10 h-10 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0 mt-0.5">
+                    <Icon className="w-5 h-5 text-brand-red" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
+                      <h3 className="text-sm font-semibold text-foreground">{item.title}</h3>
+                      <span className="text-[10px] uppercase tracking-[0.15em] font-semibold text-brand-red">{item.company}</span>
+                      <span className="text-[10px] text-muted-foreground ml-auto">{item.year}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Memberships */}
+          <div className="mt-12 pt-8 border-t border-border">
+            <p className="text-[10px] uppercase tracking-[0.2em] font-semibold text-muted-foreground mb-4">Group Industry Memberships</p>
+            <div className="flex flex-wrap gap-3">
+              {["Estonian Wind Power Association", "Lithuanian Cluster of Liquefied Natural Gas"].map((name) => (
+                <span key={name} className="inline-flex items-center px-4 py-2 rounded-full border border-border bg-background text-xs font-medium text-foreground">
+                  {name}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </RevealSection>
@@ -191,21 +370,33 @@ export default function Sustainability() {
         </div>
       </RevealSection>
 
-      {/* ─── Shipowner solutions CTA ─── */}
-      <RevealSection as="section" className="py-20 bg-background">
-        <div className="container-pro max-w-2xl text-center mx-auto">
-          <h2 className="text-2xl font-bold tracking-tighter mb-4">
-            {t("sustainability.report.title")}
-          </h2>
-          <p className="text-muted-foreground text-sm leading-relaxed mb-6">
-            {t("sustainability.report.desc")}
-          </p>
-          <Link
-            to="/contacts"
-            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-brand-red text-white text-sm font-semibold hover:bg-brand-red/90 transition-colors duration-200 shadow-[var(--shadow-red)]"
-          >
-            {t("blrt.contactUs")}
-          </Link>
+      {/* ─── Downloads ─── */}
+      <RevealSection as="section" className="py-20 bg-background border-t border-border">
+        <div className="container-pro">
+          <p className="overline mb-3">Reports &amp; Governance</p>
+          <h2 className="text-2xl font-bold tracking-tighter mb-10">Downloads</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {reports.map((r) => (
+              <a
+                key={r.href}
+                href={r.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-start gap-4 bg-card border border-border rounded-xl p-5 hover:border-brand-red/30 hover:shadow-[var(--shadow-elevated)] transition-all duration-200"
+              >
+                <div className="w-9 h-9 rounded-lg bg-brand-red/8 flex items-center justify-center shrink-0 mt-0.5">
+                  <Download className="w-4 h-4 text-brand-red" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-1.5 mb-1">
+                    <span className="text-sm font-semibold text-foreground leading-snug">{r.title}</span>
+                    <ExternalLink className="w-3 h-3 text-muted-foreground shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </div>
+                  <p className="text-xs text-muted-foreground leading-snug">{r.desc}</p>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </RevealSection>
     </>
