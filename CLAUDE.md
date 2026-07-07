@@ -67,5 +67,5 @@ bun test         # vitest run   (single file: bun test src/test/example.test.ts)
 - **Import path casing breaks Vercel builds.** Dev machine is Windows (case-insensitive); Vercel builds on Linux. Asset filenames are inconsistently cased (`BLRT-LOGO.png` vs `logo-white.png`) — an import that works locally can fail in CI. Match filename casing exactly.
 - The React company data (`businesses.ts` sectorGroups) and the PHP `blrt_defaults()` sector list are **manually kept in sync** — changing one without the other silently forks the two demos.
 - `GlobalReach.tsx`, `Group.tsx`, and `Index.tsx` exist in `src/pages/` but are not routed (`/group` redirects to `/`). Treat as unused; don't wire them up without asking.
-- Old `home.*` / `nav.requestSurvey` translation keys are legacy Tehnomet Survey copy — check what a key actually says before reusing it.
+- `translations.ts` mixes live keys with unreferenced Tehnomet-era leftovers (`home.heroTitle1`, `home.aboutP1`, `home.ndt.*`, `home.stat.*`, `nav.requestSurvey` — "Independent ship hull inspection" etc.). Check what a key actually says and whether it's referenced before reusing it.
 - `dist/`, screenshot PNGs, and `.design-sync`/`.ds-sync`/`ds-bundle` at the repo root are artifacts of past tooling — leave them alone.
