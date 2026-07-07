@@ -3,107 +3,8 @@ export type Lang = "EN" | "RU" | "ET" | "LT" | "LV" | "FI" | "PL";
 const translations = {
   // Nav
   "nav.home": { EN: "Home", RU: "Главная", ET: "Avaleht" },
-  "nav.about": { EN: "About Us", RU: "О нас", ET: "Meist" },
-  "nav.group": { EN: "BLRT Group", RU: "BLRT Grupp", ET: "BLRT Grupp" },
-  "nav.activities": { EN: "Activities", RU: "Деятельность", ET: "Tegevused" },
+  "nav.about": { EN: "About Us", RU: "О нас", ET: "Meist" },
   "nav.contacts": { EN: "Contacts", RU: "Контакты", ET: "Kontaktid" },
-  "nav.requestSurvey": { EN: "Request a Survey", RU: "Заказать обследование", ET: "Telli ülevaatus" },
-
-  // Home hero
-  "home.badge": { EN: "Marine Inspection · Since 1998", RU: "Морская инспекция · С 1998 года", ET: "Mereinspektsioon · Alates 1998" },
-  "home.heroTitle1": { EN: "Independent ship hull", RU: "Независимая инспекция", ET: "Sõltumatu laevakere" },
-  "home.heroTitle2": { EN: "inspection, ", RU: "корпусов судов, ", ET: "inspektsioon, " },
-  "home.heroTitle3": { EN: "worldwide.", RU: "по всему миру.", ET: "üle maailma." },
-  "home.heroDesc": {
-    EN: "Non-destructive testing, ultrasonic thickness measurement and steel renewal supervision for fleet operators. Certified technicians mobilised to any port within 24 hours.",
-    RU: "Неразрушающий контроль, ультразвуковая толщинометрия и надзор за заменой стали для операторов флота. Сертифицированные специалисты выезжают в любой порт в течение 24 часов.",
-    ET: "Mittepurustav kontroll, ultraheli paksuse mõõtmine ja terase uuendamise järelevalve laevastike operaatoritele. Sertifitseeritud tehnikud mobiliseeritakse igasse sadamasse 24 tunni jooksul.",
-  },
-  "home.viewActivities": { EN: "View Activities", RU: "Наши услуги", ET: "Vaata tegevusi" },
-
-  // Stats
-  "home.stat.vessels": { EN: "Vessels inspected per year", RU: "Судов обследовано в год", ET: "Inspekteeritud laevu aastas" },
-  "home.stat.mobilisation": { EN: "Mobilisation availability", RU: "Готовность к мобилизации", ET: "Mobilisatsiooni valmidus" },
-  "home.stat.experience": { EN: "Years of experience", RU: "Лет опыта", ET: "Aastat kogemust" },
-  "home.stat.coverage": { EN: "Operational coverage", RU: "Операционное покрытие", ET: "Tegevuspiirkond" },
-  "home.stat.worldwide": { EN: "Worldwide", RU: "Весь мир", ET: "Üle maailma" },
-
-  // Home about preview
-  "home.aboutLabel": { EN: "About Us", RU: "О нас", ET: "Meist" },
-  "home.aboutTitle": { EN: "Trusted partner in marine vessel inspection", RU: "Надёжный партнёр в инспекции морских судов", ET: "Usaldusväärne partner laevade inspekteerimisel" },
-  "home.aboutP1": {
-    EN: "Tehnomet Survey is an actively developing service company operating in the field of ship repair and inspection of hull structures of marine vessels. Founded in 1998, we are part of the BLRT Grupp and operate worldwide.",
-    RU: "Tehnomet Survey — активно развивающаяся сервисная компания, работающая в области судоремонта и инспекции корпусных конструкций морских судов. Основана в 1998 году, входит в состав BLRT Grupp и работает по всему миру.",
-    ET: "Tehnomet Survey on aktiivselt arenev teenusettevõte, mis tegutseb laevaremondi ja merelaevade kerekonstruktsioonide inspekteerimise valdkonnas. Asutatud 1998. aastal, kuulume BLRT Gruppi ja tegutseme üle kogu maailma.",
-  },
-  "home.aboutP2": {
-    EN: "Our technicians hold all necessary documents to be mobilised on short notice and arrive on a spot as per client's request — wherever the vessel is located.",
-    RU: "Наши специалисты имеют все необходимые документы для оперативной мобилизации и прибытия на место по запросу клиента — где бы ни находилось судно.",
-    ET: "Meie tehnikutel on kõik vajalikud dokumendid, et lühikese etteteatamisega mobiliseerida ja saabuda kohale vastavalt kliendi soovile — sõltumata laeva asukohast.",
-  },
-  "home.readMore": { EN: "Read More", RU: "Подробнее", ET: "Loe rohkem" },
-
-  // Home activities preview
-  "home.activitiesLabel": { EN: "Activities", RU: "Деятельность", ET: "Tegevused" },
-  "home.activitiesTitle": { EN: "Our Core Services", RU: "Основные услуги", ET: "Meie põhiteenused" },
-  "home.ndt.title": { EN: "Non-Destructive Testing (NDT)", RU: "Неразрушающий контроль (НК)", ET: "Mittepurustav kontroll (NDT)" },
-  "home.ndt.desc": {
-    EN: "Hull and weld inspection without interrupting vessel operations. UT, MT, PT, VT, RT and ET methods performed by certified technicians.",
-    RU: "Инспекция корпуса и сварных швов без прерывания эксплуатации судна. Методы УЗК, МПД, ПВК, ВИК, РК и ВТК выполняются сертифицированными специалистами.",
-    ET: "Kere ja keevisõmbluste kontroll laeva tegevust katkestamata. UT, MT, PT, VT, RT ja ET meetodid sertifitseeritud tehnikute poolt.",
-  },
-  "home.utm.title": { EN: "UTM & Steel Supervision", RU: "УЗТ и надзор за сталью", ET: "UTM ja terase järelevalve" },
-  "home.utm.desc": {
-    EN: "Ultrasonic thickness measurement, corrosion monitoring, structural integrity assessment and class survey support.",
-    RU: "Ультразвуковая толщинометрия, мониторинг коррозии, оценка структурной целостности и поддержка классификационных освидетельствований.",
-    ET: "Ultraheli paksuse mõõtmine, korrosiooni jälgimine, konstruktsiooni terviklikkuse hindamine ja klassifikatsiooniühingute ülevaatuste tugi.",
-  },
-
-  // Class societies strip
-  "class.accepted": { EN: "Accepted by all major classification societies", RU: "Признано всеми ведущими классификационными обществами", ET: "Tunnustatud kõigi suuremate klassifikatsiooniühingute poolt" },
-
-  // About page
-  "about.label": { EN: "About Us", RU: "О нас", ET: "Meist" },
-  "about.heroTitle": { EN: "A quarter century of marine inspection expertise.", RU: "Четверть века экспертизы в морской инспекции.", ET: "Veerand sajandit mereinspektsiooni kogemust." },
-  "about.ourStory": { EN: "Our Story", RU: "Наша история", ET: "Meie lugu" },
-  "about.storyP1": {
-    EN: "Tehnomet Survey is an actively developing service company, operating in the field of ship repair and inspection of hull structures of marine vessels, founded in 1998. We operate worldwide.",
-    RU: "Tehnomet Survey — активно развивающаяся сервисная компания, работающая в области судоремонта и инспекции корпусных конструкций морских судов, основанная в 1998 году. Мы работаем по всему миру.",
-    ET: "Tehnomet Survey on aktiivselt arenev teenusettevõte, mis tegutseb laevaremondi ja merelaevade kerekonstruktsioonide inspekteerimise valdkonnas, asutatud 1998. aastal. Tegutseme üle kogu maailma.",
-  },
-  "about.storyP2": {
-    EN: "Our technicians have all the necessary documents to be mobilized on a short notice and arrive on a spot as per client's request, wherever vessel is located. Over more than two decades we have built lasting relationships with ship owners, fleet operators, port agents and procurement managers across Europe, the Middle East and Asia-Pacific.",
-    RU: "Наши специалисты имеют все необходимые документы для оперативной мобилизации и прибытия на место по запросу клиента, где бы ни находилось судно. За более чем два десятилетия мы построили прочные отношения с судовладельцами, операторами флота, портовыми агентами и менеджерами по закупкам в Европе, на Ближнем Востоке и в Азиатско-Тихоокеанском регионе.",
-    ET: "Meie tehnikutel on kõik vajalikud dokumendid, et lühikese etteteatamisega mobiliseerida ja saabuda kohale vastavalt kliendi soovile, sõltumata laeva asukohast. Üle kahe aastakümne oleme loonud püsivad suhted laevaomanike, laevastike operaatorite, sadamaagentide ja hankejuhtidega Euroopas, Lähis-Idas ja Aasias-Vaikse ookeani piirkonnas.",
-  },
-  "about.storyP3": {
-    EN: "We perform our work in close cooperation with all major classification societies, ensuring every report and certificate we produce is accepted globally. Independence and technical rigour are at the core of how we operate.",
-    RU: "Мы выполняем нашу работу в тесном сотрудничестве со всеми ведущими классификационными обществами, обеспечивая глобальное признание каждого отчёта и сертификата. Независимость и техническая строгость — основа нашей работы.",
-    ET: "Töötame tihedas koostöös kõigi suuremate klassifikatsiooniühingutega, tagades iga aruande ja sertifikaadi rahvusvahelise tunnustuse. Sõltumatus ja tehniline täpsus on meie tegevuse alustaladeks.",
-  },
-  "about.stat.vessels": { EN: "Vessels per year", RU: "Судов в год", ET: "Laevu aastas" },
-  "about.stat.availability": { EN: "Availability", RU: "Доступность", ET: "Saadavus" },
-  "about.stat.experience": { EN: "Years experience", RU: "Лет опыта", ET: "Aastat kogemust" },
-  "about.stat.coverage": { EN: "Coverage", RU: "Покрытие", ET: "Tegevuspiirkond" },
-  "about.stat.worldwide": { EN: "Worldwide", RU: "Весь мир", ET: "Üle maailma" },
-  "about.parentLabel": { EN: "Parent Company", RU: "Материнская компания", ET: "Emaettevõte" },
-  "about.parentTitle": { EN: "Part of BLRT Grupp", RU: "Часть BLRT Grupp", ET: "Osa BLRT Grupist" },
-  "about.parentP1": {
-    EN: "Tehnomet Survey is part of BLRT Grupp, one of the largest industrial holding companies in the Baltic region with deep roots in shipbuilding, ship repair and maritime services.",
-    RU: "Tehnomet Survey входит в состав BLRT Grupp — одного из крупнейших промышленных холдингов Балтийского региона с глубокими корнями в судостроении, судоремонте и морских услугах.",
-    ET: "Tehnomet Survey kuulub BLRT Gruppi, ühte suurimasse Balti piirkonna tööstusvaldusettevõttesse, millel on sügavad juured laevaehituses, laevaremondis ja meretranspordi teenustes.",
-  },
-  "about.parentP2": {
-    EN: "Through BLRT Grupp we have access to extensive shipyard infrastructure, engineering expertise and a network of maritime specialists — strengths we bring to every inspection contract.",
-    RU: "Через BLRT Grupp мы имеем доступ к обширной инфраструктуре верфей, инженерному опыту и сети морских специалистов — преимущества, которые мы привносим в каждый инспекционный контракт.",
-    ET: "BLRT Grupi kaudu on meil juurdepääs ulatuslikule laevatehase infrastruktuurile, inseneriteadmistele ja merespetsialistide võrgustikule — tugevused, mida toome igasse inspekteerimislepingusse.",
-  },
-  "about.card.shipyard": { EN: "Shipyard heritage", RU: "Наследие верфей", ET: "Laevatehase pärand" },
-  "about.card.industrial": { EN: "Industrial scale", RU: "Промышленный масштаб", ET: "Tööstuslik mastaap" },
-  "about.card.baltic": { EN: "Baltic region leader", RU: "Лидер Балтийского региона", ET: "Balti piirkonna liider" },
-  "about.card.decades": { EN: "Decades of trust", RU: "Десятилетия доверия", ET: "Aastakümnete usaldus" },
-  "about.ctaTitle": { EN: "Need an inspection arranged?", RU: "Нужно организовать инспекцию?", ET: "Vajad inspekteerimist?" },
-  "about.ctaDesc": { EN: "Talk to our team — response within hours, mobilisation within 24h.", RU: "Свяжитесь с нашей командой — ответ в течение нескольких часов, мобилизация в течение 24 часов.", ET: "Võta meiega ühendust — vastame tundide jooksul, mobiliseerume 24 tunniga." },
 
   // Activities page
   "activities.label": { EN: "Activities", RU: "Деятельность", ET: "Tegevused" },
@@ -211,16 +112,11 @@ const translations = {
   "contacts.label": { EN: "Contacts", RU: "Контакты", ET: "Kontaktid" },
   "contacts.heroTitle": { EN: "Get in touch with BLRT Grupp.", RU: "Свяжитесь с BLRT Grupp.", ET: "Võta ühendust BLRT Grupiga." },
   "contacts.heroDesc": { EN: "Our head office is at Kopli 103, Tallinn. Reach out by phone or email. We respond within hours.", RU: "Наш головной офис находится по адресу Копли 103, Таллин. Свяжитесь с нами по телефону или электронной почте — мы отвечаем в течение нескольких часов.", ET: "Meie peakontor asub Kopli 103, Tallinn. Võtke ühendust telefoni või e-posti teel — vastame tundide jooksul." },
-  "contacts.available": { EN: "Available 24/7", RU: "Доступны 24/7", ET: "Saadaval 24/7" },
-  "contacts.companyName": { EN: "BLRT Grupp AS", RU: "BLRT Grupp AS", ET: "BLRT Grupp AS" },
-  "contacts.companyDesc": { EN: "Baltic Industrial Holding", RU: "Балтийский промышленный холдинг", ET: "Balti tööstusvaldusettevõte" },
+  "contacts.available": { EN: "Available 24/7", RU: "Доступны 24/7", ET: "Saadaval 24/7" },
   "contacts.phone": { EN: "Phone", RU: "Телефон", ET: "Telefon" },
   "contacts.email": { EN: "Email", RU: "Эл. почта", ET: "E-post" },
-  "contacts.address": { EN: "Address", RU: "Адрес", ET: "Aadress" },
-  "contacts.hours": { EN: "Hours", RU: "Часы работы", ET: "Tööaeg" },
-  "contacts.hoursValue": { EN: "24 / 7 · Worldwide", RU: "24 / 7 · Весь мир", ET: "24 / 7 · Üle maailma" },
+  "contacts.address": { EN: "Address", RU: "Адрес", ET: "Aadress" },
   "contacts.formTitle": { EN: "Send us your request", RU: "Отправьте нам запрос", ET: "Saada meile oma päring" },
-  "contacts.formDesc": { EN: "All fields help us respond faster with the right information.", RU: "Все поля помогают нам быстрее ответить с нужной информацией.", ET: "Kõik väljad aitavad meil kiiremini õige teabega vastata." },
   "contacts.firstName": { EN: "First Name", RU: "Имя", ET: "Eesnimi" },
   "contacts.lastName": { EN: "Last Name", RU: "Фамилия", ET: "Perekonnanimi" },
   "contacts.company": { EN: "Company", RU: "Компания", ET: "Ettevõte" },
@@ -271,17 +167,9 @@ const translations = {
   "values.development.5": { EN: "We take care of the environment", RU: "Мы заботимся об окружающей среде", ET: "Me hoolime keskkonnast" },
 
   // Footer
-  "footer.tagline": { EN: "Be Aware. Be Confident. Be Safe. Marine vessel inspection trusted by ship owners worldwide since 1998.", RU: "Осведомлённость. Уверенность. Безопасность. Инспекция морских судов, которой доверяют судовладельцы по всему миру с 1998 года.", ET: "Ole teadlik. Ole kindel. Ole turvaline. Laevade inspekteerimine, mida usaldavad laevaomanikud üle maailma alates 1998. aastast." },
   "footer.pages": { EN: "Pages", RU: "Страницы", ET: "Lehed" },
-  "footer.services": { EN: "Services", RU: "Услуги", ET: "Teenused" },
   "footer.contact": { EN: "Contact", RU: "Контакты", ET: "Kontakt" },
-  "footer.rights": { EN: "All rights reserved.", RU: "Все права защищены.", ET: "Kõik õigused kaitstud." },
-  "footer.motto": { EN: "Be Aware · Be Confident · Be Safe", RU: "Осведомлённость · Уверенность · Безопасность", ET: "Ole teadlik · Ole kindel · Ole turvaline" },
-  "footer.service.ndt": { EN: "Non-Destructive Testing (NDT)", RU: "Неразрушающий контроль (НК)", ET: "Mittepurustav kontroll (NDT)" },
-  "footer.service.utm": { EN: "Ultrasonic Thickness Measurement", RU: "Ультразвуковая толщинометрия", ET: "Ultraheli paksuse mõõtmine" },
-  "footer.service.steel": { EN: "Steel Renewal Supervision", RU: "Надзор за заменой стали", ET: "Terase uuendamise järelevalve" },
-  "footer.service.class": { EN: "Class Surveys (IACS)", RU: "Классификационные освидетельствования (МАКО)", ET: "Klassifikatsiooniülevaatused (IACS)" },
-  "footer.service.repair": { EN: "Repair Specifications", RU: "Ремонтные спецификации", ET: "Remondispetsifikatsioonid" },
+  "footer.rights": { EN: "All rights reserved.", RU: "Все права защищены.", ET: "Kõik õigused kaitstud." },
 
   // BLRT Grupp branding
   "nav.companies": { EN: "Companies", RU: "Компании", ET: "Ettevõtted" },
@@ -295,7 +183,6 @@ const translations = {
     RU: "Более 50 компаний. 6 промышленных секторов. Более века инженерного совершенства в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии.",
     ET: "50+ ettevõtet. 6 tööstussektorit. Üle sajandi insenerivõimekust Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias.",
   },
-  "blrt.exploreCompanies": { EN: "Explore Companies", RU: "Наши компании", ET: "Tutvu ettevõtetega" },
   "blrt.contactUs": { EN: "Contact Us", RU: "Связаться", ET: "Võta ühendust" },
   "blrt.stat.companies": { EN: "Companies", RU: "Компаний", ET: "Ettevõtet" },
   "blrt.stat.countries": { EN: "Countries", RU: "Стран", ET: "Riiki" },
@@ -340,7 +227,6 @@ const translations = {
   "blrt.about.stat.companies": { EN: "Companies", RU: "Компаний", ET: "Ettevõtet" },
   "blrt.about.stat.countries": { EN: "Countries", RU: "Стран", ET: "Riiki" },
   "blrt.about.stat.founded": { EN: "Est.", RU: "Основана", ET: "Asutatud" },
-  "blrt.about.stat.sectors": { EN: "Sectors", RU: "Секторов", ET: "Sektorit" },
   "blrt.about.ctaTitle": { EN: "Need a BLRT Grupp company for your project?", RU: "Хотите сотрудничать с BLRT Grupp?", ET: "Huvitatud koostööst BLRT Grupiga?" },
   "blrt.about.ctaDesc": { EN: "Browse our companies or reach out to our head office directly.", RU: "Ознакомьтесь с нашими компаниями или свяжитесь с головным офисом напрямую.", ET: "Sirvi meie ettevõtteid või võta otse ühendust meie peakontoriga." },
   "blrt.about.ctaBrowse": { EN: "Browse Companies", RU: "Смотреть компании", ET: "Vaata ettevõtteid" },
@@ -351,7 +237,6 @@ const translations = {
     RU: "Одна промышленная группа. Более 50 компаний. Столетие балтийской морской и инженерной традиции.",
     ET: "Üks tööstusgrupp. 50+ ettevõtet. Sajand Balti merenduse ja inseneritraditsiooni.",
   },
-  "footer.companies": { EN: "Companies", RU: "Компании", ET: "Ettevõtted" },
   "footer.blrtMotto": { EN: "Baltic Industry · Built to Endure", RU: "Балтийская промышленность · Создана на века", ET: "Balti tööstus · Loodud kestma" },
 
   // Navigation — new pages
@@ -407,9 +292,7 @@ const translations = {
   "sustainability.people.desc":       { EN: "Partner with Norsepower to test rotor sail wind propulsion using the Magnus Effect. Installed the world's first rotor sail on the Viking Grace ferry. We offer DACS air lubrication, graphene and silicone hull coatings, solar panels and hybrid battery systems to cut vessel emissions and fuel costs.", RU: "Сотрудничаем с Norsepower по испытанию роторных парусов на эффекте Магнуса. Установили первый в мире роторный парус на пароме Viking Grace. Предлагаем системы воздушной смазки DACS, графеновые и силиконовые покрытия корпуса, солнечные панели и гибридные аккумуляторные системы.", ET: "Teeme koostööd Norsepower'iga rootorsõugi tuulejõu tehnoloogia testimiseks (Magnuse efekt). Paigaldasime maailma esimese rootorsõugi Viking Grace parvlaevale. Pakume DACS õhumäärimissüsteeme, grafeeni- ja silikoonikatted kere jaoks, päikesepaneele ja hübriid-akusüsteeme." },
   "sustainability.community.title":   { EN: "Responsible resource management", RU: "Ответственное управление ресурсами", ET: "Vastutustundlik ressursside haldamine" },
   "sustainability.community.desc":    { EN: "Wash water is collected and reused. New-generation containment booms and emergency spill stations protect waterways around all docks. We operate the MC4000 autonomous water surface cleaning robot — the first of its kind integrated into global shipyard operations — and segregate metal, paper, plastic and hazardous waste per EU regulations.", RU: "Промывочная вода собирается и повторно используется. Боновые заграждения нового поколения и аварийные посты защищают водоёмы вокруг всех доков. Мы используем автономного робота-уборщика MC4000 — первого в мире, интегрированного в работу верфи, — и сортируем отходы согласно нормам ЕС.", ET: "Pesuvesi kogutakse ja taaskasutatakse. Uusima põlvkonna tõkkeujukid ja hädaabiposid kaitsevad kõigi dokide ümbruses asuvaid veekogusid. Kasutame MC4000 autonoomset veepuhastusvahendina — maailmas esimest oma tüüpi, mis on integreeritud laevatehasesse — ning sorteerime jäätmed vastavalt EL-i eeskirjadele." },
-  "sustainability.certs.title":       { EN: "Standards & Certifications", RU: "Стандарты и сертификаты", ET: "Standardid ja sertifikaadid" },
-  "sustainability.report.title":      { EN: "Green Solutions for Shipowners", RU: "Зелёные решения для судовладельцев", ET: "Rohelised lahendused laevaomanikele" },
-  "sustainability.report.desc":       { EN: "From exhaust gas scrubbers and ballast water treatment to shore power connections and wind-assisted propulsion — we install the full range of environmental upgrades your vessels need to meet today's regulations and tomorrow's standards.", RU: "От скрубберов для очистки выхлопных газов и систем обработки балластной воды до береговых источников питания и систем ветровой тяги — мы устанавливаем весь спектр экологических технологий, необходимых вашим судам.", ET: "Heitgaaside puhastussüsteemidest ja ballastvee töötlemisest kuni kaldaelektri ühenduste ja tuulejõuga liikumisabisüsteemideni — paigaldame kogu keskkonnatehnoloogiate valiku, mida teie laevad vajavad täna kehtivate eeskirjade täitmiseks." },
+  "sustainability.certs.title":       { EN: "Standards & Certifications", RU: "Стандарты и сертификаты", ET: "Standardid ja sertifikaadid" },
 
   // Sustainability — yard initiatives
   "sustainability.deal.label":         { EN: "Green Deal in Ship Repair",         RU: "Зелёная сделка в судоремонте",            ET: "Rohelepe laevaremondis"                    },

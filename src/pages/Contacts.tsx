@@ -388,7 +388,7 @@ export default function Contacts() {
           <p className="overline mb-8">Key Contacts</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border rounded-xl overflow-hidden">
             {personnel.map((p) => (
-              <div key={p.email} className="bg-card p-6">
+              <div key={p.name} className="bg-card p-6">
                 <div className="text-[10px] uppercase tracking-[0.2em] font-semibold text-brand-red mb-3">
                   {p.role}
                 </div>

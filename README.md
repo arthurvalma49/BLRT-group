@@ -8,26 +8,25 @@ Corporate website for [BLRT Grupp](https://www.blrt.ee), an Estonian industrial 
 - **TailwindCSS v3** + **shadcn/ui** (Radix primitives)
 - **Framer Motion** for animations
 - **React Router v6** for client-side routing
-- **TanStack Query** for server state
 - **i18n**: Estonian, English, Russian (flat key-value translations in `src/i18n/translations.ts`)
 
 ## Getting started
 
 ```bash
-bun install      # install dependencies
-bun dev          # start dev server at http://localhost:8080
+npm install          # install dependencies
+npm run dev          # start dev server at http://localhost:8080
 ```
 
 ## Commands
 
 ```bash
-bun dev          # dev server
-bun build        # production build → dist/
-bun build:dev    # dev-mode build
-bun preview      # preview production build
-bun lint         # ESLint
-bun test         # run tests once (Vitest)
-bun test:watch   # Vitest in watch mode
+npm run dev          # dev server
+npm run build        # production build → dist/
+npm run build:dev    # dev-mode build
+npm run preview      # preview production build
+npm run lint         # ESLint
+npm test             # run tests once (Vitest)
+npm run test:watch   # Vitest in watch mode
 ```
 
 ## Project structure

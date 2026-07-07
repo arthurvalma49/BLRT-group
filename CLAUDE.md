@@ -6,7 +6,7 @@ Guidance for Claude Code in this repository.
 
 Corporate website for **BLRT Grupp**, an Estonian industrial conglomerate (shipbuilding, ship repair, engineering, steel, port services) with 50+ subsidiary companies across the Baltics. The deliverable is defined in [PROCUREMENT.md](PROCUREMENT.md) — read it before scope decisions; it is the source of truth for required features (content blocks, plugin compatibility, languages).
 
-**Tehnomet Survey is one subsidiary page** (`/company/tehnomet-survey`), not a standalone site. The repo began as a Tehnomet-only site — leftover `home.*` keys in [src/i18n/translations.ts](src/i18n/translations.ts) still carry Tehnomet hero copy. Don't resurrect them as group-site content.
+**Tehnomet Survey is one subsidiary page** (`/company/tehnomet-survey`), not a standalone site. The repo began as a Tehnomet-only site; the leftovers were purged in July 2026. Don't reintroduce Tehnomet marine-inspection copy as group-wide content — the group-level Activities and Contacts pages still carry inspection-flavoured wording, so treat those as Tehnomet-scoped until rewritten.
 
 ## Two parallel tracks — know which one you're on
 
@@ -22,11 +22,13 @@ Corporate website for **BLRT Grupp**, an Estonian industrial conglomerate (shipb
 ## Commands
 
 ```bash
-bun dev          # dev server at http://localhost:8080
-bun build        # production build → dist/  (run before claiming any React change done)
-bun lint         # ESLint
-bun test         # vitest run   (single file: bun test src/test/example.test.ts)
+npm run dev      # dev server at http://localhost:8080
+npm run build    # production build → dist/  (run before claiming any React change done)
+npm run lint     # ESLint
+npm test         # vitest run   (single file: npm test -- src/test/example.test.ts)
 ```
+
+npm is the package manager (`package-lock.json` is the only lockfile; bun is not installed on the dev machine).
 
 ## Hard rules
 
@@ -57,15 +59,14 @@ bun test         # vitest run   (single file: bun test src/test/example.test.ts)
 
 - **Scroll/overflow setup**: `overflow-x-hidden` on the `SiteLayout` wrapper and the deliberate *absence* of `overflow-x` on `html`/`body` in `index.css`. Commit `46547ab` fixed a bug where body overflow silently killed scrolling — the CSS comment there explains it. Do not "clean up" either side.
 - **[vercel.json](vercel.json)** — the SPA rewrite is what makes deep links work on Vercel.
-- **`resolve.dedupe` in [vite.config.ts](vite.config.ts)** — prevents duplicate React/TanStack instances.
+- **`resolve.dedupe` in [vite.config.ts](vite.config.ts)** — prevents duplicate React instances.
 - **The `blrt_option()` / `blrt_field()` / `blrt_defaults()` fallback contract** in `functions.php`.
 - Factual content in `businesses.ts` (verified, see Hard rules) and the company lists duplicated in `blrt_defaults()`.
-- `src/components/ui/` (generated) and `bun.lockb`.
+- `src/components/ui/` (generated) and `package-lock.json` (regenerate via npm, never hand-edit).
 
 ## Known pitfalls
 
-- **Import path casing breaks Vercel builds.** Dev machine is Windows (case-insensitive); Vercel builds on Linux. Asset filenames are inconsistently cased (`BLRT-LOGO.png` vs `logo-white.png`) — an import that works locally can fail in CI. Match filename casing exactly.
+- **Import path casing breaks Vercel builds.** Dev machine is Windows (case-insensitive); Vercel builds on Linux. Asset filenames are inconsistently cased (`BLRT-LOGO.png` vs `logo-symbol.png`) — an import that works locally can fail in CI. Match filename casing exactly.
 - The React company data (`businesses.ts` sectorGroups) and the PHP `blrt_defaults()` sector list are **manually kept in sync** — changing one without the other silently forks the two demos.
-- `GlobalReach.tsx`, `Group.tsx`, and `Index.tsx` exist in `src/pages/` but are not routed (`/group` redirects to `/`). Treat as unused; don't wire them up without asking.
-- `translations.ts` mixes live keys with unreferenced Tehnomet-era leftovers (`home.heroTitle1`, `home.aboutP1`, `home.ndt.*`, `home.stat.*`, `nav.requestSurvey` — "Independent ship hull inspection" etc.). Check what a key actually says and whether it's referenced before reusing it.
-- `dist/`, screenshot PNGs, and `.design-sync`/`.ds-sync`/`ds-bundle` at the repo root are artifacts of past tooling — leave them alone.
+- Dead code was purged in July 2026 (unrouted pages, unused components, 65 unused translation keys, tracked tooling artifacts). Before adding a translation key or component, check whether an equivalent live one already exists — and delete anything your own change orphans.
+- `.playwright-mcp/`, `.superpowers/`, `.design-sync/` etc. are gitignored tooling output — never commit them.

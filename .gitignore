@@ -23,9 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# Design Sync
+# Local AI/design tooling artifacts — never track these
 .ds-sync/
 ds-bundle/
-.design-sync/.cache/
-.design-sync/learnings/
-.design-sync/node_modules
+.design-sync/
+.playwright-mcp/
+.superpowers/
+.impeccable/
