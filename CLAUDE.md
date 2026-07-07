@@ -1,56 +1,71 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Guidance for Claude Code in this repository.
+
+## What this project is
+
+Corporate website for **BLRT Grupp**, an Estonian industrial conglomerate (shipbuilding, ship repair, engineering, steel, port services) with 50+ subsidiary companies across the Baltics. The deliverable is defined in [PROCUREMENT.md](PROCUREMENT.md) — read it before scope decisions; it is the source of truth for required features (content blocks, plugin compatibility, languages).
+
+**Tehnomet Survey is one subsidiary page** (`/company/tehnomet-survey`), not a standalone site. The repo began as a Tehnomet-only site — leftover `home.*` keys in [src/i18n/translations.ts](src/i18n/translations.ts) still carry Tehnomet hero copy. Don't resurrect them as group-site content.
+
+## Two parallel tracks — know which one you're on
+
+1. **`main` — React prototype.** React 18 + Vite + TypeScript, TailwindCSS v3, shadcn/ui, Framer Motion, React Router v6. **Vercel auto-deploys every push to `main` via GitHub.**
+2. **`demo-no-acf` — WordPress conversion.** Native PHP theme in [wordpress-theme/](wordpress-theme/), hand-converted from the React prototype. No build step. Must stay **WPML- and ACF PRO-compatible** while also rendering fully with zero plugins installed (the "no-ACF demo mode").
+
+### Branch rules
+
+- **Never commit directly to `main`.** React-site work goes on a feature branch → PR into `main`. Remember: merging to `main` deploys to production immediately.
+- WordPress theme work (`wordpress-theme/**`) belongs on `demo-no-acf`.
+- **Run `git branch --show-current` before every commit** and confirm the change belongs there.
 
 ## Commands
 
 ```bash
-bun dev          # start dev server
-bun build        # production build (outputs to dist/)
-bun build:dev    # dev-mode production build
+bun dev          # dev server at http://localhost:8080
+bun build        # production build → dist/  (run before claiming any React change done)
 bun lint         # ESLint
-bun test         # run tests once (vitest)
-bun test:watch   # vitest in watch mode
-bun preview      # preview production build locally
+bun test         # vitest run   (single file: bun test src/test/example.test.ts)
 ```
 
-Run a single test file: `bun test src/test/example.test.ts`
+## Hard rules
 
-## Architecture
+- **Escape all PHP output.** Every echoed value goes through `esc_html()`, `esc_attr()`, or `esc_url()` — see [block-block_hero.php](wordpress-theme/template-parts/block-block_hero.php) for the pattern. No bare `echo $var`.
+- **Wrap every fixed UI string for WPML** with the `blrt` text domain: `esc_html_e( 'First name', 'blrt' )`, `__( 'Get in Touch', 'blrt' )`. Editor-entered ACF content is not wrapped; hardcoded labels always are.
+- **Never fabricate company facts** — stats, founding years, dock dimensions, certifications, tonnage. This data was painstakingly verified against the companies' live sites (see CONTENT_AUDIT.md and commits like `a06b3e0` removing an invented 265 m dock). If a fact is missing, leave it out or ask.
+- **No emojis in UI** — neither React components nor PHP templates.
+- **Verify before claiming done:** `bun build` must pass for React changes; for PHP run `php -l` on changed files if PHP is available locally, otherwise say the syntax check was not run.
 
-**Stack:** React 18 + Vite + TypeScript, TailwindCSS v3, shadcn/ui (Radix primitives), Framer Motion, React Router v6, TanStack Query.
+## React conventions (observed in this codebase)
 
-**Path alias:** `@/` maps to `src/` — use it for all internal imports.
+- Import internal modules via the `@/` alias (`@/components/SiteHeader`, `@/data/businesses`) — see [src/App.tsx](src/App.tsx).
+- Pages are PascalCase default-export components in [src/pages/](src/pages/); shared components in [src/components/](src/components/); routes are declared only in `App.tsx`. `SiteLayout` (header + `<main>` + footer) wraps all routes.
+- **Static content lives in [src/data/](src/data/)**, not in components. [businesses.ts](src/data/businesses.ts) (~1750 lines) drives the header megamenu, `/company/:slug` (`BusinessPage`), and `/company/:slug/services/:serviceSlug` (`ServicePage`). To add a company: add a `Business` entry + its slug to a `sectorGroup` in the same file.
+- Service icons are a string union (`ServiceIcon`) mapped to lucide-react components in [src/lib/serviceIcons.tsx](src/lib/serviceIcons.tsx). New icon = extend the union in `businesses.ts`, the map in `serviceIcons.tsx`, **and** the matching inline SVG in `blrt_icon()` in `functions.php`.
+- i18n: flat `Record<key, { EN, RU, ET }>` in [translations.ts](src/i18n/translations.ts), consumed via `const { t, lang, setLang } = useLanguage()`. The `Lang` type also lists LT/LV/FI/PL (procurement requires them), but only EN/RU/ET have strings — `t()` falls back to EN.
+- Use `cn()` from `@/lib/utils` for conditional classNames. Use `container-pro` for section width/padding. Wrap new page sections in `<RevealSection>` (scroll fade-in). Design tokens are CSS custom properties in [src/index.css](src/index.css), mapped in [tailwind.config.ts](tailwind.config.ts); primary navy `--primary: 218 58% 20%`, accent `--brand-red`; font Outfit.
+- [src/components/ui/](src/components/ui/) is shadcn-generated — never hand-edit.
 
-**App shell** ([src/App.tsx](src/App.tsx)): `LanguageProvider` → `BrowserRouter` → `SiteLayout` wraps all routes. `SiteLayout` renders `SiteHeader` + `<main>` + `SiteFooter`.
+## WordPress theme conventions (observed)
 
-**Routing** (defined in `App.tsx`):
-- `/` → `Home`
-- `/about`, `/activities`, `/contacts`, `/our-values` → corresponding page components
-- `/company/:slug` → `BusinessPage` — driven by the `businesses` array in [src/data/businesses.ts](src/data/businesses.ts)
-- `/group` redirects to `/`
-- `GlobalReach.tsx` exists in `src/pages/` but is **not routed** — treat as unused/in-progress.
+- Pages render ACF **Flexible Content** (`content_blocks`); each layout `block_<name>` dispatches to `template-parts/block-block_<name>.php` via `get_template_part( 'template-parts/block', $block['acf_fc_layout'], [ 'block' => $block ] )` — see [front-page.php](wordpress-theme/front-page.php) / [page.php](wordpress-theme/page.php). New block = ACF layout in `functions.php` §5 + matching template part.
+- Template parts read fields from `$args['block']` with `??` defaults at the top of the file (see any `template-parts/block-*.php`).
+- **Never call `get_field()` bare in templates.** Use `blrt_option()` (options page) and `blrt_field()` (post fields) from [functions.php](wordpress-theme/functions.php) — they fall back to `blrt_defaults()` / passed defaults when ACF is absent. This is what makes the zero-plugin demo work; a bare `get_field()` call breaks it.
+- Everything registers in the single `functions.php` (CPTs `project`/`job`, ACF field groups, options pages, AJAX contact handler, `blrt_icon()`). Styles/JS live in [wordpress-theme/assets/](wordpress-theme/assets/) (`theme.css` mirrors the React design tokens; `theme.js` handles reveal animations, counters, menus).
 
-**i18n** ([src/i18n/](src/i18n/)): Three languages — `EN`, `RU`, `ET`. All strings live in [src/i18n/translations.ts](src/i18n/translations.ts) as a flat `Record<key, { EN, RU, ET }>`. Consume with the `useLanguage()` hook: `const { t, lang, setLang } = useLanguage()`. Adding a new translatable string means adding a key to `translations.ts` and using `t("your.key")` in components.
+## Do not touch without asking
 
-**Business data** ([src/data/businesses.ts](src/data/businesses.ts)): Static array of `Business` objects (slug, name, sector, services, contact info, etc.) and `sectorGroups` that organise slugs into nav categories. The header megamenu and `BusinessPage` both read from this file. To add a BLRT Group company, add a `Business` entry and reference its slug in the appropriate `sectorGroup`.
+- **Scroll/overflow setup**: `overflow-x-hidden` on the `SiteLayout` wrapper and the deliberate *absence* of `overflow-x` on `html`/`body` in `index.css`. Commit `46547ab` fixed a bug where body overflow silently killed scrolling — the CSS comment there explains it. Do not "clean up" either side.
+- **[vercel.json](vercel.json)** — the SPA rewrite is what makes deep links work on Vercel.
+- **`resolve.dedupe` in [vite.config.ts](vite.config.ts)** — prevents duplicate React/TanStack instances.
+- **The `blrt_option()` / `blrt_field()` / `blrt_defaults()` fallback contract** in `functions.php`.
+- Factual content in `businesses.ts` (verified, see Hard rules) and the company lists duplicated in `blrt_defaults()`.
+- `src/components/ui/` (generated) and `bun.lockb`.
 
-**Utility:** `cn(...classes)` from `@/lib/utils` — combines `clsx` + `tailwind-merge`. Use it everywhere for conditional className strings.
+## Known pitfalls
 
-**Custom components:**
-- `RevealSection` — scroll-triggered fade-in via `IntersectionObserver`; adds `visible` class from CSS. Use `as` prop to change the rendered element. Accepts `delay` prop: `"delay-100" | "delay-200" | "delay-300"`.
-- `MagneticButton` — cursor-tracking magnetic hover effect via Framer Motion.
-- `ClassSocietiesStrip` — marquee strip of classification society logos.
-- `ScrollToTop` — resets scroll position on route change; already mounted in `App.tsx`.
-
-**Assets** ([src/assets/](src/assets/)): logo variants (`logo.png`, `logo-white.png`, `logo-symbol.png`, `logo-navy.png`, etc.) and hero images. Import directly — Vite handles bundling.
-
-**shadcn/ui components** are in [src/components/ui/](src/components/ui/) — these are generated files, do not edit them directly; re-generate via the shadcn CLI if updates are needed.
-
-## Styling conventions
-
-- Primary color is navy (`--primary: 218 58% 20%`); accent is `--brand-red: 4 68% 36%`.
-- Font: `Outfit` (sans-serif).
-- Use `container-pro` utility class for consistent horizontal padding/max-width on page sections.
-- `reveal` + `visible` CSS classes (defined in `index.css`) drive scroll animations — always wrap new content sections in `<RevealSection>`.
-- Design tokens (gradients, shadows, colors) are CSS custom properties defined in [src/index.css](src/index.css) and mapped to Tailwind in [tailwind.config.ts](tailwind.config.ts).
+- **Import path casing breaks Vercel builds.** Dev machine is Windows (case-insensitive); Vercel builds on Linux. Asset filenames are inconsistently cased (`BLRT-LOGO.png` vs `logo-white.png`) — an import that works locally can fail in CI. Match filename casing exactly.
+- The React company data (`businesses.ts` sectorGroups) and the PHP `blrt_defaults()` sector list are **manually kept in sync** — changing one without the other silently forks the two demos.
+- `GlobalReach.tsx`, `Group.tsx`, and `Index.tsx` exist in `src/pages/` but are not routed (`/group` redirects to `/`). Treat as unused; don't wire them up without asking.
+- Old `home.*` / `nav.requestSurvey` translation keys are legacy Tehnomet Survey copy — check what a key actually says before reusing it.
+- `dist/`, screenshot PNGs, and `.design-sync`/`.ds-sync`/`ds-bundle` at the repo root are artifacts of past tooling — leave them alone.

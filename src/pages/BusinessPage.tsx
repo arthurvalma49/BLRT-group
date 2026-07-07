@@ -1,12 +1,10 @@
-import { useState } from "react";
 import { useParams, Navigate, Link } from "react-router-dom";
 import {
-  Anchor, Ship, Wrench, Zap, Shield, Package, Truck, Layers, Ruler,
-  Eye, Globe2, Award, Clock, Waves, Cpu, FileText, Droplets, Magnet,
-  TrendingUp, Building2, Gauge, FlaskConical, HardHat, Flame,
-  Phone, Mail, MapPin, ExternalLink, ArrowLeft, ChevronRight, ChevronDown,
+  FileText,
+  Phone, Mail, MapPin, ExternalLink, ArrowLeft, ChevronRight,
 } from "lucide-react";
 import { businesses, sectorGroups, type ServiceIcon } from "@/data/businesses";
+import { serviceIconMap } from "@/lib/serviceIcons";
 import RevealSection from "@/components/RevealSection";
 import { useLanguage } from "@/i18n/LanguageContext";
 import CertificateBlock from "@/components/CertificateBlock";
@@ -15,82 +13,38 @@ import ProjectCard from "@/components/ProjectCard";
 import ProductCard from "@/components/ProductCard";
 import { projects } from "@/data/projects";
 
-const iconMap: Record<ServiceIcon, React.ComponentType<{ className?: string }>> = {
-  anchor: Anchor,
-  ship: Ship,
-  wrench: Wrench,
-  zap: Zap,
-  shield: Shield,
-  package: Package,
-  truck: Truck,
-  layers: Layers,
-  ruler: Ruler,
-  eye: Eye,
-  globe: Globe2,
-  award: Award,
-  clock: Clock,
-  waves: Waves,
-  circuit: Cpu,
-  file: FileText,
-  droplets: Droplets,
-  magnet: Magnet,
-  trending: TrendingUp,
-  building: Building2,
-  gauge: Gauge,
-  beaker: FlaskConical,
-  "hard-hat": HardHat,
-  flame: Flame,
-};
-
 function ServiceCard({
+  companySlug,
+  slug,
   icon,
   title,
   desc,
-  fullDesc,
 }: {
+  companySlug: string;
+  slug: string;
   icon: ServiceIcon;
   title: string;
   desc: string;
-  fullDesc?: string;
 }) {
-  const [expanded, setExpanded] = useState(false);
   const { t } = useLanguage();
-  const Comp = iconMap[icon] ?? FileText;
+  const Comp = serviceIconMap[icon] ?? FileText;
 
   return (
-    <div className="group bg-card border border-border rounded-xl p-6 hover:border-brand-red/25 hover:shadow-[var(--shadow-elevated)] transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col">
+    <Link
+      to={`/company/${companySlug}/services/${slug}`}
+      className="group bg-card border border-border rounded-xl p-6 hover:border-brand-red/25 hover:shadow-[var(--shadow-elevated)] transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] flex flex-col"
+    >
       <div className="w-9 h-9 rounded-lg bg-primary/5 group-hover:bg-brand-red/8 flex items-center justify-center mb-4 shrink-0 transition-colors duration-300">
         <Comp className="w-4 h-4 text-brand-red" />
       </div>
       <h3 className="text-sm font-semibold tracking-tight text-foreground mb-2">{title}</h3>
       <p className="text-sm text-muted-foreground leading-relaxed">{desc}</p>
 
-      {fullDesc && (
-        <>
-          <div
-            className={`overflow-hidden transition-all duration-[400ms] ease-[cubic-bezier(0.16,1,0.3,1)] ${
-              expanded ? "max-h-[800px] opacity-100 mt-4" : "max-h-0 opacity-0"
-            }`}
-          >
-            {fullDesc.split("\n\n").map((para, i) => (
-              <p key={i} className="text-sm text-muted-foreground leading-relaxed mb-2 last:mb-0">
-                {para}
-              </p>
-            ))}
-          </div>
-          <button
-            onClick={() => setExpanded(!expanded)}
-            className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-red hover:text-brand-red/70 transition-colors self-start min-h-[44px] -ml-1 px-1"
-            aria-expanded={expanded}
-          >
-            {expanded ? t("blrt.showLess") : t("blrt.readMore")}
-            <ChevronDown
-              className={`w-3.5 h-3.5 transition-transform duration-300 ${expanded ? "rotate-180" : ""}`}
-            />
-          </button>
-        </>
-      )}
-    </div>
+      <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-red group-hover:text-brand-red/70 transition-colors self-start">
+        {t("blrt.viewService")}
+        <ChevronRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
+      </span>
+    </Link>
   );
 }
 
@@ -177,13 +131,14 @@ export default function BusinessPage() {
             <p className="overline mb-3">What we do</p>
             <h2 className="text-3xl tracking-tighter text-foreground mb-12">Services & Capabilities</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {biz.services.map((svc, i) => (
+              {biz.services.map((svc) => (
                 <ServiceCard
-                  key={i}
+                  key={svc.slug}
+                  companySlug={biz.slug}
+                  slug={svc.slug}
                   icon={svc.icon}
                   title={svc.title}
                   desc={svc.desc}
-                  fullDesc={svc.fullDesc}
                 />
               ))}
             </div>
