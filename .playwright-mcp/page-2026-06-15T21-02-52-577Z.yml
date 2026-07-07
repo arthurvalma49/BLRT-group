@@ -1,0 +1,163 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "BLRT Grupp home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "BLRT Grupp" [ref=e7]
+          - generic [ref=e8]:
+            - generic [ref=e9]: BLRT GRUPP
+            - generic [ref=e10]: Industrial Group · Est. 1912
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - button "EN" [ref=e13] [cursor=pointer]
+            - button "RU" [ref=e14] [cursor=pointer]
+            - button "ET" [ref=e15] [cursor=pointer]
+          - button "Toggle menu" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - img [ref=e21]
+        - generic [ref=e24]:
+          - paragraph [ref=e25]: Contacts
+          - heading "Get in touch with BLRT Grupp." [level=1] [ref=e26]
+          - paragraph [ref=e27]: Our head office is at Kopli 103, Tallinn. Reach out by phone or email. We respond within hours.
+      - generic [ref=e31]:
+        - generic [ref=e34]: Available 24/7
+        - heading "BLRT Grupp" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Industrial Group · Kopli, Tallinn
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - img [ref=e40]
+            - generic [ref=e43]:
+              - generic [ref=e44]: Address
+              - link "Kopli 103, 11712 Tallinn Estonia · BLRT Grupp" [ref=e45] [cursor=pointer]:
+                - /url: https://maps.google.com/?q=Kopli+103+Tallinn+Estonia
+                - text: Kopli 103, 11712 Tallinn
+                - generic [ref=e46]: Estonia · BLRT Grupp
+          - listitem [ref=e47]:
+            - img [ref=e49]
+            - generic [ref=e51]:
+              - generic [ref=e52]: Phone
+              - link "+372 610 2997" [ref=e53] [cursor=pointer]:
+                - /url: tel:+3726102997
+          - listitem [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e59]:
+              - generic [ref=e60]: Email
+              - link "info@blrt.ee" [ref=e61] [cursor=pointer]:
+                - /url: mailto:info@blrt.ee
+          - listitem [ref=e62]:
+            - img [ref=e64]
+            - generic [ref=e67]:
+              - generic [ref=e68]: Reg. code
+              - generic [ref=e69]: "10910683"
+      - generic [ref=e71]:
+        - paragraph [ref=e72]: Key Contacts
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]: Board Member
+            - generic [ref=e76]: Renat Hassanov
+            - generic [ref=e77]:
+              - link "+372 510 3350" [ref=e78] [cursor=pointer]:
+                - /url: tel:+3725103350
+                - img [ref=e79]
+                - text: +372 510 3350
+              - link "renat.hassanov@blrt.ee" [ref=e81] [cursor=pointer]:
+                - /url: mailto:renat.hassanov@blrt.ee
+                - img [ref=e82]
+                - text: renat.hassanov@blrt.ee
+          - generic [ref=e85]:
+            - generic [ref=e86]: Technical Manager
+            - generic [ref=e87]: Ivan Pshenychnyi
+            - generic [ref=e88]:
+              - link "+372 5696 8143" [ref=e89] [cursor=pointer]:
+                - /url: tel:+37256968143
+                - img [ref=e90]
+                - text: +372 5696 8143
+              - link "ivan.pshenychnyi@blrt.ee" [ref=e92] [cursor=pointer]:
+                - /url: mailto:ivan.pshenychnyi@blrt.ee
+                - img [ref=e93]
+                - text: ivan.pshenychnyi@blrt.ee
+          - generic [ref=e96]:
+            - generic [ref=e97]: Marketing Manager
+            - generic [ref=e98]: Diana Tulus
+            - generic [ref=e99]:
+              - link "+372 5343 2898" [ref=e100] [cursor=pointer]:
+                - /url: tel:+37253432898
+                - img [ref=e101]
+                - text: +372 5343 2898
+              - link "diana.tulus@blrt.ee" [ref=e103] [cursor=pointer]:
+                - /url: mailto:diana.tulus@blrt.ee
+                - img [ref=e104]
+                - text: diana.tulus@blrt.ee
+          - generic [ref=e107]:
+            - generic [ref=e108]: Marketing Manager
+            - generic [ref=e109]: Pavel Magazov
+            - generic [ref=e110]:
+              - link "+372 5333 1505" [ref=e111] [cursor=pointer]:
+                - /url: tel:+37253331505
+                - img [ref=e112]
+                - text: +372 5333 1505
+              - link "pavel.magazov@blrt.ee" [ref=e114] [cursor=pointer]:
+                - /url: mailto:pavel.magazov@blrt.ee
+                - img [ref=e115]
+                - text: pavel.magazov@blrt.ee
+    - contentinfo [ref=e118]:
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - img "BLRT Grupp" [ref=e123]
+            - generic [ref=e124]:
+              - generic [ref=e125]: BLRT GRUPP
+              - generic [ref=e126]: Industrial Group · Est. 1912
+          - paragraph [ref=e127]: One industrial group. Seventeen companies. A century of Baltic maritime and engineering tradition.
+        - generic [ref=e128]:
+          - heading "Pages" [level=4] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "Home" [ref=e132] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e133]:
+              - link "About Us" [ref=e134] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e135]:
+              - link "Our Values" [ref=e136] [cursor=pointer]:
+                - /url: /our-values
+            - listitem [ref=e137]:
+              - link "News" [ref=e138] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e139]:
+              - link "Projects" [ref=e140] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e141]:
+              - link "Careers" [ref=e142] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e143]:
+              - link "Sustainability" [ref=e144] [cursor=pointer]:
+                - /url: /sustainability
+            - listitem [ref=e145]:
+              - link "Contacts" [ref=e146] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e147]:
+          - heading "Contact" [level=4] [ref=e148]
+          - list [ref=e149]:
+            - listitem [ref=e150]:
+              - img [ref=e151]
+              - link "+372 610 2997" [ref=e153] [cursor=pointer]:
+                - /url: tel:+3726102997
+            - listitem [ref=e154]:
+              - img [ref=e155]
+              - link "info@blrt.ee" [ref=e158] [cursor=pointer]:
+                - /url: mailto:info@blrt.ee
+            - listitem [ref=e159]:
+              - img [ref=e160]
+              - generic [ref=e163]:
+                - text: Kopli 103, Tallinn
+                - text: Estonia · BLRT Grupp
+      - generic [ref=e165]:
+        - generic [ref=e166]: © 2026 BLRT Grupp. All rights reserved.
+        - generic [ref=e167]: Baltic Industry · Built to Endure

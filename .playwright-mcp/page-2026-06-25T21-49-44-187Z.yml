@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - text:        
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://tehnometsurvey.ee/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "About us" [ref=e13] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/about-us/
+              - listitem [ref=e14]:
+                - link "Contacts" [ref=e15] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/contacts/
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "En" [ref=e19] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/about-us/
+                  - generic [ref=e20]: En
+              - listitem [ref=e21]:
+                - link "Switch to Ru" [ref=e22] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/ru/o-kompanii/
+                  - generic [ref=e23]: Ru
+          - navigation [ref=e24]:
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link " Activities" [ref=e27] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/activities/
+    - main [ref=e28]:
+      - generic [ref=e31]:
+        - heading "About us" [level=1] [ref=e32]
+        - generic [ref=e33]:
+          - link "Home" [ref=e34] [cursor=pointer]:
+            - /url: https://tehnometsurvey.ee/en/
+          - text: / About us
+      - generic [ref=e38]:
+        - generic [ref=e39]: About us
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Tehnomet Survey is an actively developing service company, operating in the field of ship repair and inspection of hull structures of marine vessels, founded in 1998.
+          - paragraph [ref=e42]: We operate worldwide. Our technicians have all the necessary documents to arrive at the client’s vessel as soon as possible, wherever it is.
+          - paragraph [ref=e43]: We are convinced that safety is a fundamental aspect of the marine business structure and follow this principle over 20 years.
+          - paragraph [ref=e44]
+      - generic [ref=e46]:
+        - generic [ref=e47]: Certificates
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: "In its industrial and commercial activities, Tehnomet Survey is guided by recognized quality management systems certified in accordance with the ISO 9001: 2015 requirements."
+          - paragraph [ref=e50]: The company is approved by the classification societies BV, LR, DNV, RINA, ABS, KR, IR, NKK, WTA.
+      - generic [ref=e54]:
+        - generic [ref=e55]: Vision
+        - paragraph [ref=e57]: To become the most sought-after and successful company in the field of hull structure inspection.
+      - generic [ref=e61]:
+        - generic [ref=e62]: Mission
+        - paragraph [ref=e64]: We provide professional technical control and guarantee best supervision of ship hulls and metal structures condition either before or after steel renewal, thereby contributing to the stable and safe prosperity of our customers’ business.
+      - generic [ref=e68]:
+        - generic [ref=e69]: Strategy
+        - paragraph [ref=e71]: We pursue constantly to strengthen our market position. Systematic improvement of operating procedures and regular updating of applied equipment; introduction of new technologies, diversity of services and comprehensive training of the personnel involved in the process; constant quality control, long-term database and immediate feedback – all our activities are aimed to become market leader and ensure the highest quality of the product and 100% satisfaction of our customers.
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]: Values
+          - paragraph [ref=e78]: "In our work, we are guided by the following values:"
+          - link "Read more " [ref=e80] [cursor=pointer]:
+            - /url: /our-values/
+            - generic [ref=e81]: Read more
+            - generic [ref=e82]: 
+        - generic [ref=e84]:
+          - link "Focus on people " [ref=e87] [cursor=pointer]:
+            - /url: /our-values/#focus-on-people
+            - img [ref=e89]
+            - generic [ref=e91]: Focus on people
+            - generic [ref=e92]: 
+          - link "Reliability " [ref=e95] [cursor=pointer]:
+            - /url: /our-values/#reliability
+            - img [ref=e97]
+            - generic [ref=e99]: Reliability
+            - generic [ref=e100]: 
+          - link "Efficiency " [ref=e103] [cursor=pointer]:
+            - /url: /our-values/#efficiency
+            - img [ref=e105]
+            - generic [ref=e107]: Efficiency
+            - generic [ref=e108]: 
+          - link "Development " [ref=e111] [cursor=pointer]:
+            - /url: /our-values/#development
+            - img [ref=e113]
+            - generic [ref=e115]: Development
+            - generic [ref=e116]: 
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e121]: Contacts
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - link "Tehnomet Survey OÜ" [ref=e125] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e127]
+              - text: Tehnomet Survey OÜ
+          - listitem [ref=e129]:
+            - link "ts@blrt.ee" [ref=e130] [cursor=pointer]:
+              - /url: mailto:ts@blrt.ee
+              - img [ref=e132]
+              - text: ts@blrt.ee
+          - listitem [ref=e134]:
+            - link "+372 610 2997" [ref=e135] [cursor=pointer]:
+              - /url: tel:+372 610 2997
+              - img [ref=e137]
+              - text: +372 610 2997
+      - generic [ref=e139]:
+        - generic [ref=e140]: LINKS
+        - list [ref=e142]:
+          - listitem [ref=e143]:
+            - link " About us" [ref=e144] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/about-us/
+          - listitem [ref=e145]:
+            - link " Activities" [ref=e146] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities/
+          - listitem [ref=e147]:
+            - link " Contacts" [ref=e148] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/contacts/
+      - generic [ref=e149]:
+        - list
+    - contentinfo [ref=e151]:
+      - generic [ref=e154]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e155] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e156]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e157]:
+    - generic [ref=e158]:
+      - generic [ref=e159]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e161] [cursor=pointer]
+      - button "No" [ref=e162] [cursor=pointer]

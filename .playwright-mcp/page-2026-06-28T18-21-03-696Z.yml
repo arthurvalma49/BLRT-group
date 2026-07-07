@@ -1,0 +1,221 @@
+- generic [active] [ref=e1]:
+  - text:          
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://elmetrans.ee/et/
+          - img [ref=e6]
+          - img [ref=e12]
+        - text:  
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "Ettevõttest" [ref=e22] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/kontsernist/
+              - listitem [ref=e23]:
+                - link "Kontaktid" [ref=e24] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/kontaktid/
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "Ee" [ref=e28] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-450-aj-16-m/
+                  - generic [ref=e29]: Ee
+              - listitem [ref=e30]:
+                - link "Switch to En" [ref=e31] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/Rent-of-equipment/jlg-450-aj-16-m/
+                  - generic [ref=e32]: En
+              - listitem [ref=e33]:
+                - link "Switch to Ru" [ref=e34] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/ru/Rent-of-equipment/jlg-450-aj-16-m/
+                  - generic [ref=e35]: Ru
+              - listitem [ref=e36]:
+                - link "Switch to Lt" [ref=e37] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/lt/Rent-of-equipment/jlg-450-aj-16-m/
+                  - generic [ref=e38]: Lt
+          - navigation [ref=e39]:
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link " Veoteenused" [ref=e42] [cursor=pointer]:
+                  - /url: /et/tegevussuunad-et/veoteenused/
+              - listitem [ref=e43]:
+                - link " Ehitustehnika ja seadmete rent" [ref=e44] [cursor=pointer]:
+                  - /url: /et/tegevussuunad-et/seadmete-rent/
+              - listitem [ref=e45]:
+                - link " Vabad töökohad" [ref=e46] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/toopakkumised/
+    - main [ref=e47]:
+      - main [ref=e49]:
+        - generic [ref=e52]:
+          - heading "Poomtõstukid" [level=1] [ref=e53]
+          - generic [ref=e54]:
+            - link "Home" [ref=e55] [cursor=pointer]:
+              - /url: https://elmetrans.ee/et/
+            - text: / Ehitustehnika ja seadmete rent / JLG 450 AJ, 16 m
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - paragraph [ref=e60]:
+                - generic [ref=e61] [cursor=pointer]: Diiselmootoriga poomtõstukid
+                - button [ref=e62] [cursor=pointer]
+              - list [ref=e63]:
+                - listitem [ref=e64]:
+                  - link "JLG 450 AJ, 16 m" [ref=e65] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-450-aj-16-m/
+                - listitem [ref=e66]:
+                  - link "Haulotte HA16RTJ PRO, 16 m" [ref=e67] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/haulotte-ha16rtj-pro-16-m/
+                - listitem [ref=e68]:
+                  - link "JLG 520 AJ, 18 m" [ref=e69] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-520-aj-18-m/
+                - listitem [ref=e70]:
+                  - link "JLG 600 AJ, 20 m" [ref=e71] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-600-aj-20-m/
+                - listitem [ref=e72]:
+                  - link "Haulotte HA20 RTJPRO, 20 m" [ref=e73] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/ha20rtj-pro-20-m/
+                - listitem [ref=e74]:
+                  - link "JLG 660 SJ, 22 m" [ref=e75] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-660sj-22-m/
+                - listitem [ref=e76]:
+                  - link "JLG 660 AJ, 22 m" [ref=e77] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-660-aj-22-m/
+                - listitem [ref=e78]:
+                  - link "JLG 800 AJ, 26 m" [ref=e79] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-800-aj-26-m/
+                - listitem [ref=e80]:
+                  - link "HT26RTJ PRO, 26 m" [ref=e81] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/ht26rtj-pro-26-m/
+                - listitem [ref=e82]:
+                  - link "JLG 860 SJ, 28 m" [ref=e83] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/jlg-860-sj/
+                - listitem [ref=e84]:
+                  - link "Haulotte HA 32 PX, 32 m" [ref=e85] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/haulotte-ha-32-px-32-m/
+                - listitem [ref=e86]:
+                  - link "Haulotte HA 41 PX, 41 m" [ref=e87] [cursor=pointer]:
+                    - /url: https://elmetrans.ee/et/Rent-of-equipment/haulotte-ha-41-px-41-m/
+            - paragraph [ref=e89]:
+              - generic [ref=e90] [cursor=pointer]: Akupoomtõstukid
+              - button [ref=e91] [cursor=pointer]
+            - paragraph [ref=e93]:
+              - generic [ref=e94] [cursor=pointer]: Järelveetavad korvtõstukid
+              - button [ref=e95] [cursor=pointer]
+            - paragraph [ref=e97]:
+              - generic [ref=e98] [cursor=pointer]: Diiselmootoriga käärtõstukid
+              - button [ref=e99] [cursor=pointer]
+            - paragraph [ref=e101]:
+              - generic [ref=e102] [cursor=pointer]: Akukäärtõstukid
+              - button [ref=e103] [cursor=pointer]
+            - paragraph [ref=e105]:
+              - generic [ref=e106] [cursor=pointer]: Autokraanad
+              - button [ref=e107] [cursor=pointer]
+            - paragraph [ref=e109]:
+              - generic [ref=e110] [cursor=pointer]: Veoauto koos manipulaatoriga
+              - button [ref=e111] [cursor=pointer]
+            - paragraph [ref=e113]:
+              - generic [ref=e114] [cursor=pointer]: Teleskooplaadurid
+              - button [ref=e115] [cursor=pointer]
+            - paragraph [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]: Kaevemasinad
+              - button [ref=e119] [cursor=pointer]
+            - paragraph [ref=e121]:
+              - generic [ref=e122] [cursor=pointer]: Ehitussoojakud
+              - button [ref=e123] [cursor=pointer]
+            - paragraph [ref=e125]:
+              - generic [ref=e126] [cursor=pointer]: Teisaldatavad piirded
+              - button [ref=e127] [cursor=pointer]
+            - paragraph [ref=e129]:
+              - generic [ref=e130] [cursor=pointer]: Kütteseadmed
+              - button [ref=e131] [cursor=pointer]
+            - paragraph [ref=e133]:
+              - generic [ref=e134] [cursor=pointer]: Muud seadmed
+              - button [ref=e135] [cursor=pointer]
+          - generic [ref=e136]:
+            - heading "JLG 450 AJ, 16 m" [level=2] [ref=e137]
+            - generic [ref=e138]:
+              - img [ref=e139]
+              - generic [ref=e140]:
+                - button [ref=e141] [cursor=pointer]
+                - button [ref=e142] [cursor=pointer]
+            - link "JLG 450 AJ, 16 m kirjeldus " [ref=e143] [cursor=pointer]:
+              - /url: https://elmetrans.ee/wp-content/uploads/2021/06/450aj_en.pdf
+              - generic [ref=e144]: JLG 450 AJ, 16 m kirjeldus
+              - generic [ref=e145]: 
+            - table [ref=e146]:
+              - rowgroup [ref=e147]:
+                - row "Platvormi tõstekõrgus 13,7 m" [ref=e148]:
+                  - cell "Platvormi tõstekõrgus" [ref=e149]
+                  - cell "13,7 m" [ref=e150]
+                - row "Platvormi mõõdud 1,83 m x 0,76 m" [ref=e151]:
+                  - cell "Platvormi mõõdud" [ref=e152]
+                  - cell "1,83 m x 0,76 m" [ref=e153]
+                - row "Kaal 7100 kg" [ref=e154]:
+                  - cell "Kaal" [ref=e155]
+                  - cell "7100 kg" [ref=e156]
+                - row "Kandevõime 230 kg" [ref=e157]:
+                  - cell "Kandevõime" [ref=e158]
+                  - cell "230 kg" [ref=e159]
+                - row "Pikkus 6,53 m" [ref=e160]:
+                  - cell "Pikkus" [ref=e161]
+                  - cell "6,53 m" [ref=e162]
+                - row "Laius 2,08 m" [ref=e163]:
+                  - cell "Laius" [ref=e164]
+                  - cell "2,08 m" [ref=e165]
+                - row "Kõrgus 2,3 m" [ref=e166]:
+                  - cell "Kõrgus" [ref=e167]
+                  - cell "2,3 m" [ref=e168]
+                - row "Kütus Diisel" [ref=e169]:
+                  - cell "Kütus" [ref=e170]
+                  - cell "Diisel" [ref=e171]
+                - row "Rattad koormustele siledatel pindadel Ei" [ref=e172]:
+                  - cell "Rattad koormustele siledatel pindadel" [ref=e173]
+                  - cell "Ei" [ref=e174]
+                - row "Rattad koormustele ebatasastel pindadel Jah" [ref=e175]:
+                  - cell "Rattad koormustele ebatasastel pindadel" [ref=e176]
+                  - cell "Jah" [ref=e177]
+                - row "Nelikvedu Jah" [ref=e178]:
+                  - cell "Nelikvedu" [ref=e179]
+                  - cell "Jah" [ref=e180]
+          - generic [ref=e181]:
+            - heading "Tellimus" [level=3] [ref=e182]
+            - generic [ref=e183]:
+              - link "+372 5683 6297" [ref=e184] [cursor=pointer]:
+                - /url: tel:+372 5683 6297
+              - link "tehnikarent@blrt.ee" [ref=e185] [cursor=pointer]:
+                - /url: mailto:tehnikarent@blrt.ee
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - generic [ref=e190]: Kontaktid
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e194] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e196]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+      - generic [ref=e198]:
+        - generic [ref=e199]: LINGID
+        - list [ref=e201]:
+          - listitem [ref=e202]:
+            - link " Ettevõttest" [ref=e203] [cursor=pointer]:
+              - /url: https://elmetrans.ee/et/kontsernist/
+          - listitem [ref=e204]:
+            - link " Kontaktid" [ref=e205] [cursor=pointer]:
+              - /url: https://elmetrans.ee/et/kontaktid/
+      - generic [ref=e206]:
+        - list
+    - contentinfo [ref=e208]:
+      - generic [ref=e211]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e212] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e213]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e214]:
+    - generic [ref=e215]:
+      - generic [ref=e216]: Sellel veebilehel kasutatakse küpsiseid. Kasutamist jätkates nõustud küpsiste kasutamisega.
+      - button "Ok" [ref=e218] [cursor=pointer]
+      - button "No" [ref=e219] [cursor=pointer]
+  - iframe [ref=e222]:
+    - generic [ref=f58e6]:
+      - text: protected by
+      - strong [ref=f58e7]: reCAPTCHA

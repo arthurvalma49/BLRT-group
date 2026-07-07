@@ -1,0 +1,179 @@
+- generic [active] [ref=e1]:
+  - text:          
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://elmetrans.ee/en/
+          - img [ref=e6]
+          - img [ref=e12]
+        - text:  
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "About us" [ref=e22] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/about-us/
+              - listitem [ref=e23]:
+                - link "Contacts" [ref=e24] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/contacts/
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "Switch to Ee" [ref=e28] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/et/kontsernist/
+                  - generic [ref=e29]: Ee
+              - listitem [ref=e30]:
+                - link "En" [ref=e31] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/about-us/
+                  - generic [ref=e32]: En
+              - listitem [ref=e33]:
+                - link "Switch to Ru" [ref=e34] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/ru/o-kompanii/
+                  - generic [ref=e35]: Ru
+              - listitem [ref=e36]:
+                - link "Switch to Lt" [ref=e37] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/lt/apie-kompanija/
+                  - generic [ref=e38]: Lt
+          - navigation [ref=e39]:
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link " Transport services" [ref=e42] [cursor=pointer]:
+                  - /url: /en/activities-list/transport-services/
+              - listitem [ref=e43]:
+                - link " Rent of equipment" [ref=e44] [cursor=pointer]:
+                  - /url: /en/activities-list/rent-of-equipment/
+              - listitem [ref=e45]:
+                - link " Vacancies" [ref=e46] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/vacancies/
+    - main [ref=e47]:
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - img [ref=e52]
+            - generic [ref=e55]:
+              - heading "About us" [level=1] [ref=e56]
+              - generic [ref=e57]:
+                - link "Home" [ref=e58] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/
+                - text: / About us
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e63]:
+              - heading "About us" [level=1] [ref=e64]
+              - generic [ref=e65]:
+                - link "Home" [ref=e66] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/
+                - text: / About us
+          - generic [ref=e67]:
+            - img [ref=e68]
+            - generic [ref=e71]:
+              - heading "About us" [level=1] [ref=e72]
+              - generic [ref=e73]:
+                - link "Home" [ref=e74] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/
+                - text: / About us
+          - generic [ref=e75]:
+            - img [ref=e76]
+            - generic [ref=e79]:
+              - heading "About us" [level=1] [ref=e80]
+              - generic [ref=e81]:
+                - link "Home" [ref=e82] [cursor=pointer]:
+                  - /url: https://elmetrans.ee/en/
+                - text: / About us
+        - generic [ref=e83]:
+          - button "Go to slide 1" [ref=e84] [cursor=pointer]
+          - button "Go to slide 2" [ref=e85] [cursor=pointer]
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90]: About us
+            - generic [ref=e91]:
+              - paragraph [ref=e92]: Transport company ELME Trans renders international transportation and equipment rental services.
+              - paragraph [ref=e93]: The company was founded in 2001 and is a subsidiary of BLRT Grupp, the leading industrial holding in the Baltics.
+              - paragraph [ref=e94]: Branch offices of the company are located in Estonia, Latvia, Lithuania, Ukraine and offer dangerous, bulky and heavy cargo shipping services in the Baltic States, Scandinavia, Eastern and Western Europe.
+              - paragraph [ref=e95]: Since 2014 ELME Trans has the status of an authorized economic operator of the European Union.
+              - paragraph [ref=e96]: In Estonia and Lithuania, ELME Trans rents a total of more than 300 units of various equipment, including telescopic loaders and scissor lifts, diesel and battery lifts with a load- lifting height up to 41 meters, forklift tracks, office cabins and scaffolding.
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - img "ico-1" [ref=e101]
+              - generic [ref=e103]:
+                - strong [ref=e104]: "5"
+                - text: Countries
+            - generic [ref=e106]:
+              - img "ico-2" [ref=e108]
+              - generic [ref=e118]:
+                - strong [ref=e119]: "300"
+                - text: Units
+        - generic [ref=e121]:
+          - generic [ref=e123]:
+            - heading "Vision" [level=3] [ref=e124]
+            - generic [ref=e125]: To be a reliable long-term partner and to encourage development of our clients' business.
+          - generic [ref=e127]:
+            - heading "Mission" [level=3] [ref=e128]
+            - generic [ref=e129]: We offer our clients solutions in matters of transportation and industrial equipment rental. We operate at the level predetermined by our partner, required for its development. Depending on the needs and expectations of our clients, we expand and improve our services, assuring reliable solutions and high-quality performance.
+          - generic [ref=e131]:
+            - heading "Strategy" [level=3] [ref=e132]
+            - generic [ref=e133]: We are strengthening our leading positions in target markets for transportation services and construction equipment rental. We are constantly developing organizationally, geographically and technologically to satisfy our customers’ requirements and preserve the environment in the best way. We are an attractive employer.
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - generic [ref=e138]: Values
+          - paragraph [ref=e140]: "In our work, we are guided by the following values:"
+          - link "Read more " [ref=e142] [cursor=pointer]:
+            - /url: /our-values/
+            - generic [ref=e143]: Read more
+            - generic [ref=e144]: 
+        - generic [ref=e146]:
+          - link "Focus on people " [ref=e149] [cursor=pointer]:
+            - /url: /our-values/#focus-on-people
+            - img [ref=e151]
+            - generic [ref=e153]: Focus on people
+            - generic [ref=e154]: 
+          - link "Reliability " [ref=e157] [cursor=pointer]:
+            - /url: /our-values/#reliability
+            - img [ref=e159]
+            - generic [ref=e161]: Reliability
+            - generic [ref=e162]: 
+          - link "Efficiency " [ref=e165] [cursor=pointer]:
+            - /url: /our-values/#efficiency
+            - img [ref=e167]
+            - generic [ref=e169]: Efficiency
+            - generic [ref=e170]: 
+          - link "Development " [ref=e173] [cursor=pointer]:
+            - /url: /our-values/#development
+            - img [ref=e175]
+            - generic [ref=e177]: Development
+            - generic [ref=e178]: 
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - generic [ref=e184]: Contacts
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e188] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e190]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+      - generic [ref=e192]:
+        - generic [ref=e193]: LINKS
+        - list [ref=e195]:
+          - listitem [ref=e196]:
+            - link " About us" [ref=e197] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e198]:
+            - link " Contacts" [ref=e199] [cursor=pointer]:
+              - /url: /contacts/
+      - generic [ref=e200]:
+        - list
+    - contentinfo [ref=e202]:
+      - generic [ref=e205]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e206] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e207]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e208]:
+    - generic [ref=e209]:
+      - generic [ref=e210]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e212] [cursor=pointer]
+      - button "No" [ref=e213] [cursor=pointer]
+  - iframe [ref=e216]:
+    - generic [ref=f9e6]:
+      - text: protected by
+      - strong [ref=f9e7]: reCAPTCHA

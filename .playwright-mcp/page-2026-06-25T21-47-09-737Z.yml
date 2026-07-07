@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - text:                     
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrtyards.com/en/
+          - img [ref=e6]
+          - img [ref=e8]
+        - text:  
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - list [ref=e16]:
+              - listitem [ref=e17]:
+                - link "About us" [ref=e18] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/about-us/
+              - listitem [ref=e19]:
+                - link "Event calendar 2026" [ref=e20] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/event-calendar/
+              - listitem [ref=e21]:
+                - link "News" [ref=e22] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/news/
+              - listitem [ref=e23]:
+                - link "Career" [ref=e24] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/career/
+              - listitem [ref=e25]:
+                - link "Contacts" [ref=e26] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/contacts/
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "" [ref=e31] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/blrt-yards/
+                  - generic [ref=e32]: 
+              - listitem [ref=e33]:
+                - link "" [ref=e34] [cursor=pointer]:
+                  - /url: https://www.facebook.com/blrtgrupp
+                  - generic [ref=e35]: 
+              - listitem [ref=e36]:
+                - link "" [ref=e37] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@blrtrepairyards/
+                  - generic [ref=e38]: 
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link "Switch to Ee" [ref=e42] [cursor=pointer]:
+                  - /url: https://blrtyards.com/et/dokid-ja-kaid-leedus/
+                  - generic [ref=e43]: Ee
+              - listitem [ref=e44]:
+                - link "En" [ref=e45] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/docks-and-berths-in-lithuania/
+                  - generic [ref=e46]: En
+              - listitem [ref=e47]:
+                - link "Switch to Ru" [ref=e48] [cursor=pointer]:
+                  - /url: https://blrtyards.com/ru/docks-and-berths-in-lithuania/
+                  - generic [ref=e49]: Ru
+              - listitem [ref=e50]:
+                - link "Switch to Fi" [ref=e51] [cursor=pointer]:
+                  - /url: https://blrtyards.com/fi/uivat-telakat-ja-laiturit-liettuassa/
+                  - generic [ref=e52]: Fi
+              - listitem [ref=e53]:
+                - link "Switch to Lt" [ref=e54] [cursor=pointer]:
+                  - /url: https://blrtyards.com/lt/docks-and-berths-in-lithuania/
+                  - generic [ref=e55]: Lt
+          - navigation [ref=e56]:
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - link " Inquiry form" [ref=e59] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/inquiry-form/
+              - listitem [ref=e60]:
+                - link " Green Deal" [ref=e61] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/green-deal/
+              - listitem [ref=e62]:
+                - link " Activities" [ref=e63] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/activities/
+              - listitem [ref=e64]:
+                - link " Facilities" [ref=e65] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/facilities/
+              - listitem [ref=e66]:
+                - link " Virtual Tour" [ref=e67] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/virtual-tour/
+              - listitem [ref=e68]:
+                - link " QHSE" [ref=e69] [cursor=pointer]:
+                  - /url: https://blrtyards.com/en/qhse/
+    - main [ref=e70]:
+      - generic [ref=e73]:
+        - heading "Docks and berths in Lithuania" [level=1] [ref=e74]
+        - generic [ref=e75]:
+          - link "Home" [ref=e76] [cursor=pointer]:
+            - /url: https://blrtyards.com/en/
+          - text: / Docks and berths in Lithuania
+      - generic [ref=e78]:
+        - figure [ref=e79]:
+          - table [ref=e80]:
+            - rowgroup [ref=e81]:
+              - row "Description Dock 219 Dock 170 Dock 12" [ref=e82]:
+                - columnheader "Description" [ref=e83]
+                - columnheader "Dock 219" [ref=e84]
+                - columnheader "Dock 170" [ref=e85]
+                - columnheader "Dock 12" [ref=e86]
+            - rowgroup [ref=e87]:
+              - row "Lifting capacity (t) 27 000 30 000 33 000" [ref=e88]:
+                - cell "Lifting capacity (t)" [ref=e89]
+                - cell "27 000" [ref=e90]
+                - cell "30 000" [ref=e91]
+                - cell "33 000" [ref=e92]
+              - row "Keel blocks length (m) 200 201.4 235" [ref=e93]:
+                - cell "Keel blocks length (m)" [ref=e94]
+                - cell "200" [ref=e95]
+                - cell "201.4" [ref=e96]
+                - cell "235" [ref=e97]
+              - row "Width between fenders (m) 30 34 44" [ref=e98]:
+                - cell "Width between fenders (m)" [ref=e99]
+                - cell "30" [ref=e100]
+                - cell "34" [ref=e101]
+                - cell "44" [ref=e102]
+              - row "Cranes (t) 2 x 15 2 x 15 2 x 12" [ref=e103]:
+                - cell "Cranes (t)" [ref=e104]
+                - cell "2 x 15" [ref=e105]
+                - cell "2 x 15" [ref=e106]
+                - cell "2 x 12" [ref=e107]
+        - list [ref=e108]:
+          - listitem [ref=e109]:
+            - text: Floating crane –
+            - strong [ref=e110]: 100 t
+            - text: lifting capacity
+          - listitem [ref=e111]:
+            - text: Mobile crane (LIEBHERR LHM 400) –
+            - strong [ref=e112]: 104 t
+            - text: lifting capacity
+          - listitem [ref=e113]:
+            - text: 10 pier cranes (KONE / CERETTI) – with lifting capacity
+            - strong [ref=e114]: 30 t
+            - text: each
+          - listitem [ref=e115]:
+            - text: Lifting platform (KAMAG 1400 HS/E) – max lifting capacity
+            - strong [ref=e116]: 250 t
+          - listitem [ref=e117]:
+            - text: Over
+            - strong [ref=e118]: 900 m
+            - text: of berths
+        - link "Territory map " [ref=e121] [cursor=pointer]:
+          - /url: /wp-content/uploads/2025/01/western-shiprepair-map-scaled.jpg
+          - generic [ref=e122]: Territory map
+          - generic [ref=e123]: 
+        - link "YARD SAFETY GUIDELINES " [ref=e126] [cursor=pointer]:
+          - /url: /wp-content/uploads/2021/03/vlg_darbusauga_bukletasa5_10.pdf
+          - generic [ref=e127]: YARD SAFETY GUIDELINES
+          - generic [ref=e128]: 
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - generic [ref=e134]: Contacts
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e138] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e140]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e142]:
+            - link "bry@blrt.ee" [ref=e143] [cursor=pointer]:
+              - /url: mailto:bry@blrt.ee
+              - img [ref=e145]
+              - text: bry@blrt.ee
+          - listitem [ref=e147]:
+            - link "+372 610 2252" [ref=e148] [cursor=pointer]:
+              - /url: tel:+372 610 2252
+              - img [ref=e150]
+              - text: +372 610 2252
+      - generic [ref=e152]:
+        - generic [ref=e153]: LINKS
+        - list [ref=e155]:
+          - listitem [ref=e156]:
+            - link " About us" [ref=e157] [cursor=pointer]:
+              - /url: https://blrtyards.com/en/about-us/
+          - listitem [ref=e158]:
+            - link " News" [ref=e159] [cursor=pointer]:
+              - /url: https://blrtyards.com/en/news/
+          - listitem [ref=e160]:
+            - link " Contacts" [ref=e161] [cursor=pointer]:
+              - /url: https://blrtyards.com/en/contacts/
+      - list [ref=e164]:
+        - listitem [ref=e165]:
+          - link " Facebook" [ref=e166] [cursor=pointer]:
+            - /url: https://www.facebook.com/blrtgrupp
+            - generic [ref=e167]: 
+            - text: Facebook
+        - listitem [ref=e168]:
+          - link " Linkedin" [ref=e169] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/blrt-yards/
+            - generic [ref=e170]: 
+            - text: Linkedin
+        - listitem [ref=e171]:
+          - link " Youtube" [ref=e172] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCdwjMI8zIEMgqfPwIPNSLVg?view_as=subscriber
+            - generic [ref=e173]: 
+            - text: Youtube
+    - contentinfo [ref=e174]:
+      - generic [ref=e177]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e178] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e179]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e180]:
+    - generic [ref=e181]:
+      - generic [ref=e182]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e184] [cursor=pointer]
+      - button "No" [ref=e185] [cursor=pointer]
+  - iframe [ref=e188]:
+    - generic [ref=f17e6]:
+      - text: protected by
+      - strong [ref=f17e7]: reCAPTCHA

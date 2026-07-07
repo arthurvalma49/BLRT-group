@@ -1,0 +1,151 @@
+- generic [active] [ref=e1]:
+  - text:           
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://barselekter.com/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "About us" [ref=e13] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/about-us/
+              - listitem [ref=e14]:
+                - link "News" [ref=e15] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/news/
+              - listitem [ref=e16]:
+                - link "Contacts" [ref=e17] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/contacts/
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - link "En" [ref=e21] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/
+                  - generic [ref=e22]: En
+          - navigation [ref=e23]:
+            - list [ref=e24]:
+              - listitem [ref=e25]:
+                - link " Services" [ref=e26] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/activities-list/services/
+              - listitem [ref=e27]:
+                - link " Products" [ref=e28] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/activities-list/products/
+              - listitem [ref=e29]:
+                - link " Solutions" [ref=e30] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/activities-list/solutions/
+              - listitem [ref=e31]:
+                - link " Green ICT Projects" [ref=e32] [cursor=pointer]:
+                  - /url: https://barselekter.com/en/green-ict-project/
+    - main [ref=e33]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: About us
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Bars Elekter is a subsidiary of BLRT Grupp, one of the largest industrial holdings in the Baltic Sea region. The company has branches in Estonia and Norway.
+            - paragraph [ref=e42]
+          - link "Read more " [ref=e44] [cursor=pointer]:
+            - /url: " /en/about-us/"
+            - generic [ref=e45]: Read more
+            - generic [ref=e46]: 
+        - generic [ref=e47]:
+          - generic [ref=e50]:
+            - strong [ref=e51]: "500"
+            - text: successfully completed projects worldwide
+          - generic [ref=e54]:
+            - strong [ref=e55]: "10"
+            - text: types of multidisciplinary services
+          - generic [ref=e58]:
+            - strong [ref=e59]: "3"
+            - text: patents for our products are registered at this point
+          - generic:
+            - generic:
+              - generic:
+                - strong
+      - generic [ref=e60]:
+        - generic [ref=e62]: Activities
+        - generic [ref=e64]:
+          - link "Services" [ref=e66] [cursor=pointer]:
+            - /url: https://barselekter.com/en/activities-list/services/
+          - link "Products" [ref=e68] [cursor=pointer]:
+            - /url: https://barselekter.com/en/activities-list/products/
+          - link "Solutions" [ref=e70] [cursor=pointer]:
+            - /url: https://barselekter.com/en/activities-list/solutions/
+      - generic [ref=e72]:
+        - generic [ref=e73]: Company news
+        - generic [ref=e75]:
+          - generic [ref=e77]:
+            - link [ref=e78] [cursor=pointer]:
+              - /url: https://barselekter.com/en/news-list/happy-independence-day-estonia-3/
+            - generic [ref=e79]:
+              - generic [ref=e80]: 23.02.2026
+              - link "Happy Independence Day, Estonia!" [ref=e81] [cursor=pointer]:
+                - /url: https://barselekter.com/en/news-list/happy-independence-day-estonia-3/
+              - link "Read more " [ref=e83] [cursor=pointer]:
+                - /url: https://barselekter.com/en/news-list/happy-independence-day-estonia-3/
+                - generic [ref=e84]: Read more
+                - generic [ref=e85]: 
+          - generic [ref=e87]:
+            - link [ref=e88] [cursor=pointer]:
+              - /url: https://barselekter.com/en/news-list/happy-holidays-3/
+            - generic [ref=e89]:
+              - generic [ref=e90]: 18.12.2025
+              - link "Happy Holidays!" [ref=e91] [cursor=pointer]:
+                - /url: https://barselekter.com/en/news-list/happy-holidays-3/
+              - link "Read more " [ref=e93] [cursor=pointer]:
+                - /url: https://barselekter.com/en/news-list/happy-holidays-3/
+                - generic [ref=e94]: Read more
+                - generic [ref=e95]: 
+          - generic [ref=e97]:
+            - link [ref=e98] [cursor=pointer]:
+              - /url: https://barselekter.com/en/news-list/happy-independence-restoration-day-estonia-2/
+            - generic [ref=e99]:
+              - generic [ref=e100]: 19.08.2025
+              - link "Happy Independence Restoration Day, Estonia!" [ref=e101] [cursor=pointer]:
+                - /url: https://barselekter.com/en/news-list/happy-independence-restoration-day-estonia-2/
+              - link "Read more " [ref=e103] [cursor=pointer]:
+                - /url: https://barselekter.com/en/news-list/happy-independence-restoration-day-estonia-2/
+                - generic [ref=e104]: Read more
+                - generic [ref=e105]: 
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]: Contacts
+        - list [ref=e112]:
+          - listitem [ref=e113]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e114] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e116]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e118]:
+            - link "barselekter@blrt.ee" [ref=e119] [cursor=pointer]:
+              - /url: mailto:barselekter@blrt.ee
+              - img [ref=e121]
+              - text: barselekter@blrt.ee
+          - listitem [ref=e123]:
+            - link "+372 5326 9035" [ref=e124] [cursor=pointer]:
+              - /url: tel:+372 5326 9035
+              - img [ref=e126]
+              - text: +372 5326 9035
+      - generic [ref=e128]:
+        - generic [ref=e129]: LINKS
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - link " About us" [ref=e133] [cursor=pointer]:
+              - /url: https://barselekter.com/en/about-us/
+          - listitem [ref=e134]:
+            - link " Contacts" [ref=e135] [cursor=pointer]:
+              - /url: https://barselekter.com/en/contacts/
+      - generic [ref=e136]:
+        - list
+        - img [ref=e138]
+    - contentinfo [ref=e139]:
+      - generic [ref=e142]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e143] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e144]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e145]:
+    - generic [ref=e146]:
+      - generic [ref=e147]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e149] [cursor=pointer]
+      - button "No" [ref=e150] [cursor=pointer]

@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - text:         
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrtrekato.ee/et/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - link "Ettevõttest" [ref=e17] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/et/kontsernist/
+              - listitem [ref=e18]:
+                - link "Meie võimekus" [ref=e19] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/et/meie-voimekus/
+              - listitem [ref=e20]:
+                - link "Tegevussuunad" [ref=e21] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/et/tegevussuunad/
+              - listitem [ref=e22]:
+                - link "Kontaktid" [ref=e23] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/et/kontaktid/
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link "Ee" [ref=e27] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/et/
+                  - generic [ref=e28]: Ee
+              - listitem [ref=e29]:
+                - link "Switch to En" [ref=e30] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/en/
+                  - generic [ref=e31]: En
+              - listitem [ref=e32]:
+                - link "Switch to Ru" [ref=e33] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/ru/
+                  - generic [ref=e34]: Ru
+          - navigation [ref=e35]:
+            - list [ref=e36]:
+              - listitem [ref=e37]:
+                - link " Video" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=EZPUklVclK8
+              - listitem [ref=e39]:
+                - link " Virtuaaltuur" [ref=e40] [cursor=pointer]:
+                  - /url: https://blrtrekato.ee/et/virtuaaltuur/
+    - main [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - generic [ref=e56]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - generic [ref=e60]:
+              - generic:
+                - heading [level=2]
+        - generic [ref=e61]:
+          - button "Go to slide 1" [ref=e62] [cursor=pointer]
+          - button "Go to slide 2" [ref=e63] [cursor=pointer]
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e68]: Ettevõttest
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: 2000. aastal asutatud BLRT Rekato kuulub Baltimaade suurimasse tööstuskontserni BLRT Grupp.
+            - paragraph [ref=e71]: Meie ettevõte tegutseb laevaremondi, laevaehituse, nafta- ja gaasitööstuse valdkonnas.
+          - link "Video " [ref=e73] [cursor=pointer]:
+            - /url: " https://www.youtube.com/watch?v=EZPUklVclK8"
+            - generic [ref=e74]: Video
+            - generic [ref=e75]: 
+          - link "LÄHEMALT " [ref=e77] [cursor=pointer]:
+            - /url: " /et/kontsernist/"
+            - generic [ref=e78]: LÄHEMALT
+            - generic [ref=e79]: 
+        - generic [ref=e80]:
+          - generic [ref=e82]:
+            - img "ico-1" [ref=e84]
+            - generic [ref=e86]:
+              - strong [ref=e87]:
+                - text: 6420 m
+                - superscript [ref=e88]: "2"
+              - text: suurune tootmispind
+          - generic [ref=e90]:
+            - img "ico-2" [ref=e92]
+            - generic [ref=e102]:
+              - strong [ref=e103]: "100"
+              - text: spetsialisti
+          - generic [ref=e105]:
+            - img [ref=e107]
+            - generic [ref=e109]:
+              - strong [ref=e110]: 45 tonni
+              - text: kuus on tootmisvõimsus
+      - generic [ref=e114]:
+        - generic [ref=e116]: Meie võimekus
+        - paragraph [ref=e118]:
+          - text: BLRT Rekato käsutuses on 6420 m
+          - superscript [ref=e119]: "2"
+          - text: suurune tootmistsehh, kus on arvukalt eritööpinke, mis on mõeldud torustike, profiilkonstruktsioonide valmistamiseks ja metalli töötlemiseks.
+        - link "LÄHEMALT " [ref=e121] [cursor=pointer]:
+          - /url: /et/meie-voimekus/
+          - generic [ref=e122]: LÄHEMALT
+          - generic [ref=e123]: 
+      - generic [ref=e124]:
+        - generic [ref=e126]: Tegevussuunad
+        - generic [ref=e127]:
+          - generic [ref=e129]:
+            - link "Nafta- ja gaasitööstus, taastuvenergeetika" [ref=e132] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/nafta-ja-gaasitoostus-taastuvenergeetika/
+              - generic [ref=e133]: Nafta- ja gaasitööstus, taastuvenergeetika
+            - link "Laevaremont" [ref=e136] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/laevaremont/
+              - generic [ref=e138]: Laevaremont
+            - link "Laevaehitus" [ref=e141] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/laevaehitus/
+              - generic [ref=e142]: Laevaehitus
+            - link "Nafta- ja gaasitööstus, taastuvenergeetika" [ref=e145] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/nafta-ja-gaasitoostus-taastuvenergeetika/
+              - generic [ref=e146]: Nafta- ja gaasitööstus, taastuvenergeetika
+            - link "Laevaremont" [ref=e149] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/laevaremont/
+              - generic [ref=e151]: Laevaremont
+            - link "Laevaehitus" [ref=e154] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/laevaehitus/
+              - generic [ref=e155]: Laevaehitus
+            - link "Nafta- ja gaasitööstus, taastuvenergeetika" [ref=e158] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/nafta-ja-gaasitoostus-taastuvenergeetika/
+              - generic [ref=e159]: Nafta- ja gaasitööstus, taastuvenergeetika
+            - link "Laevaremont" [ref=e162] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/laevaremont/
+              - generic [ref=e164]: Laevaremont
+            - link "Laevaehitus" [ref=e167] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/tegevussuunad-et/laevaehitus/
+              - generic [ref=e168]: Laevaehitus
+          - generic [ref=e169]:
+            - button "Go to slide 1" [ref=e170] [cursor=pointer]
+            - button "Go to slide 2" [ref=e171] [cursor=pointer]
+            - button "Go to slide 3" [ref=e172] [cursor=pointer]
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: Kontaktid
+        - list [ref=e179]:
+          - listitem [ref=e180]:
+            - link "Kopli 103, 11712 Tallinn, Eesti" [ref=e181] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e183]
+              - text: Kopli 103, 11712 Tallinn, Eesti
+          - listitem [ref=e185]:
+            - link "rekato@blrt.ee" [ref=e186] [cursor=pointer]:
+              - /url: mailto:rekato@blrt.ee
+              - img [ref=e188]
+              - text: rekato@blrt.ee
+          - listitem [ref=e190]:
+            - link "+372 610 2504" [ref=e191] [cursor=pointer]:
+              - /url: tel:+372 610 2504
+              - img [ref=e193]
+              - text: +372 610 2504
+      - generic [ref=e195]:
+        - generic [ref=e196]: LINGID
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - link " Ettevõttest" [ref=e200] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/kontsernist/
+          - listitem [ref=e201]:
+            - link " Kontaktid" [ref=e202] [cursor=pointer]:
+              - /url: https://blrtrekato.ee/et/kontaktid/
+      - link [ref=e204] [cursor=pointer]:
+        - /url: https://blrtrekato.ee/et/blrt-rekato-ou-ressursitohususe-investeering/
+        - img [ref=e205]
+    - contentinfo [ref=e207]:
+      - generic [ref=e210]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e211] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e212]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e213]:
+    - generic [ref=e214]:
+      - generic [ref=e215]: Sellel veebilehel kasutatakse küpsiseid. Kasutamist jätkates nõustud küpsiste kasutamisega.
+      - button "Ok" [ref=e217] [cursor=pointer]
+      - button "No" [ref=e218] [cursor=pointer]
+  - iframe [ref=e221]:
+    - generic [ref=f7e6]:
+      - text: protected by
+      - strong [ref=f7e7]: reCAPTCHA

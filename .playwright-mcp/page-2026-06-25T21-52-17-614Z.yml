@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - text:       
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://portvenebalti.ee/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "About us" [ref=e13] [cursor=pointer]:
+                  - /url: https://portvenebalti.ee/en/about-us/
+              - listitem [ref=e14]:
+                - link "Activities" [ref=e15] [cursor=pointer]:
+                  - /url: https://portvenebalti.ee/en/activities/
+              - listitem [ref=e16]:
+                - link "Contacts" [ref=e17] [cursor=pointer]:
+                  - /url: https://portvenebalti.ee/en/contacts/
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - link "Switch to Ee" [ref=e21] [cursor=pointer]:
+                  - /url: https://portvenebalti.ee/et/
+                  - generic [ref=e22]: Ee
+              - listitem [ref=e23]:
+                - link "En" [ref=e24] [cursor=pointer]:
+                  - /url: https://portvenebalti.ee/en/
+                  - generic [ref=e25]: En
+              - listitem [ref=e26]:
+                - link "Switch to Ru" [ref=e27] [cursor=pointer]:
+                  - /url: https://portvenebalti.ee/ru/
+                  - generic [ref=e28]: Ru
+          - navigation
+    - main [ref=e29]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: About us
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: Vene-Balti Port is located on the Kopli peninsula in Tallinn. The size of our port water area is 168.3 hectares. We are open to ships year-round.
+            - paragraph [ref=e38]:
+              - text: Vene-Balti Port provides
+              - link "towing" [ref=e39] [cursor=pointer]:
+                - /url: https://portvenebalti.ee/en/activities-list/tugs/
+              - text: and
+              - link "mooring" [ref=e40] [cursor=pointer]:
+                - /url: https://portvenebalti.ee/en/activities-list/berths/
+              - text: services for ships. Our berths are equipped with essential infrastructure for the supply of fresh water, compressed air and electric power.
+          - link "VBS Price List " [ref=e42] [cursor=pointer]:
+            - /url: " /wp-content/uploads/2026/02/en-vbs-sadamatasud-2026.pdf"
+            - generic [ref=e43]: VBS Price List
+            - generic [ref=e44]: 
+          - link "VBS Rules " [ref=e46] [cursor=pointer]:
+            - /url: " /wp-content/uploads/2026/04/en-vene-balti-sadama-sadama-eeskiri-2026.pdf"
+            - generic [ref=e47]: VBS Rules
+            - generic [ref=e48]: 
+          - link "Port Map " [ref=e50] [cursor=pointer]:
+            - /url: " https://portvenebalti.ee/wp-content/maps/port_kopli_ship.png?3315"
+            - generic [ref=e51]: Port Map
+            - generic [ref=e52]: 
+          - link "Weather " [ref=e54] [cursor=pointer]:
+            - /url: " /en/weather/"
+            - generic [ref=e55]: Weather
+            - generic [ref=e56]: 
+          - link "Territory map " [ref=e58] [cursor=pointer]:
+            - /url: " /wp-content/uploads/2026/01/entrance-map_kopli-103_2025.pdf"
+            - generic [ref=e59]: Territory map
+            - generic [ref=e60]: 
+          - link "Read more " [ref=e62] [cursor=pointer]:
+            - /url: " https://portvenebalti.ee/en/about-us/"
+            - generic [ref=e63]: Read more
+            - generic [ref=e64]: 
+        - generic [ref=e65]:
+          - generic [ref=e68]:
+            - strong [ref=e69]: "2360"
+            - text: meters total length of berths
+          - generic [ref=e72]:
+            - strong [ref=e73]: "850"
+            - text: tons crane lifting capacity
+          - generic [ref=e76]:
+            - strong [ref=e77]: "500"
+            - text: tons loading capacity transporter system KAMAG
+          - generic [ref=e80]:
+            - strong [ref=e81]: "100"
+            - text: tons floating crane capacity
+          - generic [ref=e84]:
+            - strong [ref=e85]: "2"
+            - text: tugs
+      - generic [ref=e86]:
+        - generic [ref=e88]: Activities
+        - generic [ref=e91]:
+          - link "Berths" [ref=e94] [cursor=pointer]:
+            - /url: https://portvenebalti.ee/en/activities-list/berths/
+            - strong [ref=e96]: Berths
+          - link "Tugs" [ref=e99] [cursor=pointer]:
+            - /url: https://portvenebalti.ee/en/activities-list/tugs/
+            - strong [ref=e101]: Tugs
+          - link "Floating crane" [ref=e104] [cursor=pointer]:
+            - /url: https://portvenebalti.ee/en/activities-list/floating-crane/
+            - strong [ref=e106]: Floating crane
+      - text:  
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]: Contacts
+        - list [ref=e113]:
+          - listitem [ref=e114]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e115] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e117]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e119]:
+            - link "port@blrt.ee" [ref=e120] [cursor=pointer]:
+              - /url: mailto:port@blrt.ee
+              - img [ref=e122]
+              - text: port@blrt.ee
+          - listitem [ref=e124]:
+            - link "+372 610 2753" [ref=e125] [cursor=pointer]:
+              - /url: tel:+372 610 2753
+              - img [ref=e127]
+              - text: +372 610 2753
+      - generic [ref=e129]:
+        - generic [ref=e130]: LINKS
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link " About us" [ref=e134] [cursor=pointer]:
+              - /url: https://portvenebalti.ee/en/about-us/
+          - listitem [ref=e135]:
+            - link " Activities" [ref=e136] [cursor=pointer]:
+              - /url: https://portvenebalti.ee/en/activities/
+          - listitem [ref=e137]:
+            - link " Contacts" [ref=e138] [cursor=pointer]:
+              - /url: https://portvenebalti.ee/en/contacts/
+      - generic [ref=e139]:
+        - list
+    - contentinfo [ref=e141]:
+      - generic [ref=e144]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e145] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e146]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e147]:
+    - generic [ref=e148]:
+      - generic [ref=e149]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e151] [cursor=pointer]
+      - button "No" [ref=e152] [cursor=pointer]

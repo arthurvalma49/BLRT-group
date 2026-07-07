@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - text:        
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://tehnometsurvey.ee/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - list [ref=e11]:
+              - listitem [ref=e12]:
+                - link "About us" [ref=e13] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/about-us/
+              - listitem [ref=e14]:
+                - link "Contacts" [ref=e15] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/contacts/
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "En" [ref=e19] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/
+                  - generic [ref=e20]: En
+              - listitem [ref=e21]:
+                - link "Switch to Ru" [ref=e22] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/ru/
+                  - generic [ref=e23]: Ru
+          - navigation [ref=e24]:
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link " Activities" [ref=e27] [cursor=pointer]:
+                  - /url: https://tehnometsurvey.ee/en/activities/
+    - main [ref=e28]:
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: About us
+          - generic [ref=e35]:
+            - paragraph [ref=e36]: Tehnomet Survey is an actively developing service company, operating in the field of ship repair and inspection of hull structures of marine vessels, founded in 1998.
+            - paragraph [ref=e37]: "We operate worldwide. Our technicians have all the necessary documents to be mobilized on a short notice and arrive on a spot as per client`s request, wherever vessel is located."
+            - paragraph [ref=e38]
+            - paragraph [ref=e39]
+          - link "Read more " [ref=e41] [cursor=pointer]:
+            - /url: " /about-us/"
+            - generic [ref=e42]: Read more
+            - generic [ref=e43]: 
+        - generic [ref=e44]:
+          - generic [ref=e47]:
+            - strong [ref=e48]: 24/7
+            - text: at your service to resolve immediate issues
+          - generic [ref=e51]:
+            - strong [ref=e52]: "300"
+            - text: vessels inspected per year
+      - generic [ref=e53]:
+        - generic [ref=e55]: Activities
+        - generic [ref=e56]:
+          - generic [ref=e58]:
+            - link "Non-destructive testing (NDT)" [ref=e61] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities-list/non-destructive-testing-ndt/
+              - generic [ref=e62]: Non-destructive testing (NDT)
+            - link "UTM and steel supervision" [ref=e65] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities-list/utm-and-steel-supervision/
+              - generic [ref=e66]: UTM and steel supervision
+            - link "Non-destructive testing (NDT)" [ref=e69] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities-list/non-destructive-testing-ndt/
+              - generic [ref=e70]: Non-destructive testing (NDT)
+            - link "UTM and steel supervision" [ref=e73] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities-list/utm-and-steel-supervision/
+              - generic [ref=e74]: UTM and steel supervision
+            - link "Non-destructive testing (NDT)" [ref=e77] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities-list/non-destructive-testing-ndt/
+              - generic [ref=e78]: Non-destructive testing (NDT)
+            - link "UTM and steel supervision" [ref=e81] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities-list/utm-and-steel-supervision/
+              - generic [ref=e82]: UTM and steel supervision
+          - button "Previous slide" [ref=e83] [cursor=pointer]:
+            - generic [ref=e84]: 
+          - button "Next slide" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]: 
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]: Contacts
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Tehnomet Survey OÜ" [ref=e95] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e97]
+              - text: Tehnomet Survey OÜ
+          - listitem [ref=e99]:
+            - link "ts@blrt.ee" [ref=e100] [cursor=pointer]:
+              - /url: mailto:ts@blrt.ee
+              - img [ref=e102]
+              - text: ts@blrt.ee
+          - listitem [ref=e104]:
+            - link "+372 610 2997" [ref=e105] [cursor=pointer]:
+              - /url: tel:+372 610 2997
+              - img [ref=e107]
+              - text: +372 610 2997
+      - generic [ref=e109]:
+        - generic [ref=e110]: LINKS
+        - list [ref=e112]:
+          - listitem [ref=e113]:
+            - link " About us" [ref=e114] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/about-us/
+          - listitem [ref=e115]:
+            - link " Activities" [ref=e116] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/activities/
+          - listitem [ref=e117]:
+            - link " Contacts" [ref=e118] [cursor=pointer]:
+              - /url: https://tehnometsurvey.ee/en/contacts/
+      - generic [ref=e119]:
+        - list
+    - contentinfo [ref=e121]:
+      - generic [ref=e124]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e125] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e126]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e127]:
+    - generic [ref=e128]:
+      - generic [ref=e129]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e131] [cursor=pointer]
+      - button "No" [ref=e132] [cursor=pointer]

@@ -1,4 +1,4 @@
-export type Lang = "EN" | "RU" | "ET";
+export type Lang = "EN" | "RU" | "ET" | "LT" | "LV" | "FI" | "PL";
 
 const translations = {
   // Nav
@@ -212,8 +212,8 @@ const translations = {
   "contacts.heroTitle": { EN: "Get in touch with BLRT Grupp.", RU: "Свяжитесь с BLRT Grupp.", ET: "Võta ühendust BLRT Grupiga." },
   "contacts.heroDesc": { EN: "Our head office is at Kopli 103, Tallinn. Reach out by phone or email. We respond within hours.", RU: "Наш головной офис находится по адресу Копли 103, Таллин. Свяжитесь с нами по телефону или электронной почте — мы отвечаем в течение нескольких часов.", ET: "Meie peakontor asub Kopli 103, Tallinn. Võtke ühendust telefoni või e-posti teel — vastame tundide jooksul." },
   "contacts.available": { EN: "Available 24/7", RU: "Доступны 24/7", ET: "Saadaval 24/7" },
-  "contacts.companyName": { EN: "Tehnomet Survey OÜ", RU: "Tehnomet Survey OÜ", ET: "Tehnomet Survey OÜ" },
-  "contacts.companyDesc": { EN: "Ship Repair & Hull Inspection", RU: "Судоремонт и инспекция корпусов", ET: "Laevaremont ja kere inspekteerimine" },
+  "contacts.companyName": { EN: "BLRT Grupp AS", RU: "BLRT Grupp AS", ET: "BLRT Grupp AS" },
+  "contacts.companyDesc": { EN: "Baltic Industrial Holding", RU: "Балтийский промышленный холдинг", ET: "Balti tööstusvaldusettevõte" },
   "contacts.phone": { EN: "Phone", RU: "Телефон", ET: "Telefon" },
   "contacts.email": { EN: "Email", RU: "Эл. почта", ET: "E-post" },
   "contacts.address": { EN: "Address", RU: "Адрес", ET: "Aadress" },
@@ -291,9 +291,9 @@ const translations = {
   "blrt.heroTitle1": { EN: "Baltic industry,", RU: "Балтийская промышленность,", ET: "Balti tööstus," },
   "blrt.heroTitle2": { EN: "built to endure.", RU: "созданная на века.", ET: "loodud kestma." },
   "blrt.heroDesc": {
-    EN: "17 companies. 6 industrial sectors. Over a century of shipbuilding and maritime engineering across Estonia, Latvia, Lithuania, Finland and Norway.",
-    RU: "17 компаний. 6 промышленных секторов. Более века инженерного совершенства в Эстонии, Латвии, Литве, Финляндии и Норвегии.",
-    ET: "17 ettevõtet. 6 tööstussektorit. Üle sajandi insenerivõimekust Eestis, Lätis, Leedus, Soomes ja Norras.",
+    EN: "50+ companies. 6 industrial sectors. Over a century of shipbuilding and maritime engineering across Estonia, Latvia, Lithuania, Finland, Poland, Ukraine and Brazil.",
+    RU: "Более 50 компаний. 6 промышленных секторов. Более века инженерного совершенства в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии.",
+    ET: "50+ ettevõtet. 6 tööstussektorit. Üle sajandi insenerivõimekust Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias.",
   },
   "blrt.exploreCompanies": { EN: "Explore Companies", RU: "Наши компании", ET: "Tutvu ettevõtetega" },
   "blrt.contactUs": { EN: "Contact Us", RU: "Связаться", ET: "Võta ühendust" },
@@ -301,16 +301,15 @@ const translations = {
   "blrt.stat.countries": { EN: "Countries", RU: "Стран", ET: "Riiki" },
   "blrt.stat.sectors": { EN: "Sectors", RU: "Секторов", ET: "Sektorit" },
   "blrt.stat.founded": { EN: "Founded", RU: "Основана", ET: "Asutatud" },
-  "blrt.readMore": { EN: "Read more", RU: "Подробнее", ET: "Loe edasi" },
-  "blrt.showLess": { EN: "Show less", RU: "Свернуть", ET: "Peida" },
+  "blrt.viewService": { EN: "View service", RU: "Подробнее об услуге", ET: "Vaata teenust" },
   "blrt.companiesLabel": { EN: "Our Group", RU: "Наша группа", ET: "Meie grupp" },
-  "blrt.companiesTitle": { EN: "17 companies across 6 sectors", RU: "17 компаний в 6 секторах", ET: "17 ettevõtet 6 sektoris" },
+  "blrt.companiesTitle": { EN: "50+ companies across 6 sectors", RU: "Более 50 компаний в 6 секторах", ET: "50+ ettevõtet 6 sektoris" },
   "blrt.aboutLabel": { EN: "About BLRT Grupp", RU: "О BLRT Grupp", ET: "BLRT Grupist" },
   "blrt.aboutTitle": { EN: "Over a century of Baltic industrial operations", RU: "Столетие балтийского промышленного лидерства", ET: "Sajand Balti tööstusjuhtimist" },
   "blrt.aboutP1": {
-    EN: "BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate 17 companies across five countries.",
-    RU: "BLRT Grupp является одним из крупнейших промышленных холдингов Балтийского региона с историей, уходящей корнями в 1912 год. От судостроения и судоремонта до морской инспекции, инжиниринга и материалов — мы управляем 17 компаниями в пяти странах.",
-    ET: "BLRT Grupp on üks suurimaid tööstushoiuettevõtteid Balti piirkonnas, mille juured ulatuvad 1912. aastasse. Laevaehitusest ja laevaremondist kuni mereinspektsiooni, inseneeria ja materjalideni — tegutseme 17 ettevõttega viies riigis.",
+    EN: "BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate more than 50 companies across Estonia, Latvia, Lithuania, Finland, Poland, Ukraine and Brazil.",
+    RU: "BLRT Grupp является одним из крупнейших промышленных холдингов Балтийского региона с историей, уходящей корнями в 1912 год. От судостроения и судоремонта до морской инспекции, инжиниринга и материалов — мы управляем более чем 50 компаниями в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии.",
+    ET: "BLRT Grupp on üks suurimaid tööstushoiuettevõtteid Balti piirkonnas, mille juured ulatuvad 1912. aastasse. Laevaehitusest ja laevaremondist kuni mereinspektsiooni, inseneeria ja materjalideni — tegutseme enam kui 50 ettevõttega Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias.",
   },
   "blrt.aboutP2": {
     EN: "Our companies share engineering expertise, shipyard infrastructure and a network of maritime specialists across the Baltic Sea region.",
@@ -324,14 +323,14 @@ const translations = {
   "blrt.about.heroTitle": { EN: "Building the Baltic. Since 1912.", RU: "Строим Балтику. С 1912 года.", ET: "Ehitame Baltikumi. Alates 1912." },
   "blrt.about.ourStory": { EN: "Our Story", RU: "Наша история", ET: "Meie lugu" },
   "blrt.about.storyP1": {
-    EN: "BLRT Grupp traces its origins to the Tallinn shipyard established in 1912, then one of the largest industrial facilities in the Russian Empire. Through a century of transformation, spanning two world wars, Soviet industrialisation, Estonian independence and Baltic integration into the European Union, the group evolved into the diversified industrial holding it is today.",
-    RU: "История BLRT Grupp восходит к таллинской верфи, основанной в 1912 году, — одному из крупнейших промышленных предприятий Российской империи. Пережив век преобразований — две мировые войны, советскую индустриализацию, восстановление независимости Эстонии и интеграцию Балтии в Европейский союз, — группа превратилась в диверсифицированный промышленный холдинг.",
-    ET: "BLRT Grupi ajalugu ulatub 1912. aastal asutatud Tallinna laevatehase juurde, mis oli tol ajal üks suurimaid tööstusettevõtteid Vene impeeriumis. Läbi sajandi muutuste — kahe maailmasõja, Nõukogude industrialiseerimise, Eesti iseseisvuse taastamise ja Balti riikide Euroopa Liitu integreerumise — arenes grupp tänapäeva mitmekesiseks tööstusvaldusettevõtteks.",
+    EN: "BLRT Grupp traces its origins to 12 June 1912, when the Russo-Baltic Shipbuilding Yard was founded on the Kopli peninsula in Tallinn — then one of the largest industrial facilities in the Russian Empire. Through a century of transformation, spanning two world wars, Soviet industrialisation, Estonian independence and Baltic integration into the European Union, the group evolved into the diversified industrial holding it is today. The name BLRT Grupp was adopted in 2001.",
+    RU: "История BLRT Grupp восходит к 12 июня 1912 года, когда на полуострове Копли в Таллинне был основан Русско-Балтийский судостроительный завод — одно из крупнейших промышленных предприятий Российской империи. Пережив век преобразований — две мировые войны, советскую индустриализацию, восстановление независимости Эстонии и интеграцию Балтии в Европейский союз, — группа превратилась в диверсифицированный промышленный холдинг. Название BLRT Grupp было принято в 2001 году.",
+    ET: "BLRT Grupi ajalugu ulatub 12. juunini 1912, mil Tallinna Kopli poolsaarele asutati Vene-Balti laevaehitustehas — tol ajal üks suurimaid tööstusettevõtteid Vene impeeriumis. Läbi sajandi muutuste — kahe maailmasõja, Nõukogude industrialiseerimise, Eesti iseseisvuse taastamise ja Balti riikide Euroopa Liitu integreerumise — arenes grupp tänapäeva mitmekesiseks tööstusvaldusettevõtteks. Nimi BLRT Grupp võeti kasutusele 2001. aastal.",
   },
   "blrt.about.storyP2": {
-    EN: "Today, BLRT Grupp operates 17 companies across Estonia, Latvia, Lithuania, Finland and Norway. Our core competencies remain maritime: ship repair, shipbuilding and marine services. The group has grown to encompass engineering, materials, logistics and industrial gas production.",
-    RU: "Сегодня BLRT Grupp управляет 17 компаниями в Эстонии, Латвии, Литве, Финляндии и Норвегии. Наши основные компетенции по-прежнему связаны с морской отраслью — судоремонтом, судостроением и морскими услугами, — однако группа расширилась до инжиниринга, материалов, логистики и производства промышленных газов.",
-    ET: "Täna tegutseb BLRT Grupp 17 ettevõttega Eestis, Lätis, Leedus, Soomes ja Norras. Meie põhipädevused on endiselt merinduses — laevaremondis, laevaehituses ja merendusteenustes — kuid grupp on laienenud inseneeriasse, materjalidesse, logistikasse ja tööstuslike gaaside tootmisse.",
+    EN: "Today, BLRT Grupp operates more than 50 companies across Estonia, Latvia, Lithuania, Finland, Poland, Ukraine and Brazil, employing over 4,000 people. Our core competencies remain maritime: ship repair, shipbuilding and marine services. The group has grown to encompass engineering, materials, logistics, industrial gas production, stevedoring and offshore fabrication.",
+    RU: "Сегодня BLRT Grupp управляет более чем 50 компаниями в Эстонии, Латвии, Литве, Финляндии, Польше, Украине и Бразилии, насчитывая свыше 4 000 сотрудников. Наши основные компетенции по-прежнему связаны с морской отраслью — судоремонтом, судостроением и морскими услугами, — однако группа расширилась до инжиниринга, материалов, логистики, производства промышленных газов, стивидорных операций и офшорного производства.",
+    ET: "Täna tegutseb BLRT Grupp rohkem kui 50 ettevõttega Eestis, Lätis, Leedus, Soomes, Poolas, Ukrainas ja Brasiilias, andes tööd üle 4 000 inimesele. Meie põhipädevused on endiselt merinduses — laevaremondis, laevaehituses ja merendusteenustes — kuid grupp on laienenud inseneeriasse, materjalidesse, logistikasse, tööstuslike gaaside tootmisse, sadamateenustesse ja offshore-konstruktsioonide valmistamisse.",
   },
   "blrt.about.storyP3": {
     EN: "Headquartered at Kopli, Tallinn (the historic heart of Estonian maritime industry), BLRT Grupp continues to grow through strategic partnerships and organic development. Commitment to Baltic industrial tradition and engineering quality unites every company in the group.",
@@ -348,12 +347,128 @@ const translations = {
 
   // Footer (BLRT rebrand)
   "footer.blrtTagline": {
-    EN: "One industrial group. Seventeen companies. A century of Baltic maritime and engineering tradition.",
-    RU: "Одна промышленная группа. Семнадцать компаний. Столетие балтийской морской и инженерной традиции.",
-    ET: "Üks tööstusgrupp. Seitseteist ettevõtet. Sajand Balti merenduse ja inseneritraditsiooni.",
+    EN: "One industrial group. 50+ companies. A century of Baltic maritime and engineering tradition.",
+    RU: "Одна промышленная группа. Более 50 компаний. Столетие балтийской морской и инженерной традиции.",
+    ET: "Üks tööstusgrupp. 50+ ettevõtet. Sajand Balti merenduse ja inseneritraditsiooni.",
   },
   "footer.companies": { EN: "Companies", RU: "Компании", ET: "Ettevõtted" },
   "footer.blrtMotto": { EN: "Baltic Industry · Built to Endure", RU: "Балтийская промышленность · Создана на века", ET: "Balti tööstus · Loodud kestma" },
+
+  // Navigation — new pages
+  "nav.news":           { EN: "News",           RU: "Новости",             ET: "Uudised"           },
+  "nav.careers":        { EN: "Careers",         RU: "Карьера",             ET: "Karjäär"           },
+  "nav.projects":       { EN: "Projects",        RU: "Проекты",             ET: "Projektid"         },
+  "nav.sustainability": { EN: "Sustainability",  RU: "Устойчивое развитие", ET: "Jätkusuutlikkus"  },
+
+  // News page
+  "news.hero.title":      { EN: "News & Press",          RU: "Новости и пресса",          ET: "Uudised ja press"         },
+  "news.hero.sub":        { EN: "Latest updates from BLRT Grupp and its companies.", RU: "Последние обновления от BLRT Grupp и её компаний.", ET: "Viimased uudised BLRT Grupist ja selle ettevõtetest." },
+  "news.filter.all":      { EN: "All",                   RU: "Все",                        ET: "Kõik"                     },
+  "news.filter.press":    { EN: "Press Release",         RU: "Пресс-релиз",               ET: "Pressiteade"              },
+  "news.filter.company":  { EN: "Company News",          RU: "Новости компании",           ET: "Ettevõtte uudis"          },
+  "news.filter.project":  { EN: "Project",               RU: "Проект",                     ET: "Projekt"                  },
+  "news.readmore":        { EN: "Read more",             RU: "Подробнее",                  ET: "Loe edasi"                },
+  "news.empty":           { EN: "No news in this category yet.", RU: "В этой категории пока нет новостей.", ET: "Selles kategoorias pole veel uudiseid." },
+
+  // Projects page
+  "projects.hero.title":   { EN: "Projects",             RU: "Проекты",                   ET: "Projektid"                },
+  "projects.hero.sub":     { EN: "Selected works across our six sectors.", RU: "Избранные работы в наших шести секторах.", ET: "Valitud tööd meie kuues sektoris." },
+  "projects.featured":     { EN: "Featured Project",     RU: "Избранный проект",           ET: "Esimene projekt"          },
+  "projects.filter.all":   { EN: "All Sectors",          RU: "Все секторы",                ET: "Kõik sektorid"            },
+  "projects.viewall":      { EN: "Show more projects",   RU: "Показать больше проектов",   ET: "Kuva rohkem projekte"     },
+  "projects.empty":        { EN: "No projects in this sector yet.", RU: "В этом секторе пока нет проектов.", ET: "Selles sektoris pole veel projekte." },
+
+  // Careers page
+  "careers.hero.title":          { EN: "Careers at BLRT Grupp", RU: "Карьера в BLRT Grupp", ET: "Karjäär BLRT Grupis"         },
+  "careers.hero.sub":            { EN: "Join one of the Baltic region's largest industrial groups.", RU: "Присоединяйтесь к одному из крупнейших промышленных конгломератов Балтийского региона.", ET: "Liitu ühe Baltikumi suurima tööstuskontserniga." },
+  "careers.why.title":           { EN: "Why work with us?",     RU: "Почему мы?",             ET: "Miks töötada meiega?"        },
+  "careers.why.growth":          { EN: "Growth & Development",  RU: "Рост и развитие",        ET: "Kasv ja areng"               },
+  "careers.why.growth.desc":     { EN: "Structured career paths, funded training programmes and cross-company development opportunities across 50+ companies.", RU: "Структурированные карьерные пути, финансируемые программы обучения и возможности развития в более чем 50 компаниях.", ET: "Struktureeritud karjääriteed, rahastatavad koolitusprogrammid ja ristettevõtete arenemisvõimalused 50+ ettevõttes." },
+  "careers.why.stability":       { EN: "Stability & Scale",     RU: "Стабильность и масштаб", ET: "Stabiilsus ja mastaap"       },
+  "careers.why.stability.desc":  { EN: "Over 110 years of continuous industrial operations. A group built to endure economic cycles, with deep roots in the Baltic region.", RU: "Более 110 лет непрерывных промышленных операций. Группа, созданная для устойчивости к экономическим циклам, с глубокими корнями в Балтийском регионе.", ET: "Üle 110 aasta pidevat tööstustegevust. Grupp, mis on loodud taluma majandustsükleid, sügavate juurtega Baltikumi piirkonnas." },
+  "careers.why.innovation":      { EN: "Innovation & Impact",   RU: "Инновации и результат",  ET: "Innovatsioon ja mõju"        },
+  "careers.why.innovation.desc": { EN: "Work on real projects with global reach — from vessel conversions to offshore energy supply to bridge steel fabrication.", RU: "Работайте над реальными проектами с глобальным охватом — от конверсии судов до снабжения морской энергией и производства мостовой стали.", ET: "Töötage reaalsetel projektidel ülemaailmse ulatusega — alates laevade konversioonist kuni offshore-energiatarneteni ja sillaosade tootmiseni." },
+  "careers.positions":           { EN: "Open Positions",        RU: "Открытые вакансии",      ET: "Avatud ametikohad"           },
+  "careers.filter.all":          { EN: "All Companies",         RU: "Все компании",            ET: "Kõik ettevõtted"             },
+  "careers.empty":               { EN: "No open positions at this company right now.", RU: "В данный момент в этой компании нет открытых вакансий.", ET: "Selles ettevõttes pole praegu avatud ametikohti." },
+  "careers.apply":               { EN: "Apply by email",        RU: "Подать заявку по e-mail", ET: "Kandideeri e-posti teel"     },
+  "careers.fallback.title":      { EN: "Don't see your role?",  RU: "Не нашли подходящую вакансию?", ET: "Ei leia sobivat ametikohta?" },
+  "careers.fallback.desc":       { EN: "We're always interested in talented people. Send your CV and motivation letter to", RU: "Мы всегда заинтересованы в талантливых людях. Отправьте резюме и мотивационное письмо на", ET: "Oleme alati huvitatud andekastest inimestest. Saatke oma CV ja motivatsioonikiri aadressile" },
+
+  // Sustainability page
+  "sustainability.hero.title":        { EN: "Green Deal",              RU: "Зелёная сделка",          ET: "Rohelepe"                     },
+  "sustainability.hero.sub":          { EN: "How BLRT Grupp yards lead the way in green ship repair and sustainable maritime operations.", RU: "Как верфи BLRT Grupp задают стандарты экологичного судоремонта и устойчивых морских операций.", ET: "Kuidas BLRT Grupi dokid juhivad teed rohelises laevaremondis ja säästvates mereoperatsioonides." },
+  "sustainability.pillar.environment":{ EN: "Zero Emissions",          RU: "Нулевые выбросы",         ET: "Nullheitmed"                  },
+  "sustainability.pillar.people":     { EN: "Wind Power",              RU: "Ветровая энергия",        ET: "Tuuleenergia"                 },
+  "sustainability.pillar.community":  { EN: "Circular Economy",        RU: "Циклическая экономика",   ET: "Ringmajandus"                 },
+  "sustainability.env.title":         { EN: "Eliminating emissions at the source", RU: "Устранение выбросов в источнике", ET: "Heitmete kõrvaldamine allikas" },
+  "sustainability.env.desc":          { EN: "Air-cleaning systems in shot blasting chambers eliminate solid particle emissions. Dust-free Blastrac grit blasting achieves Sa3 surface quality. Our 2,150 m² enclosed sheds enable weather-protected vessel treatment while automated weather monitoring prevents atmospheric pollution.", RU: "Системы очистки воздуха в камерах дробеструйной обработки устраняют выбросы твёрдых частиц. Пылесвязывающая дробеструйная обработка Blastrac обеспечивает качество поверхности Sa3. Наши крытые ангары площадью 2 150 м² позволяют обрабатывать суда под укрытием, а автоматический мониторинг погоды предотвращает загрязнение атмосферы.", ET: "Õhupuhastussüsteemid laskekambrites kõrvaldavad tahkete osakeste heited. Blastrac tolmuvaba liivapritsimisega saavutatakse Sa3 pinnakvaliteet. Meie 2 150 m² suletud angaarid võimaldavad katuse all laevade töötlemist, samas kui automaatne ilmajälgimine hoiab ära atmosfääri saastumise." },
+  "sustainability.people.title":      { EN: "Leading green propulsion technology", RU: "Лидерство в зелёных технологиях движения", ET: "Roheliste jõuseadmete tehnoloogia eestvedamine" },
+  "sustainability.people.desc":       { EN: "Partner with Norsepower to test rotor sail wind propulsion using the Magnus Effect. Installed the world's first rotor sail on the Viking Grace ferry. We offer DACS air lubrication, graphene and silicone hull coatings, solar panels and hybrid battery systems to cut vessel emissions and fuel costs.", RU: "Сотрудничаем с Norsepower по испытанию роторных парусов на эффекте Магнуса. Установили первый в мире роторный парус на пароме Viking Grace. Предлагаем системы воздушной смазки DACS, графеновые и силиконовые покрытия корпуса, солнечные панели и гибридные аккумуляторные системы.", ET: "Teeme koostööd Norsepower'iga rootorsõugi tuulejõu tehnoloogia testimiseks (Magnuse efekt). Paigaldasime maailma esimese rootorsõugi Viking Grace parvlaevale. Pakume DACS õhumäärimissüsteeme, grafeeni- ja silikoonikatted kere jaoks, päikesepaneele ja hübriid-akusüsteeme." },
+  "sustainability.community.title":   { EN: "Responsible resource management", RU: "Ответственное управление ресурсами", ET: "Vastutustundlik ressursside haldamine" },
+  "sustainability.community.desc":    { EN: "Wash water is collected and reused. New-generation containment booms and emergency spill stations protect waterways around all docks. We operate the MC4000 autonomous water surface cleaning robot — the first of its kind integrated into global shipyard operations — and segregate metal, paper, plastic and hazardous waste per EU regulations.", RU: "Промывочная вода собирается и повторно используется. Боновые заграждения нового поколения и аварийные посты защищают водоёмы вокруг всех доков. Мы используем автономного робота-уборщика MC4000 — первого в мире, интегрированного в работу верфи, — и сортируем отходы согласно нормам ЕС.", ET: "Pesuvesi kogutakse ja taaskasutatakse. Uusima põlvkonna tõkkeujukid ja hädaabiposid kaitsevad kõigi dokide ümbruses asuvaid veekogusid. Kasutame MC4000 autonoomset veepuhastusvahendina — maailmas esimest oma tüüpi, mis on integreeritud laevatehasesse — ning sorteerime jäätmed vastavalt EL-i eeskirjadele." },
+  "sustainability.certs.title":       { EN: "Standards & Certifications", RU: "Стандарты и сертификаты", ET: "Standardid ja sertifikaadid" },
+  "sustainability.report.title":      { EN: "Green Solutions for Shipowners", RU: "Зелёные решения для судовладельцев", ET: "Rohelised lahendused laevaomanikele" },
+  "sustainability.report.desc":       { EN: "From exhaust gas scrubbers and ballast water treatment to shore power connections and wind-assisted propulsion — we install the full range of environmental upgrades your vessels need to meet today's regulations and tomorrow's standards.", RU: "От скрубберов для очистки выхлопных газов и систем обработки балластной воды до береговых источников питания и систем ветровой тяги — мы устанавливаем весь спектр экологических технологий, необходимых вашим судам.", ET: "Heitgaaside puhastussüsteemidest ja ballastvee töötlemisest kuni kaldaelektri ühenduste ja tuulejõuga liikumisabisüsteemideni — paigaldame kogu keskkonnatehnoloogiate valiku, mida teie laevad vajavad täna kehtivate eeskirjade täitmiseks." },
+
+  // Sustainability — yard initiatives
+  "sustainability.deal.label":         { EN: "Green Deal in Ship Repair",         RU: "Зелёная сделка в судоремонте",            ET: "Rohelepe laevaremondis"                    },
+  "sustainability.deal.title":         { EN: "Sustainable operations at every stage", RU: "Устойчивые операции на каждом этапе",  ET: "Säästvad operatsioonid igal etapil"        },
+  "sustainability.deal.sub":           { EN: "Environmental concerns are now integral to everything we do. Across blasting, coating, energy use and waste handling, BLRT Grupp yards have invested systematically in reducing their environmental footprint.", RU: "Забота об окружающей среде стала неотъемлемой частью всего, что мы делаем. Верфи BLRT Grupp последовательно инвестируют в снижение своего воздействия на всех этапах.", ET: "Keskkonnaalased küsimused on lahutamatu osa kõigest, mida teeme. BLRT Grupi dokid on süstemaatiliselt investeerinud oma jalajälje vähendamisse kõigil etappidel." },
+  "sustainability.yard.blasting.title":{ EN: "Emissions-Free Blasting",           RU: "Дробеструйная обработка без выбросов",    ET: "Heiteteta liivapritsimise"                 },
+  "sustainability.yard.blasting.desc": { EN: "Shot blasting chambers with air-cleaning systems eliminate solid particle emissions entirely. Blastrac 900 VMB dust-free grit blasting achieves Sa3 surface quality. Hammelmann Dock Boy water jetting with integrated vacuum technology provides an additional zero-dust surface preparation method.", RU: "Камеры дробеструйной обработки с системами очистки воздуха полностью исключают выбросы твёрдых частиц. Пылесвязывающая обработка Blastrac 900 VMB обеспечивает качество поверхности Sa3. Водоструйная обработка Hammelmann Dock Boy предлагает дополнительный метод без пыли.", ET: "Liivapritsimiskambrid õhupuhastussüsteemidega kõrvaldavad täielikult tahkete osakeste heited. Blastrac 900 VMB tolmuvaba liivapritsimisega saavutatakse Sa3 pinnakvaliteet. Hammelmann Dock Boy veejoaseadmed pakuvad lisaks tolmuvaba ettevalmistusmeetodit." },
+  "sustainability.yard.sheds.title":   { EN: "All-Weather Treatment Sheds",       RU: "Крытые ангары для обработки",            ET: "Ilmastikukindlad töötlemisangaarid"        },
+  "sustainability.yard.sheds.desc":    { EN: "Our 2,150 m² enclosed sheds enable full vessel surface preparation and coating regardless of weather. 9–12 hatch covers for 95 m vessels (up to 5 for 150 m vessels) are processed simultaneously. Automated weather monitoring halts operations when conditions risk atmospheric pollution.", RU: "Крытые ангары площадью 2 150 м² обеспечивают полную подготовку поверхности и нанесение покрытий независимо от погоды. Одновременно обрабатываются 9–12 крышек люков для судов 95 м (до 5 для судов 150 м). Автоматизированный мониторинг погоды приостанавливает работы при угрозе загрязнения.", ET: "Meie 2 150 m² suletud angaarid võimaldavad täielikku laeva pinnaeettevalmistust ja katmist sõltumata ilmastikust. Samaaegselt töödeldakse 9–12 luugikaant 95 m laevadele (kuni 5 korraga 150 m laevadele). Automaatne ilmajälgimine peatab töö, kui tingimused kujutavad atmosfäärile ohtu." },
+  "sustainability.yard.energy.title":  { EN: "Energy Efficiency",                 RU: "Энергоэффективность",                     ET: "Energiatõhusus"                            },
+  "sustainability.yard.energy.desc":   { EN: "Diesel forklifts have been replaced with gas and battery-powered alternatives across all yards. Shore power connections are available for every docked vessel, eliminating the need to run onboard generators in port. Energy-efficient lighting, heating and ventilation systems are installed throughout all facilities.", RU: "Дизельные погрузчики на всех верфях заменены газовыми и аккумуляторными альтернативами. Береговое электроснабжение доступно для каждого судна, исключая работу судовых генераторов в порту. На всех объектах установлены энергоэффективные системы освещения, отопления и вентиляции.", ET: "Diiselkärud kõigis dokides on asendatud gaasi- ja akupõhiste alternatiividega. Kaldaelektri ühendused on saadaval iga dokeeritud laeva jaoks, kõrvaldades vajaduse käivitada pardageneraatoreid sadamas. Kõikidesse rajatistesse on paigaldatud energiatõhusad süsteemid." },
+  "sustainability.yard.water.title":   { EN: "Water Conservation",                RU: "Бережное использование воды",             ET: "Veesääst"                                  },
+  "sustainability.yard.water.desc":    { EN: "All washing water is collected and reused in yard operations. New-generation containment booms and emergency spill stations protect waterways at every berth. The MC4000 — the world's first autonomous water surface cleaning robot integrated into shipyard operations — continuously removes contaminants from dock water.", RU: "Вся промывочная вода собирается и повторно используется. Боновые заграждения нового поколения и аварийные посты защищают водоёмы у каждого причала. MC4000 — первый в мире автономный робот-уборщик, интегрированный в работу верфи, — непрерывно очищает воду дока.", ET: "Kogu pesuvesi kogutakse ja taaskasutatakse dokioperatsioonides. Uusima põlvkonna tõkkeujukid ja hädaabiposid kaitsevad veekogusid iga kai juures. MC4000 — maailma esimene autonoomne veepuhastusrobot laevatehastes — eemaldab pidevalt saasteaineid dokiveest." },
+  "sustainability.yard.waste.title":   { EN: "Waste & Materials",                 RU: "Отходы и материалы",                     ET: "Jäätmed ja materjalid"                     },
+  "sustainability.yard.waste.desc":    { EN: "Metal, paper, plastic and hazardous waste is segregated and disposed of in full compliance with EU regulations. Recycling agreements with certified local facilities cover steel, aluminium, copper and plastics. All coatings comply with IMO and EU requirements, with preference for low-emission and recyclable materials.", RU: "Металлические, бумажные, пластиковые и опасные отходы сортируются и утилизируются согласно нормам ЕС. Соглашения с сертифицированными местными предприятиями охватывают сталь, алюминий, медь и пластик. Все покрытия соответствуют требованиям ИМО и ЕС.", ET: "Metall-, paber-, plast- ja ohtlikud jäätmed sorteeritakse ja kõrvaldatakse täielikus vastavuses EL-i eeskirjadega. Ringlussevõttu käsitlevad lepingud hõlmavad terast, alumiiniumi, vaske ja plastikut. Kõik katted vastavad IMO ja EL-i nõuetele." },
+  "sustainability.yard.wind.title":    { EN: "Wind Propulsion Research",          RU: "Исследование ветровой тяги",              ET: "Tuulejõu uuringud"                         },
+  "sustainability.yard.wind.desc":     { EN: "Partnering with Norsepower at our Naantali facility to test rotor sail wind propulsion. Rotor sails use the Magnus Effect — spinning cylinders that generate lift as wind passes over them — to supplement engine power and reduce fuel consumption in commercial shipping.", RU: "Сотрудничество с Norsepower на предприятии в Наантали для испытания роторных парусов. Роторные паруса используют эффект Магнуса — вращающиеся цилиндры, создающие подъёмную силу, — для снижения расхода топлива в коммерческом судоходстве.", ET: "Koostöö Norsepower'iga Naantali rajatises rootorsõugi tuulejõu testimiseks. Rootorsõugid kasutavad Magnuse efekti — pöörlevaid silindrid, mis tekitavad tõstejõudu — kütusekulude vähendamiseks kaubanduslaevanduses." },
+
+  // Sustainability — shipowner solutions
+  "sustainability.solutions.label":    { EN: "For Shipowners",                    RU: "Для судовладельцев",                      ET: "Laevaomanikele"                            },
+  "sustainability.solutions.title":    { EN: "Green solutions for your fleet",    RU: "Зелёные решения для вашего флота",        ET: "Rohelised lahendused teie laevastikule"    },
+  "sustainability.solutions.sub":      { EN: "Beyond our own yard practices, BLRT Grupp installs a full range of environmental technologies — helping shipowners reduce operating costs, meet international regulations and strengthen sustainability credentials.", RU: "Помимо собственных практик верфи, BLRT Grupp устанавливает полный спектр экологических технологий, помогая судовладельцам снижать операционные расходы и соответствовать международным нормам.", ET: "Lisaks oma doki tavadele paigaldab BLRT Grupp kogu hulga keskkonnatehnoloogiaid, aidates laevaomanikel vähendada tegevuskulusid ja täita rahvusvahelisi eeskirju." },
+  "sustainability.sol.scrubber.title": { EN: "Exhaust Gas Scrubbers",            RU: "Скрубберы для очистки газов",             ET: "Heitgaaside puhastussüsteemid"             },
+  "sustainability.sol.scrubber.desc":  { EN: "Installation and integration of exhaust gas cleaning systems across vessel types. Reduces SOx emissions to meet IMO 2020 sulphur cap requirements, improves air quality and delivers long-term fuel cost savings.", RU: "Установка и интеграция систем очистки выхлопных газов для различных типов судов. Снижает выбросы SOx для соответствия требованиям ИМО 2020, улучшает качество воздуха и обеспечивает долгосрочную экономию.", ET: "Heitgaaside puhastussüsteemide paigaldamine erinevat tüüpi laevadele. Vähendab SOx-heitmeid IMO 2020 nõuete täitmiseks, parandab õhukvaliteeti ja tagab pikaajalise kütusekokkuhoiu." },
+  "sustainability.sol.shore.title":    { EN: "Shore Power Connection",           RU: "Береговое электроснабжение",              ET: "Kaldaelektri ühendus"                      },
+  "sustainability.sol.shore.desc":     { EN: "Cold ironing connects docked vessels to the onshore electrical grid, eliminating the need to run fuel-burning engines in port. Reduces air and noise pollution, cuts engine operating hours and ensures full regulatory compliance during port stays.", RU: "Береговое электроснабжение подключает суда к наземной электросети, исключая работу двигателей в порту. Снижает загрязнение воздуха и шум, сокращает наработку двигателей.", ET: "Kaldaelektri ühendus ühendab dokeeritud laevad kaldaelektrivõrguga, kõrvaldades vajaduse käivitada kütusel töötavaid mootorid sadamas. Vähendab õhu- ja mürasaastet ning kärpib mootori tööaega." },
+  "sustainability.sol.bwts.title":     { EN: "Ballast Water Treatment",          RU: "Очистка балластных вод",                  ET: "Ballastvee töötlemine"                     },
+  "sustainability.sol.bwts.desc":      { EN: "Ballast Water Treatment Systems (BWTS) remove or neutralise aquatic organisms before discharge, preventing invasive species from spreading between ocean regions. Ensures compliance with the IMO Ballast Water Management Convention.", RU: "Системы очистки балластных вод удаляют или нейтрализуют водные организмы перед сбросом, предотвращая распространение инвазивных видов. Обеспечивает соответствие Конвенции ИМО об управлении балластными водами.", ET: "Ballastvee töötlemissüsteemid eemaldavad või neutraliseerivad veeorganisme enne väljajuhtimist, takistades invasiivsete liikide levimist. Tagab vastavuse IMO konventsioonile." },
+  "sustainability.sol.rotor.title":    { EN: "Wind-Assisted Propulsion",         RU: "Ветровая тяга",                           ET: "Tuuleabiga propulsioon"                     },
+  "sustainability.sol.rotor.desc":     { EN: "Rotor sail installations use the Magnus Effect to generate propulsive force from wind, cutting fuel consumption and emissions. BLRT yards installed the world's first rotor sail on the Viking Grace passenger ferry — a proven milestone in commercial wind propulsion.", RU: "Роторные паруса используют эффект Магнуса для создания движущей силы от ветра, снижая расход топлива и выбросы. Верфи BLRT установили первый в мире роторный парус на паром Viking Grace — подтверждённый рубеж в коммерческой ветровой тяге.", ET: "Rootorsõugi paigaldised kasutavad Magnuse efekti tuulest tõukejõu saamiseks, vähendades kütusekulusid ja heiteid. BLRT dokid paigaldasid maailma esimese rootorsõugi Viking Grace parvlaevale." },
+  "sustainability.sol.decarb.title":   { EN: "Decarbonization Package",          RU: "Пакет декарбонизации",                    ET: "Dekarboniseerimispakett"                   },
+  "sustainability.sol.decarb.desc":    { EN: "A full suite of technologies to cut a vessel's carbon footprint: DACS air lubrication systems, graphene-based and silicone hull coatings, energy-saving propeller coatings, solar panel installations, hybrid-ready battery systems and optimised propellers with integrated power management.", RU: "Полный набор технологий для снижения углеродного следа: системы воздушной смазки DACS, графеновые и силиконовые покрытия корпуса, покрытия гребных винтов, солнечные панели, гибридные аккумуляторные системы и оптимизированные гребные винты.", ET: "Täielik tehnoloogliate komplekt laeva süsiniku jalajälje vähendamiseks: DACS õhumäärimissüsteemid, grafeenipõhised ja silikoonikatte kere jaoks, energiasäästlikud propellerikatted, päikesepaneelid, hübriidvalmis akusüsteemid ja optimeeritud propellerid." },
+
+  // Home page — new sections
+  "home.news.title":    { EN: "Latest News",         RU: "Последние новости",    ET: "Viimased uudised"     },
+  "home.news.viewall":  { EN: "View all news",       RU: "Все новости",          ET: "Kõik uudised"         },
+  "home.projects.title":{ EN: "Featured Projects",   RU: "Избранные проекты",    ET: "Esindusprojektid"     },
+  "home.projects.viewall":{ EN: "See all projects",  RU: "Все проекты",          ET: "Kõik projektid"       },
+  "home.careers.title": { EN: "Join BLRT Grupp",     RU: "Присоединяйтесь к BLRT Grupp", ET: "Liitu BLRT Grupiga" },
+  "home.careers.sub":   { EN: "We are always looking for talented engineers, technicians and business professionals to grow with us.", RU: "Мы всегда ищем талантливых инженеров, техников и бизнес-профессионалов для совместного роста.", ET: "Otsime alati andekaid insenere, tehnikuid ja äriprofessionaale, kes kasvaksid koos meiega." },
+  "home.careers.cta":   { EN: "View Open Positions", RU: "Открытые вакансии",    ET: "Vaata ametikohti"     },
+
+  // About page — new section
+  "about.certs.title":  { EN: "Standards & Certifications", RU: "Стандарты и сертификаты", ET: "Standardid ja sertifikaadid" },
+
+  // Business page — new sections
+  "business.projects.title": { EN: "Projects",        RU: "Проекты",              ET: "Projektid"            },
+  "business.certs.title":    { EN: "Certifications",  RU: "Сертификаты",          ET: "Sertifikaadid"        },
+  "business.techdata.title": { EN: "Technical Data",  RU: "Технические данные",   ET: "Tehnilised andmed"    },
+  "business.products.title": { EN: "Products",        RU: "Продукты",             ET: "Tooted"               },
+
+  // Contacts — map
+  "contacts.map.title":      { EN: "Our Location",    RU: "Наше расположение",    ET: "Meie asukoht"         },
+
+  // Home — sustainability teaser
+  "home.sustain.label":      { EN: "Sustainability",  RU: "Устойчивое развитие",  ET: "Jätkusuutlikkus"      },
+  "home.sustain.title":      { EN: "Green ship repair, cleaner seas", RU: "Экологичный судоремонт — чистые моря", ET: "Roheline laevaremont, puhtamad mered" },
+  "home.sustain.desc":       { EN: "BLRT Grupp installed the world's first rotor sail on a passenger vessel and leads Baltic maritime decarbonisation — from zero-discharge dock operations to a full suite of green technologies for your fleet.", RU: "BLRT Grupp установила первый в мире роторный парус на пассажирском судне и возглавляет декарбонизацию балтийского судоходства — от доков с нулевым сбросом до полного спектра зелёных технологий для вашего флота.", ET: "BLRT Grupp paigaldas maailma esimese rootorsõugi reisiparvlaevale ja juhib Balti merenduse dekarboniseerimist — nullheitmetega dokioperatsioonidest täieliku roheliste tehnoloogiate valikuni teie laevastikule." },
+  "home.sustain.cta":        { EN: "Our sustainability approach", RU: "Наш подход к устойчивому развитию", ET: "Meie jätkusuutlikkuse lähenemine" },
 } as const;
 
 export type TranslationKey = keyof typeof translations;

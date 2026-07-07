@@ -9,16 +9,22 @@ type LanguageContextType = {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+const htmlLangMap: Record<Lang, string> = {
+  EN: "en", RU: "ru", ET: "et", LT: "lt", LV: "lv", FI: "fi", PL: "pl",
+};
+
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>("EN");
 
   useEffect(() => {
-    const map: Record<Lang, string> = { EN: "en", RU: "ru", ET: "et" };
-    document.documentElement.lang = map[lang];
+    document.documentElement.lang = htmlLangMap[lang];
   }, [lang]);
 
   const t = (key: TranslationKey): string => {
-    return translations[key]?.[lang] ?? key;
+    const entry = translations[key];
+    if (!entry) return key;
+    // Fall back to EN for languages that don't yet have translations
+    return (entry as unknown as Record<string, string>)[lang] ?? entry.EN ?? key;
   };
 
   return (
@@ -28,6 +34,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useLanguage() {
   const ctx = useContext(LanguageContext);
   if (!ctx) throw new Error("useLanguage must be used within LanguageProvider");

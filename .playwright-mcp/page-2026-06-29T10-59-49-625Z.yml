@@ -1,0 +1,176 @@
+- generic [active] [ref=e1]:
+  - text:    
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrt.ee/en/
+          - img [ref=e6]
+          - img [ref=e19]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - link "About us" [ref=e29] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/about-us/
+              - listitem [ref=e30]:
+                - link "News" [ref=e31] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/news/
+              - listitem [ref=e32]:
+                - link "Career" [ref=e33] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/career/
+              - listitem [ref=e34]:
+                - link "Contacts" [ref=e35] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/contacts/
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "Switch to Ee" [ref=e39] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/kontsernist/
+                  - generic [ref=e40]: Ee
+              - listitem [ref=e41]:
+                - link "En" [ref=e42] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/about-us/
+                  - generic [ref=e43]: En
+              - listitem [ref=e44]:
+                - link "Switch to Ru" [ref=e45] [cursor=pointer]:
+                  - /url: https://blrt.ee/ru/o-koncerne/
+                  - generic [ref=e46]: Ru
+          - navigation [ref=e47]:
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link " Activities" [ref=e50] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/activities/
+              - listitem [ref=e51]:
+                - link " Tenders" [ref=e52] [cursor=pointer]:
+                  - /url: https://tenders.blrt.ee/
+              - listitem [ref=e53]:
+                - link " Social responsibility" [ref=e54] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/social-responsibility/
+              - listitem [ref=e55]:
+                - link " Subsidiaries" [ref=e56] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/subsidiaries/
+    - main [ref=e57]:
+      - generic [ref=e60]:
+        - heading "About us" [level=1] [ref=e61]
+        - generic [ref=e62]:
+          - link "Home" [ref=e63] [cursor=pointer]:
+            - /url: https://blrt.ee/en/
+          - text: / About us
+      - generic [ref=e67]:
+        - generic [ref=e68]: About us
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: Each subsidiary is a reliable partner in its field – whether it is shipbuilding or ship repair, manufacturing of high-technology equipment and sophisticated metal structures, rolled metal products and metalworking services, mechanical engineering, gases production and sale, transport services, port and other services, real estate development.
+          - paragraph [ref=e71]: The holding employs about 4 000 people.
+          - paragraph [ref=e72]: For over 113 years concern does not stop there and keeps up with the times, constantly expanding its capabilities.
+      - generic [ref=e76]:
+        - generic [ref=e77]: Vision
+        - paragraph [ref=e79]: BLRT Grupp is the largest industrial holding in the countries of the Baltic region.
+      - generic [ref=e83]:
+        - generic [ref=e84]: Mission
+        - paragraph [ref=e86]: We contribute to the development of our clients’ businesses by providing services, manufacturing industrial products and supplying materials.
+      - generic [ref=e90]:
+        - generic [ref=e91]: Strategy
+        - paragraph [ref=e93]: We are strengthening our leading position in the target markets — marine transport, renewable energy, engineering, offshore oil and gas industry and fish farming. We are constantly developing in organizational and technological terms in order to meet the needs of our clients at the highest level and to preserve the environment. We are an attractive employer.
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - generic [ref=e98]: Values
+          - paragraph [ref=e100]: "In our work, we are guided by the following values:"
+          - link "Read more " [ref=e102] [cursor=pointer]:
+            - /url: /our-values/
+            - generic [ref=e103]: Read more
+            - generic [ref=e104]: 
+        - generic [ref=e106]:
+          - link "Focus on people " [ref=e109] [cursor=pointer]:
+            - /url: /our-values/#focus-on-people
+            - img [ref=e111]
+            - generic [ref=e113]: Focus on people
+            - generic [ref=e114]: 
+          - link "Reliability " [ref=e117] [cursor=pointer]:
+            - /url: /our-values/#reliability
+            - img [ref=e119]
+            - generic [ref=e121]: Reliability
+            - generic [ref=e122]: 
+          - link "Efficiency " [ref=e125] [cursor=pointer]:
+            - /url: /our-values/#efficiency
+            - img [ref=e127]
+            - generic [ref=e129]: Efficiency
+            - generic [ref=e130]: 
+          - link "Development " [ref=e133] [cursor=pointer]:
+            - /url: /our-values/#development
+            - img [ref=e135]
+            - generic [ref=e137]: Development
+            - generic [ref=e138]: 
+      - generic [ref=e141]:
+        - generic [ref=e142]: Code of conduct
+        - generic [ref=e143]:
+          - paragraph [ref=e144]: The BLRT Grupp Code of Conduct is our principles of work and business.
+          - paragraph [ref=e145]: Trust of clients and partners is a cornerstone for the success of the concern as a whole and every employee in particular. It has been earned by many generations of employees during over 113 years’ history of BLRT Grupp.
+          - paragraph [ref=e146]: Our reputation and success depend on all of us. We bear responsibility for observation of our principles and follow our values in all that we do and say.
+          - paragraph [ref=e147]: The Code of Conduct covers the main aspects of our activity, which are described in detail in the regulations of the concern.
+          - paragraph [ref=e148]
+        - link "Read more " [ref=e150] [cursor=pointer]:
+          - /url: https://blrt.ee/wp-content/uploads/2023/02/blrt-grupp-code-of-conduct-en_2020.pdf
+          - generic [ref=e151]: Read more
+          - generic [ref=e152]: 
+    - generic [ref=e155]:
+      - generic [ref=e156]:
+        - generic [ref=e157]: Contacts
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e161] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e163]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e165]:
+            - link "blrt@blrt.ee" [ref=e166] [cursor=pointer]:
+              - /url: mailto:blrt@blrt.ee
+              - img [ref=e168]
+              - text: blrt@blrt.ee
+          - listitem [ref=e170]:
+            - link "+372 610 2408" [ref=e171] [cursor=pointer]:
+              - /url: tel:+372 610 2408
+              - img [ref=e173]
+              - text: +372 610 2408
+      - generic [ref=e175]:
+        - generic [ref=e176]: LINKS
+        - list [ref=e178]:
+          - listitem [ref=e179]:
+            - link " About us" [ref=e180] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e181]:
+            - link " News" [ref=e182] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e183]:
+            - link " Privacy policy" [ref=e184] [cursor=pointer]:
+              - /url: https://blrt.ee/en/privacy-policy-2/
+          - listitem [ref=e185]:
+            - link " Career" [ref=e186] [cursor=pointer]:
+              - /url: /career/
+          - listitem [ref=e187]:
+            - link " Contacts" [ref=e188] [cursor=pointer]:
+              - /url: /contacts/
+          - listitem [ref=e189]:
+            - link " General Terms" [ref=e190] [cursor=pointer]:
+              - /url: /en/general-terms/
+          - listitem [ref=e191]:
+            - link " General Terms Archive" [ref=e192] [cursor=pointer]:
+              - /url: https://blrt.ee/en/general-terms-archive/
+          - listitem [ref=e193]:
+            - link " Violation report" [ref=e194] [cursor=pointer]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=enAOge4PhkyVGZSBH0mtDuiJEHbRpqxJkIuYYfNya7JUOVE5STRWRzk5NzZTTlZOT1ZTUFY0VUFTVi4u&lang=en-US
+      - list [ref=e197]:
+        - listitem [ref=e198]:
+          - link " Facebook" [ref=e199] [cursor=pointer]:
+            - /url: https://www.facebook.com/blrtgrupp
+            - generic [ref=e200]: 
+            - text: Facebook
+        - listitem [ref=e201]:
+          - link " Linkedin" [ref=e202] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/blrt-grupp
+            - generic [ref=e203]: 
+            - text: Linkedin
+    - contentinfo [ref=e204]:
+      - generic [ref=e207]: © 2026 BLRT Grupp. All rights reserved. https://sudamest.com/
+    - link "" [ref=e208] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e209]: 

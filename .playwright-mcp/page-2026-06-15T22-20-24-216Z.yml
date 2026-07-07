@@ -1,0 +1,222 @@
+- generic [active] [ref=e1]:
+  - text:        
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://wsa.lt/en/
+          - img [ref=e6]
+          - img [ref=e13]
+        - text:  
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - list [ref=e21]:
+              - listitem [ref=e22]:
+                - link "About us" [ref=e23] [cursor=pointer]:
+                  - /url: https://wsa.lt/en/about-us/
+              - listitem [ref=e24]:
+                - link "Contacts" [ref=e25] [cursor=pointer]:
+                  - /url: https://wsa.lt/en/contacts/
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - link "En" [ref=e29] [cursor=pointer]:
+                  - /url: https://wsa.lt/en/
+                  - generic [ref=e30]: En
+          - navigation [ref=e31]:
+            - list [ref=e32]:
+              - listitem [ref=e33]:
+                - link " Services" [ref=e34] [cursor=pointer]:
+                  - /url: https://wsa.lt/en/activities/
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - generic [ref=e42]:
+              - heading "Your requests - Our solutions!" [level=2] [ref=e44]
+              - link "Read more " [ref=e46] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e47]: Read more
+                - generic [ref=e48]: 
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]:
+              - heading "Your requests - Our solutions!" [level=2] [ref=e54]
+              - link "Read more " [ref=e56] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e57]: Read more
+                - generic [ref=e58]: 
+          - generic [ref=e59]:
+            - img [ref=e60]
+            - generic [ref=e62]:
+              - heading "Your requests - Our solutions!" [level=2] [ref=e64]
+              - link "Read more " [ref=e66] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e67]: Read more
+                - generic [ref=e68]: 
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - generic [ref=e72]:
+              - heading "Your requests - Our solutions!" [level=2] [ref=e74]
+              - link "Read more " [ref=e76] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e77]: Read more
+                - generic [ref=e78]: 
+          - generic [ref=e79]:
+            - img [ref=e80]
+            - generic [ref=e82]:
+              - heading "Your requests - Our solutions!" [level=2] [ref=e84]
+              - link "Read more " [ref=e86] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e87]: Read more
+                - generic [ref=e88]: 
+          - generic [ref=e89]:
+            - img [ref=e90]
+            - generic [ref=e92]:
+              - heading "Your requests - Our solutions!" [level=2] [ref=e94]
+              - link "Read more " [ref=e96] [cursor=pointer]:
+                - /url: " /en/about-us/"
+                - generic [ref=e97]: Read more
+                - generic [ref=e98]: 
+        - generic [ref=e99]:
+          - button "Go to slide 1" [ref=e100] [cursor=pointer]
+          - button "Go to slide 2" [ref=e101] [cursor=pointer]
+          - button "Go to slide 3" [ref=e102] [cursor=pointer]
+          - button "Go to slide 4" [ref=e103] [cursor=pointer]
+      - generic [ref=e106]:
+        - generic [ref=e107]:
+          - generic [ref=e108]: About us
+          - paragraph [ref=e110]: Western Ships Agency is a subsidiary company of BLRT Grupp – leading industrial holding in the Baltics, established in 2002. Our core activity is to provide the best assistance in Klaipeda and Tallinn ports to the ship owners and operators for any matters during the vessel‘s stay in ports. Our strongest side is to provide multipurpose agency services for long-term extraordinary projects for all types of vessel calls, to organize general and oversized-cargo delivery chartering or freight forwarding projects, to deliver any matters of ship supply – from technical spares to provision supply.
+          - link "Read more " [ref=e112] [cursor=pointer]:
+            - /url: " /about-us/"
+            - generic [ref=e113]: Read more
+            - generic [ref=e114]: 
+        - generic [ref=e115]:
+          - generic [ref=e118]:
+            - strong [ref=e119]: "2"
+            - text: Countries
+          - generic [ref=e122]:
+            - strong [ref=e123]: "20"
+            - text: Years of experience
+          - generic [ref=e126]:
+            - strong [ref=e127]: 24/7
+            - text: Assistance
+      - generic [ref=e128]:
+        - generic [ref=e130]: Services
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - link "Agency" [ref=e136] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/agency/
+              - generic [ref=e137]: Agency
+            - link "Ships supply" [ref=e140] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/ships-supply/
+              - generic [ref=e141]: Ships supply
+            - link "Chartering" [ref=e144] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/chartering/
+              - generic [ref=e145]: Chartering
+            - link "Freight forwarding" [ref=e148] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/freight-forwarding/
+              - generic [ref=e149]: Freight forwarding
+            - link "Port additional services" [ref=e152] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/port-additional-services/
+              - generic [ref=e153]: Port additional services
+            - link "Agency" [ref=e156] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/agency/
+              - generic [ref=e157]: Agency
+            - link "Ships supply" [ref=e160] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/ships-supply/
+              - generic [ref=e161]: Ships supply
+            - link "Chartering" [ref=e164] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/chartering/
+              - generic [ref=e165]: Chartering
+            - link "Freight forwarding" [ref=e168] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/freight-forwarding/
+              - generic [ref=e169]: Freight forwarding
+            - link "Port additional services" [ref=e172] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/port-additional-services/
+              - generic [ref=e173]: Port additional services
+            - link "Agency" [ref=e176] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/agency/
+              - generic [ref=e177]: Agency
+            - link "Ships supply" [ref=e180] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/ships-supply/
+              - generic [ref=e181]: Ships supply
+            - link "Chartering" [ref=e184] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/chartering/
+              - generic [ref=e185]: Chartering
+            - link "Freight forwarding" [ref=e188] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/freight-forwarding/
+              - generic [ref=e189]: Freight forwarding
+            - link "Port additional services" [ref=e192] [cursor=pointer]:
+              - /url: https://wsa.lt/en/activities-list/port-additional-services/
+              - generic [ref=e193]: Port additional services
+          - button "Previous slide" [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]: 
+          - button "Next slide" [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]: 
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - generic [ref=e203]: Social Responsibility
+          - paragraph [ref=e205]:
+            - strong [ref=e206]: Corporate social responsibility (SR)
+            - text: refers to responsibility of companies for impact they have on their employees, society, and environment. It is an integral part of every company, whose business activities are based on the principles of sustainability. The Western Shipyard Group is creating value-based organisational culture and advocating equal rights of the employees, it takes care of occupational safety and health of the employees and invests in the development of competencies to promote career development and personal well-being.
+        - generic [ref=e208]:
+          - link "Corporate SR Report " [ref=e211] [cursor=pointer]:
+            - /url: /wp-content/uploads/2024/06/wsy_srr_2023.pdf
+            - img [ref=e213]
+            - generic [ref=e463]: Corporate SR Report
+            - generic [ref=e464]: 
+          - link "Corporate SR Policy " [ref=e467] [cursor=pointer]:
+            - /url: /wp-content/uploads/2021/09/corporate_sr_policy.pdf
+            - img [ref=e469]
+            - generic [ref=e624]: Corporate SR Policy
+            - generic [ref=e625]: 
+    - generic [ref=e628]:
+      - generic [ref=e629]:
+        - generic [ref=e630]: Contacts
+        - list [ref=e632]:
+          - listitem [ref=e633]:
+            - link "Minijos st. 180, 93269 Klaipeda, Lithuania" [ref=e634] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Minijos+g.+180,+93263+Klaip%C4%97da,+Lithuania/@55.6537369,21.1658945,17z/data=!3m1!4b1!4m6!3m5!1s0x46e4ddce22a53f85:0x1af8860abbf25229!8m2!3d55.6537369!4d21.1658945!16s%2Fg%2F11jg_kshsk
+              - img [ref=e636]
+              - text: Minijos st. 180, 93269 Klaipeda, Lithuania
+          - listitem [ref=e638]:
+            - link "agency@wsy.lt" [ref=e639] [cursor=pointer]:
+              - /url: mailto:agency@wsy.lt
+              - img [ref=e641]
+              - text: agency@wsy.lt
+          - listitem [ref=e643]:
+            - link "+370 699 36 083" [ref=e644] [cursor=pointer]:
+              - /url: tel:+370 699 36 083
+              - img [ref=e646]
+              - text: +370 699 36 083
+      - generic [ref=e648]:
+        - generic [ref=e649]: LINKS
+        - list [ref=e651]:
+          - listitem [ref=e652]:
+            - link " About us" [ref=e653] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e654]:
+            - link " Contacts" [ref=e655] [cursor=pointer]:
+              - /url: /contacts/
+      - list [ref=e658]:
+        - listitem [ref=e659]:
+          - link " Shipserv" [ref=e660] [cursor=pointer]:
+            - /url: https://www.shipserv.com/supplier/profile/s/western-ships-agency-ships-supply-254303
+            - generic [ref=e661]: 
+            - text: Shipserv
+        - listitem [ref=e662]:
+          - link " Linkedin" [ref=e663] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/western-ships-agency/?originalSubdomain=lt
+            - generic [ref=e664]: 
+            - text: Linkedin
+    - contentinfo [ref=e665]:
+      - generic [ref=e668]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e669] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e670]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e671]:
+    - generic [ref=e672]:
+      - generic [ref=e673]: We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.
+      - button "Ok" [ref=e675] [cursor=pointer]
+      - button "No" [ref=e676] [cursor=pointer]

@@ -1,0 +1,332 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "BLRT Grupp home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "BLRT Grupp" [ref=e7]
+          - generic [ref=e8]:
+            - generic [ref=e9]: BLRT GRUPP
+            - generic [ref=e10]: Industrial Group · Est. 1912
+        - generic [ref=e11]:
+          - button "Select language" [ref=e13] [cursor=pointer]:
+            - text: EN
+            - img [ref=e14]
+          - button "Toggle menu" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic:
+          - generic:
+            - generic:
+              - img "Marine vessel at sea"
+          - generic:
+            - generic:
+              - img
+              - img
+          - generic:
+            - generic:
+              - img
+              - img
+          - generic:
+            - generic:
+              - img
+              - img
+        - generic [ref=e21]:
+          - generic [ref=e22]: Industrial Group · Since 1912
+          - heading "Baltic industry, built to endure." [level=1] [ref=e24]:
+            - text: Baltic industry,
+            - text: built to endure.
+          - paragraph [ref=e25]: 24 companies. 6 industrial sectors. Over a century of shipbuilding and maritime engineering across Estonia, Latvia, Lithuania and Finland.
+          - generic [ref=e26]:
+            - link "Learn More" [ref=e28] [cursor=pointer]:
+              - /url: /about
+              - text: Learn More
+              - img [ref=e29]
+            - link "Contact Us" [ref=e31] [cursor=pointer]:
+              - /url: /contacts
+              - text: Contact Us
+              - img [ref=e32]
+        - generic [ref=e38]:
+          - generic [ref=e39]: Ship Repair
+          - generic [ref=e41]: Shipbuilding
+          - generic [ref=e43]: Inspection & Testing
+          - generic [ref=e45]: Engineering
+          - generic [ref=e47]: Steel & Materials
+          - generic [ref=e49]: Port & Marine Services
+          - generic [ref=e51]: Ship Repair
+          - generic [ref=e53]: Shipbuilding
+          - generic [ref=e55]: Inspection & Testing
+          - generic [ref=e57]: Engineering
+          - generic [ref=e59]: Steel & Materials
+          - generic [ref=e61]: Port & Marine Services
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - img
+          - img [ref=e68]
+          - generic [ref=e72]: "0"
+          - generic [ref=e73]: Companies
+          - img
+        - generic [ref=e74]:
+          - img
+          - img [ref=e76]
+          - generic [ref=e81]: "0"
+          - generic [ref=e82]: Countries
+          - img
+        - generic [ref=e83]:
+          - img
+          - img [ref=e85]
+          - generic [ref=e89]: "0"
+          - generic [ref=e90]: Sectors
+          - img
+        - generic [ref=e91]:
+          - img
+          - img [ref=e93]
+          - generic [ref=e95]: "1912"
+          - generic [ref=e96]: Founded
+          - img
+      - generic [ref=e97]:
+        - img [ref=e98]
+        - generic [ref=e101]: BLRT Grupp · Industrial Group · Est. 1912
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - paragraph [ref=e105]: About BLRT Grupp
+          - heading "Over a century of Baltic industrial operations" [level=2] [ref=e106]
+          - paragraph [ref=e107]: BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate 24 companies across five countries.
+          - paragraph [ref=e108]: Our companies share engineering expertise, shipyard infrastructure and a network of maritime specialists across the Baltic Sea region.
+          - link "Learn More" [ref=e109] [cursor=pointer]:
+            - /url: /about
+            - text: Learn More
+            - img [ref=e110]
+        - generic [ref=e112]:
+          - img "Inspector at work on a marine vessel" [ref=e113]
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: Kopli, Tallinn
+              - generic [ref=e118]: Headquarters
+            - generic [ref=e119]:
+              - generic [ref=e120]: "1912"
+              - generic [ref=e121]: Founded
+            - generic [ref=e122]:
+              - generic [ref=e123]: 24 across 6 sectors
+              - generic [ref=e124]: Companies
+            - generic [ref=e125]:
+              - generic [ref=e126]: EE · LV · LT · FI
+              - generic [ref=e127]: Markets
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: Countries
+            - heading "Operating across the Baltic Sea region" [level=2] [ref=e133]
+          - paragraph [ref=e134]: EE · LV · LT · FI
+        - generic [ref=e135]:
+          - img "Map showing BLRT Grupp operating countries" [ref=e137]:
+            - generic [ref=e150]: GULF OF FINLAND
+            - generic [ref=e151]: BALTIC SEA
+            - generic [ref=e155]: Tallinn
+            - generic [ref=e159]: Turku
+            - generic [ref=e163]: Helsinki
+            - generic [ref=e167]: Riga
+            - generic [ref=e171]: Vilnius
+            - generic [ref=e172]: EE
+            - generic [ref=e173]: LV
+            - generic [ref=e174]: LT
+            - generic [ref=e175]: FI
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: Active markets
+            - generic [ref=e178]:
+              - generic [ref=e179]: 🇪🇪
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]: Estonia
+                  - generic [ref=e183]: HQ
+                - generic [ref=e184]: 17 companies
+              - generic [ref=e185]: EE
+            - generic [ref=e186]:
+              - generic [ref=e187]: 🇱🇹
+              - generic [ref=e188]:
+                - generic [ref=e190]: Lithuania
+                - generic [ref=e191]: 5 companies
+              - generic [ref=e192]: LT
+            - generic [ref=e193]:
+              - generic [ref=e194]: 🇱🇻
+              - generic [ref=e195]:
+                - generic [ref=e197]: Latvia
+                - generic [ref=e198]: 3 companies
+              - generic [ref=e199]: LV
+            - generic [ref=e200]:
+              - generic [ref=e201]: 🇫🇮
+              - generic [ref=e202]:
+                - generic [ref=e204]: Finland
+                - generic [ref=e205]: 2 companies
+              - generic [ref=e206]: FI
+            - generic [ref=e207]:
+              - paragraph [ref=e208]: Additional presence
+              - generic [ref=e209]:
+                - generic [ref=e210]: 🇳🇴 NO
+                - generic [ref=e211]: 🇵🇱 PL
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - paragraph [ref=e216]: News
+            - heading "Latest News" [level=2] [ref=e217]
+          - link "View all news" [ref=e218] [cursor=pointer]:
+            - /url: /news
+            - text: View all news
+            - img [ref=e219]
+        - generic [ref=e221]:
+          - article [ref=e222]:
+            - img "Tallinn Shipyard Completes Major Tanker Refit in Record Time" [ref=e224]
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - generic [ref=e228]: Project
+                - generic [ref=e229]: ·
+                - generic [ref=e230]:
+                  - img [ref=e231]
+                  - text: 28 May 2026
+              - heading "Tallinn Shipyard Completes Major Tanker Refit in Record Time" [level=3] [ref=e233]
+              - paragraph [ref=e234]: The 165-metre dry dock at Kopli completed a full BWTS installation and structural steel renewal on a Aframax tanker within 18 days — three days ahead of the agreed schedule.
+              - generic [ref=e236]:
+                - text: Read more
+                - img [ref=e237]
+          - article [ref=e239]:
+            - img "Elme Metall Opens New Steel Service Centre in Riga" [ref=e241]
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - generic [ref=e245]: Company News
+                - generic [ref=e246]: ·
+                - generic [ref=e247]:
+                  - img [ref=e248]
+                  - text: 15 April 2026
+              - heading "Elme Metall Opens New Steel Service Centre in Riga" [level=3] [ref=e250]
+              - paragraph [ref=e251]: BLRT Grupp's steel distribution arm expands its Baltic footprint with a new 8,000 m² service centre offering laser cutting, plasma cutting and bending for the construction and shipbuilding sectors.
+              - generic [ref=e253]:
+                - text: Read more
+                - img [ref=e254]
+          - article [ref=e256]:
+            - img "BLRT Grupp Group-Wide ISO 9001:2015 Certification Renewed" [ref=e258]
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - generic [ref=e262]: Press Release
+                - generic [ref=e263]: ·
+                - generic [ref=e264]:
+                  - img [ref=e265]
+                  - text: 10 March 2026
+              - heading "BLRT Grupp Group-Wide ISO 9001:2015 Certification Renewed" [level=3] [ref=e267]
+              - paragraph [ref=e268]: Following a successful audit by Bureau Veritas, all BLRT Grupp core operations have renewed their ISO 9001:2015 quality management certification, reinforcing our commitment to consistent service quality across the Baltic region.
+              - generic [ref=e270]:
+                - text: Read more
+                - img [ref=e271]
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - paragraph [ref=e277]: Projects
+            - heading "Featured Projects" [level=2] [ref=e278]
+          - link "See all projects" [ref=e279] [cursor=pointer]:
+            - /url: /projects
+            - text: See all projects
+            - img [ref=e280]
+        - generic [ref=e282]:
+          - article [ref=e283]:
+            - generic [ref=e284]:
+              - img "Aframax Tanker Special Survey & BWTS Retrofit" [ref=e285]
+              - generic [ref=e287]: "2025"
+            - generic [ref=e288]:
+              - generic [ref=e289]: Ship Repair
+              - heading "Aframax Tanker Special Survey & BWTS Retrofit" [level=3] [ref=e290]
+              - paragraph [ref=e291]: Full dry-docking of a 110,000 DWT Aframax tanker at Tallinn Shipyard's Dock 22. Scope included class special survey, BWTS installation, propeller shaft renewal, hull blasting and full epoxy coating. Completed 3 days ahead of schedule.
+              - generic [ref=e292]:
+                - generic [ref=e293]: Ship Repair
+                - generic [ref=e294]: Dry Docking
+                - generic [ref=e295]: BWTS
+          - article [ref=e296]:
+            - generic [ref=e297]:
+              - img "Ro-Ro to Passenger Vessel Conversion" [ref=e298]
+              - generic [ref=e300]: "2025"
+            - generic [ref=e301]:
+              - generic [ref=e302]: Ship Repair
+              - heading "Ro-Ro to Passenger Vessel Conversion" [level=3] [ref=e303]
+              - paragraph [ref=e304]: 12-month conversion of a roll-on/roll-off ferry into a 1,200-passenger vessel at BLRT's Klaipėda yard. New passenger decks, accommodation blocks, fire safety systems and full SOLAS/MLC compliance package delivered.
+              - generic [ref=e305]:
+                - generic [ref=e306]: Conversion
+                - generic [ref=e307]: Passenger Vessel
+                - generic [ref=e308]: SOLAS
+          - article [ref=e309]:
+            - generic [ref=e310]:
+              - img "Fleet-Wide Hull Inspection Programme — 42 Vessels" [ref=e311]
+              - generic [ref=e313]: "2025"
+            - generic [ref=e314]:
+              - generic [ref=e315]: Inspection & Testing
+              - heading "Fleet-Wide Hull Inspection Programme — 42 Vessels" [level=3] [ref=e316]
+              - paragraph [ref=e317]: Tehnomet Survey executed a multi-port hull inspection programme for a European ferry operator, covering 42 vessels across 11 ports in five countries. All reports were submitted within 72 hours and accepted by DNV GL.
+              - generic [ref=e318]:
+                - generic [ref=e319]: Hull Inspection
+                - generic [ref=e320]: UTM
+                - generic [ref=e321]: Fleet
+      - generic [ref=e323]:
+        - generic [ref=e324]:
+          - paragraph [ref=e325]: Careers
+          - heading "Join BLRT Grupp" [level=2] [ref=e326]
+          - paragraph [ref=e327]: We are always looking for talented engineers, technicians and business professionals to grow with us.
+        - link "View Open Positions" [ref=e328] [cursor=pointer]:
+          - /url: /careers
+          - text: View Open Positions
+          - img [ref=e329]
+    - contentinfo [ref=e331]:
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - img "BLRT Grupp" [ref=e336]
+            - generic [ref=e337]:
+              - generic [ref=e338]: BLRT GRUPP
+              - generic [ref=e339]: Industrial Group · Est. 1912
+          - paragraph [ref=e340]: One industrial group. Seventeen companies. A century of Baltic maritime and engineering tradition.
+        - generic [ref=e341]:
+          - heading "Pages" [level=4] [ref=e342]
+          - list [ref=e343]:
+            - listitem [ref=e344]:
+              - link "Home" [ref=e345] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e346]:
+              - link "About Us" [ref=e347] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e348]:
+              - link "Our Values" [ref=e349] [cursor=pointer]:
+                - /url: /our-values
+            - listitem [ref=e350]:
+              - link "News" [ref=e351] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e352]:
+              - link "Projects" [ref=e353] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e354]:
+              - link "Careers" [ref=e355] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e356]:
+              - link "Sustainability" [ref=e357] [cursor=pointer]:
+                - /url: /sustainability
+            - listitem [ref=e358]:
+              - link "Contacts" [ref=e359] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e360]:
+          - heading "Contact" [level=4] [ref=e361]
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - img [ref=e364]
+              - link "+372 610 2997" [ref=e366] [cursor=pointer]:
+                - /url: tel:+3726102997
+            - listitem [ref=e367]:
+              - img [ref=e368]
+              - link "info@blrt.ee" [ref=e371] [cursor=pointer]:
+                - /url: mailto:info@blrt.ee
+            - listitem [ref=e372]:
+              - img [ref=e373]
+              - generic [ref=e376]:
+                - text: Kopli 103, Tallinn
+                - text: Estonia · BLRT Grupp
+      - generic [ref=e378]:
+        - generic [ref=e379]: © 2026 BLRT Grupp. All rights reserved.
+        - generic [ref=e380]: Baltic Industry · Built to Endure

@@ -1,0 +1,312 @@
+- generic [active] [ref=e1]:
+  - text:         
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://marketexmarine.net/en/
+          - img [ref=e6]
+        - text:  
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - list [ref=e16]:
+              - listitem [ref=e17]:
+                - link "About us" [ref=e18] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/en/about-us/
+              - listitem [ref=e19]:
+                - link "Contacts" [ref=e20] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/en/contacts/
+              - listitem [ref=e21]:
+                - link "News" [ref=e22] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/en/news/
+            - list [ref=e24]:
+              - listitem [ref=e25]:
+                - link "En" [ref=e26] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/en/
+                  - generic [ref=e27]: En
+              - listitem [ref=e28]:
+                - link "Switch to Ru" [ref=e29] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/ru/
+                  - generic [ref=e30]: Ru
+          - navigation [ref=e31]:
+            - list [ref=e32]:
+              - listitem [ref=e33]:
+                - link " Activities" [ref=e34] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/en/activities/
+              - listitem [ref=e35]:
+                - link " Virtual Tour" [ref=e36] [cursor=pointer]:
+                  - /url: https://marketexmarine.net/en/virtual-tour/
+    - main [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - img [ref=e42]
+            - generic [ref=e44]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e45]:
+            - img [ref=e46]
+            - generic [ref=e48]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - generic [ref=e56]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e57]:
+            - img [ref=e58]
+            - generic [ref=e60]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e61]:
+            - img [ref=e62]
+            - generic [ref=e64]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e65]:
+            - img [ref=e66]
+            - generic [ref=e68]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - generic [ref=e72]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e73]:
+            - img [ref=e74]
+            - generic [ref=e76]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e80]:
+              - generic:
+                - heading [level=2]
+          - generic [ref=e81]:
+            - img [ref=e82]
+            - generic [ref=e84]:
+              - generic:
+                - heading [level=2]
+        - generic [ref=e85]:
+          - button "Go to slide 1" [ref=e86] [cursor=pointer]
+          - button "Go to slide 2" [ref=e87] [cursor=pointer]
+          - button "Go to slide 3" [ref=e88] [cursor=pointer]
+          - button "Go to slide 4" [ref=e89] [cursor=pointer]
+          - button "Go to slide 5" [ref=e90] [cursor=pointer]
+          - button "Go to slide 6" [ref=e91] [cursor=pointer]
+          - button "Go to slide 7" [ref=e92] [cursor=pointer]
+          - button "Go to slide 8" [ref=e93] [cursor=pointer]
+          - button "Go to slide 9" [ref=e94] [cursor=pointer]
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]: About us
+          - generic [ref=e100]:
+            - paragraph [ref=e101]: Marketex Marine offers solutions for the small shipbuilding and fish farming markets from project design and development through to the finished product delivery to the customer. The company is the leader in the construction of steel fish feeding barges.
+            - paragraph [ref=e102]: Marketex Marine has been operating in the Norwegian market since 2000. We have constructed more than 400 feed barges for our customers, thus, making a significant contribution to Norwegian aquaculture. Being able to offer high-quality products and maintain barge construction deadlines, we have a serious competitive advantage over other companies. Our flexibility and customer loyalty explain our working with Norwegian customers for more than 20 years.
+            - paragraph [ref=e103]: With highly qualified specialists, state-of-the-art equipment and direct access to the sea, we are able to handle large-scale projects of high complexity.
+            - paragraph [ref=e104]: Marketex Marine-built barges with feed storage capacities ranging from 100 to 900 tonnes are successfully operating worldwide, from Japan to Chile and from Norway to Greece.
+            - paragraph [ref=e105]: Marketex Marine offers sophisticated large-sized carbon steel solutions for the small shipbuilding and fish farming industries.
+            - paragraph [ref=e106]: Design development, construction, painting, piping, electrical works and electric installation, hydraulic and pneumatic equipment installation, lining, and outfitting are all part of the services performed by Marketex Marine on turnkey projects.
+          - generic [ref=e107]:
+            - text: 
+            - text: 
+            - text: 
+            - link "Read more " [ref=e108] [cursor=pointer]:
+              - /url: " /en/about-us/"
+              - generic [ref=e109]: Read more
+              - generic [ref=e110]: 
+        - generic [ref=e111]:
+          - generic [ref=e114]:
+            - strong [ref=e115]: Over 400 barges
+            - text: constructed by Marketex marine
+          - generic [ref=e118]:
+            - strong [ref=e119]: More than 120
+            - text: employees
+          - generic [ref=e122]:
+            - strong [ref=e123]: 25 m
+            - text: workshop operational height
+          - generic [ref=e126]:
+            - strong [ref=e127]: 100-900 tonnes
+            - text: the feed storage capacity range
+          - generic [ref=e130]:
+            - strong [ref=e131]: 500 tonnes
+            - text: transporter loading capacity
+          - generic [ref=e134]:
+            - strong [ref=e135]: 850 tonnes
+            - text: crane lifting capacity
+          - generic [ref=e138]:
+            - strong [ref=e139]:
+              - strong [ref=e140]: PEMA
+            - text: automated welding portal
+      - generic [ref=e141]:
+        - generic [ref=e143]: Activities
+        - generic [ref=e144]:
+          - generic [ref=e146]:
+            - link "Offshore Projects" [ref=e149] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/offshore-projects/
+              - generic [ref=e151]: Offshore Projects
+            - link "Feed storage up to 300 tonnes" [ref=e154] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-300-tonnes/
+              - generic [ref=e155]: Feed storage up to 300 tonnes
+            - link "Feed storage up to 400 tonnes" [ref=e158] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-400-tonnes/
+              - generic [ref=e159]: Feed storage up to 400 tonnes
+            - link "Feed storage up to 450 tonnes" [ref=e162] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-450-tonnes/
+              - generic [ref=e163]: Feed storage up to 450 tonnes
+            - link "Feed storage up to 600 tonnes" [ref=e166] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-600-tonnes/
+              - generic [ref=e167]: Feed storage up to 600 tonnes
+            - link "Feed storage up to 650 tonnes" [ref=e170] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-650-tonnes/
+              - generic [ref=e171]: Feed storage up to 650 tonnes
+            - link "Feed storage up to 850 tonnes" [ref=e174] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-850-tonnes/
+              - generic [ref=e175]: Feed storage up to 850 tonnes
+            - link "Feed storage up to 900 tonnes" [ref=e178] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-900-tonnes/
+              - generic [ref=e179]: Feed storage up to 900 tonnes
+            - link "Offshore Projects" [ref=e182] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/offshore-projects/
+              - generic [ref=e184]: Offshore Projects
+            - link "Feed storage up to 300 tonnes" [ref=e187] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-300-tonnes/
+              - generic [ref=e188]: Feed storage up to 300 tonnes
+            - link "Feed storage up to 400 tonnes" [ref=e191] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-400-tonnes/
+              - generic [ref=e192]: Feed storage up to 400 tonnes
+            - link "Feed storage up to 450 tonnes" [ref=e195] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-450-tonnes/
+              - generic [ref=e196]: Feed storage up to 450 tonnes
+            - link "Feed storage up to 600 tonnes" [ref=e199] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-600-tonnes/
+              - generic [ref=e200]: Feed storage up to 600 tonnes
+            - link "Feed storage up to 650 tonnes" [ref=e203] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-650-tonnes/
+              - generic [ref=e204]: Feed storage up to 650 tonnes
+            - link "Feed storage up to 850 tonnes" [ref=e207] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-850-tonnes/
+              - generic [ref=e208]: Feed storage up to 850 tonnes
+            - link "Feed storage up to 900 tonnes" [ref=e211] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-900-tonnes/
+              - generic [ref=e212]: Feed storage up to 900 tonnes
+            - link "Offshore Projects" [ref=e215] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/offshore-projects/
+              - generic [ref=e217]: Offshore Projects
+            - link "Feed storage up to 300 tonnes" [ref=e220] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-300-tonnes/
+              - generic [ref=e221]: Feed storage up to 300 tonnes
+            - link "Feed storage up to 400 tonnes" [ref=e224] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-400-tonnes/
+              - generic [ref=e225]: Feed storage up to 400 tonnes
+            - link "Feed storage up to 450 tonnes" [ref=e228] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-450-tonnes/
+              - generic [ref=e229]: Feed storage up to 450 tonnes
+            - link "Feed storage up to 600 tonnes" [ref=e232] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-600-tonnes/
+              - generic [ref=e233]: Feed storage up to 600 tonnes
+            - link "Feed storage up to 650 tonnes" [ref=e236] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-650-tonnes/
+              - generic [ref=e237]: Feed storage up to 650 tonnes
+            - link "Feed storage up to 850 tonnes" [ref=e240] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-850-tonnes/
+              - generic [ref=e241]: Feed storage up to 850 tonnes
+            - link "Feed storage up to 900 tonnes" [ref=e244] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/activities-list/feed-storage-up-to-900-tonnes/
+              - generic [ref=e245]: Feed storage up to 900 tonnes
+          - generic [ref=e246]:
+            - button "Go to slide 1" [ref=e247] [cursor=pointer]
+            - button "Go to slide 2" [ref=e248] [cursor=pointer]
+            - button "Go to slide 3" [ref=e249] [cursor=pointer]
+            - button "Go to slide 4" [ref=e250] [cursor=pointer]
+            - button "Go to slide 5" [ref=e251] [cursor=pointer]
+            - button "Go to slide 6" [ref=e252] [cursor=pointer]
+            - button "Go to slide 7" [ref=e253] [cursor=pointer]
+            - button "Go to slide 8" [ref=e254] [cursor=pointer]
+          - button "Previous slide" [ref=e255] [cursor=pointer]:
+            - generic [ref=e256]: 
+          - button "Next slide" [ref=e257] [cursor=pointer]:
+            - generic [ref=e258]: 
+      - generic [ref=e260]:
+        - generic [ref=e261]: Company news
+        - generic [ref=e263]:
+          - generic [ref=e265]:
+            - link [ref=e266] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/news-list/happy-independence-day-estonia-3/
+            - generic [ref=e267]:
+              - generic [ref=e268]: 23.02.2026
+              - link "Happy Independence Day, Estonia!" [ref=e269] [cursor=pointer]:
+                - /url: https://marketexmarine.net/en/news-list/happy-independence-day-estonia-3/
+              - link "Read more " [ref=e271] [cursor=pointer]:
+                - /url: https://marketexmarine.net/en/news-list/happy-independence-day-estonia-3/
+                - generic [ref=e272]: Read more
+                - generic [ref=e273]: 
+          - generic [ref=e275]:
+            - link [ref=e276] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/news-list/happy-holidays-3/
+            - generic [ref=e277]:
+              - generic [ref=e278]: 18.12.2025
+              - link "Happy Holidays!" [ref=e279] [cursor=pointer]:
+                - /url: https://marketexmarine.net/en/news-list/happy-holidays-3/
+              - link "Read more " [ref=e281] [cursor=pointer]:
+                - /url: https://marketexmarine.net/en/news-list/happy-holidays-3/
+                - generic [ref=e282]: Read more
+                - generic [ref=e283]: 
+          - generic [ref=e285]:
+            - link [ref=e286] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/news-list/happy-independence-restoration-day-estonia/
+            - generic [ref=e287]:
+              - generic [ref=e288]: 19.08.2025
+              - link "Happy Independence Restoration Day, Estonia!" [ref=e289] [cursor=pointer]:
+                - /url: https://marketexmarine.net/en/news-list/happy-independence-restoration-day-estonia/
+              - link "Read more " [ref=e291] [cursor=pointer]:
+                - /url: https://marketexmarine.net/en/news-list/happy-independence-restoration-day-estonia/
+                - generic [ref=e292]: Read more
+                - generic [ref=e293]: 
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - generic [ref=e298]: Contacts
+        - list [ref=e300]:
+          - listitem [ref=e301]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e302] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e304]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e306]:
+            - link "marketex.marine@blrt.ee" [ref=e307] [cursor=pointer]:
+              - /url: mailto:marketex.marine@blrt.ee
+              - img [ref=e309]
+              - text: marketex.marine@blrt.ee
+          - listitem [ref=e311]:
+            - link "+372 610 2553" [ref=e312] [cursor=pointer]:
+              - /url: tel:+372 610 2553
+              - img [ref=e314]
+              - text: +372 610 2553
+      - generic [ref=e316]:
+        - generic [ref=e317]: LINKS
+        - list [ref=e319]:
+          - listitem [ref=e320]:
+            - link " About us" [ref=e321] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/about-us/
+          - listitem [ref=e322]:
+            - link " Contacts" [ref=e323] [cursor=pointer]:
+              - /url: https://marketexmarine.net/en/contacts/
+      - generic [ref=e324]:
+        - list
+    - contentinfo [ref=e326]:
+      - generic [ref=e329]: © 2026 BLRT Grupp. All rights reserved.
+    - link "" [ref=e330] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e331]: 
+  - dialog "Compliance by Hu-manity.co" [ref=e332]:
+    - generic [ref=e333]:
+      - generic [ref=e334]: Cookies make it easier for us to provide you with our services. With the usage of our services you permit us to use cookies.
+      - button "Ok" [ref=e336] [cursor=pointer]
+      - button "No" [ref=e337] [cursor=pointer]

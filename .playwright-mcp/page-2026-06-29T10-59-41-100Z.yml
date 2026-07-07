@@ -1,0 +1,303 @@
+- generic [active] [ref=e1]:
+  - text:    
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://blrt.ee/en/
+          - img [ref=e6]
+          - img [ref=e19]
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - link "About us" [ref=e29] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/about-us/
+              - listitem [ref=e30]:
+                - link "News" [ref=e31] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/news/
+              - listitem [ref=e32]:
+                - link "Career" [ref=e33] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/career/
+              - listitem [ref=e34]:
+                - link "Contacts" [ref=e35] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/contacts/
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "Switch to Ee" [ref=e39] [cursor=pointer]:
+                  - /url: https://blrt.ee/et/
+                  - generic [ref=e40]: Ee
+              - listitem [ref=e41]:
+                - link "En" [ref=e42] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/
+                  - generic [ref=e43]: En
+              - listitem [ref=e44]:
+                - link "Switch to Ru" [ref=e45] [cursor=pointer]:
+                  - /url: https://blrt.ee/ru/
+                  - generic [ref=e46]: Ru
+          - navigation [ref=e47]:
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link " Activities" [ref=e50] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/activities/
+              - listitem [ref=e51]:
+                - link " Tenders" [ref=e52] [cursor=pointer]:
+                  - /url: https://tenders.blrt.ee/
+              - listitem [ref=e53]:
+                - link " Social responsibility" [ref=e54] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/social-responsibility/
+              - listitem [ref=e55]:
+                - link " Subsidiaries" [ref=e56] [cursor=pointer]:
+                  - /url: https://blrt.ee/en/subsidiaries/
+    - main [ref=e57]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - img [ref=e62]
+          - generic [ref=e64]:
+            - heading "Leading industrial holding in the Baltics" [level=2] [ref=e66]:
+              - text: Leading industrial
+              - text: holding
+              - text: in the Baltics
+            - link "Read more " [ref=e68] [cursor=pointer]:
+              - /url: " /about-us/"
+              - generic [ref=e69]: Read more
+              - generic [ref=e70]: 
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - generic [ref=e74]:
+            - heading "Leading industrial holding in the Baltics" [level=2] [ref=e76]:
+              - text: Leading industrial
+              - text: holding
+              - text: in the Baltics
+            - link "Read more " [ref=e78] [cursor=pointer]:
+              - /url: " /about-us/"
+              - generic [ref=e79]: Read more
+              - generic [ref=e80]: 
+        - generic [ref=e81]:
+          - img [ref=e82]
+          - generic [ref=e84]:
+            - heading "Leading industrial holding in the Baltics" [level=2] [ref=e86]:
+              - text: Leading industrial
+              - text: holding
+              - text: in the Baltics
+            - link "Read more " [ref=e88] [cursor=pointer]:
+              - /url: " /about-us/"
+              - generic [ref=e89]: Read more
+              - generic [ref=e90]: 
+        - generic [ref=e91]:
+          - img [ref=e92]
+          - generic [ref=e94]:
+            - heading "Leading industrial holding in the Baltics" [level=2] [ref=e96]:
+              - text: Leading industrial
+              - text: holding
+              - text: in the Baltics
+            - link "Read more " [ref=e98] [cursor=pointer]:
+              - /url: " /about-us/"
+              - generic [ref=e99]: Read more
+              - generic [ref=e100]: 
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: About us
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: BLRT Grupp is one of the largest industrial holdings in the Baltic Sea region.
+            - paragraph [ref=e108]: BLRT Grupp today it is more than 50 companies that are actively working and developing in the markets of Estonia, Latvia, Lithuania, Poland, Ukraine, Finland and Brazil.
+          - button "Video " [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: Video
+            - generic [ref=e112]: 
+          - link "Read more " [ref=e114] [cursor=pointer]:
+            - /url: " /about-us/"
+            - generic [ref=e115]: Read more
+            - generic [ref=e116]: 
+        - generic [ref=e117]:
+          - generic [ref=e119]:
+            - img "ico-1" [ref=e121]
+            - generic [ref=e123]:
+              - strong [ref=e124]: "7"
+              - text: Countries
+          - generic [ref=e126]:
+            - img "ico-2" [ref=e128]
+            - generic [ref=e138]:
+              - strong [ref=e139]: "50"
+              - text: companies
+          - generic [ref=e141]:
+            - img [ref=e143]
+            - generic [ref=e145]:
+              - strong [ref=e146]: "4"
+              - text: joint ventures
+          - generic [ref=e150]:
+            - strong [ref=e151]: "4000"
+            - text: Employees
+      - generic [ref=e152]:
+        - generic [ref=e154]: Activities
+        - generic [ref=e155]:
+          - generic [ref=e157]:
+            - link "Shipbuilding" [ref=e160] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/shipbuilding/
+              - generic [ref=e161]: Shipbuilding
+            - link "Ship repair" [ref=e164] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/ship-repair/
+              - generic [ref=e165]: Ship repair
+            - link "Manufacturing of high-technology equipment and metal structures" [ref=e168] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/manufacturing-of-high-technology-equipment-and-metal-structures/
+              - generic [ref=e169]: Manufacturing of high-technology equipment and metal structures
+            - link "Metal product processing and sale" [ref=e172] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/metal-product-processing-and-sale/
+              - generic [ref=e174]: Metal product processing and sale
+            - link "Mechanical engineering" [ref=e177] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/mechanical-engineering/
+              - generic [ref=e179]: Mechanical engineering
+            - link "Transport services" [ref=e182] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/transport-services/
+              - generic [ref=e184]: Transport services
+            - link "Rent of equipment" [ref=e187] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/rent-of-equipment/
+              - generic [ref=e189]: Rent of equipment
+            - link "Stevedoring and port services" [ref=e192] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/stevedoring-and-port-services/
+              - generic [ref=e193]: Stevedoring and port services
+            - link "Industrial and medical gases production and sale" [ref=e196] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/industrial-and-medical-gases-production-and-sale/
+              - generic [ref=e197]: Industrial and medical gases production and sale
+            - link "Foundry" [ref=e200] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/foundry/
+              - generic [ref=e201]: Foundry
+            - link "Real estate development" [ref=e204] [cursor=pointer]:
+              - /url: https://blrt.ee/en/activities-list/real-estate-development/
+              - generic [ref=e205]: Real estate development
+          - generic [ref=e208] [cursor=pointer]: 
+          - generic [ref=e210] [cursor=pointer]: 
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - generic [ref=e216]: Social responsibility
+          - paragraph [ref=e218]: We look toward to contribute to the development of society, thinking about our employees, customers and partners, introducing technologies designed to reduce our environmental impact, supporting culture, sports and education.
+          - link "Read more " [ref=e220] [cursor=pointer]:
+            - /url: /social-responsibility/
+            - generic [ref=e221]: Read more
+            - generic [ref=e222]: 
+        - generic [ref=e224]:
+          - link "BLRT fond " [ref=e227] [cursor=pointer]:
+            - /url: /blrt-fond/
+            - img [ref=e229]
+            - generic [ref=e232]: BLRT fond
+            - generic [ref=e233]: 
+          - link "Culture " [ref=e236] [cursor=pointer]:
+            - /url: /culture/
+            - img [ref=e238]
+            - generic [ref=e240]: Culture
+            - generic [ref=e241]: 
+          - link "Sport " [ref=e244] [cursor=pointer]:
+            - /url: /sport/
+            - img [ref=e246]
+            - generic [ref=e248]: Sport
+            - generic [ref=e249]: 
+          - link "Education " [ref=e252] [cursor=pointer]:
+            - /url: /education/
+            - img [ref=e254]
+            - generic [ref=e256]: Education
+            - generic [ref=e257]: 
+      - generic [ref=e260]:
+        - generic [ref=e261]: Career
+        - paragraph [ref=e263]: BLRT Grupp aims to be an attractive employer and appreciates highly skilled, energetic and motivated employees.
+        - link "Read more " [ref=e265] [cursor=pointer]:
+          - /url: /career/
+          - generic [ref=e266]: Read more
+          - generic [ref=e267]: 
+      - generic [ref=e269]:
+        - generic [ref=e270]: Company news
+        - generic [ref=e272]:
+          - generic [ref=e274]:
+            - link [ref=e275] [cursor=pointer]:
+              - /url: https://blrt.ee/en/news-list/blrt-grupp-shipyard-receives-prestigious-shippax-roro-award-2026/
+            - generic [ref=e276]:
+              - generic [ref=e277]: 08.05.2026
+              - link "BLRT Grupp Shipyard Receives Prestigious Shippax RoRo Award 2026" [ref=e278] [cursor=pointer]:
+                - /url: https://blrt.ee/en/news-list/blrt-grupp-shipyard-receives-prestigious-shippax-roro-award-2026/
+              - link "Read more " [ref=e280] [cursor=pointer]:
+                - /url: https://blrt.ee/en/news-list/blrt-grupp-shipyard-receives-prestigious-shippax-roro-award-2026/
+                - generic [ref=e281]: Read more
+                - generic [ref=e282]: 
+          - generic [ref=e284]:
+            - link [ref=e285] [cursor=pointer]:
+              - /url: https://blrt.ee/en/news-list/blrt-grupp-expands-into-brazil/
+            - generic [ref=e286]:
+              - generic [ref=e287]: 04.05.2026
+              - link "BLRT Grupp Expands into Brazil" [ref=e288] [cursor=pointer]:
+                - /url: https://blrt.ee/en/news-list/blrt-grupp-expands-into-brazil/
+              - link "Read more " [ref=e290] [cursor=pointer]:
+                - /url: https://blrt.ee/en/news-list/blrt-grupp-expands-into-brazil/
+                - generic [ref=e291]: Read more
+                - generic [ref=e292]: 
+          - generic [ref=e294]:
+            - link [ref=e295] [cursor=pointer]:
+              - /url: https://blrt.ee/en/news-list/blrt-grupp-transforms-sea-cargo-sister-vessels-into-next-gen-ro-ros/
+            - generic [ref=e296]:
+              - generic [ref=e297]: 24.04.2026
+              - link "Major Modernisation by BLRT Grupp’s Ship Repair Yard Turns Sea-Cargo’s Sister Vessels into Next-Generation Ro-Ros" [ref=e298] [cursor=pointer]:
+                - /url: https://blrt.ee/en/news-list/blrt-grupp-transforms-sea-cargo-sister-vessels-into-next-gen-ro-ros/
+              - link "Read more " [ref=e300] [cursor=pointer]:
+                - /url: https://blrt.ee/en/news-list/blrt-grupp-transforms-sea-cargo-sister-vessels-into-next-gen-ro-ros/
+                - generic [ref=e301]: Read more
+                - generic [ref=e302]: 
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - generic [ref=e307]: Contacts
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Kopli 103, 11712 Tallinn, Estonia" [ref=e311] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/BLRT+Grupp+AS/@59.4629516,24.6601399,15z/data=!4m5!3m4!1s0x0:0x2f50456574f46819!8m2!3d59.4629516!4d24.6601399
+              - img [ref=e313]
+              - text: Kopli 103, 11712 Tallinn, Estonia
+          - listitem [ref=e315]:
+            - link "blrt@blrt.ee" [ref=e316] [cursor=pointer]:
+              - /url: mailto:blrt@blrt.ee
+              - img [ref=e318]
+              - text: blrt@blrt.ee
+          - listitem [ref=e320]:
+            - link "+372 610 2408" [ref=e321] [cursor=pointer]:
+              - /url: tel:+372 610 2408
+              - img [ref=e323]
+              - text: +372 610 2408
+      - generic [ref=e325]:
+        - generic [ref=e326]: LINKS
+        - list [ref=e328]:
+          - listitem [ref=e329]:
+            - link " About us" [ref=e330] [cursor=pointer]:
+              - /url: /about-us/
+          - listitem [ref=e331]:
+            - link " News" [ref=e332] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e333]:
+            - link " Privacy policy" [ref=e334] [cursor=pointer]:
+              - /url: https://blrt.ee/en/privacy-policy-2/
+          - listitem [ref=e335]:
+            - link " Career" [ref=e336] [cursor=pointer]:
+              - /url: /career/
+          - listitem [ref=e337]:
+            - link " Contacts" [ref=e338] [cursor=pointer]:
+              - /url: /contacts/
+          - listitem [ref=e339]:
+            - link " General Terms" [ref=e340] [cursor=pointer]:
+              - /url: /en/general-terms/
+          - listitem [ref=e341]:
+            - link " General Terms Archive" [ref=e342] [cursor=pointer]:
+              - /url: https://blrt.ee/en/general-terms-archive/
+          - listitem [ref=e343]:
+            - link " Violation report" [ref=e344] [cursor=pointer]:
+              - /url: https://forms.office.com/Pages/ResponsePage.aspx?id=enAOge4PhkyVGZSBH0mtDuiJEHbRpqxJkIuYYfNya7JUOVE5STRWRzk5NzZTTlZOT1ZTUFY0VUFTVi4u&lang=en-US
+      - list [ref=e347]:
+        - listitem [ref=e348]:
+          - link " Facebook" [ref=e349] [cursor=pointer]:
+            - /url: https://www.facebook.com/blrtgrupp
+            - generic [ref=e350]: 
+            - text: Facebook
+        - listitem [ref=e351]:
+          - link " Linkedin" [ref=e352] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/blrt-grupp
+            - generic [ref=e353]: 
+            - text: Linkedin
+    - contentinfo [ref=e354]:
+      - generic [ref=e357]: © 2026 BLRT Grupp. All rights reserved. https://sudamest.com/
+    - link "" [ref=e358] [cursor=pointer]:
+      - /url: "#page"
+      - generic [ref=e359]: 
+  - dialog "Compliance by Hu-manity.co"

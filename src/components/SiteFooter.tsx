@@ -56,6 +56,26 @@ export default function SiteFooter() {
               </Link>
             </li>
             <li>
+              <Link to="/news" className="hover:text-white transition-colors duration-200">
+                {t("nav.news")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/projects" className="hover:text-white transition-colors duration-200">
+                {t("nav.projects")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/careers" className="hover:text-white transition-colors duration-200">
+                {t("nav.careers")}
+              </Link>
+            </li>
+            <li>
+              <Link to="/sustainability" className="hover:text-white transition-colors duration-200">
+                {t("nav.sustainability")}
+              </Link>
+            </li>
+            <li>
               <Link to="/contacts" className="hover:text-white transition-colors duration-200">
                 {t("nav.contacts")}
               </Link>

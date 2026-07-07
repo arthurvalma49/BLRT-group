@@ -1,0 +1,249 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "BLRT Grupp home" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "BLRT Grupp" [ref=e7]
+          - generic [ref=e8]:
+            - generic [ref=e9]: BLRT GRUPP
+            - generic [ref=e10]: Industrial Group · Est. 1912
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - button "EN" [ref=e13] [cursor=pointer]
+            - button "RU" [ref=e14] [cursor=pointer]
+            - button "ET" [ref=e15] [cursor=pointer]
+          - button "Toggle menu" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - img [ref=e21]
+        - generic [ref=e24]:
+          - paragraph [ref=e25]: Careers
+          - heading "Careers at BLRT Grupp" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Join one of the Baltic region's largest industrial groups.
+      - generic [ref=e29]:
+        - heading "Why work with us?" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - img [ref=e34]
+            - heading "Growth & Development" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Structured career paths, funded training programmes and cross-company development opportunities across 17 companies.
+          - generic [ref=e39]:
+            - img [ref=e41]
+            - heading "Stability & Scale" [level=3] [ref=e43]
+            - paragraph [ref=e44]: Over 110 years of continuous industrial operations. A group built to endure economic cycles, with deep roots in the Baltic region.
+          - generic [ref=e45]:
+            - img [ref=e47]
+            - heading "Innovation & Impact" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Work on real projects with global reach — from vessel conversions to offshore energy supply to bridge steel fabrication.
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Open Positions" [level=2] [ref=e54]
+          - generic [ref=e55]:
+            - button "All Companies" [ref=e56] [cursor=pointer]
+            - button "Tallinn Shipyard" [ref=e57] [cursor=pointer]
+            - button "Tehnomet Survey" [ref=e58] [cursor=pointer]
+            - button "Elme Metall" [ref=e59] [cursor=pointer]
+            - button "BLRT ERA" [ref=e60] [cursor=pointer]
+            - button "Vene-Balti Sadam" [ref=e61] [cursor=pointer]
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - button "Senior Ship Repair Engineer Tallinn Shipyard Tallinn, Estonia Full-time" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - heading "Senior Ship Repair Engineer" [level=3] [ref=e66]
+                - generic [ref=e67]:
+                  - generic [ref=e68]: Tallinn Shipyard
+                  - generic [ref=e69]:
+                    - img [ref=e70]
+                    - text: Tallinn, Estonia
+                  - generic [ref=e73]:
+                    - img [ref=e74]
+                    - text: Full-time
+              - img [ref=e77]
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: We are looking for an experienced Ship Repair Engineer to lead complex drydock projects at our Kopli yard. You will manage multi-discipline scopes including steel, piping, electrical and coating works, coordinate with classification surveyors and maintain direct client relationships.
+              - generic [ref=e81]:
+                - heading "Requirements" [level=4] [ref=e82]
+                - list [ref=e83]:
+                  - listitem [ref=e84]: 5+ years of ship repair or shipbuilding experience
+                  - listitem [ref=e86]: Degree in Naval Architecture, Marine Engineering or equivalent
+                  - listitem [ref=e88]: Familiarity with classification society rules (DNV, BV, LR, ABS)
+                  - listitem [ref=e90]: Proven project management skills and ability to manage tight schedules
+                  - listitem [ref=e92]: Proficiency in English; Estonian or Russian an advantage
+              - link "Apply by email" [ref=e95] [cursor=pointer]:
+                - /url: "mailto:info@blrt.ee?subject=Application: Senior Ship Repair Engineer"
+                - img [ref=e96]
+                - text: Apply by email
+          - generic [ref=e99]:
+            - button "NDT Level II Inspector — UT & MT Tehnomet Survey Tallinn, Estonia (worldwide deployment) Full-time" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]:
+                - heading "NDT Level II Inspector — UT & MT" [level=3] [ref=e102]
+                - generic [ref=e103]:
+                  - generic [ref=e104]: Tehnomet Survey
+                  - generic [ref=e105]:
+                    - img [ref=e106]
+                    - text: Tallinn, Estonia (worldwide deployment)
+                  - generic [ref=e109]:
+                    - img [ref=e110]
+                    - text: Full-time
+              - img [ref=e113]
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: Tehnomet Survey is expanding its inspection team and looking for certified NDT inspectors for ship hull and weld inspections. The role involves worldwide travel to vessels in port, working closely with classification society surveyors and producing detailed inspection reports.
+              - generic [ref=e117]:
+                - heading "Requirements" [level=4] [ref=e118]
+                - list [ref=e119]:
+                  - listitem [ref=e120]: PCN or CSWIP Level 2 certification in UT and MT (minimum)
+                  - listitem [ref=e122]: Experience with ship hull inspection and UTM
+                  - listitem [ref=e124]: Valid medical certificate (ENG1 or equivalent)
+                  - listitem [ref=e126]: Willingness to travel worldwide at short notice
+                  - listitem [ref=e128]: Good written English for report preparation
+              - link "Apply by email" [ref=e131] [cursor=pointer]:
+                - /url: "mailto:info@blrt.ee?subject=Application: NDT Level II Inspector — UT & MT"
+                - img [ref=e132]
+                - text: Apply by email
+          - generic [ref=e135]:
+            - button "Steel Sales Manager — Baltic Region Elme Metall Tallinn, Estonia Full-time" [ref=e136] [cursor=pointer]:
+              - generic [ref=e137]:
+                - heading "Steel Sales Manager — Baltic Region" [level=3] [ref=e138]
+                - generic [ref=e139]:
+                  - generic [ref=e140]: Elme Metall
+                  - generic [ref=e141]:
+                    - img [ref=e142]
+                    - text: Tallinn, Estonia
+                  - generic [ref=e145]:
+                    - img [ref=e146]
+                    - text: Full-time
+              - img [ref=e149]
+            - generic [ref=e151]:
+              - paragraph [ref=e152]: Elme Metall is seeking an ambitious Sales Manager to grow our steel distribution business across the Baltic states. You will develop new client relationships in the construction, manufacturing and shipbuilding sectors and manage a portfolio of key accounts.
+              - generic [ref=e153]:
+                - heading "Requirements" [level=4] [ref=e154]
+                - list [ref=e155]:
+                  - listitem [ref=e156]: 3+ years B2B sales experience, preferably in steel, construction or maritime
+                  - listitem [ref=e158]: Established network in the Baltic construction or industrial sector
+                  - listitem [ref=e160]: Results-driven with a track record of meeting sales targets
+                  - listitem [ref=e162]: Fluency in Estonian and English; Russian is a strong advantage
+                  - listitem [ref=e164]: Willingness to travel within the Baltic states regularly
+              - link "Apply by email" [ref=e167] [cursor=pointer]:
+                - /url: "mailto:info@blrt.ee?subject=Application: Steel Sales Manager — Baltic Region"
+                - img [ref=e168]
+                - text: Apply by email
+          - generic [ref=e171]:
+            - button "Electrical Engineer — Marine & Industrial Projects BLRT ERA Tallinn, Estonia Full-time" [ref=e172] [cursor=pointer]:
+              - generic [ref=e173]:
+                - heading "Electrical Engineer — Marine & Industrial Projects" [level=3] [ref=e174]
+                - generic [ref=e175]:
+                  - generic [ref=e176]: BLRT ERA
+                  - generic [ref=e177]:
+                    - img [ref=e178]
+                    - text: Tallinn, Estonia
+                  - generic [ref=e181]:
+                    - img [ref=e182]
+                    - text: Full-time
+              - img [ref=e185]
+            - generic [ref=e187]:
+              - paragraph [ref=e188]: BLRT ERA is looking for an Electrical Engineer to join our growing project team. You will design and deliver electrical and automation solutions for ship repair and industrial clients, working on projects ranging from shore power upgrades to full electrical system replacements.
+              - generic [ref=e189]:
+                - heading "Requirements" [level=4] [ref=e190]
+                - list [ref=e191]:
+                  - listitem [ref=e192]: Degree in Electrical Engineering or equivalent
+                  - listitem [ref=e194]: 2+ years experience in marine, industrial or energy sector electrical projects
+                  - listitem [ref=e196]: Familiarity with IEC standards and classification society electrical rules
+                  - listitem [ref=e198]: CAD/design software skills (AutoCAD or EPLAN preferred)
+                  - listitem [ref=e200]: Team player with strong communication skills in Estonian and English
+              - link "Apply by email" [ref=e203] [cursor=pointer]:
+                - /url: "mailto:info@blrt.ee?subject=Application: Electrical Engineer — Marine & Industrial Projects"
+                - img [ref=e204]
+                - text: Apply by email
+          - generic [ref=e207]:
+            - button "Port Operations Coordinator Vene-Balti Sadam Tallinn, Estonia Full-time" [ref=e208] [cursor=pointer]:
+              - generic [ref=e209]:
+                - heading "Port Operations Coordinator" [level=3] [ref=e210]
+                - generic [ref=e211]:
+                  - generic [ref=e212]: Vene-Balti Sadam
+                  - generic [ref=e213]:
+                    - img [ref=e214]
+                    - text: Tallinn, Estonia
+                  - generic [ref=e217]:
+                    - img [ref=e218]
+                    - text: Full-time
+              - img [ref=e221]
+            - generic [ref=e223]:
+              - paragraph [ref=e224]: Vene-Balti Sadam is looking for an Operations Coordinator to manage day-to-day vessel scheduling, cargo handling and client communication at our Tallinn terminal. The role requires close coordination with stevedores, vessel agents and the harbour master.
+              - generic [ref=e225]:
+                - heading "Requirements" [level=4] [ref=e226]
+                - list [ref=e227]:
+                  - listitem [ref=e228]: Experience in port operations, logistics or maritime administration
+                  - listitem [ref=e230]: Ability to work shift patterns including evenings and weekends
+                  - listitem [ref=e232]: Strong communication skills and ability to manage multiple stakeholders
+                  - listitem [ref=e234]: Proficiency in Estonian and English; Russian is an asset
+                  - listitem [ref=e236]: Familiarity with port management software (desirable)
+              - link "Apply by email" [ref=e239] [cursor=pointer]:
+                - /url: "mailto:info@blrt.ee?subject=Application: Port Operations Coordinator"
+                - img [ref=e240]
+                - text: Apply by email
+        - generic [ref=e243]:
+          - heading "Don't see your role?" [level=3] [ref=e244]
+          - paragraph [ref=e245]:
+            - text: We're always interested in talented people. Send your CV and motivation letter to
+            - link "info@blrt.ee" [ref=e246] [cursor=pointer]:
+              - /url: mailto:info@blrt.ee
+    - contentinfo [ref=e247]:
+      - generic [ref=e249]:
+        - generic [ref=e250]:
+          - generic [ref=e251]:
+            - img "BLRT Grupp" [ref=e252]
+            - generic [ref=e253]:
+              - generic [ref=e254]: BLRT GRUPP
+              - generic [ref=e255]: Industrial Group · Est. 1912
+          - paragraph [ref=e256]: One industrial group. Seventeen companies. A century of Baltic maritime and engineering tradition.
+        - generic [ref=e257]:
+          - heading "Pages" [level=4] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Home" [ref=e261] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e262]:
+              - link "About Us" [ref=e263] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e264]:
+              - link "Our Values" [ref=e265] [cursor=pointer]:
+                - /url: /our-values
+            - listitem [ref=e266]:
+              - link "News" [ref=e267] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e268]:
+              - link "Projects" [ref=e269] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e270]:
+              - link "Careers" [ref=e271] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e272]:
+              - link "Sustainability" [ref=e273] [cursor=pointer]:
+                - /url: /sustainability
+            - listitem [ref=e274]:
+              - link "Contacts" [ref=e275] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e276]:
+          - heading "Contact" [level=4] [ref=e277]
+          - list [ref=e278]:
+            - listitem [ref=e279]:
+              - img [ref=e280]
+              - link "+372 610 2997" [ref=e282] [cursor=pointer]:
+                - /url: tel:+3726102997
+            - listitem [ref=e283]:
+              - img [ref=e284]
+              - link "info@blrt.ee" [ref=e287] [cursor=pointer]:
+                - /url: mailto:info@blrt.ee
+            - listitem [ref=e288]:
+              - img [ref=e289]
+              - generic [ref=e292]:
+                - text: Kopli 103, Tallinn
+                - text: Estonia · BLRT Grupp
+      - generic [ref=e294]:
+        - generic [ref=e295]: © 2026 BLRT Grupp. All rights reserved.
+        - generic [ref=e296]: Baltic Industry · Built to Endure

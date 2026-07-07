@@ -1,0 +1,328 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "BLRT Grupp home" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img "BLRT Grupp" [ref=e8]
+            - generic [ref=e9]:
+              - generic [ref=e10]: BLRT grupp
+              - generic [ref=e11]: Industrial Group · Est. 1912
+          - navigation [ref=e12]:
+            - link "About Us" [ref=e13] [cursor=pointer]:
+              - /url: /about
+              - text: About Us
+            - link "Sustainability" [ref=e14] [cursor=pointer]:
+              - /url: /sustainability
+              - text: Sustainability
+            - link "News" [ref=e15] [cursor=pointer]:
+              - /url: /news
+              - text: News
+            - link "Companies" [ref=e16] [cursor=pointer]:
+              - /url: /companies
+              - text: Companies
+        - generic [ref=e17]:
+          - navigation [ref=e18]:
+            - link "Careers" [ref=e19] [cursor=pointer]:
+              - /url: /careers
+              - text: Careers
+            - link "Contacts" [ref=e20] [cursor=pointer]:
+              - /url: /contacts
+              - text: Contacts
+          - button "Select language" [ref=e22] [cursor=pointer]:
+            - text: EN
+            - img [ref=e23]
+    - main [ref=e25]:
+      - generic [ref=e26]:
+        - generic:
+          - generic:
+            - generic:
+              - img "Marine vessel at sea"
+          - generic:
+            - generic:
+              - img
+              - img
+          - generic:
+            - generic:
+              - img
+              - img
+          - generic:
+            - generic:
+              - img
+              - img
+        - generic [ref=e28]:
+          - generic [ref=e29]: Industrial Group · Since 1912
+          - heading "Baltic industry, built to endure." [level=1] [ref=e31]:
+            - text: Baltic industry,
+            - text: built to endure.
+          - paragraph [ref=e32]: 24 companies. 6 industrial sectors. Over a century of shipbuilding and maritime engineering across Estonia, Latvia, Lithuania and Finland.
+          - generic [ref=e33]:
+            - link "Learn More" [ref=e35] [cursor=pointer]:
+              - /url: /about
+              - text: Learn More
+              - img [ref=e36]
+            - link "Contact Us" [ref=e38] [cursor=pointer]:
+              - /url: /contacts
+              - text: Contact Us
+              - img [ref=e39]
+        - generic [ref=e45]:
+          - generic [ref=e46]: Ship Repair
+          - generic [ref=e48]: Shipbuilding
+          - generic [ref=e50]: Inspection & Testing
+          - generic [ref=e52]: Engineering
+          - generic [ref=e54]: Steel & Materials
+          - generic [ref=e56]: Port & Marine Services
+          - generic [ref=e58]: Ship Repair
+          - generic [ref=e60]: Shipbuilding
+          - generic [ref=e62]: Inspection & Testing
+          - generic [ref=e64]: Engineering
+          - generic [ref=e66]: Steel & Materials
+          - generic [ref=e68]: Port & Marine Services
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img
+          - img [ref=e75]
+          - generic [ref=e79]: "0"
+          - generic [ref=e80]: Companies
+          - img
+        - generic [ref=e81]:
+          - img
+          - img [ref=e83]
+          - generic [ref=e88]: "0"
+          - generic [ref=e89]: Countries
+          - img
+        - generic [ref=e90]:
+          - img
+          - img [ref=e92]
+          - generic [ref=e96]: "0"
+          - generic [ref=e97]: Sectors
+          - img
+        - generic [ref=e98]:
+          - img
+          - img [ref=e100]
+          - generic [ref=e102]: "1912"
+          - generic [ref=e103]: Founded
+          - img
+      - generic [ref=e104]:
+        - img [ref=e105]
+        - generic [ref=e108]: BLRT Grupp · Industrial Group · Est. 1912
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - paragraph [ref=e112]: About BLRT Grupp
+          - heading "Over a century of Baltic industrial operations" [level=2] [ref=e113]
+          - paragraph [ref=e114]: BLRT Grupp is one of the largest industrial holding companies in the Baltic region, with roots stretching back to 1912. From shipbuilding and ship repair to marine inspection, engineering and materials, we operate 24 companies across Estonia, Latvia, Lithuania and Finland.
+          - paragraph [ref=e115]: Our companies share engineering expertise, shipyard infrastructure and a network of maritime specialists across the Baltic Sea region.
+          - link "Learn More" [ref=e116] [cursor=pointer]:
+            - /url: /about
+            - text: Learn More
+            - img [ref=e117]
+        - generic [ref=e119]:
+          - img "Inspector at work on a marine vessel" [ref=e120]
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: Kopli, Tallinn
+              - generic [ref=e125]: Headquarters
+            - generic [ref=e126]:
+              - generic [ref=e127]: "1912"
+              - generic [ref=e128]: Founded
+            - generic [ref=e129]:
+              - generic [ref=e130]: 24 across 6 sectors
+              - generic [ref=e131]: Companies
+            - generic [ref=e132]:
+              - generic [ref=e133]: EE · LV · LT · FI
+              - generic [ref=e134]: Markets
+      - img "BLRT Grupp operating locations across the Baltic Sea region" [ref=e138]
+      - generic [ref=e139]:
+        - img [ref=e141]
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: Sustainability
+            - heading "Green ship repair, cleaner seas" [level=2] [ref=e146]
+            - paragraph [ref=e147]: BLRT Grupp installed the world's first rotor sail on a passenger vessel and leads Baltic maritime decarbonisation — from zero-discharge dock operations to a full suite of green technologies for your fleet.
+            - link "Our sustainability approach" [ref=e148] [cursor=pointer]:
+              - /url: /sustainability
+              - text: Our sustainability approach
+              - img [ref=e149]
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - img [ref=e154]
+              - generic [ref=e158]:
+                - generic [ref=e159]: World's 1st
+                - generic [ref=e160]: Wind-assisted propulsion
+                - generic [ref=e161]: Rotor sail on a passenger vessel — Viking Grace
+            - generic [ref=e162]:
+              - img [ref=e164]
+              - generic [ref=e167]:
+                - generic [ref=e168]: 5+
+                - generic [ref=e169]: Green fleet technologies
+                - generic [ref=e170]: Scrubbers, shore power, BWTS, wind sails & more
+            - generic [ref=e171]:
+              - img [ref=e173]
+              - generic [ref=e176]:
+                - generic [ref=e177]: Zero
+                - generic [ref=e178]: Harmful overboard discharge
+                - generic [ref=e179]: New-generation containment at every berth
+      - generic [ref=e181]:
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - paragraph [ref=e184]: News
+            - heading "Latest News" [level=2] [ref=e185]
+          - link "View all news" [ref=e186] [cursor=pointer]:
+            - /url: /news
+            - text: View all news
+            - img [ref=e187]
+        - generic [ref=e189]:
+          - article [ref=e190]:
+            - img "[Placeholder] BLRT Grupp Press Release" [ref=e192]
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]: Press Release
+                - generic [ref=e197]: ·
+                - generic [ref=e198]:
+                  - img [ref=e199]
+                  - text: 1 January 2026
+              - heading "[Placeholder] BLRT Grupp Press Release" [level=3] [ref=e201]
+              - paragraph [ref=e202]: This is a placeholder. Real news and press releases from BLRT Grupp will be published here. Content to be provided by the client.
+              - generic [ref=e204]:
+                - text: Read more
+                - img [ref=e205]
+          - article [ref=e207]:
+            - img "[Placeholder] Company News" [ref=e209]
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: Company News
+                - generic [ref=e214]: ·
+                - generic [ref=e215]:
+                  - img [ref=e216]
+                  - text: 1 January 2026
+              - heading "[Placeholder] Company News" [level=3] [ref=e218]
+              - paragraph [ref=e219]: This is a placeholder. Real company news from BLRT Grupp subsidiaries will be published here. Content to be provided by the client.
+              - generic [ref=e221]:
+                - text: Read more
+                - img [ref=e222]
+          - article [ref=e224]:
+            - img "[Placeholder] Project Update" [ref=e226]
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: Project
+                - generic [ref=e231]: ·
+                - generic [ref=e232]:
+                  - img [ref=e233]
+                  - text: 1 January 2026
+              - heading "[Placeholder] Project Update" [level=3] [ref=e235]
+              - paragraph [ref=e236]: This is a placeholder. Real project updates from BLRT Grupp yards and companies will be published here. Content to be provided by the client.
+              - generic [ref=e238]:
+                - text: Read more
+                - img [ref=e239]
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - paragraph [ref=e245]: Projects
+            - heading "Featured Projects" [level=2] [ref=e246]
+          - link "See all projects" [ref=e247] [cursor=pointer]:
+            - /url: /projects
+            - text: See all projects
+            - img [ref=e248]
+        - generic [ref=e250]:
+          - article [ref=e251]:
+            - generic [ref=e252]:
+              - img "[Placeholder] Ship Repair Project" [ref=e253]
+              - generic [ref=e255]: "2025"
+            - generic [ref=e256]:
+              - generic [ref=e257]: Ship Repair
+              - heading "[Placeholder] Ship Repair Project" [level=3] [ref=e258]
+              - paragraph [ref=e259]: This is a placeholder. Real ship repair case studies from BLRT Repair Yards will be published here. Content to be provided by the client.
+              - generic [ref=e260]:
+                - generic [ref=e261]: Ship Repair
+                - generic [ref=e262]: Dry Docking
+          - article [ref=e263]:
+            - generic [ref=e264]:
+              - img "[Placeholder] Shipbuilding Project" [ref=e265]
+              - generic [ref=e267]: "2025"
+            - generic [ref=e268]:
+              - generic [ref=e269]: Shipbuilding
+              - heading "[Placeholder] Shipbuilding Project" [level=3] [ref=e270]
+              - paragraph [ref=e271]: This is a placeholder. Real newbuilding case studies from Western Baltic Shipbuilding will be published here. Content to be provided by the client.
+              - generic [ref=e272]:
+                - generic [ref=e273]: Shipbuilding
+                - generic [ref=e274]: Newbuilding
+          - article [ref=e275]:
+            - generic [ref=e276]:
+              - img "[Placeholder] Inspection & Testing Project" [ref=e277]
+              - generic [ref=e279]: "2024"
+            - generic [ref=e280]:
+              - generic [ref=e281]: Inspection & Testing
+              - heading "[Placeholder] Inspection & Testing Project" [level=3] [ref=e282]
+              - paragraph [ref=e283]: This is a placeholder. Real inspection project case studies from Tehnomet Survey and Western Central Laboratory will be published here. Content to be provided by the client.
+              - generic [ref=e284]:
+                - generic [ref=e285]: Hull Inspection
+                - generic [ref=e286]: NDT
+                - generic [ref=e287]: UTM
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - paragraph [ref=e291]: Careers
+          - heading "Join BLRT Grupp" [level=2] [ref=e292]
+          - paragraph [ref=e293]: We are always looking for talented engineers, technicians and business professionals to grow with us.
+        - link "View Open Positions" [ref=e294] [cursor=pointer]:
+          - /url: /careers
+          - text: View Open Positions
+          - img [ref=e295]
+    - contentinfo [ref=e297]:
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - img "BLRT Grupp" [ref=e302]
+            - generic [ref=e303]:
+              - generic [ref=e304]: BLRT GRUPP
+              - generic [ref=e305]: Industrial Group · Est. 1912
+          - paragraph [ref=e306]: One industrial group. 24 companies. A century of Baltic maritime and engineering tradition.
+        - generic [ref=e307]:
+          - heading "Pages" [level=4] [ref=e308]
+          - list [ref=e309]:
+            - listitem [ref=e310]:
+              - link "Home" [ref=e311] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e312]:
+              - link "About Us" [ref=e313] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e314]:
+              - link "Our Values" [ref=e315] [cursor=pointer]:
+                - /url: /our-values
+            - listitem [ref=e316]:
+              - link "News" [ref=e317] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e318]:
+              - link "Projects" [ref=e319] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e320]:
+              - link "Careers" [ref=e321] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e322]:
+              - link "Sustainability" [ref=e323] [cursor=pointer]:
+                - /url: /sustainability
+            - listitem [ref=e324]:
+              - link "Contacts" [ref=e325] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e326]:
+          - heading "Contact" [level=4] [ref=e327]
+          - list [ref=e328]:
+            - listitem [ref=e329]:
+              - img [ref=e330]
+              - link "+372 610 2997" [ref=e332] [cursor=pointer]:
+                - /url: tel:+3726102997
+            - listitem [ref=e333]:
+              - img [ref=e334]
+              - link "info@blrt.ee" [ref=e337] [cursor=pointer]:
+                - /url: mailto:info@blrt.ee
+            - listitem [ref=e338]:
+              - img [ref=e339]
+              - generic [ref=e342]:
+                - text: Kopli 103, Tallinn
+                - text: Estonia · BLRT Grupp
+      - generic [ref=e344]:
+        - generic [ref=e345]: © 2026 BLRT Grupp. All rights reserved.
+        - generic [ref=e346]: Baltic Industry · Built to Endure

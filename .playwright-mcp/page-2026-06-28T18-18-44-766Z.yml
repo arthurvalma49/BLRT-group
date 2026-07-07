@@ -1,0 +1,1016 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "Independent Steel Consulting" [level=1] [ref=e5]
+    - img "Independent Steel Industry Strategic Advisory Services - Conflict-Free Analysis for Governments, Banks and Corporations" [ref=e7]
+    - navigation "Services navigation" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "Market" [ref=e11] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/services/market-appraisal.html
+          - generic [ref=e12]: "|"
+          - link "Technical" [ref=e13] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/services/technical-review.html
+          - generic [ref=e14]: "|"
+          - link "Financial" [ref=e15] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/services/financial-analysis.html
+          - generic [ref=e16]: "|"
+          - link "Strategy" [ref=e17] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/services/strategy-support.html
+          - generic [ref=e18]: "|"
+          - link "Expert Witness" [ref=e19] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/services/expert-witness.html
+            - img [ref=e20]
+            - text: Expert Witness
+        - generic [ref=e22]:
+          - link "Email Steelonthenet" [ref=e23] [cursor=pointer]:
+            - /url: mailto:info@steelonthenet.com
+            - img [ref=e24]
+            - generic [ref=e26]: Email us
+          - link "Call Steelonthenet on +44 775 149 0885" [ref=e27] [cursor=pointer]:
+            - /url: tel:+447751490885
+            - img [ref=e28]
+            - generic [ref=e30]: +44 775 149 0885
+    - navigation "Main navigation" [ref=e31]:
+      - checkbox "Toggle navigation menu" [ref=e32]
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "Steelonthenet home" [ref=e35] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/
+            - generic [ref=e36]: Steelonthenet.com
+        - listitem [ref=e37]:
+          - link "News" [ref=e38] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/news-hub.html
+            - img [ref=e39]
+            - generic [ref=e41]: News
+        - listitem [ref=e42]:
+          - link "Advisory" [ref=e43] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/advisory-hub.html
+            - img [ref=e44]
+            - generic [ref=e46]: Advisory
+        - listitem [ref=e47]:
+          - link "Insights" [ref=e48] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/insights-hub.html
+            - img [ref=e49]
+            - generic [ref=e51]: Insights
+        - listitem [ref=e52]:
+          - link "Resources" [ref=e53] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/resource-hub.html
+            - img [ref=e54]
+            - generic [ref=e56]: Resources
+        - listitem [ref=e57]:
+          - link "M&A" [ref=e58] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/ma-hub.html
+            - img [ref=e59]
+            - generic [ref=e61]: M&A
+        - listitem [ref=e62]:
+          - link "History" [ref=e63] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/history-hub.html
+            - img [ref=e64]
+            - generic [ref=e66]: History
+        - listitem [ref=e67]:
+          - link "Guide" [ref=e68] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/platform-guide.html
+            - img [ref=e69]
+            - generic [ref=e71]: Guide
+  - generic [ref=e72]:
+    - link "Home" [ref=e73] [cursor=pointer]:
+      - /url: https://www.steelonthenet.com/
+    - text: »
+  - main [ref=e74]:
+    - generic [ref=e75]:
+      - heading "Independent Strategic Advisory Services for the Global Steel Industry" [level=2] [ref=e76]
+      - paragraph [ref=e77]:
+        - text: Governments, banks, steelmakers, and courts need conflict-free analysis.
+        - strong [ref=e78]: Our independence enables us to provide it.
+      - paragraph [ref=e79]:
+        - text: Led by
+        - link "Dr. Andrzej M. Kotas" [ref=e80] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory/resume.html
+        - text: FIMMM FIC — steel industry advisor and expert witness since 2001. Our research is cited by Nature, the OECD, the U.S. Department of Energy, and UK Parliament.
+      - generic [ref=e81]:
+        - link "Advisory Services →" [ref=e82] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory-hub.html
+        - link "Read Our Research →" [ref=e83] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/insights-hub.html
+    - region "Strategic Advisory & Intelligence Services" [ref=e84]:
+      - heading "Strategic Advisory & Intelligence Services" [level=2] [ref=e85]
+      - paragraph [ref=e86]:
+        - strong [ref=e87]: Steelonthenet.com
+        - text: has operated since 2001 as the intelligence platform of
+        - link "Metals Consulting International Limited" [ref=e88] [cursor=pointer]:
+          - /url: https://www.metalsconsultinginternational.com
+        - text: ", incorporated in 2003 by"
+        - link "Dr. Andrzej M. Kotas" [ref=e89] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory/resume.html
+        - text: . Unlike subscription-dependent data providers or membership organisations tied to industry participants, we maintain
+        - strong [ref=e90]: structural independence through project-based fees
+        - text: . This enables the conflict-free analysis required for expert witness testimony, government policy advisory, and major investment decisions.
+      - paragraph [ref=e91]:
+        - text: Our business model integrates three elements that together deliver
+        - link "decision support" [ref=e92] [cursor=pointer]:
+          - /url: /decision-support.html
+        - text: ":"
+        - strong [ref=e93]:
+          - text: (1)
+          - link "Strategic Advisory" [ref=e94] [cursor=pointer]:
+            - /url: "#advisory-services"
+        - text: for clients requiring independent expertise,
+        - strong [ref=e95]:
+          - text: (2)
+          - link "Think Tank Research" [ref=e96] [cursor=pointer]:
+            - /url: "#think-tank-research"
+        - text: demonstrating our analytical capabilities through monthly policy publications, and
+        - strong [ref=e97]:
+          - text: (3)
+          - link "Intelligence Resources" [ref=e98] [cursor=pointer]:
+            - /url: "#intelligence-resources"
+        - text: including proprietary databases supporting our advisory work. Six specialised hubs organise these capabilities for different professional audiences.
+      - paragraph [ref=e99]: "Last updated: 27 June 2026"
+      - generic [ref=e100]:
+        - 'img "Steel industry integrated business model: three overlapping circles (Strategic Advisory, Think Tank Research, Intelligence Resources) converging on Decision Support at the center" [ref=e102]'
+        - paragraph [ref=e103]: "Our three integrated service elements: Strategic Advisory, Think Tank Research, and Intelligence Resources"
+    - generic [ref=e105]:
+      - heading "Find Your Path Through Our Platform" [level=3] [ref=e106]
+      - paragraph [ref=e107]: Select your role to go directly to the most relevant hub.
+      - generic [ref=e108]:
+        - link "🏭 Steel Producer 4,500+ plant database, competitor maps, cost benchmarks, capex, BAT guide, technical knowledge. → Resource Hub" [ref=e109] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/resource-hub.html
+          - generic [ref=e110]: 🏭
+          - generic [ref=e111]:
+            - generic [ref=e112]: Steel Producer
+            - generic [ref=e113]: 4,500+ plant database, competitor maps, cost benchmarks, capex, BAT guide, technical knowledge.
+            - generic [ref=e114]: → Resource Hub
+        - link "📊 Investment Analyst 170+ M&A deals with valuations. Long-term price forecasts to 2050. Key financial metrics. Company data. → M&A Data Hub" [ref=e115] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/ma-hub.html
+          - generic [ref=e116]: 📊
+          - generic [ref=e117]:
+            - generic [ref=e118]: Investment Analyst
+            - generic [ref=e119]: 170+ M&A deals with valuations. Long-term price forecasts to 2050. Key financial metrics. Company data.
+            - generic [ref=e120]: → M&A Data Hub
+        - link "🎯 Strategy Consultant Market analysis and competitive intelligence. Visual maps. Merger tracking. Cost positioning. Industry cost curves. → Resource Hub" [ref=e121] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/resource-hub.html
+          - generic [ref=e122]: 🎯
+          - generic [ref=e123]:
+            - generic [ref=e124]: Strategy Consultant
+            - generic [ref=e125]: Market analysis and competitive intelligence. Visual maps. Merger tracking. Cost positioning. Industry cost curves.
+            - generic [ref=e126]: → Resource Hub
+        - link "🏦 Banking Professional Concept review, feasibility studies, cost models, capex database, due diligence support, viability checks. → Advisory Hub" [ref=e127] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory-hub.html
+          - generic [ref=e128]: 🏦
+          - generic [ref=e129]:
+            - generic [ref=e130]: Banking Professional
+            - generic [ref=e131]: Concept review, feasibility studies, cost models, capex database, due diligence support, viability checks.
+            - generic [ref=e132]: → Advisory Hub
+        - link "🏛️ Policy Maker Capacity trends, trade analysis, state aid database, net zero policy, CBAM, economic impact. → Insights Hub" [ref=e133] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/insights-hub.html
+          - generic [ref=e134]: 🏛️
+          - generic [ref=e135]:
+            - generic [ref=e136]: Policy Maker
+            - generic [ref=e137]: Capacity trends, trade analysis, state aid database, net zero policy, CBAM, economic impact.
+            - generic [ref=e138]: → Insights Hub
+        - link "🎓 Academic Researcher 20+ years historical data, 4,500+ plant database, technical knowledge, industry trends, training resources. → Resource Hub" [ref=e139] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/resource-hub.html
+          - generic [ref=e140]: 🎓
+          - generic [ref=e141]:
+            - generic [ref=e142]: Academic Researcher
+            - generic [ref=e143]: 20+ years historical data, 4,500+ plant database, technical knowledge, industry trends, training resources.
+            - generic [ref=e144]: → Resource Hub
+      - paragraph [ref=e145]:
+        - text: Not sure?
+        - link "View the complete Platform Guide →" [ref=e146] [cursor=pointer]:
+          - /url: platform-guide.html
+      - paragraph [ref=e147]:
+        - text: "Role guides:"
+        - link "Steel Producer" [ref=e148] [cursor=pointer]:
+          - /url: users/steel-producer.html
+        - text: ·
+        - link "Investment Analyst" [ref=e149] [cursor=pointer]:
+          - /url: users/investment-analyst.html
+        - text: ·
+        - link "Strategy Consultant" [ref=e150] [cursor=pointer]:
+          - /url: users/strategy-consultant.html
+        - text: ·
+        - link "Banking Professional" [ref=e151] [cursor=pointer]:
+          - /url: users/banking-professional.html
+        - text: ·
+        - link "Policy Maker" [ref=e152] [cursor=pointer]:
+          - /url: users/policy-maker.html
+        - text: ·
+        - link "Academic Researcher" [ref=e153] [cursor=pointer]:
+          - /url: users/academic-researcher.html
+    - generic [ref=e154]:
+      - text: Led by
+      - strong [ref=e155]:
+        - link "Dr. Andrzej M. Kotas" [ref=e156] [cursor=pointer]:
+          - /url: /advisory/resume.html
+      - text: FIMMM FIC · 163+ academic & institutional citations ·
+      - link "UK Register of Expert Witnesses" [ref=e157] [cursor=pointer]:
+        - /url: https://www.jspubs.com/static_elink.htm?ID=0bw0NXpzYZV7vNNH%2FLHMMw%3D%3D
+      - text: · Operating since 2001
+      - link "See full credentials ↓" [ref=e158] [cursor=pointer]:
+        - /url: "#expertise-authority"
+    - region "Why Independence Matters" [ref=e159]:
+      - generic [ref=e160]:
+        - heading "Why Independence Matters" [level=2] [ref=e161]
+        - paragraph [ref=e162]: Structural independence determines what services can be provided. Our business model enables capabilities that subscription or membership-based services cannot offer.
+      - table [ref=e164]:
+        - rowgroup [ref=e165]:
+          - row "Capability Steelonthenet Project-based fees Price Agencies Subscription model Trade Associations Member-funded" [ref=e166]:
+            - columnheader "Capability" [ref=e167]
+            - columnheader "Steelonthenet Project-based fees" [ref=e168]:
+              - generic [ref=e169]: Steelonthenet
+              - generic [ref=e170]: Project-based fees
+            - columnheader "Price Agencies Subscription model" [ref=e171]:
+              - generic [ref=e172]: Price Agencies
+              - generic [ref=e173]: Subscription model
+            - columnheader "Trade Associations Member-funded" [ref=e174]:
+              - generic [ref=e175]: Trade Associations
+              - generic [ref=e176]: Member-funded
+        - rowgroup [ref=e177]:
+          - row "Expert Witness Testimony ✓ Court-tested London, Paris, Geneva, The Hague, Hong Kong ✗ Conflicts challenged Subscription income creates bias ✗ Not available Member interests preclude neutrality" [ref=e178]:
+            - cell "Expert Witness Testimony" [ref=e179]
+            - cell "✓ Court-tested London, Paris, Geneva, The Hague, Hong Kong" [ref=e180]:
+              - generic [ref=e181]: ✓
+              - generic [ref=e182]: Court-tested
+              - generic [ref=e183]:
+                - text: London, Paris, Geneva,
+                - text: The Hague, Hong Kong
+            - cell "✗ Conflicts challenged Subscription income creates bias" [ref=e184]:
+              - generic [ref=e185]: ✗
+              - generic [ref=e186]: Conflicts challenged
+              - generic [ref=e187]:
+                - text: Subscription income
+                - text: creates bias
+            - cell "✗ Not available Member interests preclude neutrality" [ref=e188]:
+              - generic [ref=e189]: ✗
+              - generic [ref=e190]: Not available
+              - generic [ref=e191]:
+                - text: Member interests
+                - text: preclude neutrality
+          - row "Government Policy Advisory ✓ Fully independent DFID, EBRD, EU programmes ⚠ Limited scope Commercial conflicts with subscribers ⚠ Advocacy only Represents member interests" [ref=e192]:
+            - cell "Government Policy Advisory" [ref=e193]
+            - cell "✓ Fully independent DFID, EBRD, EU programmes" [ref=e194]:
+              - generic [ref=e195]: ✓
+              - generic [ref=e196]: Fully independent
+              - generic [ref=e197]:
+                - text: DFID, EBRD,
+                - text: EU programmes
+            - cell "⚠ Limited scope Commercial conflicts with subscribers" [ref=e198]:
+              - generic [ref=e199]: ⚠
+              - generic [ref=e200]: Limited scope
+              - generic [ref=e201]:
+                - text: Commercial conflicts
+                - text: with subscribers
+            - cell "⚠ Advocacy only Represents member interests" [ref=e202]:
+              - generic [ref=e203]: ⚠
+              - generic [ref=e204]: Advocacy only
+              - generic [ref=e205]:
+                - text: Represents
+                - text: member interests
+          - row "Challenging Industry Orthodoxy ✓ Published Nature, OECD, UK Parliament cited ✗ Not possible Cannot challenge paying subscribers ✗ Not possible Member policy constrains positions" [ref=e206]:
+            - cell "Challenging Industry Orthodoxy" [ref=e207]
+            - cell "✓ Published Nature, OECD, UK Parliament cited" [ref=e208]:
+              - generic [ref=e209]: ✓
+              - generic [ref=e210]: Published
+              - generic [ref=e211]:
+                - text: Nature, OECD,
+                - text: UK Parliament cited
+            - cell "✗ Not possible Cannot challenge paying subscribers" [ref=e212]:
+              - generic [ref=e213]: ✗
+              - generic [ref=e214]: Not possible
+              - generic [ref=e215]:
+                - text: Cannot challenge
+                - text: paying subscribers
+            - cell "✗ Not possible Member policy constrains positions" [ref=e216]:
+              - generic [ref=e217]: ✗
+              - generic [ref=e218]: Not possible
+              - generic [ref=e219]:
+                - text: Member policy
+                - text: constrains positions
+          - row "Revenue Model ✓ 99% Project fees No subscriber conflicts ⚠ Subscription-led Revenue tied to industry clients ⚠ Membership-led Commercial conflicts possible" [ref=e220]:
+            - cell "Revenue Model" [ref=e221]
+            - cell "✓ 99% Project fees No subscriber conflicts" [ref=e222]:
+              - generic [ref=e223]: ✓
+              - generic [ref=e224]: 99% Project fees
+              - generic [ref=e225]:
+                - text: No subscriber
+                - text: conflicts
+            - cell "⚠ Subscription-led Revenue tied to industry clients" [ref=e226]:
+              - generic [ref=e227]: ⚠
+              - generic [ref=e228]: Subscription-led
+              - generic [ref=e229]:
+                - text: Revenue tied to
+                - text: industry clients
+            - cell "⚠ Membership-led Commercial conflicts possible" [ref=e230]:
+              - generic [ref=e231]: ⚠
+              - generic [ref=e232]: Membership-led
+              - generic [ref=e233]:
+                - text: Commercial
+                - text: conflicts possible
+          - row "Academic & Institutional Citations ✓ 163 Citations Nature, NIH, Harvard, OECD, UK Parliament ✗ Data Only Industry data, not research ⚠ Reports Industry reports, not scholarly" [ref=e234]:
+            - cell "Academic & Institutional Citations" [ref=e235]
+            - cell "✓ 163 Citations Nature, NIH, Harvard, OECD, UK Parliament" [ref=e236]:
+              - generic [ref=e237]: ✓
+              - generic [ref=e238]: 163 Citations
+              - generic [ref=e239]:
+                - text: Nature, NIH, Harvard,
+                - text: OECD, UK Parliament
+            - cell "✗ Data Only Industry data, not research" [ref=e240]:
+              - generic [ref=e241]: ✗
+              - generic [ref=e242]: Data Only
+              - generic [ref=e243]:
+                - text: Industry data,
+                - text: not research
+            - cell "⚠ Reports Industry reports, not scholarly" [ref=e244]:
+              - generic [ref=e245]: ⚠
+              - generic [ref=e246]: Reports
+              - generic [ref=e247]:
+                - text: Industry reports,
+                - text: not scholarly
+      - paragraph [ref=e248]:
+        - link "Read our full independence positioning analysis →" [ref=e249] [cursor=pointer]:
+          - /url: advisory/independence.html
+    - region "Our Services" [ref=e250]:
+      - heading "Our Services" [level=2] [ref=e251]
+      - region "1. Strategic Advisory Services" [ref=e252]:
+        - heading "1. Strategic Advisory Services" [level=3] [ref=e253]
+        - paragraph [ref=e254]:
+          - text: Our consulting practice serves governments, banks, and corporations requiring independent analysis for
+          - link "major decisions" [ref=e255] [cursor=pointer]:
+            - /url: /advisory/consulting.html
+          - text: . We operate through
+          - link "Metals Consulting International" [ref=e256] [cursor=pointer]:
+            - /url: https://www.metalsconsultinginternational.com
+          - text: (MCI). Project-based fees, not subscriptions — enabling
+          - link "conflict-free decision support" [ref=e257] [cursor=pointer]:
+            - /url: /decision-support.html
+          - text: where neutrality is essential. Professional standards are set out in our
+          - link "code of conduct" [ref=e258] [cursor=pointer]:
+            - /url: /advisory/code-of-conduct.html
+          - text: .
+        - generic [ref=e259]:
+          - generic [ref=e260]:
+            - heading "Government Restructuring" [level=4] [ref=e261]
+            - paragraph [ref=e262]:
+              - text: National Steel Sector Restructuring Plans. State aid compliance. Subsidy management. Viability as the end-point.
+              - link "View restructuring services →" [ref=e263] [cursor=pointer]:
+                - /url: /advisory/restructuring.html
+            - list [ref=e264]:
+              - listitem [ref=e265]: National steel sector restructuring plans
+              - listitem [ref=e266]: EU state aid compliance
+              - listitem [ref=e267]: Privatisation programmes (Eastern Europe & Turkey)
+              - listitem [ref=e268]: Independent policy design & rollout
+          - generic [ref=e269]:
+            - heading "Investment Advisory" [level=4] [ref=e270]
+            - paragraph [ref=e271]: Conflict-free due diligence and feasibility studies for banks and financial institutions on steel plant investments worldwide.
+            - list [ref=e272]:
+              - listitem [ref=e273]:
+                - strong [ref=e274]: "Feasibility studies:"
+                - link "Market, technical & financial analysis" [ref=e275] [cursor=pointer]:
+                  - /url: /advisory/feasibility.html
+              - listitem [ref=e276]:
+                - strong [ref=e277]: "Due diligence:"
+                - text: Project risk assessment
+              - listitem [ref=e278]:
+                - strong [ref=e279]: "Business valuations:"
+                - link "Asset appraisal & M&A support" [ref=e280] [cursor=pointer]:
+                  - /url: /advisory/valuation.html
+              - listitem [ref=e281]:
+                - strong [ref=e282]: "Post-investment monitoring:"
+                - text: Hot testing, ramp-up, commissioning
+        - generic [ref=e283]:
+          - heading "Expert Witness & Legal Testimony" [level=4] [ref=e284]
+          - paragraph [ref=e285]:
+            - text: Expert witness services and litigation support for steel sector disputes via
+            - link "SteelExpertWitness.com" [ref=e286] [cursor=pointer]:
+              - /url: https://www.steelexpertwitness.com
+            - text: . Our structural independence makes testimony credible in court. Recent cases have involved proceedings in
+            - strong [ref=e287]: London, Paris, Geneva, The Hague, and Hong Kong
+            - text: . Client materials handled under strict confidentiality — see our
+            - link "data security framework" [ref=e288] [cursor=pointer]:
+              - /url: /security.html
+            - text: ". Dispute types covered: contract terms, pricing, raw material delivery, cargo damage, mill design, and operational performance."
+        - generic [ref=e289]:
+          - strong [ref=e290]:
+            - generic [ref=e291]: 🏆
+            - text: Proven Track Record
+          - paragraph [ref=e292]:
+            - text: Projects include £2.77 billion privatisation advisory, 18-month integrated mill feasibility for UK Government, and multi-country restructuring programmes.
+            - link "View case studies →" [ref=e293] [cursor=pointer]:
+              - /url: /advisory/case-studies.html
+      - region "2. Think Tank Research" [ref=e294]:
+        - heading "2. Think Tank Research" [level=3] [ref=e295]
+        - paragraph [ref=e296]:
+          - text: Our
+          - link "Insights Hub" [ref=e297] [cursor=pointer]:
+            - /url: insights-hub.html
+          - text: publishes independent policy analysis that demonstrates our analytical capabilities and challenges industry orthodoxy. Our project-based model means we can take positions on controversial policy issues — subscription data providers constrained by subscriber sensitivities cannot. Our
+          - link "editorial policy" [ref=e298] [cursor=pointer]:
+            - /url: /editorial-policy.html
+          - text: sets out how we maintain analytical rigour and independence.
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - strong [ref=e301]:
+              - generic [ref=e302]: 📋
+              - text: Monthly Policy Analysis
+            - paragraph [ref=e303]: Research on decarbonisation pathways, trade policy, capacity rationalisation, and structural industry change — cited in academic journals, government submissions, and policy debates.
+            - list [ref=e304]:
+              - listitem [ref=e305]: Net zero transition strategies
+              - listitem [ref=e306]: Trade policy and tariff analysis
+              - listitem [ref=e307]: Capacity overcapacity solutions
+              - listitem [ref=e308]: Raw material security issues
+          - generic [ref=e309]:
+            - strong [ref=e310]:
+              - generic [ref=e311]: 💡
+              - text: Independent Perspectives
+            - paragraph [ref=e312]: Our structural independence allows us to publish analysis that challenges industry consensus. Evidence-based, not subscriber-pleasing.
+            - list [ref=e313]:
+              - listitem [ref=e314]: Challenges prevailing orthodoxy
+              - listitem [ref=e315]: No commercial conflicts of interest
+              - listitem [ref=e316]: Academic & institutional citations
+              - listitem [ref=e317]: Referenced by Nature, OECD, UK Parliament
+        - heading "Recent Research" [level=4] [ref=e318]
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - link "Steel industry think tank research and insights hub" [ref=e322] [cursor=pointer]:
+                - /url: https://www.steelonthenet.com/insights-hub.html
+                - img "Steel industry think tank research and insights hub" [ref=e323]
+              - link "View all 19 analyses →" [ref=e324] [cursor=pointer]:
+                - /url: https://www.steelonthenet.com/insights-hub.html
+            - generic [ref=e325]:
+              - link "Steel industry podcasts for professionals" [ref=e326] [cursor=pointer]:
+                - /url: insights/podcasts/home.html
+                - img "Steel industry podcasts for professionals" [ref=e327]
+              - link "Podcasts →" [ref=e328] [cursor=pointer]:
+                - /url: insights/podcasts/home.html
+            - generic [ref=e329]:
+              - link "Steel industry trends analysis" [ref=e330] [cursor=pointer]:
+                - /url: advisory/trends/
+                - img "Steel industry trends analysis" [ref=e331]
+              - link "Industry Trends →" [ref=e332] [cursor=pointer]:
+                - /url: advisory/trends/
+          - generic [ref=e333]:
+            - strong [ref=e335]: Steel Insights Hub — 19 in-depth analyses
+            - paragraph [ref=e336]: Decarbonisation & Green Transition
+            - generic [ref=e337]:
+              - 'link "Green Steel Premiums: Promise or Illusion? Who is paying the green steel premium, how much, and why regulation will determine whether this market grows." [ref=e338] [cursor=pointer]':
+                - /url: https://www.steelonthenet.com/insights/green-steel-premium.html
+                - text: "Green Steel Premiums: Promise or Illusion?"
+                - generic [ref=e339]: Who is paying the green steel premium, how much, and why regulation will determine whether this market grows.
+              - 'link "Governments as Steel Company Owners: Does Nationalisation Work? Six decades of European evidence on when state ownership of steel succeeds — and when it fails." [ref=e340] [cursor=pointer]':
+                - /url: https://www.steelonthenet.com/insights/steel-nationalisation-government-ownership.html
+                - text: "Governments as Steel Company Owners: Does Nationalisation Work?"
+                - generic [ref=e341]: Six decades of European evidence on when state ownership of steel succeeds — and when it fails.
+            - paragraph [ref=e342]: UK & European Steel Policy
+            - 'link "Zombie Steel Mills: Why State Aid Delays the Inevitable How subsidies to unviable mills distort markets and defer necessary restructuring." [ref=e344] [cursor=pointer]':
+              - /url: https://www.steelonthenet.com/insights/zombie-steel-mills-state-aid.html
+              - text: "Zombie Steel Mills: Why State Aid Delays the Inevitable"
+              - generic [ref=e345]: How subsidies to unviable mills distort markets and defer necessary restructuring.
+            - paragraph [ref=e346]: Industry Trends Analysis
+            - list [ref=e347]:
+              - listitem [ref=e348]:
+                - strong [ref=e349]: Markets
+                - text: — consumption, GDP linkage, demand cyclicality
+              - listitem [ref=e350]:
+                - strong [ref=e351]: Technology
+                - text: — EAF, DRI, thin slab, endless casting
+              - listitem [ref=e352]:
+                - strong [ref=e353]: Economics
+                - text: — raw material costs, pricing dynamics, capacity utilisation
+              - listitem [ref=e354]:
+                - strong [ref=e355]: Environment
+                - text: — carbon pricing, CBAM, net zero challenges
+            - link "Read the full trends analysis →" [ref=e356] [cursor=pointer]:
+              - /url: advisory/trends/
+        - link "View All Think Tank Research →" [ref=e358] [cursor=pointer]:
+          - /url: insights-hub.html
+      - region "3. Intelligence Resources" [ref=e359]:
+        - heading "3. Intelligence Resources" [level=3] [ref=e360]
+        - paragraph [ref=e361]:
+          - text: Our proprietary databases provide the intelligence foundation supporting our advisory work. Unlike commodity price data services, our resources focus on
+          - strong [ref=e362]: strategic intelligence
+          - text: ": facility data, capital costs, M&A transactions, and company histories — the raw material for"
+          - link "investment and policy decision support" [ref=e363] [cursor=pointer]:
+            - /url: /decision-support.html
+          - text: . Our
+          - link "research methodology" [ref=e364] [cursor=pointer]:
+            - /url: methodology.html
+          - text: covers all six core data domains.
+        - generic [ref=e365]:
+          - strong [ref=e366]: Data Quality & Methodology
+          - paragraph [ref=e367]: Built on primary sources including company filings, regulatory documents, and field research. Every data point undergoes multi-stage verification — enabling our databases to support major investment decisions and expert witness testimony.
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - generic [ref=e371]: 🏭
+              - strong [ref=e372]: Plant Database
+            - list [ref=e373]:
+              - listitem [ref=e374]:
+                - strong [ref=e375]: 4,500+ plants
+                - text: worldwide
+              - listitem [ref=e376]: Capacity assessments & ownership
+              - listitem [ref=e377]: Competitor maps for all regions
+              - listitem [ref=e378]: Operational status tracking
+            - link "View Plant Database →" [ref=e379] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/resources/capacity/plant.html
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - generic [ref=e382]: 📊
+              - strong [ref=e383]: M&A & Strategic Intelligence
+            - list [ref=e384]:
+              - listitem [ref=e385]:
+                - strong [ref=e386]: 170+ M&A transactions
+                - text: with valuations
+              - listitem [ref=e387]: Cross-border deals & consolidation trends
+              - listitem [ref=e388]: Steel company histories (40 major firms)
+              - listitem [ref=e389]: Long-term price forecasts to 2050
+            - link "View M&A Hub →" [ref=e390] [cursor=pointer]:
+              - /url: ma-hub.html
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - generic [ref=e393]: ⚙️
+              - strong [ref=e394]: Cost & Capex Data
+            - list [ref=e395]:
+              - listitem [ref=e396]:
+                - strong [ref=e397]: 1,330 capex records
+                - text: — plant & equipment
+              - listitem [ref=e398]: Process-level cost benchmarking
+              - listitem [ref=e399]:
+                - link "Cost models" [ref=e400] [cursor=pointer]:
+                  - /url: https://www.steelonthenet.com/resources/cost-models/
+                - text: for any region or facility
+              - listitem [ref=e401]: Freight cost data for major trade routes
+            - link "View Capex Database →" [ref=e402] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/resources/capital-investment/capex-data.html
+        - heading "Steel Industry by Country" [level=4] [ref=e403]
+        - paragraph [ref=e404]: Independent in-depth profiles of 12 national steel industries — major plants and capacities, ownership structure, trade flows, planned investments, and key structural issues.
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - generic [ref=e408]: 🌍
+              - strong [ref=e409]: Country Profiles
+            - paragraph [ref=e410]: Australia, Canada, China, Egypt, Germany, India, Italy, Japan, Turkey, UK, Ukraine, USA — each with plants, ownership, logistics, scrap flows, and investments.
+            - link "Explore country profiles →" [ref=e411] [cursor=pointer]:
+              - /url: /resources/countries/home.html
+          - generic [ref=e412]:
+            - generic [ref=e413]:
+              - generic [ref=e414]: 📊
+              - strong [ref=e415]: Strengths & Weaknesses
+            - paragraph [ref=e416]: Structured comparative analysis of key advantages and vulnerabilities across all 12 profiled industries, with WorldSteel 2024 data and strategic outlook summaries.
+            - link "View comparative analysis →" [ref=e417] [cursor=pointer]:
+              - /url: /resources/countries/strengths-weaknesses.html
+        - heading "Steel Plant Location Maps" [level=4] [ref=e418]
+        - paragraph [ref=e419]:
+          - text: For understanding the competitive landscape, our
+          - link "competitor maps" [ref=e420] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/resources/capacity/maps.html
+          - text: cover integrated steel plants, flat product facilities, and long product plants across Asia-Pacific, Europe, Middle East, Africa, North America, and South America.
+        - generic [ref=e421]:
+          - figure "Seamless Tube Plant Locations in China." [ref=e422]:
+            - img "Geographic Distribution of Seamless Steel Tube Manufacturing Plants Across China" [ref=e424]
+            - generic [ref=e425]: Seamless Tube Plant Locations in China.
+          - figure "SBQ Steel Plant Locations Across Europe." [ref=e426]:
+            - img "European Special Bar Quality (SBQ) Steel Manufacturing Plant Locations" [ref=e428]
+            - generic [ref=e429]: SBQ Steel Plant Locations Across Europe.
+        - heading "Steel Company Histories" [level=4] [ref=e430]
+        - paragraph [ref=e431]:
+          - text: Understanding how the steel sector evolved provides crucial context for evaluating current market dynamics, competitive positioning, and strategic decisions. Our historical database tracks the development of 40 of the world's largest steel companies, documenting major milestones, strategic pivots, and structural changes that shaped today's global industry landscape. See
+          - link "history hub" [ref=e432] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/history-hub.html
+          - text: .
+        - heading "News & Market Data" [level=4] [ref=e433]
+        - paragraph [ref=e434]:
+          - text: We provide the latest steel news — all visitors can access
+          - link "50 recent news reports" [ref=e435] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/news/latest-news.php
+          - text: covering global markets, leading producers, and industry trends. See also our
+          - link "Steel Industry Events Calendar" [ref=e436] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/diary/events.php
+          - text: for upcoming conferences and trade shows 2026–2027, and our
+          - link "steel industry video reports" [ref=e437] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/news/clips/videos.php
+          - text: — expert commentary on market trends and corporate developments.
+        - paragraph [ref=e438]:
+          - text: Our databases track finished output, imports, exports, and
+          - link "steel consumption" [ref=e439] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/resources/market-data/consumption.html
+          - text: across most countries — historical data spanning 20 years. We've also developed methods for assessing
+          - link "green steel demand" [ref=e440] [cursor=pointer]:
+            - /url: https://www.steelonthenet.com/advisory/green-steel-demand.html
+          - text: volumes, a key metric for the industry's net zero transition.
+        - heading "Tools" [level=4] [ref=e441]
+        - link "Steel industry interactive tools — grade finder and emissions calculator" [ref=e442] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/tools/
+          - img "Steel industry interactive tools — grade finder and emissions calculator" [ref=e443]
+        - paragraph [ref=e444]: "Seven free interactive tools for steel industry professionals, built on our proprietary data and technical knowledge:"
+        - list [ref=e445]:
+          - listitem [ref=e446]:
+            - link "Steel Grade Equivalent Finder" [ref=e447] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/steel-grade-finder.php
+            - text: — cross-reference 118 grade groups across ASTM, EN, DIN, JIS, BS, ISO, GB and GOST, with typical mechanical properties and equivalency notes
+          - listitem [ref=e448]:
+            - link "Steel Production Emissions Calculator" [ref=e449] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/emissions-calculator.php
+            - text: — estimate Scope 1 & 2 CO₂ by process route (BF/BOF, EAF, DRI) and casting configuration
+          - listitem [ref=e450]:
+            - link "Large Diameter Pipe Planner" [ref=e451] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/large-diameter-pipe-planner.php
+            - text: — specification and process route selector for ERW, LSAW, and HSAW pipe
+          - listitem [ref=e452]:
+            - link "Steel Market Sentiment Analyser" [ref=e453] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/market-sentiment-analyser.html
+            - text: — real-time mood tracker scoring 50+ steel industry news articles for market sentiment and trend direction
+          - listitem [ref=e454]:
+            - link "Long Product Size Guide" [ref=e455] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/long-product-size-guide.php
+            - text: — diameter and section reference for wire, rebar, bar, structural sections, rail, billet and bloom
+          - listitem [ref=e456]:
+            - link "Flat Product Size Guide" [ref=e457] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/flat-product-size-guide.php
+            - text: — gauge and thickness reference for HRC, CRC, plate, galvanised, tinplate, PPGI and slab
+          - listitem [ref=e458]:
+            - link "Steel Industry Chronology Explorer" [ref=e459] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/tools/chronology-explorer.html
+            - text: "— searchable database of 150+ years of corporate history: mergers, acquisitions, capacity changes and more"
+        - paragraph [ref=e460]: All tools are free to use and reflect the technical knowledge base underpinning our advisory practice.
+        - heading "Other Intelligence Resources" [level=4] [ref=e461]
+        - paragraph [ref=e462]: "Additional data resources supporting advisory and research work:"
+        - list [ref=e463]:
+          - listitem [ref=e464]:
+            - link "Freight cost analysis" [ref=e465] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/resources/economics/freight-costs.html
+            - text: — shipping rates for major steel trade routes
+          - listitem [ref=e466]:
+            - link "Steelmaking cost models" [ref=e467] [cursor=pointer]:
+              - /url: https://www.steelonthenet.com/resources/cost-models/
+            - text: — EAF, BOF, HRC, bar and tube.
+        - link "Explore Intelligence Resources →" [ref=e469] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/resource-hub.html
+    - separator [ref=e470]
+    - region "Our Expertise & Authority" [ref=e471]:
+      - heading "Our Expertise & Authority" [level=2] [ref=e472]
+      - paragraph [ref=e474]:
+        - strong [ref=e475]: Followed by 14,000+ steel industry professionals
+        - text: on social media — 10,000+ on X/Twitter, 4,000+ on LinkedIn.
+        - link "Join our community →" [ref=e477] [cursor=pointer]:
+          - /url: https://x.com/steelonthenet
+      - heading "Industry Experience & Client Impact" [level=3] [ref=e478]
+      - generic [ref=e479]:
+        - generic [ref=e480]: Steelonthenet.com — Trusted Advisory Partner Since 2001
+        - paragraph [ref=e481]:
+          - text: Our consultancy delivers strategic counsel that shapes billion-dollar investment decisions, government industrial policy, and high-stakes legal proceedings.
+          - strong [ref=e482]: Proven track record advising governments, multinational banks, and Fortune 500 companies
+          - text: on steel sector restructuring, feasibility studies, and expert witness testimony.
+        - generic [ref=e483]:
+          - generic [ref=e484]:
+            - strong [ref=e485]: Government Advisory & Policy
+            - text: Strategic counsel to national governments on steel sector restructuring, EU accession, and industrial policy. Direct involvement in European Commission-supported restructuring programmes.
+          - generic [ref=e486]:
+            - strong [ref=e487]: Investment Banking & Due Diligence
+            - text: Market, technical and financial appraisals for billion-dollar investments commissioned by international banking consortiums, development banks, and private equity firms worldwide.
+          - generic [ref=e488]:
+            - strong [ref=e489]: International Expert Witness
+            - text: Court-tested testimony in London, Paris, Geneva, The Hague, and Hong Kong. Litigation support for disputes involving breach of contract, valuation, and technical performance.
+          - generic [ref=e490]:
+            - strong [ref=e491]: Feasibility Studies & Project Appraisal
+            - text: "Independent evaluation of greenfield and brownfield steel projects: blast furnace, EAF mini-mills, and specialty steel across emerging and developed markets."
+          - generic [ref=e492]:
+            - strong [ref=e493]: Business Restructuring & Turnaround
+            - text: Performance improvement, strategic repositioning, and operational optimisation for steel companies facing market challenges, capacity constraints, or financial difficulties.
+          - generic [ref=e494]:
+            - strong [ref=e495]: Global Client Portfolio
+            - text: 20+ years serving government agencies, multilateral development banks, investment banks, steel producers, and legal firms across Europe, Middle East, Africa, Asia-Pacific, and Americas.
+      - heading "Professional Network" [level=3] [ref=e496]
+      - paragraph [ref=e497]:
+        - text: Our consultant network brings together seasoned industry professionals averaging 20–25 years of hands-on operational experience. Technical consultants include
+        - strong [ref=e498]: Dave Edwards
+        - text: (EAF and long products),
+        - strong [ref=e499]: Steve Hesling
+        - text: (flat product rolling), and
+        - strong [ref=e500]: Alan Grimmond
+        - text: (EAF mini-mills). Commercial consultants include
+        - strong [ref=e501]: James King
+        - text: (steel economist),
+        - strong [ref=e502]: Roger Emmott
+        - text: (expert witness support),
+        - strong [ref=e503]: Peter Stickland
+        - text: (steel distribution & construction), and
+        - strong [ref=e504]: Anthony Shoult
+        - text: (market appraisal). Consultants have held leadership roles at ArcelorMittal, British Steel, Corus, and ThyssenKrupp.
+        - link "Full consultant profiles →" [ref=e505] [cursor=pointer]:
+          - /url: /advisory/experts.html
+      - paragraph [ref=e506]:
+        - text: Our network covers all major steel process routes — integrated operations, EAF mini-mills, flat and long product rolling, tube production, specialty steel, and distribution.
+        - link "View process expertise by consultant →" [ref=e507] [cursor=pointer]:
+          - /url: /steel-process-expertise.html
+      - heading "Leadership" [level=3] [ref=e508]
+      - link "Steelonthenet Think Tank Reports THINK TANK":
+        - /url: insights-hub.html
+        - generic [ref=e509] [cursor=pointer]:
+          - img "Steelonthenet Think Tank Reports" [ref=e510]
+          - text: THINK TANK
+      - paragraph [ref=e511]:
+        - strong [ref=e512]:
+          - link "Dr. Andrzej M. Kotas (LinkedIn)" [ref=e513] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/kotas/
+        - text: ", founder and principal consultant —"
+        - strong [ref=e514]: 25+ years
+        - text: of steel sector expertise across
+        - strong [ref=e515]: 30+ countries
+        - text: ". Fellowships: Institute of Materials, Minerals and Mining (FIMMM) and Institute of Consulting (FIC). Listed on the UK Register of Expert Witnesses."
+        - link "Full background and team →" [ref=e516] [cursor=pointer]:
+          - /url: /about.html
+      - generic [ref=e517]:
+        - strong [ref=e518]: Professional Credentials
+        - list [ref=e519]:
+          - listitem [ref=e520]:
+            - generic [ref=e521]:
+              - strong [ref=e522]: FIMMM
+              - text: — Fellow, Institute of Materials, Minerals & Mining.
+            - img "IOM3 Fellow" [ref=e523]
+          - listitem [ref=e524]:
+            - generic [ref=e525]:
+              - strong [ref=e526]:
+                - link "UK Expert Witness Register" [ref=e527] [cursor=pointer]:
+                  - /url: https://www.jspubs.com/static_elink.htm?ID=0bw0NXpzYZV7vNNH%2FLHMMw%3D%3D
+              - text: — International arbitration (London, Geneva).
+            - img "UK Expert Witness" [ref=e528]
+          - listitem [ref=e529]:
+            - generic [ref=e530]:
+              - strong [ref=e531]: FIC
+              - text: — Fellow, Institute of Consulting.
+            - img "IC Fellow" [ref=e532]
+          - listitem [ref=e533]:
+            - generic [ref=e534]:
+              - strong [ref=e535]: £1m Hiscox Professional Indemnity Insurance
+              - text: — Full advisory coverage.
+            - generic "£1M Professional Indemnity Insurance" [ref=e536]: 🛡️
+      - generic [ref=e537]:
+        - strong [ref=e538]: Data Security & Client Protection
+        - paragraph [ref=e539]:
+          - text: Enterprise-level security with cyber insurance, GDPR compliance, and secure communication protocols.
+          - link "View security framework →" [ref=e540] [cursor=pointer]:
+            - /url: /security.html
+        - generic [ref=e541]:
+          - generic [ref=e542]: 🛡️ Cyber Insured
+          - generic [ref=e543]: 🔒 GDPR Compliant
+          - generic [ref=e544]: 🔐 SSL Encrypted
+      - heading "Client Validation" [level=3] [ref=e545]
+      - generic [ref=e547]:
+        - img "UK Government DFID" [ref=e548]
+        - generic [ref=e549]:
+          - generic [ref=e550]: "\"MCI performed thoroughly and diligently, to the full satisfaction of DFID... highly competent firm of steel industry consultants.\""
+          - generic [ref=e551]: "18-month integrated feasibility study — market, technical, financial & site selection assessment. Project team: 7 specialists."
+          - generic [ref=e552]:
+            - text: Claire Bell, UK DFID | Ethiopia Greenfield Steel Plant Study, October 2017 ·
+            - link "View reference letter →" [ref=e553] [cursor=pointer]:
+              - /url: /pdf/DFID_Reference_Ethiopia.pdf
+      - generic [ref=e555]:
+        - img "OYAK Turkey" [ref=e556]
+        - generic [ref=e557]:
+          - generic [ref=e558]:
+            - text: "\"MCI delivered written reports and financial assessments that were both on schedule and prepared to a high quality standard... OYAK submitted the winning bid for the business.\""
+            - generic [ref=e559]: "Transaction value: $2.77 billion (Erdemir Steel Group, 2005)"
+          - generic [ref=e560]:
+            - text: Cem Karakaş, Director – New Business Development & Head of M&A, OYAK | Erdemir Steel Group Acquisition Due Diligence, October 2005 ·
+            - link "See reference →" [ref=e561] [cursor=pointer]:
+              - /url: /pdf/OYAK_Reference_Erdemir.pdf
+      - generic [ref=e563]:
+        - img "Pacific Steel Group" [ref=e564]
+        - generic [ref=e565]:
+          - generic [ref=e566]:
+            - text: "\"MCI's advisory services were instrumental in advancing financing for this major steel mill investment... I would strongly recommend Metals Consulting International to any organisation conducting feasibility studies, due diligence, or investment evaluations.\""
+            - generic [ref=e567]: "Project: PSG MiDa micromill — 450,000 t/y rebar facility, Mojave, California (2026)"
+          - generic [ref=e568]:
+            - text: Mark Olson, Vice President of Mill Operations, Pacific Steel Group | Market & Technical Advisory, March 2026 ·
+            - link "See reference →" [ref=e569] [cursor=pointer]:
+              - /url: /pdf/PSG_Reference_USA.pdf
+      - paragraph [ref=e570]:
+        - text: Also trusted by EBRD, Deloitte, Czech Steel Federation, and 20+ organisations across Europe, Asia, Africa, and the Middle East.
+        - link "View all client testimonials →" [ref=e571] [cursor=pointer]:
+          - /url: /testimonials.html
+      - region "Selected Advisory Case Studies" [ref=e572]:
+        - heading "Selected Advisory Case Studies" [level=3] [ref=e573]
+        - link "View selected steel industry advisory case studies" [ref=e574] [cursor=pointer]:
+          - /url: /advisory/case-studies.html
+          - img "Steel sector advisory case studies — selected engagements across Europe, Middle East, Africa, Asia-Pacific and North America" [ref=e575]
+        - paragraph [ref=e576]: A selection of engagements from 25+ years of steel sector advisory work across 30+ countries — government programmes, privatisations, investment due diligence, and international arbitration.
+    - region "Academic & Institutional Recognition" [ref=e577]:
+      - heading "Academic & Institutional Recognition" [level=2] [ref=e578]
+      - paragraph [ref=e579]: Research cited in peer-reviewed scientific journals, international development bank reports, and national government policy documents across 20+ countries.
+      - generic [ref=e581]:
+        - generic [ref=e582]:
+          - generic [ref=e583]: "163"
+          - generic [ref=e584]: Citations
+        - generic [ref=e585]:
+          - generic [ref=e586]: "24"
+          - generic [ref=e587]: Universities
+        - generic [ref=e588]:
+          - generic [ref=e589]: "28"
+          - generic [ref=e590]: Government Bodies
+        - generic [ref=e591]:
+          - generic [ref=e592]: 20+
+          - generic [ref=e593]: Countries
+      - generic [ref=e594]:
+        - paragraph [ref=e595]: "Notable Citations Include:"
+        - generic [ref=e596]:
+          - link "Environmental Impact Assessment Review" [ref=e597] [cursor=pointer]:
+            - /url: https://www.sciencedirect.com/science/article/pii/S0195925525004019
+          - link "Science Direct" [ref=e598] [cursor=pointer]:
+            - /url: https://www.sciencedirect.com/science/article/pii/S1364032125003387
+          - link "ScienceDirect" [ref=e599] [cursor=pointer]:
+            - /url: https://www.sciencedirect.com/science/article/pii/S2667095X25000285
+          - link "KAUST / Resources, Conservation & Recycling" [ref=e600] [cursor=pointer]:
+            - /url: https://repository.kaust.edu.sa/server/api/core/bitstreams/33a326cc-ecf6-4dc0-95fe-7ac77eee07e3/content
+          - link "iScience" [ref=e601] [cursor=pointer]:
+            - /url: https://www.cell.com/iscience/fulltext/S2589-0042(25)02609-4
+          - link "PubMed Central (NIH)" [ref=e602] [cursor=pointer]:
+            - /url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12799796/
+          - link "ACS Publications" [ref=e603] [cursor=pointer]:
+            - /url: https://pubs.acs.org/doi/abs/10.1021/acs.est.4c09876
+          - link "Nature" [ref=e604] [cursor=pointer]:
+            - /url: https://www.nature.com/articles/s41586-025-09658-9?error=cookies_not_supported&code=0e9c4d9c-53b9-4af4-bf47-d33d69728d8b
+          - link "Bányászati és Kohászati Lapok (Hungarian Academy of Sciences)" [ref=e605] [cursor=pointer]:
+            - /url: https://ojs.mtak.hu/index.php/bkl/article/view/17102
+          - link "Royal Society of Chemistry" [ref=e606] [cursor=pointer]:
+            - /url: https://escholarship.org/content/qt80j7j7vm/qt80j7j7vm_noSplash_ae97caf9e07b55b2cb74113160a03b9f.pdf
+          - link "Academic Journal" [ref=e607] [cursor=pointer]:
+            - /url: https://www.sciencedirect.com/science/article/pii/S2352340923000252
+          - link "Earth's Future" [ref=e608] [cursor=pointer]:
+            - /url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022EF003255
+          - link "Department of Business and Trade, Government of the United Kingdom" [ref=e609] [cursor=pointer]:
+            - /url: https://assets.publishing.service.gov.uk/media/69bbd096f7b1c24d8e23ce06/uk-steel-strategy.pdf
+          - link "OECD" [ref=e610] [cursor=pointer]:
+            - /url: https://www.oecd.org/en/publications/mining-regions-and-cities-case-of-the-pilbara-australia_a1d2d486-en/full-report/component-6.html
+          - link "U.S. Department of Energy" [ref=e611] [cursor=pointer]:
+            - /url: https://www.osti.gov/servlets/purl/2000550
+      - paragraph [ref=e612]:
+        - link "View all 163 citations →" [ref=e613] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/citations.html
+    - region "Further Reading" [ref=e614]:
+      - heading "Further Reading" [level=2] [ref=e615]
+      - paragraph [ref=e616]: "See our comprehensive expert guides covering critical topics in the global steel industry:"
+      - generic [ref=e617]:
+        - link "🌱 Green Steel" [ref=e618] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/green-steel.html
+          - generic [ref=e619]: 🌱
+          - strong [ref=e620]: Green Steel
+        - link "💰 Production Costs" [ref=e621] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/production-costs.html
+          - generic [ref=e622]: 💰
+          - strong [ref=e623]: Production Costs
+        - link "🏭 Steel Capacity" [ref=e624] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/steel-capacity.html
+          - generic [ref=e625]: 🏭
+          - strong [ref=e626]: Steel Capacity
+        - link "💵 Steel Pricing" [ref=e627] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/steel-pricing.html
+          - generic [ref=e628]: 💵
+          - strong [ref=e629]: Steel Pricing
+        - link "🔩 Long Products" [ref=e630] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/long-steel-products.html
+          - generic [ref=e631]: 🔩
+          - strong [ref=e632]: Long Products
+        - link "♻️ Scrap & Recycling" [ref=e633] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/scrap-recycling.html
+          - generic [ref=e634]: ♻️
+          - strong [ref=e635]: Scrap & Recycling
+      - paragraph [ref=e636]:
+        - link "View all 12 essentials guides →" [ref=e637] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/essentials/
+        - text: or general
+        - link "steel industry facts and figures" [ref=e638] [cursor=pointer]:
+          - /url: essentials/facts-and-figures.html
+        - text: .
+        - text: See also our
+        - link "Steel Industry Abbreviations" [ref=e639] [cursor=pointer]:
+          - /url: /resources/kb/steel-industry-abbreviations.html
+        - text: (250+ acronyms and terms).
+    - generic [ref=e641]:
+      - heading "Ready to Discuss a Project?" [level=3] [ref=e642]
+      - paragraph [ref=e643]: Independent advisory for governments, banks, and corporations. Project-based fees. No subscription conflicts.
+      - generic [ref=e644]:
+        - link "Discuss a Project →" [ref=e645] [cursor=pointer]:
+          - /url: /contact.html
+        - link "View Case Studies →" [ref=e646] [cursor=pointer]:
+          - /url: advisory/case-studies.html
+  - separator [ref=e647]
+  - contentinfo [ref=e648]:
+    - navigation "Site information and policies" [ref=e650]:
+      - generic [ref=e651]:
+        - strong [ref=e652]: SITE INFORMATION
+        - link "About" [ref=e653] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/about.html
+        - text: "|"
+        - link "Accessibility" [ref=e654] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/accessibility.html
+        - text: "|"
+        - link "Citations" [ref=e655] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/citations.html
+        - text: "|"
+        - link "Code of Conduct" [ref=e656] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory/code-of-conduct.html
+        - text: "|"
+        - link "Contact" [ref=e657] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/contact.html
+        - text: "|"
+        - link "Cookies" [ref=e658] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/cookies.html
+        - text: "|"
+        - link "Editorial Policy" [ref=e659] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/editorial-policy.html
+        - text: "|"
+        - link "Experts" [ref=e660] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory/experts.html
+        - text: "|"
+        - link "FAQ" [ref=e661] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/faq.html
+        - text: "|"
+        - link "Independence" [ref=e662] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/advisory/independence.html
+        - text: "|"
+        - link "Methodology" [ref=e663] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/methodology.html
+        - text: "|"
+        - link "Privacy" [ref=e664] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/privacy.html
+        - text: "|"
+        - link "Security" [ref=e665] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/security.html
+        - text: "|"
+        - link "Sustainability" [ref=e666] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/sustainability.html
+        - text: "|"
+        - link "Testimonials" [ref=e667] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/testimonials.html
+        - text: "|"
+        - link "T&Cs" [ref=e668] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/legal.html
+        - text: "|"
+        - link "Administrator dashboard" [ref=e669] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/mysql/dashboard.php
+          - text: Admin
+    - generic [ref=e670]:
+      - text: Copyright © 2001 - 2026 Steelonthenet.
+      - text: All rights reserved.
+    - generic [ref=e671]:
+      - link "MCI Logo Part of the MCI Group Independent metals consultancy" [ref=e672] [cursor=pointer]:
+        - /url: https://www.metalsconsultinginternational.com
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - img "MCI Logo" [ref=e675]
+            - strong [ref=e676]: Part of the MCI Group
+          - generic [ref=e677]: Independent metals consultancy
+      - generic [ref=e678]:
+        - strong [ref=e679]: "Specialist Services:"
+        - link "Steel Expert Witness" [ref=e680] [cursor=pointer]:
+          - /url: https://www.steelexpertwitness.com
+        - text: "|"
+        - link "Metal Expert Witness" [ref=e681] [cursor=pointer]:
+          - /url: https://www.metalexpertwitness.com
+    - generic [ref=e682]:
+      - strong [ref=e683]: "Registered Address:"
+      - text: The Coach House, Powell Road, Buckhurst Hill, Essex IG9 5RD, UK
+      - strong [ref=e684]: "Operator:"
+      - text: Metals Consulting International Ltd
+      - strong [ref=e685]: "UK Registration:"
+      - link "04938719 (England & Wales) — active company" [ref=e686] [cursor=pointer]:
+        - /url: https://find-and-update.company-information.service.gov.uk/company/04938719
+        - text: 04938719 (England & Wales) — active company
+        - img [ref=e687]
+      - strong [ref=e690]: "Data Protection:"
+      - link "ICO Registration Z6374301" [ref=e691] [cursor=pointer]:
+        - /url: https://ico.org.uk/ESDWebPages/Entry/Z6374301
+        - text: ICO Registration Z6374301
+        - img [ref=e692]
+    - generic [ref=e695]:
+      - link "⚖️Expert Certified" [ref=e696] [cursor=pointer]:
+        - /url: https://www.jspubs.com/static_elink.htm?ID=0bw0NXpzYZV7vNNH%2FLHMMw%3D%3D
+      - link "🛡️£1M PI (Hiscox)" [ref=e697] [cursor=pointer]:
+        - /url: https://www.steelonthenet.com/security.html
+      - link "🔒Cyber Insured" [ref=e698] [cursor=pointer]:
+        - /url: https://www.steelonthenet.com/security.html
+      - link "🔑GDPR Compliant" [ref=e699] [cursor=pointer]:
+        - /url: https://www.steelonthenet.com/privacy.html
+      - generic "Established 2001 - 25 years serving the steel industry" [ref=e700]: 📅Est. 2001
+    - navigation "Social media links" [ref=e701]:
+      - generic [ref=e702]:
+        - link "Follow Steelonthenet on Instagram" [ref=e703] [cursor=pointer]:
+          - /url: https://www.instagram.com/steelonthenet/
+          - img "Steelonthenet Instagram - Steel Industry Photos and Updates" [ref=e704]
+        - link "Follow Steelonthenet on Twitter - 10,000+ Industry Followers" [ref=e705] [cursor=pointer]:
+          - /url: https://twitter.com/steelonthenet/
+          - img "Steel Industry News on Twitter | 10,000+ Followers" [ref=e706]
+        - link "Follow Steelonthenet on Facebook" [ref=e707] [cursor=pointer]:
+          - /url: https://www.facebook.com/Steelonthenet/
+          - img "Steel Sector Commentary on Facebook" [ref=e708]
+        - link "Connect with Dr Andrzej Kotas on LinkedIn - 4,000+ Industry Followers" [ref=e709] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/kotas/
+          - img "LinkedIn Profile - Followed by 4,000+ Steel Industry Executives" [ref=e710]
+        - link "View Steelonthenet photos on Pinterest" [ref=e711] [cursor=pointer]:
+          - /url: https://www.pinterest.co.uk/steelonthenet/steel-industry-photos/
+          - img "Steel Manufacturing Process and Plant Photos on Pinterest" [ref=e712]
+        - link "Subscribe to Steelonthenet RSS feeds and podcasts" [ref=e713] [cursor=pointer]:
+          - /url: https://www.steelonthenet.com/steel-industry-feeds.php
+          - img "Subscribe to Steelonthenet RSS feeds and podcasts" [ref=e714]
