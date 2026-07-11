@@ -580,36 +580,28 @@ export const businesses: Business[] = [
       "With a team of professionals with extensive experience in the offshore and marine industry, Bars Elekter delivers Services, Products and Solutions centred on customer satisfaction and environmental responsibility. The company is ISO 9001:2015 certified (LRQA) and holds 3 patents for its products. Core values: Focus on People, Reliability, Efficiency and Development.",
     services: [
       {
-        icon: "zap",
-        slug: "turnkey-engineering-services",
-        title: "Turnkey Engineering Services",
-        desc: "Full project lifecycle: feasibility study, basic design, project management, detailed design, procurement, FAT and site commissioning.",
-        fullDesc:
-          "Bars Elekter delivers turnkey engineering services across three phases. In the pre-project phase: feasibility study, basic design, system planning and advice, safety and reliability analysis. During the project phase: project management, procurement, detailed design and software development. In the commissioning and after-sales phase: factory acceptance testing (FAT) with marine certification, site commissioning and start-up.\n\nThe company's approach optimises component configuration, improves durability and minimises structural changes to vessels — ultimately reducing maintenance costs and ensuring efficient installation.",
+        icon: "circuit",
+        slug: "products",
+        title: "Products",
+        desc: "A complete range of reliable, very compact shore connection (HVSC) shipsets for Ro-Ro, tanker and marine-unit vessels — retrofit or new-build.",
       },
       {
-        icon: "circuit",
-        slug: "shore-connection-hvsc",
-        title: "Shore Connection (HVSC)",
-        desc: "Compact, reliable high-voltage shore connection shipsets for retrofitting or new-build integration on Ro-Ro, tanker and marine unit vessels.",
-        fullDesc:
-          "Bars Elekter offers a complete range of reliable shore connection (HVSC) shipsets with very compact footprint, suitable for retrofitting on any existing vessel or integration into new-build projects. Marine applications cover Ro-Ro Passenger and Ro-Ro Cargo vessels, LNG/OIL Tankers, marine units and rigs.\n\nShore connection systems also serve ashore operations, delivering efficient and reliable power that maximises safety and minimises environmental impact. The product line reflects the company's three registered patents and its focus on innovative, low-footprint solutions.",
+        icon: "zap",
+        slug: "services",
+        title: "Services",
+        desc: "Turnkey engineering: pre-project feasibility and basic design, project management and detailed design, FAT, site commissioning and after-sales.",
       },
       {
         icon: "gauge",
-        slug: "power-conversion-solutions",
-        title: "Power Conversion Solutions",
-        desc: "PTI, PTH, PTO and Energy Storage Solutions for power balancing, peak shaving and improved grid stability.",
-        fullDesc:
-          "Bars Elekter provides integrated power conversion solutions for marine and offshore applications. Power Take In (PTI): motor takes over propulsion diesel for slow speed or provides a boost when the main diesel is on. Power Take Home (PTH): generator takes over propulsion diesel for slow speed. Power Take Out (PTO): motor acting as a generator driven by main propulsion.\n\nEnergy Storage Solutions (ESS) make load profiles easier to manage and flatten, improving grid stability and security. These solutions help clients with power balancing, peak shaving, frequency regulation and electrical grid support — drawing on the company's 500+ completed projects worldwide.",
+        slug: "solutions",
+        title: "Solutions",
+        desc: "Integrated Energy Conversion Solutions — PTI, PTH, PTO and Energy Storage Solutions for power balancing, peak shaving and grid stability.",
       },
       {
         icon: "droplets",
-        slug: "green-ict-projects-shore-power",
-        title: "Green ICT Projects — Shore Power",
-        desc: "EU-funded shore power R&D: Norway Grants / Enterprise Estonia Green ICT Programme grants delivering shore connections for Tallink Grupp vessels and Klaipėda State Seaport.",
-        fullDesc:
-          "Bars Elekter received two Enterprise Estonia Green ICT Programme grants (total ~€218,772) to develop shore power technology aligned with the EU 'Fit for 55' CO₂ reduction targets.\n\nCompleted projects include shore power connections for M/S SILJA EUROPA (2022), M/S VICTORIA I (2022), and M/S Isabelle (April 2024), all Tallink Grupp vessels. The company also won the Klaipėda State Seaport Authority shore power tender. This programme positions Bars Elekter as one of the Baltic region's leading shore power specialists.",
+        slug: "green-ict-projects",
+        title: "Green ICT Projects",
+        desc: "Norwegian Green ICT-supported R&D developing shore-connection switchboard solutions that cut ships' CO₂ emissions in port.",
       },
     ],
     contact: {
@@ -686,26 +678,14 @@ export const businesses: Business[] = [
       {
         icon: "ship",
         slug: "feed-storage-barge-construction",
-        title: "Feed Storage Barge Construction",
-        desc: "Turnkey carbon steel feed barges in capacities from 100 to 900 tonnes — design, construction, painting, outfitting and certification.",
-        fullDesc:
-          "Marketex Marine has constructed over 400 carbon steel feed barges for fish farming operators worldwide — making it the leading European specialist in this field. Feed barges are available in seven standard capacity tiers: 300, 400, 450, 600, 650, 850 and 900 tonnes, with custom configurations to match each farm's operational requirements.\n\nEvery barge is delivered as a fully turnkey product covering design development, construction, painting, piping, electrical works, hydraulic and pneumatic equipment installation, lining and outfitting. The Tallinn facility features a PEMA automated welding portal, modern slipway shop, one of the largest paint booths in the Baltic region, and the only 850-tonne crane in the Baltic States for barge launching. Barges are certified to NS 9415 and DNV class approvals as required.",
+        title: "Feed Storage Barges",
+        desc: "Turnkey carbon steel feed barges for aquaculture, in capacities up to 900 tonnes across Classic, Comfort, Panorama and Basic barge types.",
       },
       {
         icon: "layers",
         slug: "offshore-projects",
         title: "Offshore Projects",
-        desc: "Large-scale steel fabrication and offshore project construction.",
-        fullDesc:
-          "In addition to aquaculture barges, Marketex Marine undertakes offshore projects utilising its large-scale steel fabrication and assembly capabilities. The Tallinn facility's 25-metre workshop height, 850-tonne crane, 500-tonne transporter and automated welding equipment support construction of substantial offshore steel structures.\n\nThe company's certifications — including EN ISO 3834-2, DNV 402B and IACS NDT for offshore structures — underpin the quality and documentation requirements of offshore project delivery. Marketex Marine's vision is to be the best long-term European partner in implementing advanced large-size steel projects.",
-      },
-      {
-        icon: "ruler",
-        slug: "design-and-project-management",
-        title: "Design & Project Management",
-        desc: "In-house design development, project management and certification management from concept to delivery.",
-        fullDesc:
-          "Marketex Marine manages the complete project lifecycle in-house: from initial design development and engineering through construction management to certification and delivery. The design team works directly with customers to develop barge configurations meeting their operational specifications, while coordinating with classification societies (DNV, NS 9415) for all required approvals.\n\nProject management covers scheduling, quality control, subcontractor coordination and customer communication throughout the build. The company's focus on quality, adherence to time frames, flexibility and long-term customer relationships has sustained partnerships with Norwegian and global aquaculture operators spanning 20+ years.",
+        desc: "Feed barges built to operate offshore — roll-and-pitch control, V-shape hull and hybrid waterborne feeding for exposed, rough sea conditions.",
       },
     ],
     contact: {
@@ -1105,42 +1085,20 @@ export const businesses: Business[] = [
       {
         icon: "anchor",
         slug: "ship-repair",
-        title: "Ship Repair",
-        desc: "Repair works for vessels in the Baltic region including steel works, pipework and structural repairs carried out at the Kopli 103 yard.",
-        fullDesc:
-          "BLRT Rekato repairs and modernises ship systems for vessels calling at its Kopli 103 yard in Tallinn, covering steel works, pipework and structural repairs alongside targeted component work on heat exchangers, anchor chains, hydraulic devices and piping systems, and valves. Service scope ranges from diagnostics through repair, replacement and component supply, including comprehensive maintenance of shipboard pipeline systems for different vessel types and industrial facilities operating in the Baltic region.\n\nAll repair work is backed by an in-house certified testing laboratory performing radiographic, ultrasonic and magnetic-particle inspection plus pressure testing up to 300 bar, and by the yard's ISO 9001, ISO 14001 and ISO 45001 management system certifications, EN ISO 3834-2 welding qualification, and Russian Maritime Register of Shipping approval for vessel work.",
+        title: "Ship repair",
+        desc: "Diagnostics, repair, replacement and supply of valves and other devices; comprehensive repair and maintenance of pipelines.",
       },
       {
-        icon: "layers",
-        slug: "pipeline-manufacturing",
-        title: "Pipeline Manufacturing",
-        desc: "Manufacturing of pipelines and pipe systems for marine and Oil & Gas applications using specialised CNC machinery.",
-        fullDesc:
-          "Pipeline manufacturing is carried out in BLRT Rekato's 6,420 m² production hall using specialised CNC and pipe-processing machine tools. The facility bends pipe from 60 to 245 mm in diameter with wall thicknesses of 3 to 12 mm, hot-dip galvanises and acid-treats pipes up to 13.8 metres long, and cuts pipe mechanically as well as by plasma and oxyfuel gas, working in alloy and stainless steel, plastic, aluminium and copper for marine and Oil & Gas pipe systems.\n\nEvery pipeline is welded to EN ISO 3834-2 qualification and can be quality-checked in the company's certified laboratory by radioscopy, ultrasonic testing and pressure testing up to 300 bar, within a facility certified to ISO 9001, ISO 14001 and ISO 45001.",
-      },
-      {
-        icon: "wrench",
-        slug: "profile-structure-fabrication",
-        title: "Profile Structure Fabrication",
-        desc: "Fabrication of profile metal structures and assemblies for shipbuilding and industrial customers.",
-        fullDesc:
-          "BLRT Rekato fabricates profile metal structures and assemblies for shipbuilding and industrial customers, bending sheet metal from 350 to 3,500 mm in length and 3 to 12 mm in thickness and cutting profiles and plate to size. Typical output includes auxiliary metal structures, foundations and railings produced in the company's 6,420 m² production hall, which is organised into dedicated work sections served by overhead cranes with lifting capacities from 1 × 3.2 up to 4 × 3.2 tonnes.\n\nFabrication is performed under the yard's ISO 9001, ISO 14001 and ISO 45001 management system certification, with welding qualified to EN ISO 3834-2 and quality control by radioscopy, ultrasound and pressure testing available in the certified laboratory on request.",
-      },
-      {
-        icon: "gauge",
-        slug: "metal-processing",
-        title: "Metal Processing",
-        desc: "General metal processing including cutting, bending, drilling and machining for marine and industrial applications.",
-        fullDesc:
-          "General metal processing at BLRT Rekato covers cutting, bending, drilling and machining for marine and industrial customers, using mechanical, plasma and oxyfuel gas cutting alongside lathe work carried out in dedicated sections of the 6,420 m² production hall. The hall is arranged into six specialised sections — including stainless steel processing, steel pipe work, valve repair, heat exchangers and lathes/hydraulic systems — each served by overhead cranes rated from 1 × 3.2 to 4 × 3.2 tonnes.\n\nAs with the yard's other fabrication work, metal processing is carried out under ISO 9001, ISO 14001 and ISO 45001 certification, with weld quality confirmed to EN ISO 3834-2 and, on request, tested in the company's certified laboratory by radioscopy, ultrasound and pressure test up to 300 bar.",
+        icon: "ship",
+        slug: "shipbuilding",
+        title: "Shipbuilding",
+        desc: "Pipeline system installation for dry cargo ships, tugs, ferries and barges; ship conversions and BWTS, fuel-system and scrubber upgrades.",
       },
       {
         icon: "waves",
-        slug: "oil-and-gas-and-renewable-energy",
-        title: "Oil & Gas and Renewable Energy",
-        desc: "Fabrication services for offshore oil & gas structures and renewable energy infrastructure, including wind energy components.",
-        fullDesc:
-          "BLRT Rekato manufactures pipes in a range of types and diameters to meet the requirements of Oil & Gas and wind energy projects, supplying equipment for both above-water and subsea oil production operations as well as components for renewable/wind energy installations. The company positions this work around sustainability and reliability of project delivery, reflecting the standards its Oil & Gas and offshore-wind clients require of their suppliers.\n\nThis work draws on the same 6,420 m² production hall, welding qualified to EN ISO 3834-2, and ISO 9001, ISO 14001 and ISO 45001 certified quality management that underpin BLRT Rekato's other fabrication services.",
+        slug: "oil-gas-and-renewable-energy",
+        title: "Oil & Gas and renewable energy",
+        desc: "Manufacture of pipes in various types and diameters for oil & gas and wind energy projects, including above-water and subsea oil production.",
       },
     ],
     contact: {
@@ -1294,59 +1252,39 @@ export const businesses: Business[] = [
     services: [
       {
         icon: "eye",
-        slug: "metal-inspection-and-testing",
-        title: "Metal Inspection & Testing",
-        desc: "Inspection and mechanical testing of metals and metal products to recognised national and international standards.",
-        fullDesc:
-          "ELME TKS operates an EAK (Estonian Accreditation Centre)-accredited destructive testing laboratory that determines the mechanical properties of metals and metal products through tensile testing (tensile strength, yield strength and elongation), bend testing, Charpy impact testing across a range of temperatures, fracture testing, and hardness testing by the Brinell, Vickers and Rockwell methods. The laboratory also performs macrostructural examination of weld cross-sections, surface roughness measurement, and cutting-quality assessment of plasma- and gas-cut edges against ISO requirements.\n\nAll testing is carried out on calibrated equipment by experienced specialists in accordance with international and Estonian standards, as well as client-approved procedures, producing detailed test reports that support quality assurance decisions for manufacturers, engineers, welders and quality control professionals across the metalworking, engineering, transport and construction sectors.",
-      },
-      {
-        icon: "shield",
-        slug: "weld-quality-control",
-        title: "Weld Quality Control",
-        desc: "Visual, dimensional and non-destructive testing of welds for marine, structural and industrial fabrication.",
-        fullDesc:
-          "ELME TKS provides accredited non-destructive testing (NDT) of welded joints and metal structures without damaging the component, drawing on ultrasonic testing (UT) to detect internal defects using high-frequency sound waves, magnetic particle testing (MT) for surface and subsurface cracks in ferromagnetic materials, penetrant testing (PT) for surface-breaking defects on non-magnetic materials, radiographic testing (RT/X-ray) to visualise internal imperfections in welds, and visual testing (VT) as an initial defect-detection stage carried out to recognised standards.\n\nThe laboratory is accredited by the Estonian Accreditation Centre (EAK) and holds DNV GL approval as an NDT service supplier, serving the metal, energy, shipbuilding and construction sectors, with on-site inspection available on request and results documented in structured reports supporting quality assurance and safety decisions.",
-      },
-      {
-        icon: "ruler",
-        slug: "calibration-services",
-        title: "Calibration Services",
-        desc: "Calibration of measuring instruments and gauges in accordance with national metrology requirements.",
-        fullDesc:
-          "ELME TKS operates an accredited calibration laboratory covering three principal instrument categories: line and angle measuring instruments such as calipers, micrometers, dial indicators, measuring tapes and angle gauges; pressure and temperature instrumentation including pressure gauges, transmitters, thermometers and temperature sensors used in boiler operation and pressurised systems; and electrical measuring instruments such as multimeters, voltage testers, resistance meters, current clamps and insulation testers.\n\nInstruments are compared against traceable reference standards — including reference power supplies, resistance decades and other high-precision reference equipment — across the full operating range of each device, in accordance with ISO/IEC 17025 requirements. Each calibration is documented in a certificate recording the measurement results, deviation analysis and any necessary adjustments, serving clients in mechanical engineering, metalworking and precision laboratory work.",
-      },
-      {
-        icon: "file",
-        slug: "technical-control",
-        title: "Technical Control",
-        desc: "Independent technical supervision and acceptance documentation for production processes and incoming materials.",
-        fullDesc:
-          "As an independent, accredited testing and inspection body, ELME TKS provides technical control services that give BLRT Grupp companies and external industrial clients independent verification of production processes, incoming materials and finished products. Drawing on its integrated destructive testing, non-destructive testing and calibration capabilities — all operated under an Integrated Management System certified to ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 — the company issues acceptance documentation and test reports that support quality assurance, regulatory compliance and safety decisions for manufacturers, engineering firms, transport operators and construction businesses across Estonia.\n\nBecause ELME TKS operates independently of the production lines it inspects, its findings give clients an objective, third-party basis for accepting or rejecting materials and completed work, backed by the same accredited methods and calibrated equipment used across its wider testing and calibration services.",
+        slug: "non-destructive-testing",
+        title: "Non-Destructive Testing",
+        desc: "Ultrasonic, magnetic particle, penetrant, radiographic and visual testing of metal structures and welds — EAK-accredited, DNV GL-recognised.",
       },
       {
         icon: "beaker",
+        slug: "destructive-testing",
+        title: "Destructive Testing",
+        desc: "Tensile, bend, impact, hardness, macrostructure and surface tests of metals and welded joints in an EAK-accredited laboratory.",
+      },
+      {
+        icon: "ruler",
+        slug: "instrument-calibration",
+        title: "Instrument Calibration",
+        desc: "Calibration of line and angle, pressure and temperature, and electrical measuring instruments against traceable reference standards.",
+      },
+      {
+        icon: "droplets",
         slug: "chemical-analyses",
         title: "Chemical Analyses",
-        desc: "Chemical analysis of metals and materials for composition verification and quality assurance.",
-        fullDesc:
-          "ELME TKS's chemical laboratory carries out chemical analyses across a range of application areas in support of quality assurance, safety and regulatory compliance. Using modern analytical techniques such as spectrometry, the laboratory verifies the elemental composition of metals and alloys, while calibrated equipment and validated methodologies are applied to test air quality for dust and welding aerosols in workplace environments.\n\nThe laboratory also analyses water for chemical composition, potential heavy metals and other pollutants, and uses advanced analytical equipment to assess petroleum products — fuels, lubricants, diesel, petrol, marine fuels and oils — for parameters such as octane number, viscosity and sulphur content, serving metal manufacturers, welding companies, food operators, water utilities, fuel suppliers, transport operators and maritime sector organisations.",
+        desc: "Chemical composition analysis of metals and alloys, plus air pollution, water and petroleum product testing.",
+      },
+      {
+        icon: "award",
+        slug: "training-and-certification",
+        title: "Training and Certification",
+        desc: "EHIS-registered training centre: rigger, crane operator, industrial truck and forklift operator training and certification.",
       },
       {
         icon: "hard-hat",
         slug: "occupational-health-and-safety-hazard-assessment",
         title: "Occupational Health and Safety Hazard Assessment",
-        desc: "OHS hazard assessment accreditation enabling ELME TKS to evaluate workplace safety risks for industrial clients.",
-        fullDesc:
-          "Under its Occupational Health and Safety Hazard Assessment accreditation, ELME TKS evaluates workplace risk factors through vibration assessment — measuring hand-arm and whole-body vibration from machinery and tools to standards such as EVS-EN ISO 5349 — and noise monitoring, quantifying sound pressure levels across workstations to verify compliance with occupational exposure limits and recommending measures such as personal hearing protection, machine noise reduction or changes in work organisation.\n\nThe service also covers lighting evaluation, assessing illuminance at workstations against safety standards to address risks such as eye strain and accidents, and indoor climate assessment, measuring temperature, relative humidity, air velocity and CO₂ concentration. All assessments are grounded in the requirements of Estonia's Occupational Health and Safety Act, with specialists delivering detailed reports that compare measurements against applicable standards and recommend corrective actions.",
-      },
-      {
-        icon: "award",
-        slug: "training-and-certification",
-        title: "Training & Certification",
-        desc: "Industrial training and certification programmes under the Educational Activities License, including NDT technician qualification.",
-        fullDesc:
-          "ELME TKS's training centre, registered in Estonia's Education Information System (EHIS), delivers professional training programmes for industrial and construction personnel under its Educational Activities Licence. Rigger training prepares workers for the safe and efficient execution of lifting operations, covering load attachment, load assessment and communication with crane operators, while crane operator training addresses the safe operation of overhead and mobile cranes, safety regulations, lifting techniques and signalling systems.\n\nIndustrial truck operator training covers the safe operation of warehouse trucks and telescopic handlers, and forklift operator training addresses forklift construction, load balancing and safe manoeuvring in confined spaces. Each programme combines classroom theory with hands-on practical exercises and concludes with an official certificate confirming legal compliance and operational competency.",
+        desc: "Workplace risk factor measurement — vibration, noise, lighting and indoor climate — under the Occupational Health and Safety Act.",
       },
     ],
     contact: {
@@ -1385,43 +1323,27 @@ export const businesses: Business[] = [
     services: [
       {
         icon: "layers",
-        slug: "offshore-steel-structures",
-        title: "Offshore Steel Structures",
-        desc: "Complex steel structures for offshore oil and gas platforms, meeting NORSOK and classification society requirements.",
-        fullDesc:
-          "Since 2007, MOC has grown into a leading contract partner for Offshore Oil & Gas equipment and structures, delivering over 500 complex projects with fabrication and testing carried out on-site. As a multi-disciplined contractor with a strong safety and performance record and direct access to the sea, the company is supported by a dedicated Project Management and Engineering Team with the qualifications and experience to run large, highly complex fabrication programmes end to end.\n\nMOC's offshore scope covers lifting systems such as offshore cranes, winches and elevators; skidding systems including BOP/XMT trolleys and skids; pipe-handling equipment such as riser gantry cranes, SmartRackers, riser chutes and lifts, fingerboards and mouseholes; mooring and loading systems including turret mooring equipment; and derricks, mission equipment and yard stay and mobilisation services. All structures are built to NORSOK, DNV, ABS, Bureau Veritas and ASME requirements within the 20,550 m² facility's 350,000 man-hour annual welding capacity and 20 m maximum crane hook height.",
-      },
-      {
-        icon: "waves",
-        slug: "renewables-fabrication",
-        title: "Renewables Fabrication",
-        desc: "Steel fabrication for offshore wind and renewables infrastructure, including foundations, transition pieces and secondary structures.",
-        fullDesc:
-          "MOC is an experienced and reliable partner in the production of complex structures for the renewable energy sector, backed by brand-new fabrication facilities and well-developed infrastructure at its Tallinn yard. To handle the scale of modern offshore wind components, the company adapted its welding column to a height of 11.5 metres, maximising efficiency on major projects. The company fabricates offshore foundations, substations, transition pieces, mid-sections, connection skirts and piles, together with external platforms, boat landings and anode cages.\n\nA representative project was the delivery of 21 suction buckets for the Aberdeen Offshore Wind Farm, Scotland's largest offshore wind facility — each bucket measuring 9.5 m in diameter and 10 m in height and weighing 200 tons, with the project's total fabricated weight exceeding 3,000 tons. This scale of delivery reflects MOC's capacity to manufacture large-series renewables components to NORSOK, DNV GL, ABS and Bureau Veritas requirements within its 20,550 m² facility.",
-      },
-      {
-        icon: "building",
-        slug: "industrial-and-infrastructure-structures",
-        title: "Industrial & Infrastructure Structures",
-        desc: "Heavy steel structures for infrastructure and industrial projects, manufactured to DNV GL, ABS and Bureau Veritas standards.",
-        fullDesc:
-          "Over the years MOC has built a solid customer base within large infrastructure and industrial projects, drawing on many years of fabrication experience and high manufacturing standards to maintain a steady position in the market. The company's infrastructure and industrial scope spans three main areas: bridges — road, rail and pedestrian bridges of any size and type; general industrial equipment; and harbour equipment for maritime and port applications.\n\nA notable reference project is the fabrication of railway and pedestrian bridges for Getingmidjan. As with MOC's other activity lines, infrastructure and industrial structures are manufactured to DNV GL, ABS and Bureau Veritas standards, using the same 20,550 m² welding, machining and painting facility and 350,000 man-hour annual welding capacity that serve the company's offshore and renewables work.",
+        slug: "offshore-oil-and-gas",
+        title: "Offshore Oil & Gas",
+        desc: "Leading contract partner for Offshore Oil & Gas equipment and structures — lifting, skidding, pipe-handling, mooring and loading systems.",
       },
       {
         icon: "droplets",
-        slug: "subsea-structures",
-        title: "Subsea Structures",
-        desc: "Fabrication of subsea structural components for offshore and underwater installation projects.",
-        fullDesc:
-          "MOC brings a proven track record to the subsea sector, with a new fabrication facility that lets the company offer an integrated supply chain solution for large, high-value subsea assemblies. Drawing on extensive experience in the oil & gas industry, MOC fabricates SURF installations — including anchors, PLEM and PLET components — and SPS structures such as integrated template structures, closed caisson foundations and permanent guide bases.\n\nThe company's subsea project portfolio includes Integrated Template Structures for the Snorre and Johan Sverdrup Phase 2 fields, LARS systems for subsea diamond mining operations, and Aker Solutions YGGDRASIL LTS installations. This track record underpins MOC's ambition to keep expanding its subsea order book on the back of its enlarged facility capabilities, manufacturing to NORSOK, DNV GL, ABS and Bureau Veritas requirements.",
+        slug: "subsea",
+        title: "Subsea",
+        desc: "Integrated supply chain for large, high-value subsea assemblies — SURF installations, template structures, caisson foundations and guide bases.",
       },
       {
-        icon: "award",
-        slug: "qhse-quality-assurance",
-        title: "QHSE Quality Assurance",
-        desc: "Integrated QHSE system with VT2-certified QC inspectors, HSE engineering and metrology support on every fabrication project.",
-        fullDesc:
-          "Quality, health, safety and environmental performance are treated as core to every MOC project. The company holds ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018 certification, with welding carried out to EN ISO 3834-2:2021 and EN 1090-1:2009 and structures manufactured to DNV, NORSOK and ASME requirements; NDT operations follow ISO 17025 and painting follows ISO 12944. The QHSE Department — comprising a QHSE Manager, HSE Engineer, Metrology Engineer and three VT2-certified QC inspectors — maintains internal and external non-conformance registers and coordinates regular customer audits across all fabrication activities.\n\nEmployee health and safety is treated as a top priority from day one, with mandatory safety induction training for all personnel and contractors entering the yard, supported by a published safety brochure outlining site rules and expectations. This integrated approach to quality and safety runs across MOC's Offshore Oil & Gas, Subsea, Renewables and Infrastructure & Industrial fabrication lines alike.",
+        icon: "building",
+        slug: "infrastructure-and-industrial-equipment",
+        title: "Infrastructure and Industrial Equipment",
+        desc: "Road, rail and pedestrian bridges of any size and type, industrial equipment and harbour equipment.",
+      },
+      {
+        icon: "waves",
+        slug: "renewable-energy",
+        title: "Renewable Energy",
+        desc: "Complex structures for offshore wind — foundations, substations, transition pieces, piles, platforms and anode cages.",
       },
     ],
     contact: {
@@ -1642,35 +1564,27 @@ export const businesses: Business[] = [
     services: [
       {
         icon: "circuit",
-        slug: "cable-reel-manufacturing",
-        title: "Cable Reel Manufacturing",
-        desc: "Proprietary Composite Reel and Modular Reel systems for offshore and industrial cable handling applications.",
-        fullDesc:
-          "Marine Technology LT designs and manufactures cable reels for offshore and industrial use. Proprietary products include the Composite Reel — a lightweight, high-strength composite-material reel — and the Modular Reel, offering reconfigurable geometry for varied cable diameters and capacities. Both products are developed and patented in-house.",
+        slug: "cable-handling",
+        title: "Cable handling",
+        desc: "Cable handling reels of any size and type (flange diameter 2–14 m) for umbilical, flexipipe, rope, wire, hose and cable — plus carousels and offloading systems.",
       },
       {
         icon: "anchor",
-        slug: "offshore-wind-epci",
-        title: "Offshore Wind EPCI",
-        desc: "Full Engineering, Procurement, Construction and Installation services for offshore wind cable handling systems.",
-        fullDesc:
-          "Marine Technology LT delivers complete EPCI packages for offshore wind energy projects, covering all phases from engineering design through procurement, fabrication and offshore installation of cable handling equipment. The company's experience spans array and export cable laying systems for wind farms in the North Sea, Baltic Sea and beyond.",
+        slug: "offshore-wind",
+        title: "Offshore wind",
+        desc: "High-quality offshore wind components and steel structures — transition pieces, boat landings, access platforms, grillage, modular support frames and substations.",
       },
       {
         icon: "droplets",
-        slug: "subsea-and-oil-and-gas",
-        title: "Subsea & Oil and Gas",
-        desc: "Cable handling systems and EPCI services for subsea and oil & gas operations.",
-        fullDesc:
-          "The company provides cable reel and handling solutions for subsea pipeline and umbilical installation, as well as oil and gas platform and FPSO cable systems. QHSE-certified operations meet the stringent safety and environmental standards of the oil and gas sector.",
+        slug: "subsea",
+        title: "Subsea",
+        desc: "Reliable EPC partner for complex subsea solutions — large carbon steel structures, PLETs, subsea protection structures and deployment baskets.",
       },
       {
         icon: "gauge",
-        slug: "industrial-cable-systems",
-        title: "Industrial Cable Systems",
-        desc: "Custom industrial cable reel manufacturing and handling solutions for non-marine sectors.",
-        fullDesc:
-          "Beyond offshore applications, Marine Technology LT supplies cable reels and cable handling equipment for industrial manufacturing customers. The 25,000 m² workshop provides capacity for both series production and bespoke single-unit fabrication.",
+        slug: "industrial",
+        title: "Industrial",
+        desc: "Onshore projects diversified from offshore know-how — bridges, port infrastructure, ramps, silos and ducts.",
       },
     ],
     contact: {

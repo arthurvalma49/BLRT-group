@@ -1,8 +1,10 @@
 import { useParams, Navigate, Link } from "react-router-dom";
 import { FileText, ArrowLeft, ChevronRight } from "lucide-react";
 import { businesses } from "@/data/businesses";
+import { serviceContent } from "@/data/serviceContent";
 import { serviceIconMap } from "@/lib/serviceIcons";
 import RevealSection from "@/components/RevealSection";
+import ServiceContent from "@/components/ServiceContent";
 
 export default function ServicePage() {
   const { slug, serviceSlug } = useParams<{ slug: string; serviceSlug: string }>();
@@ -16,7 +18,7 @@ export default function ServicePage() {
 
   const Comp = serviceIconMap[service.icon] ?? FileText;
   const otherServices = biz.services.filter((s) => s.slug !== service.slug);
-  const paragraphs = (service.fullDesc ?? service.desc).split("\n\n");
+  const content = serviceContent[biz.slug]?.[service.slug] ?? service.fullDesc ?? service.desc;
 
   return (
     <>
@@ -54,13 +56,7 @@ export default function ServicePage() {
       <RevealSection as="section" className="py-24 bg-background">
         <div className="container-pro">
           <p className="overline mb-4">{biz.name}</p>
-          <div className="space-y-5">
-            {paragraphs.map((para, i) => (
-              <p key={i} className="text-base text-muted-foreground leading-relaxed max-w-[65ch]">
-                {para}
-              </p>
-            ))}
-          </div>
+          <ServiceContent markdown={content} />
         </div>
       </RevealSection>
 
